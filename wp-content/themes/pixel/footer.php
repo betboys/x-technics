@@ -13,12 +13,12 @@
 				'walker'          => new Custom_FMenu_Walker()
 			));
 			?>
-			<p class="website-text">© <?php echo date('Y'); ?> <?php echo bloginfo('name'); ?>. All rights reserved.</p>
+			<p class="website-text">© <?php echo date('Y'); ?> <?php echo bloginfo('name'); ?>. All rights reserved.Designed by Pixel</p>
 		</div>
 		<div class="subscribe-container">
 			<div class="subscribe-text"><?= the_field('subscibe_form_title', 'option'); ?></div>
 			<?php echo do_shortcode('[contact-form-7 id="5d26094" title="Subscribe"]'); ?>
-		
+
 		</div>
 	</div>
 </footer>
