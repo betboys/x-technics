@@ -6,33 +6,33 @@
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
 # Keep these files out of the repo
-/proposal
-/wp-admin/
-/wp-content/themes/twenty*
-/wp-content/upgrade
-/wp-content/uploads
-/wp-content/mu-plugins
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-content/wflogs/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
-/sitemap.*
-/wp-config.php
-/wp-config-sample.php
-/.htaccess
-/.idea
-/.private
-*.sql
+# /proposal
+# /wp-admin/
+# /wp-content/themes/twenty*
+# /wp-content/upgrade
+# /wp-content/uploads
+# /wp-content/mu-plugins
+# /wp-content/index.php
+# /wp-content/languages
+# /wp-content/plugins/index.php
+# /wp-content/themes/index.php
+# /wp-content/wflogs/
+# /index.php
+# /license.txt
+# /readme.html
+# /wp-*.php
+# /xmlrpc.php
+# /sitemap.*
+# /wp-config.php
+# /wp-config-sample.php
+# /.htaccess
+# /.idea
+# /.private
+# *.sql
 
-# Hidden files
-*.DS_Store
-*Thumbs.db
-*.sass-cache*
-*~imageoptim*
-error_log
+# # Hidden files
+# *.DS_Store
+# *Thumbs.db
+# *.sass-cache*
+# *~imageoptim*
+# error_log
