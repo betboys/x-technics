@@ -192,36 +192,76 @@ class Custom_FMenu_Walker extends Walker_Nav_Menu
 		$output .= '</ul>';
 	}
 }
+// function send_email_ajax_handler()
+// {
+// 	// Check if the request came via AJAX
+// 	if (isset($_POST['action']) && $_POST['action'] == 'send_email') {
+// 		// Retrieve form data
+// 		$service = $_POST['service'];
+// 		$fullName = $_POST['fullName'];
+// 		$email = $_POST['email'];
+// 		$phoneNumber = $_POST['phoneNumber'];
+// 		$message = $_POST['message'];
+// 		$checkedServices = $_POST['checkedServices'];
+// 		// Compose email message
+// 		$to = get_option('admin_email');
+// 		$subject = 'New Quote Request';
+// 		if ($service) :
+// 			$body = "Services: $service\n";
+// 		endif;
+// 		if ($checkedServices) :
+// 			$body = "Services: $checkedServices\n";
+// 		endif;
+// 		$body .= "Full Name: $fullName\n";
+// 		$body .= "Email: $email\n";
+// 		$body .= "Phone Number: $phoneNumber\n";
+// 		$body .= "Message: $message\n";
+
+// 		// Send email
+// 		wp_mail($to, $subject, $body);
+
+// 		// Return a response
+// 		echo 'success';
+
+// 		// Always exit to avoid further execution
+// 		wp_die();
+// 	}
+// }
+// add_action('wp_ajax_send_email', 'send_email_ajax_handler');
+// add_action('wp_ajax_nopriv_send_email', 'send_email_ajax_handler');
 function send_email_ajax_handler()
 {
 	// Check if the request came via AJAX
 	if (isset($_POST['action']) && $_POST['action'] == 'send_email') {
 		// Retrieve form data
-		$service = $_POST['service'];
-		$fullName = $_POST['fullName'];
-		$email = $_POST['email'];
-		$phoneNumber = $_POST['phoneNumber'];
-		$message = $_POST['message'];
-		$checkedServices = $_POST['checkedServices'];
+		$service = sanitize_text_field($_POST['service']);
+		$fullName = sanitize_text_field($_POST['fullName']);
+		$email = sanitize_email($_POST['email']);
+		$phoneNumber = sanitize_text_field($_POST['phoneNumber']);
+		$message = sanitize_textarea_field($_POST['message']);
+		$checkedServices = array_map('sanitize_text_field', $_POST['checkedServices']);
+
 		// Compose email message
 		$to = get_option('admin_email');
 		$subject = 'New Quote Request';
-		if ($service) :
-			$body = "Services: $service\n";
-		endif;
-		if ($checkedServices) :
-			$body = "Services: $checkedServices\n";
-		endif;
-		$body .= "Full Name: $fullName\n";
+		$body = "Full Name: $fullName\n";
 		$body .= "Email: $email\n";
 		$body .= "Phone Number: $phoneNumber\n";
 		$body .= "Message: $message\n";
+		$body .= "Services:\n";
+		foreach ($checkedServices as $checkedService) {
+			$body .= "- $checkedService\n";
+		}
 
 		// Send email
-		wp_mail($to, $subject, $body);
+		$sent = wp_mail($to, $subject, $body);
 
-		// Return a response
-		echo 'success';
+		// Check if email was sent successfully
+		if ($sent) {
+			echo 'success';
+		} else {
+			echo 'error';
+		}
 
 		// Always exit to avoid further execution
 		wp_die();
