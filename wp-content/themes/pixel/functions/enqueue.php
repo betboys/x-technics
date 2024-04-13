@@ -24,6 +24,7 @@ function enqueue_assets()
 	wp_enqueue_script("jquery", get_template_directory_uri() . "/js/jQuery-v-3-4-1.js", "", "", true);
 	wp_enqueue_script("swiper", get_template_directory_uri() . "/js/swiper-v-8-3-1.js", "", "", true);
 	wp_enqueue_script("telephone", get_template_directory_uri() . "/js/telephone-input-v-17-0-13.js", "", "", true);
+	wp_enqueue_script("data-aos", get_template_directory_uri() . "/js/data-aos.js", "", "", true);
 	wp_enqueue_script("main-js", get_template_directory_uri() . "/js/main.js", "", "", true);
 	if (is_front_page()) {
 		wp_enqueue_script("home-js", get_template_directory_uri() . "/js/page/home.js", "", "", true);

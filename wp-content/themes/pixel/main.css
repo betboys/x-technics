@@ -197,12 +197,10 @@ input {
   width: 252px;
   height: 54px;
   clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 100% 100%, 8% 100%, 0% 50%);
-  background: linear-gradient(
-    90deg,
-    #0002a1 -0.89%,
-    #0071aa -0.88%,
-    #24b6ff 97.75%
-  );
+  background: linear-gradient(90deg,
+      #0002a1 -0.89%,
+      #0071aa -0.88%,
+      #24b6ff 97.75%);
   font-size: 18px;
   transition: 0.3s;
 }
@@ -280,12 +278,10 @@ input {
   width: 252px;
   height: 54px;
   clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 100% 100%, 8% 100%, 0% 50%);
-  background: linear-gradient(
-    90deg,
-    #0002a1 -0.89%,
-    #0071aa -0.88%,
-    #24b6ff 97.75%
-  );
+  background: linear-gradient(90deg,
+      #0002a1 -0.89%,
+      #0071aa -0.88%,
+      #24b6ff 97.75%);
   font-family: "blender bold";
   font-size: 18px;
   font-weight: 700;
@@ -333,26 +329,31 @@ input {
 
 .services-content-list {
   width: 43.229vw;
-  border: 1px solid #24b6ff;
   position: relative;
   transition: 0.3s;
 }
 
-.services-content-list:first-child {
-  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12%);
+.services-content-list::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid #24b6ff;
 }
 
-.services-content-list:first-child::before {
+.services-content-list:first-child {
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 10%);
+}
+
+.services-content-list:first-child::after {
   content: "";
-  width: 50%;
+  width: 100%;
   height: 1px;
   background: #24b6ff;
   position: absolute;
-  left: -15.2%;
+  left: 10%;
   top: 0;
-  transform-origin: center;
-  transform: rotate(132.5deg);
-  transition: 0.3s;
+  transform-origin: left;
+  transform: rotate(0deg);
 }
 
 .services-content-list:last-child {
@@ -850,7 +851,7 @@ input {
   transition: 0.3s;
 }
 
-.checkbox:checked + .label {
+.checkbox:checked+.label {
   backface-visibility: hidden;
   background: #080f18;
   color: #0071aa;
@@ -858,7 +859,6 @@ input {
 }
 
 .form {
-  margin-top: 34px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -2307,7 +2307,7 @@ input {
   margin-inline: auto;
 }
 
-.security-inner .security-inner-container > h1 {
+.security-inner .security-inner-container>h1 {
   background: linear-gradient(90deg, #687eff 0%, #98e4ff 82.12%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -2322,9 +2322,9 @@ input {
   padding-bottom: 3.75rem;
 }
 
-.security-inner .security-inner-container > p,
-.security-inner .security-inner-container > h6,
-.security-inner .security-inner-container > ul > li {
+.security-inner .security-inner-container>p,
+.security-inner .security-inner-container>h6,
+.security-inner .security-inner-container>ul>li {
   font-family: "blender book";
   font-size: 20px;
   font-weight: 400;
@@ -2333,8 +2333,8 @@ input {
   color: #adb5bd;
 }
 
-.security-inner .security-inner-container > h2,
-.security-inner .security-inner-container > h3 {
+.security-inner .security-inner-container>h2,
+.security-inner .security-inner-container>h3 {
   font-family: conthrax;
   font-size: 20px;
   font-weight: 600;
@@ -2344,45 +2344,43 @@ input {
   color: #24b6ff;
 }
 
-.security-inner .security-inner-container > h6 > strong {
+.security-inner .security-inner-container>h6>strong {
   padding-left: 10px;
 }
 
-.security-inner .security-inner-container > h2 {
+.security-inner .security-inner-container>h2 {
   padding: 24px 0;
 }
 
-.security-inner .security-inner-container > h3 {
+.security-inner .security-inner-container>h3 {
   padding-top: 40px;
   padding-bottom: 24px;
 }
 
-.security-inner .security-inner-container > h6 {
+.security-inner .security-inner-container>h6 {
   padding-top: 24px;
 }
 
-.security-inner .security-inner-container > ul {
+.security-inner .security-inner-container>ul {
   padding-top: 24px;
 }
 
-.security-inner .security-inner-container > ul > li {
+.security-inner .security-inner-container>ul>li {
   list-style: disc;
   margin-left: 20px;
 }
 
-.security-inner .security-inner-container > p:last-child {
+.security-inner .security-inner-container>p:last-child {
   padding-bottom: 60px;
 }
 
 /* all hover */
 /* @media (min-width: 1000px) { */
 .header-menu-list:last-child .menu-link:hover {
-  background: linear-gradient(
-    90deg,
-    #0496df -0.11%,
-    #0496df -0.1%,
-    #0071aa 97.75%
-  );
+  background: linear-gradient(90deg,
+      #0496df -0.11%,
+      #0496df -0.1%,
+      #0071aa 97.75%);
   font-size: larger;
   color: #fff;
 }
@@ -2393,12 +2391,10 @@ input {
 }
 
 .cover-link:hover {
-  background: linear-gradient(
-    90deg,
-    #0496df -0.11%,
-    #0496df -0.1%,
-    #0071aa 97.75%
-  );
+  background: linear-gradient(90deg,
+      #0496df -0.11%,
+      #0496df -0.1%,
+      #0071aa 97.75%);
   font-size: larger;
 }
 
@@ -2454,9 +2450,11 @@ input {
   background: #080f18;
 }
 
-.label:hover {
-  border: 2px solid #24b6ff;
-  color: #0071aa;
+@media (min-width: 745px) {
+  .label:hover {
+    border: 2px solid #24b6ff;
+    color: #0071aa;
+  }
 }
 
 .send-btn:hover {
@@ -2498,6 +2496,7 @@ input {
 .swiper-slide-margin-rigth:hover .slide-text-style {
   color: #0071aa;
 }
+
 /* } */
 
 /* responsive */
@@ -2570,7 +2569,7 @@ input {
     bottom: 35px;
   }
 
-  .services-content-link > svg {
+  .services-content-link>svg {
     display: none;
   }
 
@@ -3529,28 +3528,28 @@ input {
     margin-top: 7rem;
   }
 
-  .security-inner .security-inner-container > h1 {
+  .security-inner .security-inner-container>h1 {
     padding-top: 31px;
     padding-bottom: 7.75rem;
     font-size: 40px;
   }
 
-  .security-inner .security-inner-container > p,
-  .security-inner .security-inner-container > h6,
-  .security-inner .security-inner-container > ul > li {
+  .security-inner .security-inner-container>p,
+  .security-inner .security-inner-container>h6,
+  .security-inner .security-inner-container>ul>li {
     font-size: 18px;
   }
 
-  .security-inner .security-inner-container > h2 {
+  .security-inner .security-inner-container>h2 {
     padding: 16px 0;
   }
 
-  .security-inner .security-inner-container > h3 {
+  .security-inner .security-inner-container>h3 {
     padding-top: 24px;
     padding-bottom: 16px;
   }
 
-  .security-inner .security-inner-container > p:last-child {
+  .security-inner .security-inner-container>p:last-child {
     padding-bottom: 7rem;
   }
 
@@ -3616,7 +3615,7 @@ input {
     transform: rotate(-51deg);
   }
 
-  .download-icon-inner > span {
+  .download-icon-inner>span {
     display: none;
   }
 }
