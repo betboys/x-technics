@@ -230,7 +230,7 @@ input {
   left: -22.938rem;
   width: 78rem;
   height: 75rem;
-  background: url(images/linear.webp);
+  background: url(images/linear.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -353,7 +353,7 @@ input {
   left: 10%;
   top: 0;
   transform-origin: left;
-  transform: rotate(138deg);
+  transform: rotate(0deg);
 }
 
 .services-content-list:last-child {
