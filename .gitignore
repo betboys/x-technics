@@ -27,6 +27,7 @@
 /wp-config-sample.php
 /.htaccess
 /.idea
+/.private
 *.sql
 
 # Hidden files
