@@ -339,7 +339,7 @@ input {
 }
 
 .services-content-list:first-child {
-  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12%);
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 10%);
 }
 
 .services-content-list:first-child::before {
