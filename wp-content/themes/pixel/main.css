@@ -344,7 +344,7 @@ input {
 
 .services-content-list:first-child::before {
   content: "";
-  width: 100%;
+  width: 80%;
   height: 1px;
   background: #24b6ff;
   position: absolute;
