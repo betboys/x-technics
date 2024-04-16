@@ -5,7 +5,7 @@ function enqueue_assets()
 	// wp_style_add_data( 'bootstrap-style', array( 'integrity', 'crossorigin' ) , array( 'sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC', 'anonymous' ) );
 	wp_enqueue_style("intel-input", "//cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css", [], "", "all");
 	// wp_style_add_data( 'font-awesome-5', array( 'integrity', 'crossorigin' ) , array( 'sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', 'anonymous' ) );
-	wp_enqueue_style("main-css", get_template_directory_uri() . "/main.css");
+	// wp_enqueue_style("main-css", get_template_directory_uri() . "/main.css");
 	wp_enqueue_style("stylecss", get_stylesheet_uri());
 
 	wp_enqueue_script("jquery");
