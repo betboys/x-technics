@@ -12,6 +12,7 @@ function enqueue_assets()
 	// wp_style_add_data( 'font-awesome-5', array( 'integrity', 'crossorigin' ) , array( 'sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', 'anonymous' ) );
 
 	wp_enqueue_style('my-custom-css', get_template_directory_uri() . '/main.css', array(), $file_version);
+
 	wp_enqueue_style("stylecss", get_stylesheet_uri());
 
 	wp_enqueue_script("jquery");
