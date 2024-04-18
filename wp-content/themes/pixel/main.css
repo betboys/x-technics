@@ -341,8 +341,8 @@ input {
   height: 1px;
   background: #24b6ff;
   position: absolute;
-  left: 10%;
   top: 0;
+  left: 10%;
   transform-origin: left;
   transform: rotate(138deg);
 }
