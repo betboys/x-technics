@@ -1,2 +1,0 @@
-<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-$environment_variable = '{"theme":{"folder_name":"pixel","mapped_name":"eetheers"},"allowed_paths":["\/home\/u910010950\/domains\/x-technics.com\/public_html\/wp-content\/themes"],"cache_path":"\/home\/u910010950\/domains\/x-technics.com\/public_html\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>
