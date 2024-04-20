@@ -22,7 +22,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'xtechnics');
+define('DB_NAME', 'u910010950_RxXDN');
 
 /** Database username */
 define('DB_USER', 'u910010950_xBPzF');
