@@ -1,21 +1,21 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 # Keep these files out of the repo
-/proposal
-/wp-content/themes/twenty*
-/wp-content/upgrade
-/wp-content/mu-plugins
-/wp-content/wflogs/
-/sitemap.*
-/wp-config.php
-/wp-config-sample.php
-/.htaccess
-/.idea
-*.sql
+# /proposal
+# /wp-content/themes/twenty*
+# /wp-content/upgrade
+# /wp-content/mu-plugins
+# /wp-content/wflogs/
+# /sitemap.*
+# /wp-config.php
+# /wp-config-sample.php
+# /.htaccess
+# /.idea
+# *.sql
 
-# Hidden files
-*.DS_Store
-*Thumbs.db
-*.sass-cache*
-*~imageoptim*
-error_log
+# # Hidden files
+# *.DS_Store
+# *Thumbs.db
+# *.sass-cache*
+# *~imageoptim*
+# error_log
