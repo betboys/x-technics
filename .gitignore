@@ -2,8 +2,8 @@ wp-content/upgrade
 wp-content/mu-plugins
 wp-content/wflogs/
 /sitemap.*
-wp-config.php
-wp-config-sample.php
+/wp-config.php
+/wp-config-sample.php
 .htaccess
 /.idea
 *.sql
