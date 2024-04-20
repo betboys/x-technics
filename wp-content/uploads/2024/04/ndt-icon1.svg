@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="41" viewBox="0 0 34 41" fill="none">
+  <g id="Iconly/Light/Shield-Done">
+    <g id="Shield-Done">
+      <path id="Stroke-1" fill-rule="evenodd" clip-rule="evenodd" d="M16.9689 39.212C16.9689 39.212 32.3129 34.566 32.3129 21.758C32.3129 8.948 32.8689 7.948 31.6389 6.716C30.4069 5.484 18.9809 1.5 16.9689 1.5C14.9569 1.5 3.53089 5.484 2.30089 6.716C1.06889 7.948 1.62489 8.948 1.62489 21.758C1.62489 34.566 16.9689 39.212 16.9689 39.212Z" stroke="url(#paint0_linear_4063_2951)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path id="Stroke-3" d="M11.7717 19.7483L15.5557 23.5383L23.3517 15.7383" stroke="url(#paint1_linear_4063_2951)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_4063_2951" x1="16.969" y1="1.5" x2="16.969" y2="39.212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24B6FF"></stop>
+      <stop offset="1" stop-color="#0071AA"></stop>
+    </linearGradient>
+    <linearGradient id="paint1_linear_4063_2951" x1="17.5617" y1="15.7383" x2="17.5617" y2="23.5383" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24B6FF"></stop>
+      <stop offset="1" stop-color="#0071AA"></stop>
+    </linearGradient>
+  </defs>
+</svg>
