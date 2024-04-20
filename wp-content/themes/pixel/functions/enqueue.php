@@ -1,17 +1,14 @@
 <?php
 function enqueue_assets()
 {
-	$css_file_path = get_template_directory() . '/main.css';
 
-	// Get the file modification time
-	$file_version = filemtime($css_file_path);
 
 	// wp_enqueue_style("bootstrap-style", "//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css", [], "", "all"); 
 	// wp_style_add_data( 'bootstrap-style', array( 'integrity', 'crossorigin' ) , array( 'sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC', 'anonymous' ) );
 	wp_enqueue_style("intel-input", "//cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css", [], "", "all");
 	// wp_style_add_data( 'font-awesome-5', array( 'integrity', 'crossorigin' ) , array( 'sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', 'anonymous' ) );
 
-	wp_enqueue_style('my-custom-css', get_template_directory_uri() . '/main.css', array(), $file_version);
+
 
 	wp_enqueue_style("stylecss", get_stylesheet_uri());
 
