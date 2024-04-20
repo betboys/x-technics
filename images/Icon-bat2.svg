@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="Vector" d="M32 44V38H26V34H32V28H36V34H42V38H36V44H32ZM16 44C15.4333 44 14.9583 43.8083 14.575 43.425C14.1917 43.0417 14 42.5667 14 42V10C14 9.43333 14.1917 8.95833 14.575 8.575C14.9583 8.19167 15.4333 8 16 8H20V4H28V8H32C32.5667 8 33.0417 8.19167 33.425 8.575C33.8083 8.95833 34 9.43333 34 10V24C33.3 24 32.6167 24.0583 31.95 24.175C31.2833 24.2917 30.6333 24.4667 30 24.7V12H18V40H22.7C22.9667 40.7667 23.2917 41.4833 23.675 42.15C24.0583 42.8167 24.5167 43.4333 25.05 44H16Z" fill="url(#paint0_linear_4063_4377)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4063_4377" x1="28" y1="4" x2="28" y2="44" gradientUnits="userSpaceOnUse">
+<stop stop-color="#24B6FF"/>
+<stop offset="1" stop-color="#0071AA"/>
+</linearGradient>
+</defs>
+</svg>
