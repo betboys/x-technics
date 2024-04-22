@@ -3,10 +3,10 @@
 ?>
 <section class="service-cover wheel-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle" data-aos="fade-left">
+        <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">
-                <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-                <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+                <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
+                <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-aircraft-image-top wheel-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>

@@ -104,12 +104,12 @@
                 ?>
             </ul>
             <div class="left-text-rigth-image-cont line-intro">
-                <div class="left-text-cont">
-                    <p class="title title-before-after-effect none-effect text-left" data-aos="fade-left">
+                <div class="left-text-cont" data-aos="fade-right">
+                    <p class="title title-before-after-effect none-effect text-left">
                         <?= the_field('wwd_heading'); ?></p>
-                    <p class="element-subtitle" data-aos="fade-left"><?= the_field('wwd_desc'); ?></p>
+                    <p class="element-subtitle"><?= the_field('wwd_desc'); ?></p>
                 </div>
-                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
+                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
             </div>
 
             <div class="download-pdf">

@@ -3,10 +3,10 @@
 ?>
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle" data-aos="fade-left">
+        <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">
-              <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-                <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+              <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
+                <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-width-image ndt-image-cover" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>
@@ -101,7 +101,7 @@
         <div class="home-our-aircraft-engineers-inner margin-top">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
             <div class="our-aircraft-flex-container">
-                <ul class="our-aircraft-flex-inner">
+                <ul class="our-aircraft-flex-inner" data-aos="fade-right">
 										     <?php
                         if (have_rows('licneses')) :
                             while (have_rows('licneses')) : the_row();
