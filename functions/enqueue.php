@@ -38,6 +38,9 @@ function enqueue_assets()
 		if ($page_template == 'page-certificates.php') {
 			wp_enqueue_script("cert-js", get_template_directory_uri() . "/js/page/certificate.js", "", "", true);
 		}
+		if ($page_template == 'page-about.php') {
+			wp_enqueue_script("about-js", get_template_directory_uri() . "/js/page/about.js", "", "", true);
+		}
 		if ($page_template == 'page-services.php') {
 			wp_enqueue_script("service-js", get_template_directory_uri() . "/js/page/service.js", "", "", true);
 		}

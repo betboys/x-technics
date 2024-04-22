@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <section class="home-cover">
-	<img class="cover-image" src="<?= the_field('image'); ?>" alt="">
-	<div class="cover-title-subtitle-inner" data-aos="fade-right">
-		<div data-aos="fade-left">
+	<img class="cover-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-left">
+	<div class="cover-title-subtitle-inner">
+		<div data-aos="fade-right">
 			<h1 class="cover-title home-cover-title"><?= the_field('title'); ?></h1>
 			<h2 class="subtitle home-cover-subtitle"><?= the_field('description'); ?></h2>
 		</div>
@@ -25,7 +25,7 @@
 						$featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
 					?>
 
-						<li class="services-content-list">
+						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php echo 	$featured_image_url; ?>" alt="">
 							<a class="services-content-link" href="<?php echo esc_url($permalink); ?>">
 								<?php echo esc_html($title); ?>
@@ -52,9 +52,8 @@
 					while (have_rows('licneses')) : the_row();
 						$title = get_sub_field('license_title');
 				?>
-						<li class="our-aircraft-flex-list">
-							<!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
-							<p class="our-aircraft-text"><?= $title ?></p>
+						<li class="our-aircraft-flex-list" data-aos="fade-right">
+						<p class="our-aircraft-text"><?= $title ?></p>
 							<div class="medal-style">
                                 <div class="medal-circle">
                                     <div class="show-check"></div>
@@ -89,7 +88,7 @@
 		</div>
 		<div class="swiper-slide-inner swiper-slide-inner-home">
 			<h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-			<div class="swiper-container">
+			<div class="swiper-container" data-aos="fade-left">
 				<div class="swiper">
 					<div class="swiper-wrapper">
 						<?php
@@ -139,11 +138,11 @@
 		</div>
 	</div>
 	<div class="value-trust">
-		<div class="value-trust-text-cont">
+		<div class="value-trust-text-cont" data-aos="fade-left">
 			<p class="title title-before-after-effect none-effect"><?= the_field('text_heading'); ?></p>
 			<p class="subtitle value-trust-subtitle-top"><?= the_field('text_content'); ?></p>
 		</div>
-		<img class="value-trust-image" src="<?= the_field('text_image'); ?>" alt="">
+		<img class="value-trust-image" src="<?= the_field('text_image'); ?>" alt="" data-aos="fade-right">
 	</div>
 </section>
 <?php echo get_template_part('templates/contact'); ?>

@@ -4,12 +4,12 @@
 
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image service-image serive-cover-image" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image service-image serive-cover-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>
         <div class="service-provider-container our-service-inner our-service-inner-effect">
             <div class="provider-text-inner text-center">
@@ -19,7 +19,7 @@
             <?php
             $featured_posts = get_field('services');
             if ($featured_posts) : ?>
-                <ul class="about-cards-container service-card">
+                <ul class="about-cards-container service-card" data-aos="fade-right">
                     <?php foreach ($featured_posts as $featured_post) :
                         $permalink = get_permalink($featured_post->ID);
                         $title = get_the_title($featured_post->ID);
@@ -47,7 +47,7 @@
 		       $service_link = get_sub_field('service_link');
                         ?>
 
-			    <div class="information-inner child-<?= $count ?>">
+			    <div class="information-inner child-<?= $count ?>" data-aos="fade-right">
             <p class="title title-before-after-effect none-effect text-left max-width"><?= $service_title ?></p>
             <p class="this-element-subtitle"><?= $service_subtitle ?></p>
             <ul class="information-intro">

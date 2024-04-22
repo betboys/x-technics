@@ -3,13 +3,12 @@
 
 <section class="about-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
-
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
 
         </div>
         <div class="about-aour-mission">
@@ -17,8 +16,8 @@
             <p class="subtitle subtitle-center"><?= the_field('our_mission_description'); ?></p>
         </div>
         <div class="image-text-inner">
-            <img class="about-left-img" src="<?= the_field('wwd_image'); ?>" alt="">
-            <div class="right-text-inner">
+            <img class="about-left-img" src="<?= the_field('wwd_image'); ?>" alt="" data-aos="fade-left">
+            <div class="right-text-inner" data-aos="fade-right">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_title'); ?></p>
                 <p class="subtitle subtitle-inner-top"><?= the_field('wwd_description'); ?></p>
             </div>
@@ -32,7 +31,7 @@
             <?php
             $featured_posts = get_field('services');
             if ($featured_posts) : ?>
-                <ul class="about-cards-container">
+                <ul class="about-cards-container" data-aos="fade-right">
                     <?php foreach ($featured_posts as $featured_post) :
                         $permalink = get_permalink($featured_post->ID);
                         $title = get_the_title($featured_post->ID);

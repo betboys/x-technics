@@ -3,12 +3,12 @@
 ?>
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-aircraft-image line-single-img" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image single-service-aircraft-image line-single-img" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
 
         </div>
         <div class="ensurin-continuous line-ensurin-continuous">
@@ -17,7 +17,7 @@
                     <?= the_field('c_heading'); ?></p>
                 <p class="this-element-subtitle padding-rigth"><?= the_field('c_desc'); ?></p>
             </div>
-            <div class="swiper-container">
+            <div class="swiper-container" data-aos="fade-right">
                 <div class="swiper">
                     <div class="swiper-wrapper info-flex-div">
                         <?php
@@ -80,7 +80,7 @@
                         $feature_title = get_sub_field('license_title');
                         $feature_desc = get_sub_field('license_desc');
                 ?>
-                        <li class="our-expertise-list">
+                        <li class="our-expertise-list" data-aos="fade-right">
                             <div class="image-texts-container">
                                 <img class="img-settings" src="<?= $icon_feautres  ?>" alt="">
                                 <div class="title-subtitle-lists">
@@ -94,16 +94,16 @@
                 ?>
             </ul>
             <div class="left-text-rigth-image-cont line-intro">
-                <div class="left-text-cont">
+                <div class="left-text-cont" data-aos="fade-left">
                     <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?></p>
                     <p class="element-subtitle"><?= the_field('wwd_desc'); ?></p>
                 </div>
-                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
+                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
             </div>
 
             <div class="download-pdf">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-                <ul class="download-pdf-container">
+                <ul class="download-pdf-container" data-aos="fade-left">
                     <?php
                     if (have_rows('certs')) :
                         while (have_rows('certs')) : the_row();
@@ -148,7 +148,7 @@
 
     <div class="swiper-slide-inner swiper-slide-inner-effect width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after">
+        <div class="swiper-container swiper-after" data-aos="fade-right">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>

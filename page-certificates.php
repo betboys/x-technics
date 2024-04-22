@@ -2,25 +2,24 @@
 /* Template Name: Certifcates Template */ ?>
 <section class="certificate-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
 
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image certificate-image" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image certificate-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>
         <div class="home-our-aircraft-engineers-inner certificate-block-inner">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
             <div class="our-aircraft-flex-container">
-                <ul class="our-aircraft-flex-inner">
+                <ul class="our-aircraft-flex-inner" data-aos="fade-right">
                     <?php
                     if (have_rows('licneses')) :
                         while (have_rows('licneses')) : the_row();
                             $title = get_sub_field('license_title');
                     ?>
                             <li class="our-aircraft-flex-list">
-                                <!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
                                 <p class="our-aircraft-text"><?= $title ?></p>
                                 <div class="medal-style">
                                 <div class="medal-circle">
@@ -37,7 +36,7 @@
             </div>
             <div class="swiper-slide-inner">
                 <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-                <div class="swiper-container">
+                <div class="swiper-container" data-aos="fade-right">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <?php
@@ -87,7 +86,7 @@
             </div>
             <div class="download-pdf">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-                <ul class="download-pdf-container">
+                <ul class="download-pdf-container" data-aos="fade-right">
                     <?php
                     if (have_rows('certs')) :
                         while (have_rows('certs')) : the_row();

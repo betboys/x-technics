@@ -3,12 +3,12 @@
 ?>
 <section class="service-cover wheel-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-aircraft-image-top wheel-image" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image single-service-aircraft-image-top wheel-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>
         <div class="home-our-aircraft-engineers-inner relative">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></h3>
@@ -27,7 +27,7 @@
                                 $feature_desc = get_sub_field('license_desc');
                         ?>
 
-                                <div class="swiper-slide card-list">
+                                <div class="swiper-slide card-list" data-aos="fade-right">
                                     <div class="card-image-text">
                                         <img class="card-image" src="<?= $icon_feautres  ?>" alt="">
                                         <p class="element-title font-size"><?= $feature_title  ?></p>
@@ -74,7 +74,7 @@
     </div>
     <div class="swiper-slide-inner slide-weel">
         <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('ex_desc'); ?></h3>
-        <div class="swiper-container">
+        <div class="swiper-container" data-aos="fade-right">
             <div class="swiper">
                 <div class="swiper-wrapper">
 					           <?php
@@ -126,7 +126,7 @@
     <div class="about-cover-container">
           <div class="download-pdf">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-                <ul class="download-pdf-container">
+                <ul class="download-pdf-container" data-aos="fade-left">
                     <?php
                     if (have_rows('certs')) :
                         while (have_rows('certs')) : the_row();
@@ -169,7 +169,7 @@
     </div>
     <div class="swiper-slide-inner second-slide-wheel width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after">
+        <div class="swiper-container swiper-after" data-aos="fade-right">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>

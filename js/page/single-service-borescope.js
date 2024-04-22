@@ -1,3 +1,10 @@
+/* data aos */
+AOS.init({
+    duration: 400,
+    easing: 'linear',
+    once: true
+});
+
 // swipet slide
 let swipers = document.querySelectorAll('.swiper')
 const swiper = new Swiper(swipers[0], {

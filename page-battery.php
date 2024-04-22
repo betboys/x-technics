@@ -3,22 +3,22 @@
 ?>
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
 
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-width-image" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image single-service-width-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
 
         </div>
         <div class="offer-inner battery-offer">
             <div class="left-text-rigth-image-cont row-reverse">
-                <div class="left-text-cont">
+                <div class="left-text-cont" data-aos="fade-left">
                     <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?></p>
                     <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
                 </div>
-                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
+                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
             </div>
         </div>
         <div class="card-inner battery-card">
@@ -34,7 +34,7 @@
                                 $feature_desc = get_sub_field('license_desc');
                         ?>
 
-                                <div class="swiper-slide card-list">
+                                <div class="swiper-slide card-list" data-aos="fade-right">
                                     <div class="card-image-text">
                                         <img class="card-image" src="<?= $icon_feautres  ?>" alt="">
                                         <p class="element-title font-size"><?= $feature_title  ?></p>
@@ -89,7 +89,7 @@
 
                 ?>
 
-                        <li class="two-card-list">
+                        <li class="two-card-list" data-aos="fade-right">
                             <img class="two-card-image" src="<?= $icon_feautres  ?>" alt="">
                             <p class="two-card-text"><?= $feature_title  ?></p>
                         </li>
@@ -103,7 +103,7 @@
     </div>
     <div class="swiper-slide-inner width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after">
+        <div class="swiper-container swiper-after" data-aos="fade-right">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>

@@ -1,3 +1,10 @@
+/* data aos */
+AOS.init({
+    duration: 400,
+    easing: 'linear',
+    once: true
+});
+
 // swipet slide
 const swiper = new Swiper('.swiper', {
 	slidesPerView: 'auto',

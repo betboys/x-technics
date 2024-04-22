@@ -3,18 +3,18 @@
 ?>
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-left">
             <div class="about-title-subtitle-inner">
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right"> 
 
         </div>
         <div class="offer-inner aog-inner">
             <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
             <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-            <div class="swiper-container">
+            <div class="swiper-container" data-aos="fade-right">
                 <div class="swiper">
                     <div class="swiper-wrapper offer-flex">
                         <?php
@@ -62,11 +62,11 @@
                 </div>
             </div>
             <div class="left-text-rigth-image-cont">
-                <div class="left-text-cont">
+                <div class="left-text-cont" data-aos="fade-left">
                     <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?></p>
                     <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
                 </div>
-                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
+                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
         <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
         <div class="our-aircraft-flex-container">
             <h3 class="title title-before-after-effect color-style title-top-style title-center"><?= the_field('license_heading'); ?> </h3>
-            <ul class="our-aircraft-flex-inner">
+            <ul class="our-aircraft-flex-inner" data-aos="fade-right">
                 <?php
                 if (have_rows('licneses')) :
                     while (have_rows('licneses')) : the_row();
@@ -98,7 +98,7 @@
         </div>
         <div class="swiper-slide-inner">
             <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-            <div class="swiper-container">
+            <div class="swiper-container" data-aos="fade-right">
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <?php
@@ -149,7 +149,7 @@
     </div>
     <div class="swiper-slide-inner width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after">
+        <div class="swiper-container swiper-after" data-aos="fade-right">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>

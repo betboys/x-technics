@@ -3,13 +3,13 @@
 ?>
 <section class="service-cover detailing-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle">
+        <div class="about-title-subtitle" data-aos="fade-right">
             <div class="about-title-subtitle-inner">
               
                 <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-aircraft-image detailing-width-img" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-cover-image single-service-aircraft-image detailing-width-img" src="<?= the_field('image'); ?>" alt="" data-aos="fade-left">
         </div>
         <div class="detailing-services">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>
@@ -22,7 +22,7 @@
                              
                         ?>
                              
-				     <li class="detailing-services-list"><?= $feature_desc ?>
+				     <li class="detailing-services-list" data-aos="fade-right"><?= $feature_desc ?>
                 </li>
                         <?php endwhile;
                         endif;
@@ -35,7 +35,7 @@
             <p class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></p>
             <div class="swiper-container">
                 <div class="swiper">
-                    <div class="swiper-wrapper offer-flex">
+                    <div class="swiper-wrapper offer-flex" data-aos="fade-right">
 						<?php
                         if (have_rows('features')) :
                             while (have_rows('features')) : the_row();
@@ -85,7 +85,7 @@
     </div>
     <div class="swiper-slide-inner detailing-slide width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after">
+        <div class="swiper-container swiper-after" data-aos="fade-right">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>
