@@ -4,10 +4,10 @@
 
 <section class="service-cover">
     <div class="about-cover-container">
-        <div class="about-title-subtitle" data-aos="fade-left">
+        <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">
-                <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-                <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+                <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
+                <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image service-image serive-cover-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
         </div>
@@ -19,13 +19,13 @@
             <?php
             $featured_posts = get_field('services');
             if ($featured_posts) : ?>
-                <ul class="about-cards-container service-card" data-aos="fade-right">
+                <ul class="about-cards-container service-card">
                     <?php foreach ($featured_posts as $featured_post) :
                         $permalink = get_permalink($featured_post->ID);
                         $title = get_the_title($featured_post->ID);
                         $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
                     ?>
-                        <li class="about-card-list">
+                        <li class="about-card-list" data-aos="fade-right">
                             <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <img class="about-card-img" src="<?php echo     $featured_image_url; ?>" alt="">
                                 <p class="about-card-text"> <?php echo esc_html($title); ?></p>
