@@ -2693,44 +2693,14 @@ input {
     width: 122px;
   }
 
-  .mobile-style-btn-prev {
+  .mobile-style-btn-prev,
+  .mobile-style-btn-prev::before {
     clip-path: polygon(25% 0.00%, 100% 0.00%, 100% 35%, 75% 100%, 0.00% 100%, 0.00% 69%);
   }
 
-  .mobile-style-btn-next {
-    clip-path: polygon(0.00% 0.00%, 75% 0.00%, 100% 70%, 100% 100%, 25% 100%, 0.00% 35%);
-  }
-
+  .mobile-style-btn-next,
   .mobile-style-btn-next::before {
-    width: 150px;
-    height: 1px;
-    left: -70px;
-    top: 24px;
-    transform: rotate(50deg);
-  }
-
-  .mobile-style-btn-next::after {
-    width: 150px;
-    height: 1px;
-    right: -66px;
-    top: 24px;
-    transform: rotate(51deg);
-  }
-
-  .mobile-style-btn-prev::before {
-    width: 150px;
-    height: 1px;
-    top: 19px;
-    left: -62px;
-    transform: rotate(-50deg);
-  }
-
-  .mobile-style-btn-prev::after {
-    width: 150px;
-    height: 1px;
-    bottom: 19px;
-    right: -63px;
-    transform: rotate(-50deg);
+    clip-path: polygon(0.00% 0.00%, 75% 0.00%, 100% 70%, 100% 100%, 25% 100%, 0.00% 35%);
   }
 
   .mobile-pagination {
@@ -2857,11 +2827,6 @@ input {
   .card-list:first-child,
   .card-list:last-child {
     clip-path: none;
-  }
-
-  .card-list:first-child::before,
-  .card-list:last-child::before {
-    content: none;
   }
 
   .card-inner {
