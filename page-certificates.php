@@ -20,8 +20,14 @@
                             $title = get_sub_field('license_title');
                     ?>
                             <li class="our-aircraft-flex-list">
-                                <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt="">
+                                <!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
                                 <p class="our-aircraft-text"><?= $title ?></p>
+                                <div class="medal-style">
+                                <div class="medal-circle">
+                                    <div class="show-check"></div>
+                                </div>
+                                <div class="medal-bottom"></div>
+                            </div>
                             </li>
                     <?Php
                         endwhile;

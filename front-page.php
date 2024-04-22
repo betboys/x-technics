@@ -51,8 +51,14 @@
 						$title = get_sub_field('license_title');
 				?>
 						<li class="our-aircraft-flex-list">
-							<img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt="">
+							<!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
 							<p class="our-aircraft-text"><?= $title ?></p>
+							<div class="medal-style">
+                                <div class="medal-circle">
+                                    <div class="show-check"></div>
+                                </div>
+                                <div class="medal-bottom"></div>
+                            </div>
 						</li>
 				<?Php
 					endwhile;
@@ -62,7 +68,8 @@
 			<?php
 			$link = get_field('button_license');
 			if ($link) : ?>
-				<a class="menu-link our-aircraft-link" href="<?php echo esc_url($link); ?>">
+				<a class="our-aircraft-link" href="<?php echo esc_url($link); ?>">
+				<span class="menu-link index">
 					Explore More
 					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 						<g clip-path="url(#clip0_4006_464)">
@@ -74,6 +81,7 @@
 							</clipPath>
 						</defs>
 					</svg>
+				</span>
 				</a>
 			<?php endif; ?>
 		</div>
