@@ -2826,8 +2826,8 @@ input {
 
   .card-list:first-child,
   .card-list:last-child,
-  .card-list:first-child,
-  .card-list:first-child::before {
+  .card-list:first-child::before,
+  .card-list:last-child::before {
     clip-path: none;
   }
 
