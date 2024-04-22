@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 <section class="home-cover">
 	<img class="cover-image" src="<?= the_field('image'); ?>" alt="">
-	<div class="cover-title-subtitle-inner" data-aos="fade-left">
-		<h1 class="cover-title home-cover-title"><?= the_field('title'); ?></h1>
-		<h2 class="subtitle home-cover-subtitle"><?= the_field('description'); ?></h2>
+	<div class="cover-title-subtitle-inner" data-aos="fade-right">
+		<div data-aos="fade-left">
+			<h1 class="cover-title home-cover-title"><?= the_field('title'); ?></h1>
+			<h2 class="subtitle home-cover-subtitle"><?= the_field('description'); ?></h2>
+		</div>
 		<?php
 		$link = get_field('button');
 		if ($link) : ?>
