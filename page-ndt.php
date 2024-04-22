@@ -101,7 +101,7 @@
         <div class="home-our-aircraft-engineers-inner margin-top">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
             <div class="our-aircraft-flex-container">
-                <ul class="our-aircraft-flex-inner" data-aos="fade-right">
+                <ul class="our-aircraft-flex-inner width-max" data-aos="fade-right">
 										     <?php
                         if (have_rows('licneses')) :
                             while (have_rows('licneses')) : the_row();

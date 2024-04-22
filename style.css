@@ -2788,24 +2788,14 @@ input {
     gap: 0;
   }
 
-  .offer-list:first-child {
+  .offer-list:first-child,
+  .offer-list:first-child::before {
     clip-path: polygon(10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 25%);
   }
 
-
-  .offer-list:first-child::before {
-    left: -15.5%;
-    transform: rotate(141.2deg);
-  }
-
-  .offer-list:last-child {
-    clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 75%, 90% 100%, 0.00% 100%);
-  }
-
-
+  .offer-list:last-child,
   .offer-list:last-child::before {
-    right: -15.5%;
-    transform: rotate(141.2deg);
+    clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 75%, 90% 100%, 0.00% 100%);
   }
 
   .offer-inner {
@@ -3141,11 +3131,6 @@ input {
     content: none;
   }
 
-  .slide-image {
-    width: 100%;
-    height: unset;
-  }
-
   .swiper-container {
     margin-top: 16px;
   }
@@ -3230,6 +3215,10 @@ input {
   .next-prev-buuton {
     gap: 32px;
     margin-top: 32px;
+  }
+
+  .width-max {
+    width: 100%;
   }
 }
 

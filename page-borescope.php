@@ -81,7 +81,7 @@
         <div class="home-our-aircraft-engineers-inner margin-top">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading_copy'); ?>
             </h3>
-            <div class="our-aircraft-flex-container">
+            <div class="our-aircraft-flex-container width-max">
                 <ul class="our-aircraft-flex-inner" data-aos="fade-right">
                     <?php
                     if (have_rows('licenses')):
