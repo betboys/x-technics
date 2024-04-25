@@ -30,7 +30,7 @@
                         <li class="about-card-list" data-aos="fade-right">
                             <a class="our-service-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
-                                <p class="about-card-text"> <?php echo esc_html($title); ?></p>
+                                <p class="about-card-text our-service-card-text"> <?php echo esc_html($title); ?></p>
                             </a>
                         </li>
                     <?php endforeach;
