@@ -28,7 +28,7 @@
                         $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
                         ?>
                         <li class="about-card-list" data-aos="fade-right">
-                            <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
+                            <a class="our-service-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                                 <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                             </a>
