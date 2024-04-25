@@ -2395,6 +2395,10 @@ input {
   margin-left: 0;
 }
 
+.ndt-inner .detailing-services-list {
+  margin-left: 16px;
+}
+
 /* single service aricraft ndt */
 .this-top-style {
   margin-top: 6.25vw;

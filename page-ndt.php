@@ -13,7 +13,7 @@
         <div class="detailing-services borescope-service-single">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>
             <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-            <ul class="detailing-services-inner">
+            <ul class="detailing-services-inner ndt-inner">
 					      <?php
                         if (have_rows('features')) :
                             while (have_rows('features')) : the_row();
@@ -83,7 +83,7 @@
         <div class="detailing-services this-top-style borescope-service-single">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading_copy'); ?></p>
             <p class="this-element-subtitle"><?= the_field('c_desc_copy'); ?></p>
-            <ul class="detailing-services-inner" data-aos="fade-right">
+            <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
 				     <?php
                         if (have_rows('features_copy')) :
                             while (have_rows('features_copy')) : the_row();
