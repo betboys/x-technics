@@ -36,13 +36,12 @@
                         $permalink = get_permalink($featured_post->ID);
                         $title = get_the_title($featured_post->ID);
                         $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
-                        $subtitle = get_the_title($slug_post->ID);
                         ?>
                         <li class="about-card-list">
                             <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                             <div class="text-absolute">
                                 <p class="about-card-text"> <?php echo esc_html($title); ?></p>
-                                <p class="subtitle about-card-text-hidden"><?php echo esc_html($subtitle); ?></p>
+                                <p class="subtitle about-card-text-hidden"><?php get_field('card_subtitle'); ?></p>
                             </div>
                             <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
