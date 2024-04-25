@@ -1,20 +1,18 @@
 var $ = jQuery;
-let dropdown = document.querySelector(".dropdown");
-let dropdownMenu = document.querySelector(".dropdown-menu");
-let dropdownIcon = document.querySelector(".dropdown-icon");
+// open sub menu
+let dropdown = document.querySelector('.dropdown');
+let dropdownMenu = document.querySelector('.dropdown-menu');
+let dropdownIcon = document.querySelector('.dropdown-icon');
 
-dropdown.addEventListener("mouseover", function () {
-  dropdownMenu.classList.add("visitble");
-  dropdownIcon.setAttribute("style", "transition-delay: 0s");
-  dropdownMenu.setAttribute("style", "transition-delay: 0s");
-  dropdownIcon.classList.add("rotate");
+
+dropdown.addEventListener('mouseover', function () {
+  dropdownMenu.classList.add('visitble');
+  dropdownIcon.classList.add('rotate');
 });
 
-dropdown.addEventListener("mouseout", function () {
-  dropdownMenu.setAttribute("style", "transition-delay: .5s");
-  dropdownIcon.setAttribute("style", "transition-delay: .5s");
-  dropdownMenu.classList.remove("visitble");
-  dropdownIcon.classList.remove("rotate");
+dropdown.addEventListener('mouseout', function () {
+  dropdownMenu.classList.remove('visitble');
+  dropdownIcon.classList.remove('rotate');
 });
 
 // -----Country Code Selection
@@ -32,22 +30,27 @@ for (let i = 0; i < inputCheckbox.length; i++) {
   num++;
 }
 
-// open and close menu
-let openMenu = document.querySelector(".open-menu");
-let closeMenu = document.querySelector(".close-menu");
-let navigation = document.querySelector(".header-navigation");
+if (window.innerWidth <= 960) {
+  // open and close menu
+  let headerBefore = document.querySelector('.header');
+  let openMenu = document.querySelector('.open-menu');
+  let closeMenu = document.querySelector('.close-menu');
+  let navigation = document.querySelector('.header-navigation');
 
-openMenu.addEventListener("click", function () {
-  navigation.style.display = "block";
-  openMenu.style.display = "none";
-  closeMenu.style.display = "block";
-});
+  openMenu.addEventListener('click', function () {
+    headerBefore.classList.add('style');
+    navigation.style.display = 'block';
+    openMenu.style.display = 'none';
+    closeMenu.style.display = 'block';
+  });
 
-closeMenu.addEventListener("click", function () {
-  navigation.style.display = "none";
-  closeMenu.style.display = "none";
-  openMenu.style.display = "block";
-});
+  closeMenu.addEventListener('click', function () {
+    headerBefore.classList.remove('style');
+    navigation.style.display = 'none';
+    closeMenu.style.display = 'none';
+    openMenu.style.display = 'block';
+  });
+}
 
 // select
 let selectContainer = document.querySelector(".select-dropdown__list");
