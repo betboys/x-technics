@@ -41,9 +41,7 @@
                             <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                             <div class="text-absolute">
                                 <p class="about-card-text"> <?php echo esc_html($title); ?></p>
-                                <?php if (get_field('card_group')): ?>
-                                    <p class="subtitle about-card-text-hidden"><?php the_field('s_subtitle'); ?></p>
-                                <?php endif; ?>
+                                    <p class="subtitle about-card-text-hidden"><?php echo esc_html($title); ?></p>
                             </div>
                             <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
