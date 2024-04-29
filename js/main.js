@@ -50,6 +50,17 @@ if (window.innerWidth <= 960) {
     closeMenu.style.display = 'none';
     openMenu.style.display = 'block';
   });
+
+  let headerUl = document.querySelector('.header-menu-inner');
+  let headerUlList = headerUl.querySelectorAll('.header-menu-list');
+  let last = headerUlList[headerUlList.length - 1];
+  let item = last.querySelector('.menu-link');
+  item.addEventListener('click', function () {
+    headerBefore.classList.remove('style');
+    navigation.style.display = 'none';
+    closeMenu.style.display = 'none';
+    openMenu.style.display = 'block';
+  })
 }
 
 // select
@@ -95,4 +106,14 @@ let footerInner = document.querySelector(".logo-links-inner");
 
 if (window.innerWidth < 1001) {
   footerInner.append(subscribe, footerForm);
+}
+
+if (document.querySelector('.security-inner')) {
+  let headerUl = document.querySelector('.header-menu-inner');
+  let headerUlList = headerUl.querySelectorAll('.header-menu-list');
+  let last = headerUlList[headerUlList.length - 1];
+  let item = last.querySelector('.menu-link');
+  item.addEventListener('click', function (e) {
+    item.href = 'https://x-technics.com/#contact-us';
+  })
 }
