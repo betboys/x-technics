@@ -2,7 +2,7 @@
 /* Template Name: Our Services Template */
 ?>
 
-<section class="service-cover">
+<section class="service-cover our-service">
     <div class="about-cover-container">
         <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">

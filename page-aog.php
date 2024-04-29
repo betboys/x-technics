@@ -1,7 +1,7 @@
 <?php get_header();
 /* Template Name: AOG Maintenance Template */
 ?>
-<section class="service-cover">
+<section class="service-cover aircraft-maintenance">
     <div class="about-cover-container">
         <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">

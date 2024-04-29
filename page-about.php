@@ -31,13 +31,13 @@
             <?php
             $featured_posts = get_field('services');
             if ($featured_posts): ?>
-                <ul class="about-cards-container" data-aos="fade-right">
+                <ul class="about-cards-container">
                     <?php foreach ($featured_posts as $featured_post):
                         $permalink = get_permalink($featured_post->ID);
                         $title = get_the_title($featured_post->ID);
                         $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
                         ?>
-                        <li class="about-card-list">
+                        <li class="about-card-list" data-aos="fade-right">
                             <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                                 <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                                 <p class="subtitle about-card-text-hidden"></p>

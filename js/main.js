@@ -168,12 +168,6 @@ if (document.querySelector('.certificate-cover')) {
 
 // Service single page` aircraft line
 if (document.querySelector('.aircraft-line')) {
-  /* data aos */
-  AOS.init({
-    duration: 400,
-    easing: 'linear',
-    once: true
-  });
   // swipet slide
   let swipers = document.querySelectorAll('.swiper');
   const swiper = new Swiper(swipers[0], {
