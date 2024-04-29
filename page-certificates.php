@@ -13,13 +13,13 @@
         <div class="home-our-aircraft-engineers-inner certificate-block-inner">
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
             <div class="our-aircraft-flex-container">
-                <ul class="our-aircraft-flex-inner" data-aos="fade-right">
+                <ul class="our-aircraft-flex-inner">
                     <?php
                     if (have_rows('licneses')) :
                         while (have_rows('licneses')) : the_row();
                             $title = get_sub_field('license_title');
                     ?>
-                            <li class="our-aircraft-flex-list">
+                            <li class="our-aircraft-flex-list" data-aos="fade-right">
                                 <p class="our-aircraft-text"><?= $title ?></p>
                                 <div class="medal-style">
                                 <div class="medal-circle">
@@ -86,7 +86,7 @@
             </div>
             <div class="download-pdf">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-                <ul class="download-pdf-container" data-aos="fade-right">
+                <ul class="download-pdf-container">
                     <?php
                     if (have_rows('certs')) :
                         while (have_rows('certs')) : the_row();
@@ -99,7 +99,7 @@
                             $filesize = size_format($filesize, 2);
                     ?>
 
-                            <li class="download-pdf-list">
+                            <li class="download-pdf-list" data-aos="fade-right">
                                 <div class="download-pdf-link">
                                     <div class="pdf-img-text-inner">
                                         <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate-pdf.png" alt="">
