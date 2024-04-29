@@ -2596,6 +2596,10 @@ input {
     opacity: 1;
   }
 
+  .service-card .about-card-list:hover .about-card-text {
+    top: 85%;
+  }
+
   .about-card-list:hover .about-card-text {
     top: 50%;
   }
@@ -2796,7 +2800,8 @@ input {
 
 /* responsive */
 @media (max-width: 1700px) {
-  .about-card-list:hover .about-card-text {
+  .about-card-list:hover .about-card-text,
+  .service-card .about-card-list:hover .about-card-text {
     top: 45%;
   }
 
@@ -2806,7 +2811,8 @@ input {
 }
 
 @media (max-width: 1500px) {
-  .about-card-list:hover .about-card-text {
+  .about-card-list:hover .about-card-text,
+  .service-card .about-card-list:hover .about-card-text {
     top: 40%;
   }
 
@@ -2816,7 +2822,8 @@ input {
 }
 
 @media (max-width: 1440px) {
-  .about-card-list:hover .about-card-text {
+  .about-card-list:hover .about-card-text,
+  .service-card .about-card-list:hover .about-card-text {
     top: 35%;
   }
 
