@@ -40,20 +40,7 @@
                         <li class="about-card-list" data-aos="fade-right">
                             <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                             <p class="about-card-text"> <?php echo esc_html($title); ?></p>
-                            <?php
-
-                            if (has_post_thumbnail()) {
-
-
-                                ?>
-
-
-                                <p class="subtitle about-card-text-hidden"><?php echo has_post_thumbnail('card_subtitle'); ?></p>
-
-
-                                <?php
-                            } ?>
-
+                            <p class="subtitle about-card-text-hidden"><?php get_the_title(); ?></p>
                             <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <g clip-path="url(#clip0_4019_3743)">
