@@ -4,7 +4,6 @@ let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownIcon = document.querySelector('.dropdown-icon');
 
-
 dropdown.addEventListener('mouseover', function () {
   dropdownMenu.classList.add('visitble');
   dropdownIcon.classList.add('rotate');
@@ -14,7 +13,6 @@ dropdown.addEventListener('mouseout', function () {
   dropdownMenu.classList.remove('visitble');
   dropdownIcon.classList.remove('rotate');
 });
-
 
 if (window.innerWidth <= 960) {
   // open and close menu
@@ -435,6 +433,7 @@ if (document.querySelector('.aircraft-borescope')) {
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
+// cookies, privacy-policy, terms-of-service
 if (document.querySelector('.security-inner')) {
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');

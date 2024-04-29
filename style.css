@@ -1598,7 +1598,7 @@ input {
 .child-2::before {
   content: '';
   position: absolute;
-  top: -14.188rem;
+  top: -7rem;
   left: -28.938rem;
   width: 78rem;
   height: 75rem;
@@ -1624,7 +1624,7 @@ input {
 .child-6::before {
   content: '';
   position: absolute;
-  top: -19.938rem;
+  top: -6.538rem;
   left: -32.188rem;
   width: 78rem;
   height: 75rem;
