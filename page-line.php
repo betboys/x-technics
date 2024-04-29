@@ -164,7 +164,7 @@
 
     <div class="swiper-slide-inner swiper-slide-inner-effect width-center">
         <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-        <div class="swiper-container swiper-after" data-aos="fade-right">
+        <div class="swiper-container swiper-after">
             <?php echo get_template_part('templates/related-pages'); ?>
         </div>
     </div>

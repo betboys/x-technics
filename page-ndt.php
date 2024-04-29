@@ -14,7 +14,7 @@
         <div class="detailing-services borescope-service-single">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>
             <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-            <ul class="detailing-services-inner ndt-inner">
+            <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
                 <?php
                 if (have_rows('features')):
                     while (have_rows('features')):
@@ -23,7 +23,7 @@
 
                         ?>
 
-                        <li class="detailing-services-list" data-aos="fade-right"><?= $title ?></li>
+                        <li class="detailing-services-list"><?= $title ?></li>
                         <?Php
                     endwhile;
                 endif; ?>
@@ -112,7 +112,7 @@
             <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>
             </h3>
             <div class="our-aircraft-flex-container">
-                <ul class="our-aircraft-flex-inner width-max" data-aos="fade-right">
+                <ul class="our-aircraft-flex-inner width-max">
                     <?php
                     if (have_rows('licneses')):
                         while (have_rows('licneses')):
@@ -120,7 +120,7 @@
                             $title = get_sub_field('license_title');
 
                             ?>
-                            <li class="our-aircraft-flex-list">
+                            <li class="our-aircraft-flex-list" data-aos="fade-right">
                                 <p class="our-aircraft-text"><?= $title ?></p>
                                 <div class="medal-style">
                                     <div class="medal-circle">

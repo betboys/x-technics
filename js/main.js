@@ -270,7 +270,9 @@ if (document.querySelector('.detailing-cover')) {
 // Service single page` aircraft ndt
 if (document.querySelector('.aircraft-ndt')) {
   // swipet slide
-  const swiper = new Swiper('.swiper', {
+  let swipers = document.querySelectorAll('.swiper');
+  let pagination = document.querySelectorAll('.swiper-pagination');
+  const swiper = new Swiper(swipers[0], {
     slidesPerView: 'auto',
     speed: 1000,
     navigation: {
@@ -278,9 +280,18 @@ if (document.querySelector('.aircraft-ndt')) {
       prevEl: '.swiper-button-prev',
     },
     pagination: {
-      el: '.swiper-pagination',
+      el: pagination[0],
       clickable: true,
     },
+  });
+
+  const swiper2 = new Swiper(swipers[1], {
+    slidesPerView: 'auto',
+    speed: 1000,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
   });
 
   let headerContainer = document.querySelector('.header-container');

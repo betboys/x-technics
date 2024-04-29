@@ -126,7 +126,7 @@
     <div class="about-cover-container">
           <div class="download-pdf">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-                <ul class="download-pdf-container" data-aos="fade-left">
+                <ul class="download-pdf-container">
                     <?php
                     if (have_rows('certs')) :
                         while (have_rows('certs')) : the_row();
@@ -139,7 +139,7 @@
                             $filesize = size_format($filesize, 2);
                     ?>
 
-                            <li class="download-pdf-list">
+                            <li class="download-pdf-list" data-aos="fade-left">
                                 <div class="download-pdf-link">
                                     <div class="pdf-img-text-inner">
                                         <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate-pdf.png" alt="">

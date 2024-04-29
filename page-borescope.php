@@ -108,7 +108,7 @@
 
         <div class="download-pdf borescope-pdf">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-            <ul class="download-pdf-container" data-aos="fade-right">
+            <ul class="download-pdf-container">
                 <?php
                 if (have_rows('certs')):
                     while (have_rows('certs')):
@@ -122,7 +122,7 @@
                         $filesize = size_format($filesize, 2);
                         ?>
 
-                        <li class="download-pdf-list">
+                        <li class="download-pdf-list" data-aos="fade-right">
                             <div class="download-pdf-link">
                                 <div class="pdf-img-text-inner">
                                     <img class="pdf-img"
