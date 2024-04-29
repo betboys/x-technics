@@ -189,7 +189,7 @@
                     <li class="download-pdf-list">
                         <div class="download-pdf-link">
                             <div class="pdf-img-text-inner">
-                                <img class="pdf-img" src="images/Certificate-pdf.png" alt="">
+                                <img class="pdf-img" src="images/Certificate.svg" alt="">
                                 <div class="pdf-texts-intro">
                                     <p class="pdf-title">Australia - CASA.21J ADO.0002</p>
                                     <p class="pdf-subtitle">Australia Civil Aviation Safety Authority (CASA)</p>
@@ -209,7 +209,7 @@
                     <li class="download-pdf-list">
                         <div class="download-pdf-link">
                             <div class="pdf-img-text-inner">
-                                <img class="pdf-img" src="images/Certificate-pdf.png" alt="">
+                                <img class="pdf-img" src="images/Certificate.svg" alt="">
                                 <div class="pdf-texts-intro">
                                     <p class="pdf-title">Australia - CASA.21J ADO.0002</p>
                                     <p class="pdf-subtitle">Australia Civil Aviation Safety Authority (CASA)</p>
@@ -229,7 +229,7 @@
                     <li class="download-pdf-list">
                         <div class="download-pdf-link">
                             <div class="pdf-img-text-inner">
-                                <img class="pdf-img" src="images/Certificate-pdf.png" alt="">
+                                <img class="pdf-img" src="images/Certificate.svg" alt="">
                                 <div class="pdf-texts-intro">
                                     <p class="pdf-title">Australia - CASA.21J ADO.0002</p>
                                     <p class="pdf-subtitle">Australia Civil Aviation Safety Authority (CASA)</p>
@@ -249,7 +249,7 @@
                     <li class="download-pdf-list">
                         <div class="download-pdf-link">
                             <div class="pdf-img-text-inner">
-                                <img class="pdf-img" src="images/Certificate-pdf.png" alt="">
+                                <img class="pdf-img" src="images/Certificate.svg" alt="">
                                 <div class="pdf-texts-intro">
                                     <p class="pdf-title">Australia - CASA.21J ADO.0002</p>
                                     <p class="pdf-subtitle">Australia Civil Aviation Safety Authority (CASA)</p>

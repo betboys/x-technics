@@ -939,11 +939,11 @@ input {
 .checkbox:checked+.label {
   backface-visibility: hidden;
   background: #080f18;
-  color: #0071AA;
+  color: #24B6FF;
 }
 
 .checkbox:checked+.label::before {
-  border: 2px solid #24B6FF;
+  border: 2px solid #0071AA;
 }
 
 .form {

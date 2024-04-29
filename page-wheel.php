@@ -142,7 +142,7 @@
                             <li class="download-pdf-list" data-aos="fade-left">
                                 <div class="download-pdf-link">
                                     <div class="pdf-img-text-inner">
-                                        <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate-pdf.png" alt="">
+                                        <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate.svg" alt="">
                                         <div class="pdf-texts-intro">
                                             <p class="pdf-title"><?= $title ?></p>
                                             <p class="pdf-subtitle"><?= $caption ?></p>
