@@ -3124,7 +3124,7 @@ input {
   }
 
   .card-list {
-    width: 306px;
+    width: 306px !important;
     height: 440px;
     margin-right: 20px;
     padding: 32px;
