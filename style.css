@@ -2800,6 +2800,7 @@ input {
 
 /* responsive */
 @media (max-width: 1700px) {
+
   .about-card-list:hover .about-card-text,
   .service-card .about-card-list:hover .about-card-text {
     top: 45%;
@@ -2811,6 +2812,7 @@ input {
 }
 
 @media (max-width: 1500px) {
+
   .about-card-list:hover .about-card-text,
   .service-card .about-card-list:hover .about-card-text {
     top: 40%;
@@ -2822,6 +2824,7 @@ input {
 }
 
 @media (max-width: 1440px) {
+
   .about-card-list:hover .about-card-text,
   .service-card .about-card-list:hover .about-card-text {
     top: 35%;
@@ -3709,6 +3712,16 @@ input {
 
   .label {
     width: 100%;
+    background: #131b23f5;
+  }
+
+  .label::before {
+    content: none;
+  }
+
+  .checkbox:checked+.label {
+    background: #131b23f5;
+    color: #0071AA;
   }
 
   .footer {
