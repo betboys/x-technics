@@ -1022,8 +1022,8 @@ input {
   border: 1px solid #0071AA !important;
 }
 
-.iti__flag.iti__am {
-  scale: 1.2 1.8;
+.iti__flag {
+  scale: 1.2 1.8 !important;
 }
 
 .iti--separate-dial-code .iti__selected-dial-code {
