@@ -3935,14 +3935,6 @@ input {
   }
 }
 
-@media (max-width: 602px) {
-  .our-aircraft-text {
-    width: 80px;
-    font-size: 17px;
-    margin-left: 16px;
-  }
-}
-
 @media (max-width: 590px) {
   .home-cover-subtitle {
     width: 100%;
@@ -4152,6 +4144,10 @@ input {
 }
 
 @media (max-width: 480px) {
+  .our-aircraft-text {
+    font-size: 16px;
+  }
+
   .our-aircraft-flex-inner {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
@@ -4161,7 +4157,7 @@ input {
   .our-aircraft-flex-list {
     width: 170px;
     height: 100px;
-}
+  }
 }
 
 @media (max-width: 470px) {
