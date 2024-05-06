@@ -4153,6 +4153,8 @@ input {
 
 @media (max-width: 480px) {
   .our-aircraft-flex-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
     gap: 20px;
   }
 
