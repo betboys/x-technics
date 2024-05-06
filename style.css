@@ -1288,6 +1288,10 @@ input {
   line-height: 130%;
   color: #FFF;
   transition: .3s;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .about-card-text-hidden {
@@ -2056,7 +2060,6 @@ input {
 
 .card-list {
   width: 21.1vw;
-  height: 330px;
   background: #0071AA;
   padding: 32px;
   position: relative;
@@ -3059,7 +3062,6 @@ input {
 
   .card-list {
     width: 306px !important;
-    height: 440px;
     margin-right: 20px;
     padding: 32px;
   }
