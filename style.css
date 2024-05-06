@@ -428,12 +428,19 @@ input {
   height: 150px;
   background: #24b6ff;
   position: relative;
-  animation: changeBackgroundColor 5s linear infinite;
+  /* animation: changeBackgroundColor 5s linear infinite;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 
-.our-aircraft-flex-list:first-child,
+.our-aircraft-flex-list:nth-child(1) {
+  background: url(images/License.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .our-aircraft-flex-list:first-child,
 .our-aircraft-flex-list:first-child::before {
   clip-path: polygon(11% 0.00%, 100% 0%, 100% 120%, 0.00% 100%, 0.00% 21%);
 }
@@ -448,9 +455,9 @@ input {
   position: absolute;
   inset: 2px;
   background: #010102;
-}
+} */
 
-.medal-style {
+/* .medal-style {
   width: 65px;
   height: 113px;
   position: absolute;
@@ -482,7 +489,7 @@ input {
   position: absolute;
   inset: 2px;
   background: #010102;
-}
+} */
 
 .show-check {
   width: 17.59px;
@@ -529,7 +536,7 @@ input {
   }
 }
 
-.medal-bottom {
+/* .medal-bottom {
   width: 46.95px;
   height: 46.95px;
   background: #24b6ff;
@@ -551,7 +558,7 @@ input {
 .medal-bottom,
 .medal-bottom::before {
   clip-path: polygon(97.98% 0.00%, 100.11% 97.96%, 48.99% 48.98%, 0.00% 106.47%, 0.00% 0.00%);
-}
+} */
 
 .our-aircraft-image {
   width: 100%;
@@ -559,7 +566,7 @@ input {
 
 .our-aircraft-text {
   width: 140px;
-  position: relative;
+  position: absolute;
   margin-left: 24px;
   font-family: 'blender bold';
   font-size: 25px;
@@ -2861,7 +2868,7 @@ input {
     width: 31.389vw;
   }
 
-  .medal-style {
+  /* .medal-style {
     width: 50px;
     height: 86px;
   }
@@ -2878,7 +2885,7 @@ input {
   .medal-bottom {
     width: 35.95px;
     height: 35.95px;
-  }
+  } */
 }
 
 @media (max-width: 1300px) {

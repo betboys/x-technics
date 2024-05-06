@@ -54,12 +54,12 @@
 				?>
 						<li class="our-aircraft-flex-list" data-aos="fade-right">
 						<p class="our-aircraft-text"><?= $title ?></p>
-							<div class="medal-style">
+							<!-- <div class="medal-style">
                                 <div class="medal-circle">
                                     <div class="show-check"></div>
                                 </div>
                                 <div class="medal-bottom"></div>
-                            </div>
+                            </div> -->
 						</li>
 				<?Php
 					endwhile;
