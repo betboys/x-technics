@@ -416,12 +416,12 @@ input {
 }
 
 .our-aircraft-flex-inner {
-  width: 100%;
-  max-width: 940px;
+  width: var(--width);
   margin-inline: auto;
   margin-top: 32px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .our-aircraft-flex-list {
@@ -2912,13 +2912,6 @@ input {
 }
 
 @media (max-width: 1300px) {
-  .our-aircraft-flex-inner {
-    width: 570px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    row-gap: 30px;
-  }
-
   .about-card-text-hidden {
     display: none;
   }
@@ -3942,18 +3935,6 @@ input {
 }
 
 @media (max-width: 602px) {
-  .our-aircraft-flex-inner {
-    width: var(--width);
-    margin-inline: auto;
-    gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .our-aircraft-flex-list {
-    width: 100%;
-    height: 110px;
-  }
-
   .our-aircraft-text {
     width: 80px;
     font-size: 17px;
@@ -4167,6 +4148,17 @@ input {
     width: 100%;
     height: unset;
   }
+}
+
+@media (max-width: 480px) {
+  .our-aircraft-flex-inner {
+    gap: 20px;
+  }
+
+  .our-aircraft-flex-list {
+    width: 170px;
+    height: 100px;
+}
 }
 
 @media (max-width: 470px) {
