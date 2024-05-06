@@ -464,57 +464,6 @@ input {
   background-repeat: no-repeat;
 }
 
-/* .our-aircraft-flex-list:first-child,
-.our-aircraft-flex-list:first-child::before {
-  clip-path: polygon(11% 0.00%, 100% 0%, 100% 120%, 0.00% 100%, 0.00% 21%);
-}
-
-.our-aircraft-flex-list:last-child,
-.our-aircraft-flex-list:last-child::before {
-  clip-path: polygon(0.00% 0.00%, 89% 0.00%, 100% 21%, 100% 120%, 0.00% 100%);
-}
-
-.our-aircraft-flex-list::before {
-  content: '';
-  position: absolute;
-  inset: 2px;
-  background: #010102;
-} */
-
-/* .medal-style {
-  width: 65px;
-  height: 113px;
-  position: absolute;
-  right: 0;
-  bottom: -10px;
-  background: #010102;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-}
-
-.medal-circle {
-  width: 100%;
-  height: 65px;
-  background: #24b6ff;
-  border-radius: 50%;
-  position: relative;
-  z-index: 1;
-  animation: changeBackgroundColor 5s linear infinite;
-  display: grid;
-  place-items: center;
-  transform: translateY(10px);
-}
-
-.medal-circle::before {
-  content: '';
-  border-radius: 50%;
-  position: absolute;
-  inset: 2px;
-  background: #010102;
-} */
-
 .show-check {
   width: 17.59px;
   height: 11.4px;
@@ -559,30 +508,6 @@ input {
     border-top: none;
   }
 }
-
-/* .medal-bottom {
-  width: 46.95px;
-  height: 46.95px;
-  background: #24b6ff;
-  position: relative;
-  z-index: 0;
-  animation: changeBackgroundColor 5s linear infinite;
-}
-
-.medal-bottom::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 2px;
-  right: 2px;
-  bottom: 4px;
-  background: #010102;
-}
-
-.medal-bottom,
-.medal-bottom::before {
-  clip-path: polygon(97.98% 0.00%, 100.11% 97.96%, 48.99% 48.98%, 0.00% 106.47%, 0.00% 0.00%);
-} */
 
 .our-aircraft-image {
   width: 100%;
@@ -2891,25 +2816,6 @@ input {
   .air-image-rigth {
     width: 31.389vw;
   }
-
-  /* .medal-style {
-    width: 50px;
-    height: 86px;
-  }
-
-  .medal-circle {
-    height: 50px;
-  }
-
-  .show-check {
-    width: 14.59px;
-    height: 10.4px;
-  }
-
-  .medal-bottom {
-    width: 35.95px;
-    height: 35.95px;
-  } */
 }
 
 @media (max-width: 1300px) {
