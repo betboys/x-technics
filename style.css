@@ -3835,6 +3835,14 @@ input {
   .about-card-link:hover {
     background: none;
   }
+
+  .aircraft-maintenance>.margin-top {
+    margin-top: 111px;
+  }
+
+  .aircraft-maintenance>.our-aircraft-flex-container>.title-top-style {
+    margin-top: 111px;
+  }
 }
 
 @media (max-width: 660px) {
