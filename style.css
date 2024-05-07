@@ -248,6 +248,7 @@ input {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
 }
 
 .home-cover-title {
@@ -296,6 +297,7 @@ input {
   line-height: 119%;
   letter-spacing: 0.1em;
   color: #24B6FF;
+  text-transform: capitalize;
 }
 
 .title-before-after-effect {
@@ -389,6 +391,7 @@ input {
   line-height: 120%;
   color: #fff;
   transition: .3s;
+  text-transform: capitalize;
 }
 
 .card-icon-stroke {
@@ -1292,6 +1295,7 @@ input {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-transform: capitalize;
 }
 
 .about-card-text-hidden {
@@ -1748,6 +1752,7 @@ input {
   font-weight: 700;
   line-height: 122%;
   color: #F8F9FA;
+  text-transform: capitalize;
 }
 
 .element-subtitle {
@@ -1866,6 +1871,7 @@ input {
   line-height: 120%;
   color: #FFF;
   transition: .3s;
+  text-transform: capitalize;
 }
 
 .swiper-slide-inner-effect {
