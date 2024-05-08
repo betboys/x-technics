@@ -396,13 +396,17 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'blender medium';
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 120%;
+  font-family: 'blender bold';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
   color: #fff;
   transition: .3s;
   text-transform: capitalize;
+}
+
+.service-ttile {
+  width: 100%;
 }
 
 .card-icon-stroke {
