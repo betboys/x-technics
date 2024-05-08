@@ -1659,11 +1659,12 @@ input {
 
 .information-intro-list::before {
   content: '';
-  min-width: 6px;
-  min-height: 6px;
-  background: #ADB5BD;
-  border-radius: 50%;
-  margin-left: 10px;
+  min-width: 14px;
+  min-height: 14px;
+  background: url(images/stop_24dp.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .link-left-inner {
