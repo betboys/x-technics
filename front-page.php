@@ -27,7 +27,7 @@
 
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php echo $featured_image_url; ?>" alt="">
-							<svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="530"
+							<!-- <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="530"
                             viewBox="0 0 590 530" fill="none">
                             <path d="M0 0H590V530H0V0Z" fill="url(#paint0_linear_4308_28661)" />
                             <defs>
@@ -37,7 +37,7 @@
                                     <stop offset="1" stop-color="#113344" stop-opacity="0.6" />
                                 </linearGradient>
                             </defs>
-                        </svg>
+                        </svg> -->
 							<a class="services-content-link" href="<?php echo esc_url($permalink); ?>">
 								<span class="service-ttile"><?php echo esc_html($title); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
