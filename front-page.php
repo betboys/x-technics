@@ -23,7 +23,7 @@
 						$permalink = get_permalink($featured_post->ID);
 						$title = get_the_title($featured_post->ID);
 						$featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
-						$services_image_hover = get_field('services_image_hover', $featured_post->ID, 'full');
+						$services_image_hover = get_the_post_thumbnail_url('services_image_hover', $featured_post->ID, 'full');
 					?>
 
 						<li class="services-content-list" data-aos="fade-right">
