@@ -405,8 +405,26 @@ input {
   text-transform: capitalize;
 }
 
-.service-ttile {
-  width: 100%;
+.services-content-list:nth-child(1)>.services-content-link>.service-ttile {
+  width: 280px;
+}
+
+.services-content-list:nth-child(2)>.services-content-link>.service-ttile {
+  width: 284px;
+}
+
+.services-content-list:nth-child(3)>.services-content-link>.service-ttile,
+.services-content-list:nth-child(4)>.services-content-link>.service-ttile,
+.services-content-list:nth-child(5)>.services-content-link>.service-ttile {
+  width: 229px;
+}
+
+.services-content-list:nth-child(6)>.services-content-link>.service-ttile {
+  width: 292px;
+}
+
+.services-content-list:nth-child(7)>.services-content-link>.service-ttile {
+  width: 356;
 }
 
 .card-icon-stroke {
