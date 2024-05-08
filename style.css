@@ -893,6 +893,13 @@ input {
   display: none;
 }
 
+.checkbox-inner:nth-child(1)>.label,
+.checkbox-inner:nth-child(2)>.label,
+.checkbox-inner:nth-child(3)>.label,
+.checkbox-inner:last-child>.label {
+  padding: 10px 21.3px;
+}
+
 .label {
   font-family: "blender medium";
   font-size: 16px;

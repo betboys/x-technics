@@ -17,7 +17,7 @@
 		</div>
 		<div class="subscribe-container">
 			<div class="subscribe-text"><?= the_field('subscibe_form_title', 'option'); ?></div>
-			<?php echo do_shortcode('[contact-form-7 id="5d26094" title="Subscribe"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="5d26094" title="SUBSCRIBE"]'); ?>
 
 		</div>
 	</div>

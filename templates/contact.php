@@ -119,7 +119,7 @@
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust">
-					<span class="menu-link index">Send a Quote</span>
+					<span class="menu-link index">SEND A QUOTE</span>
 				</button>
 			</form>
 		</div>
