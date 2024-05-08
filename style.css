@@ -2592,6 +2592,10 @@ input {
     opacity: 1;
   }
 
+  .service-card .about-card-list:hover .new-style {
+    top: unset;
+  }
+
   .service-card .about-card-list:hover .about-card-text {
     top: 85%;
   }
