@@ -2936,6 +2936,12 @@ input {
     flex-direction: column;
     align-items: start;
     margin-top: 24px;
+    gap: 6px;
+  }
+
+  .website-links-inner>.socal-media-iist>.socal-media-iink {
+    flex-direction: column;
+    align-items: start;
   }
 
   .text-underline-none {
