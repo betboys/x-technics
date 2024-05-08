@@ -337,16 +337,37 @@ input {
 
 .services-content-list {
   width: 43.229vw;
-  background: #24b6ff;
+  /* background: #24b6ff; */
   position: relative;
-  animation: changeBackgroundColor 5s linear infinite;
-  padding: 1px;
+  /* animation: changeBackgroundColor 5s linear infinite; */
+  /* padding: 1px; */
 }
 
 .services-content-image {
   width: 100%;
   height: 100%;
 }
+
+.services-content-image-hover {
+  width: 100%;
+  height: 100%;
+  object-fit: unset;
+  display: none;
+}
+
+.services-content-list:hover {
+  background: none;
+  animation: none;
+}
+
+.services-content-list:hover .services-content-image {
+  display: none;
+}
+
+.services-content-list:hover .services-content-image-hover {
+  display: block;
+}
+
 
 @keyframes changeBackgroundColor {
   0% {
@@ -2507,11 +2528,11 @@ input {
     color: #0071AA;
   }
 
-  .services-content-list:hover .services-content-link {
+  .services-content-link:hover {
     color: #0071AA;
   }
 
-  .services-content-list:hover .card-icon-stroke {
+  .services-content-link:hover .card-icon-stroke {
     stroke: #0071AA;
   }
 
@@ -2624,9 +2645,9 @@ input {
     background: #080f18;
   }
 
-  .services-content-list:hover {
+  /* .services-content-list:hover {
     padding: 2px;
-  }
+  } */
 
   .our-aircraft-link:hover .menu-link {
     color: #fff;
