@@ -110,8 +110,8 @@
 				<div class="email-phone-inner">
 					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
 					<div class="phone-input">
-						<input class="input" type="number" id="mobile_code" class="form-control" name="" required>
-						<span class="phone-text">Phone Number</span>
+						<input class="input" type="number" id="mobile_code" class="form-control" placeholder="Phone Number" name="" required>
+						<!-- <span class="phone-text">Phone Number</span> -->
 					</div>
 				</div>
 				<textarea class="textarea" placeholder="Message" rows="5.5"
