@@ -32,6 +32,11 @@
   src: url(fonts/Blender-pro/BlenderPro-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'blender heavy';
+  src: url(fonts/Blender-pro/BlenderPro-Heavy.ttf);
+}
+
 body {
   font-family: 'blender book';
   font-size: 16px;
@@ -93,7 +98,9 @@ input {
   z-index: 100;
   padding: 23px 0;
   border-bottom: 0.5px solid #ADB5BD;
-  background: #010102;
+  background: rgba(1, 1, 2, 0.60);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(21.75px);
 }
 
 .header-container {
@@ -195,12 +202,16 @@ input {
 }
 
 .header-menu-list:last-child .menu-link {
-  width: 252px;
+  width: 182px;
   height: 54px;
   clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
   background: linear-gradient(90deg, #0002A1 -0.89%, #0071AA -0.88%, #24B6FF 97.75%);
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "blender heavy";
+  font-weight: 900;
   transition: .3s;
+  color: #010102;
+  text-transform: uppercase;
 }
 
 /* home cover */
@@ -278,11 +289,11 @@ input {
   height: 54px;
   clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
   background: linear-gradient(90deg, #0002A1 -0.89%, #0071AA -0.88%, #24B6FF 97.75%);
-  font-family: 'blender bold';
-  font-size: 18px;
-  font-weight: 700;
+  font-family: 'blender heavy';
+  font-size: 20px;
+  font-weight: 900;
   line-height: 120%;
-  color: #fff;
+  color: #010102;
   transition: .3s;
 }
 
@@ -2452,7 +2463,6 @@ input {
   .header-menu-list:last-child .menu-link:hover {
     background: linear-gradient(90deg, #0496DF -0.11%, #0496DF -0.1%, #0071AA 97.75%);
     font-size: larger;
-    color: #fff;
   }
 
   .dropdown-menu .header-menu-list:last-child .menu-link:hover {
