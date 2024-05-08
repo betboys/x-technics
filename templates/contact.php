@@ -16,8 +16,9 @@
 				<?php if (get_field('email', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="mailto:<?= the_field('email', 'option'); ?>">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt="">
+							FACEBOOK
+							<!-- <img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt=""> -->
 							<span class="text-underline"><?= the_field('email', 'option'); ?></span>
 						</a>
 					</li>
@@ -25,8 +26,9 @@
 				<?php if (get_field('location', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
+						LINKEDIN
+							<!-- <img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt=""> -->
 							<span class="text-underline"><?= the_field('location', 'option'); ?></span>
 						</a>
 					</li>
