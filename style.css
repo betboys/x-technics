@@ -2593,7 +2593,7 @@ input {
   }
 
   .service-card .about-card-list:hover .new-style {
-    top: unset;
+    top: unset !important;
   }
 
   .service-card .about-card-list:hover .about-card-text {
