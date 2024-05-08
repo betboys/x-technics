@@ -16,9 +16,8 @@
 				<?php if (get_field('email', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="mailto:<?= the_field('email', 'option'); ?>">
-							FACEBOOK
-							<!-- <img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt=""> -->
+							<img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt="">
 							<span class="text-underline"><?= the_field('email', 'option'); ?></span>
 						</a>
 					</li>
@@ -26,9 +25,8 @@
 				<?php if (get_field('location', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="">
-						LINKEDIN
-							<!-- <img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt=""> -->
+							<img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
 							<span class="text-underline"><?= the_field('location', 'option'); ?></span>
 						</a>
 					</li>
@@ -38,8 +36,9 @@
 				<?php if (get_field('facebook', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('facebook', 'option'); ?>">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="">
+						FACEBOOK
+							<!-- <img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt=""> -->
 							<span
 								class="text-underline text-underline-none"><?= the_field('facebook_page_title', 'option'); ?></span>
 						</a>
@@ -48,8 +47,9 @@
 				<?php if (get_field('linkedin', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('linkedin', 'option'); ?>">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="">
+						LINKEDIN
+							<!-- <img class="socal-media-image"
+								src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt=""> -->
 							<span
 								class="text-underline text-underline-none"><?= the_field('linkedin_page_title', 'option'); ?></span>
 						</a>
