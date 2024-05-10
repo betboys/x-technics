@@ -23,6 +23,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image1'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover1'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link1'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title1'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -41,6 +42,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image2'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover2'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link2'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title2'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -59,6 +61,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image3'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover3'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link3'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title3'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -77,6 +80,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image4'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover4'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link4'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title4'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -95,6 +99,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image5'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover5'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link5'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title5'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -113,6 +118,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image6'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover6'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link6'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title6'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -131,6 +137,7 @@
 						the_row(); ?>
 						<li class="services-content-list" data-aos="fade-right">
 							<img class="services-content-image" src="<?php the_sub_field('home_our_service_image7'); ?>" alt="">
+							<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover7'); ?>" alt="">
 							<a class="services-content-link" href="<?php the_sub_field('home_our_service_link7'); ?>">
 								<span class="service-ttile"><?php the_sub_field('home_our_service_title7'); ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
