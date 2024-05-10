@@ -15,31 +15,23 @@
 
 		<div class="home-our-services-container">
 			<h3 class="title title-before-after-effect"><?= the_field('heading'); ?></h3>
-			<?php
-			$featured_posts = get_field('services');
-			if ($featured_posts): ?>
-				<ul class="services-content-flex">
-					<?php foreach ($featured_posts as $featured_post):
-						$permalink = get_permalink($featured_post->ID);
-						$title = get_the_title($featured_post->ID);
-						$featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
+
+			<ul class="services-content-flex">
+
+
+				<?php
+				if (have_rows('home_our_service')):
+					while (have_rows('home_our_service')):
+						the_row();
+						$title = get_sub_field('home_our_service_title');
+						$image = get_sub_field('home_our_service_image');
+						$link = get_sub_field('home_our_service_link');
 						?>
 
 						<li class="services-content-list" data-aos="fade-right">
-							<img class="services-content-image" src="<?php echo $featured_image_url; ?>" alt="">
-							<!-- <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="530"
-                            viewBox="0 0 590 530" fill="none">
-                            <path d="M0 0H590V530H0V0Z" fill="url(#paint0_linear_4308_28661)" />
-                            <defs>
-                                <linearGradient id="paint0_linear_4308_28661" x1="44" y1="19.5" x2="567.5" y2="559"
-                                    gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#042535" stop-opacity="0.25" />
-                                    <stop offset="1" stop-color="#113344" stop-opacity="0.6" />
-                                </linearGradient>
-                            </defs>
-                        </svg> -->
-							<a class="services-content-link" href="<?php echo esc_url($permalink); ?>">
-								<span class="service-ttile"><?php echo esc_html($title); ?></span>
+							<img class="services-content-image" src="<?= $image ?>" alt="">
+							<a class="services-content-link" href="<?= $link ?>">
+								<span class="service-ttile"><?= $title ?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
 									<path class="card-icon-stroke"
 										d="M25.0003 25.0001V15.0001M25.0003 15.0001H15.0003M25.0003 15.0001L15.0003 24.9999M13 35H27C29.8003 35 31.2004 35 32.27 34.455C33.2108 33.9757 33.9757 33.2108 34.455 32.27C35 31.2004 35 29.8003 35 27V13C35 10.1997 35 8.79961 34.455 7.73005C33.9757 6.78924 33.2108 6.02433 32.27 5.54497C31.2004 5 29.8003 5 27 5H13C10.1997 5 8.79961 5 7.73005 5.54497C6.78924 6.02433 6.02433 6.78924 5.54497 7.73005C5 8.79961 5 10.1997 5 13V27C5 29.8003 5 31.2004 5.54497 32.27C6.02433 33.2108 6.78924 33.9757 7.73005 34.455C8.79961 35 10.1997 35 13 35Z"
@@ -47,10 +39,14 @@
 								</svg>
 							</a>
 						</li>
-					<?php endforeach;
-					wp_reset_postdata(); ?>
-				</ul>
-			<?php endif; ?>
+
+						<?Php
+					endwhile;
+				endif; ?>
+
+
+			</ul>
+
 		</div>
 	</div>
 </section>
