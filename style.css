@@ -2544,6 +2544,14 @@ input {
   .swiper-button-prev:hover::before {
     background: #080f18;
   }
+  
+  .services-content-list:hover .services-content-image {
+    display: none;
+  }
+
+  .services-content-list:hover .services-content-image-hover {
+    display: block;
+  }
 
   .swiper-button-next:hover::before {
     background: #162535;
@@ -2691,14 +2699,6 @@ input {
 
   .dropdown-menu .header-menu-list .menu-link:active {
     color: #0071AA;
-  }
-
-  .services-content-list:hover .services-content-image {
-    display: none;
-  }
-
-  .services-content-list:hover .services-content-image-hover {
-    display: block;
   }
 
   .services-content-list:active .services-content-link {
