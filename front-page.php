@@ -22,7 +22,7 @@
 		
 
 				<li class="services-content-list" data-aos="fade-right">
-					<img class="services-content-image" src="" alt="">
+					<img class="services-content-image" src="<?php the_field('home_our_service_image'); ?>" alt="">
 					<a class="services-content-link" href="<?php the_field('home_our_service_link'); ?>">
 						<span class="service-ttile"><?php the_field('home_our_service_title'); ?></span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
