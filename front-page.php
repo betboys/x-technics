@@ -20,9 +20,9 @@
 
 
 				<?php
-				$title = get_sub_field('home_our_service_title');
-				$image = get_sub_field('home_our_service_image');
-				$link = get_sub_field('home_our_service_link');
+				$title = the_sub_field('home_our_service_title');
+				$image = the_sub_field('home_our_service_image');
+				$link = the_sub_field('home_our_service_link');
 				?>
 
 				<li class="services-content-list" data-aos="fade-right">
