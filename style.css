@@ -2469,6 +2469,7 @@ input {
 
 .borescope-service-single .detailing-services-list {
   margin-left: 0;
+  display: block;
 }
 
 .ndt-inner .detailing-services-list {
