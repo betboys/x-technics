@@ -438,19 +438,6 @@ if (document.querySelector('.aircraft-borescope')) {
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
-let headerUl = document.querySelector('.header-menu-inner');
-let headerUlList = headerUl.querySelectorAll('.header-menu-list');
-let last = headerUlList[headerUlList.length - 1];
-let item = last.querySelector('.menu-link');
-
-$(document).on('click', 'a[href^="#"]', function (event) {
-  event.preventDefault();
-
-  $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-  }, 500);
-});
-
 if (document.getElementById("contact-us-mobile")) {
   // -----Country Code Selection
   $("#mobile_code").intlTelInput({
@@ -496,6 +483,13 @@ if (document.getElementById("contact-us-mobile")) {
     }
   }
 }
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, 800);
+});
 
 if (window.innerWidth <= 960) {
   let headerUl = document.querySelector('.header-menu-inner');
