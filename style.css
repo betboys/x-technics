@@ -269,6 +269,10 @@ input {
   color: #0071AA;
 }
 
+.header-menu-list:hover:last-child .menu-link {
+  color: #010102;
+}
+
 /* home cover */
 .home-cover {
   width: 100%;
