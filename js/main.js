@@ -448,3 +448,11 @@ if (document.querySelector('.security-inner')) {
     item.href = 'https://x-technics.com/#contact-us';
   })
 }
+
+if (document.getElementById("contact-us-mobile")) {
+  // -----Country Code Selection
+  $("#mobile_code").intlTelInput({
+    initialCountry: "am",
+    separateDialCode: true,
+  });
+}
