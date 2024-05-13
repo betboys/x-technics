@@ -265,6 +265,10 @@ input {
   content: none;
 }
 
+.header-menu-list>.menu-link:hover {
+  color: #0071AA;
+}
+
 /* home cover */
 .home-cover {
   width: 100%;
