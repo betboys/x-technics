@@ -769,11 +769,11 @@ input {
   transition: .3s;
 }
 
-.swiper-button-next:hover .prev-st {
+.swiper-button-next:hover .naxt-st {
   opacity: 0;
 }
 
-.swiper-button-next:hover .prev-ho {
+.swiper-button-next:hover .next-ho {
   opacity: 1;
 }
 
