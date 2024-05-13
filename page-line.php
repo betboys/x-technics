@@ -14,7 +14,7 @@
         </div>
         <div class="ensurin-continuous line-ensurin-continuous">
             <div class="content-text-inner">
-                <p class="title title-before-after-effect none-effect text-left">
+                <p class="title title-before-after-effect none-effect text-left line-title">
                     <?= the_field('c_heading'); ?>
                 </p>
                 <p class="this-element-subtitle padding-rigth"><?= the_field('c_desc'); ?></p>

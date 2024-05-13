@@ -4128,7 +4128,7 @@ input {
 
   .service-card .about-card-list .our-service-card-link .about-card-text {
     bottom: 16px;
-    padding: 0 16px;
+    padding: 0 0 0 16px;
   }
 
   .our-expertise-list:first-child,
@@ -4221,6 +4221,10 @@ input {
 
   .cover-title {
     font-size: 36px;
+  }
+
+  .line-title {
+    font-size: 24px;
   }
 
   .title {
