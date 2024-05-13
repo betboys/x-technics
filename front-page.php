@@ -178,6 +178,8 @@
 			$link = get_field('button_license');
 			if ($link): ?>
 				<a class="our-aircraft-link" href="<?php echo esc_url($link); ?>">
+				<img class="button-standart" src="/image/Button-ho.png" alt="">
+				<img class="button-hover" src="/image/Button-st.png" alt="">
 					<span class="menu-link index">
 						Explore More
 						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">

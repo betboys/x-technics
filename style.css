@@ -574,16 +574,39 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 234px;
-  height: 54px;
+  /* width: 234px;
+  height: 54px; */
+  width: 354px;
+  height: 174px;
   margin-inline: auto;
   position: relative;
-  background: #0071AA;
+  /* background: #0071AA; */
   transition: .3s;
   z-index: 1;
 }
 
-.our-aircraft-link::before {
+.button-standart {
+  position: absolute;
+  inset: 0;
+  transition: .3s;
+}
+
+.button-hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: .3s;
+}
+
+.our-aircraft-link:hover .button-standart {
+  opacity: 0;
+}
+
+.our-aircraft-link:hover .button-hover {
+  opacity: 1;
+}
+
+/* .our-aircraft-link::before {
   content: '';
   position: absolute;
   inset: 2px;
@@ -594,7 +617,7 @@ input {
 .our-aircraft-link,
 .our-aircraft-link::before {
   clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
-}
+} */
 
 .index {
   position: relative;
