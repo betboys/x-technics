@@ -39,6 +39,8 @@
                         <button class="swiper-button-prev mobile-style-btn-prev">
                             <img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.png" alt="">
                             <img class="prev-ho" src="https://x-technics.com/ysteeshy/2024/05/prev-ho.png" alt="">
+                            <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.png"
+                                alt="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <g clip-path="url(#clip0_4019_3733)">
@@ -56,6 +58,8 @@
                         <button class="swiper-button-next mobile-style-btn-next">
                             <img class="next-st" src="https://x-technics.com/ysteeshy/2024/05/next-st.png" alt="">
                             <img class="next-ho" src="https://x-technics.com/ysteeshy/2024/05/next-ho.png" alt="">
+                            <img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png"
+                                alt="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <g clip-path="url(#clip0_4019_3743)">
@@ -133,6 +137,8 @@
                     <button class="swiper-button-prev">
                         <img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.png" alt="">
                         <img class="prev-ho" src="https://x-technics.com/ysteeshy/2024/05/prev-ho.png" alt="">
+                        <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.png"
+                                alt="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_4019_3733)">
                                 <path
@@ -149,6 +155,8 @@
                     <button class="swiper-button-next">
                         <img class="next-st" src="https://x-technics.com/ysteeshy/2024/05/next-st.png" alt="">
                         <img class="next-ho" src="https://x-technics.com/ysteeshy/2024/05/next-ho.png" alt="">
+                        <img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png"
+                                alt="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_4019_3743)">
                                 <path
