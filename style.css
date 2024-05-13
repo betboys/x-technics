@@ -4217,6 +4217,10 @@ input {
     font-size: 36px;
   }
 
+  .title {
+    font-size: 22px;
+  }
+
 }
 
 @media (max-width: 470px) {
