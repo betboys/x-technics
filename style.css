@@ -4178,6 +4178,18 @@ input {
     right: 0;
     background-size: cover;
   }
+
+  #contact-us-mobile {
+    padding-top: 63px;
+  }
+
+  #contact-us-mobile>.contact-us-container {
+    margin-top: 0;
+  }
+
+  #contact-us-mobile>.contact-us-container>.contact-us-socal-mekia-links>.socal-media-inner {
+    margin-top: 112px;
+  }
 }
 
 @media (max-width: 480px) {
