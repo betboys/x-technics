@@ -2545,7 +2545,7 @@ input {
   .swiper-button-prev:hover::before {
     background: #080f18;
   }
-  
+
   .services-content-list:hover .services-content-image {
     display: none;
   }
@@ -4158,6 +4158,25 @@ input {
   .value-trust-image {
     width: 100%;
     height: unset;
+  }
+
+  .contact-title {
+    font: 600 40px / normal conthrax;
+    text-transform: capitalize;
+    text-align: center;
+    background: linear-gradient(90deg, #687EFF 0%, #98E4FF 76.01%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #contact-us-mobile::before {
+    width: 746.5px;
+    height: 717.828px;
+    left: unset;
+    top: 0;
+    right: 0;
+    background-size: cover;
   }
 }
 
