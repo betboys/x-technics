@@ -2362,7 +2362,6 @@ input {
 }
 
 .detailing-services-list {
-  /* list-style: disc; */
   border-bottom: 1px solid #212529;
   padding-bottom: 24px;
   margin-bottom: 24px;
@@ -2372,7 +2371,7 @@ input {
   line-height: 122%;
   color: #ADB5BD;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 
