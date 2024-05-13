@@ -252,21 +252,9 @@ input {
   opacity: 0;
 }
 
-.header-menu-list:hover:last-child .menu-link::before {
-  opacity: 0;
-}
-
-.header-menu-list:hover:last-child .menu-link::after {
-  opacity: 1;
-}
-
 .dropdown-menu>.header-menu-list:last-child .menu-link::before,
 .dropdown-menu>.header-menu-list:last-child .menu-link::after {
   content: none;
-}
-
-.header-menu-list>.menu-link:hover {
-  color: #0071AA;
 }
 
 .header-menu-list:hover:last-child .menu-link {
@@ -371,14 +359,6 @@ input {
   top: -60px;
   opacity: 0;
   transition: .3s;
-}
-
-.cover-link:hover .cover-link-st {
-  opacity: 0;
-}
-
-.cover-link:hover .cover-link-ho {
-  opacity: 1;
 }
 
 .home-our-services-container {
@@ -681,14 +661,6 @@ input {
   transition: .3s;
 }
 
-.our-aircraft-link:hover .button-standart {
-  opacity: 0;
-}
-
-.our-aircraft-link:hover .button-hover {
-  opacity: 1;
-}
-
 .index {
   position: relative;
   z-index: 1;
@@ -859,14 +831,6 @@ input {
   transition: .3s;
 }
 
-.swiper-button-prev:hover .prev-st {
-  opacity: 0;
-}
-
-.swiper-button-prev:hover .prev-ho {
-  opacity: 1;
-}
-
 .next-st {
   position: absolute;
   left: 0;
@@ -880,14 +844,6 @@ input {
   top: -58px;
   opacity: 0;
   transition: .3s;
-}
-
-.swiper-button-next:hover .naxt-st {
-  opacity: 0;
-}
-
-.swiper-button-next:hover .next-ho {
-  opacity: 1;
 }
 
 .value-trust {
@@ -2779,6 +2735,50 @@ input {
   .service-single-link:hover .slide-image-size {
     width: 100%;
     height: 100%;
+  }
+
+  .header-menu-list:hover:last-child .menu-link::before {
+    opacity: 0;
+  }
+
+  .header-menu-list:hover:last-child .menu-link::after {
+    opacity: 1;
+  }
+
+  .header-menu-list>.menu-link:hover {
+    color: #0071AA;
+  }
+
+  .cover-link:hover .cover-link-st {
+    opacity: 0;
+  }
+
+  .cover-link:hover .cover-link-ho {
+    opacity: 1;
+  }
+
+  .our-aircraft-link:hover .button-standart {
+    opacity: 0;
+  }
+
+  .our-aircraft-link:hover .button-hover {
+    opacity: 1;
+  }
+
+  .swiper-button-prev:hover .prev-st {
+    opacity: 0;
+  }
+
+  .swiper-button-prev:hover .prev-ho {
+    opacity: 1;
+  }
+
+  .swiper-button-next:hover .naxt-st {
+    opacity: 0;
+  }
+
+  .swiper-button-next:hover .next-ho {
+    opacity: 1;
   }
 }
 
