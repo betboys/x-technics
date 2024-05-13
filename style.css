@@ -202,6 +202,7 @@ input {
   justify-content: start;
   padding-top: 16px;
   transition: .3s;
+  text-transform: unset;
 }
 
 .header-menu-list:last-child {
@@ -244,7 +245,7 @@ input {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  left: -68px;
+  left: -69px;
   top: -58px;
   z-index: -1;
   transition: .3s;
