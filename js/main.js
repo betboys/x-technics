@@ -443,13 +443,12 @@ let headerUlList = headerUl.querySelectorAll('.header-menu-list');
 let last = headerUlList[headerUlList.length - 1];
 let item = last.querySelector('.menu-link');
 
-item.click(function (e) {
-  e.preventDefault();
-  var target = $($(this).attr('href'));
-  if (target.length) {
-    var scrollTo = target.offset().top;
-    $('body, html').animate({ scrollTop: scrollTo + 'px' }, 800);
-  }
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
 });
 
 if (document.getElementById("contact-us-mobile")) {
