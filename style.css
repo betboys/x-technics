@@ -233,6 +233,21 @@ input {
   position: absolute;
   left: 0;
   top: 0;
+  z-index: -1;
+}
+
+.header-menu-list:last-child .menu-link::before {
+  content: '';
+  width: 182px;
+  height: 54px;
+  background: url(https://x-technics.com/ysteeshy/2024/05/menu-ho.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -60px;
+  top: -60px;
+  z-index: -1;
 }
 
 /* home cover */
@@ -2610,11 +2625,6 @@ input {
 
 /* all hover */
 @media (min-width: 1200px) {
-  .header-menu-list:last-child .menu-link:hover {
-    background: linear-gradient(90deg, #0496DF -0.11%, #0496DF -0.1%, #0071AA 97.75%);
-    font-size: 22px;
-  }
-
   .dropdown-menu .header-menu-list:last-child .menu-link:hover {
     background: none;
     font-size: unset;
