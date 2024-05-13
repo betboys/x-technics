@@ -574,13 +574,10 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 234px;
-  height: 54px; */
   width: 354px;
   height: 174px;
   margin-inline: auto;
   position: relative;
-  /* background: #0071AA; */
   transition: .3s;
   z-index: 1;
 }
@@ -605,19 +602,6 @@ input {
 .our-aircraft-link:hover .button-hover {
   opacity: 1;
 }
-
-/* .our-aircraft-link::before {
-  content: '';
-  position: absolute;
-  inset: 2px;
-  background: #010102;
-  transition: .3s;
-}
-
-.our-aircraft-link,
-.our-aircraft-link::before {
-  clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
-} */
 
 .index {
   position: relative;
@@ -740,16 +724,39 @@ input {
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 180px;
-  height: 54px;
+  width: 300px;
+  height: 170px;
+  /* width: 180px;
+  height: 54px; */
   display: grid;
   place-items: center;
-  background: #0071AA;
+  /* background: #0071AA; */
   position: relative;
   transition: .3s;
 }
 
-.swiper-button-next::before {
+.prev-st {
+  position: absolute;
+  inset: 0;
+  transition: .3s;
+}
+
+.prev-ho {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: .3s;
+}
+
+.swiper-button-prev:hover .prev-st {
+  opacity: 0;
+}
+
+.swiper-button-prev:hover .prev-ho {
+  opacity: 1;
+}
+
+/* .swiper-button-next::before {
   content: '';
   position: absolute;
   inset: 1.5px;
@@ -763,27 +770,27 @@ input {
   inset: 1.5px;
   background: #070f18;
   transition: .3s;
-}
+} */
 
-.swiper-button-next,
+/* .swiper-button-next,
 .swiper-button-next::before {
   clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
-}
+} */
 
-.swiper-button-next>svg {
+/* .swiper-button-next>svg {
   position: relative;
   z-index: 1;
-}
+} */
 
-.swiper-button-prev,
+/* .swiper-button-prev,
 .swiper-button-prev::before {
   clip-path: polygon(8% 0.00%, 100% 0.00%, 100% 50%, 92% 100%, 0.00% 100%, 0.00% 50%);
-}
+} */
 
-.swiper-button-prev>svg {
+/* .swiper-button-prev>svg {
   position: relative;
   z-index: 1;
-}
+} */
 
 .value-trust {
   width: var(--width);
@@ -2678,14 +2685,6 @@ input {
 
   .iti__country:hover {
     background: #0e233d !important;
-  }
-
-  .our-aircraft-link:hover::before {
-    background: #080f18;
-  }
-
-  .our-aircraft-link:hover .menu-link {
-    color: #fff;
   }
 
   .about-card-list:hover {
