@@ -448,11 +448,9 @@ if (document.getElementById("contact-us-mobile")) {
   let subscribe = document.querySelector('.subscribe-text');
   let footerForm = document.querySelector('.footer-form');
   let footerInner = document.querySelector('.logo-links-inner');
-
   if (window.innerWidth < 1001) {
     footerInner.append(subscribe, footerForm)
   }
-
   // select
   let selectContainer = document.querySelector('.select-dropdown__list');
   let checkbox = document.querySelectorAll('.checkbox-inner');
