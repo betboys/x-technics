@@ -236,7 +236,7 @@ input {
   z-index: -1;
 }
 
-.header-menu-list:last-child .menu-link::before {
+.header-menu-list:last-child .menu-link::after {
   content: '';
   width: 182px;
   height: 54px;
