@@ -4190,6 +4190,18 @@ input {
   #contact-us-mobile>.contact-us-container>.contact-us-socal-mekia-links>.socal-media-inner {
     margin-top: 112px;
   }
+
+  .tel1 {
+    position: absolute;
+    top: 0;
+    right: -62px;
+  }
+
+  .tel2 {
+    position: absolute;
+    top: 0;
+    left: -121px;
+  }
 }
 
 @media (max-width: 480px) {
