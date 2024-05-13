@@ -211,14 +211,28 @@ input {
 .header-menu-list:last-child .menu-link {
   width: 182px;
   height: 54px;
-  clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
-  background: linear-gradient(90deg, #0002A1 -0.89%, #0071AA -0.88%, #24B6FF 97.75%);
+  /* clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%); */
+  /* background: linear-gradient(90deg, #0002A1 -0.89%, #0071AA -0.88%, #24B6FF 97.75%); */
   font-size: 20px;
   font-family: "blender heavy";
   font-weight: 900;
   transition: .3s;
   color: #010102;
   text-transform: uppercase;
+  position: relative;
+}
+
+.header-menu-list:last-child .menu-link::before {
+  content: '';
+  width: 182px;
+  height: 54px;
+  background: url(https://x-technics.com/ysteeshy/2024/05/cover-link-img-st.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* home cover */
@@ -303,6 +317,7 @@ input {
   font-weight: 900;
   line-height: 120%;
   color: #010102;
+  position: relative;
 }
 
 .cover-link-st {
@@ -2603,11 +2618,6 @@ input {
   .dropdown-menu .header-menu-list:last-child .menu-link:hover {
     background: none;
     font-size: unset;
-  }
-
-  .cover-link:hover {
-    background: linear-gradient(90deg, #0496DF -0.11%, #0496DF -0.1%, #0071AA 97.75%);
-    font-size: 22px;
   }
 
   .menu-link:hover .dropdown-icon-fill {
