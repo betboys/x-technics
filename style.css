@@ -3507,6 +3507,16 @@ input {
   .prev-mobile,
   .next-mobile {
     display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .prev-st,
+  .prev-ho,
+  .next-st,
+  .next-ho {
+    display: none;
   }
 
   .next-prev-buuton {
