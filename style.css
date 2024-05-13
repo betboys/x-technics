@@ -759,13 +759,15 @@ input {
 
 .next-st {
   position: absolute;
-  inset: 0;
+  left: 0;
+  top: 0;
   transition: .3s;
 }
 
 .next-ho {
   position: absolute;
-  inset: 0;
+  left: -60px;
+  top: -58px;
   opacity: 0;
   transition: .3s;
 }
