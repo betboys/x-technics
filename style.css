@@ -4120,6 +4120,11 @@ input {
     opacity: .5 !important;
   }
 
+  .certificate-image {
+    width: 100%;
+    height: unset;
+  }
+
   .service-card .about-card-list .our-service-card-link .about-card-text {
     bottom: 16px;
     padding: 0 16px;
