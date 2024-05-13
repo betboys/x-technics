@@ -2,8 +2,8 @@
 /* Template Name: Contact us Template */ ?>
 
 <section class="contact-us" id="contact-us-mobile">
-    <img class="tel1" src="/images/tel1.png" alt="">
-    <img class="tel2" src="/images/tel2.png" alt="">
+    <img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.png" alt="">
+    <img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.png" alt="">
 	<h3 class="contact-title"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links">
