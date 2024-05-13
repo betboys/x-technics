@@ -688,10 +688,19 @@ input {
 
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
-  background: #868E96;
+  /* background: #868E96; */
   cursor: auto;
   pointer-events: none;
   position: relative;
+}
+
+.swiper-button-prev:disabled {
+  width: 180px;
+  height: 54px;
+  background: url(https://x-technics.com/ysteeshy/2024/05/prev-disabled.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .swiper-button-prev.swiper-button-disabled svg g path,
