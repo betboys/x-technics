@@ -3161,9 +3161,9 @@ input {
     background-position: center;
     background-repeat: no-repeat;
   }
-
-  .mobile-style-btn-prev>.prev-mobile,
-  .mobile-style-btn-next>.next-mobile {
+  
+  .swiper-button-disabled>.prev-mobile,
+  .swiper-button-disabled>.next-mobile {
     display: none;
   }
 }
