@@ -230,7 +230,7 @@ if (document.querySelector('.aircraft-battery')) {
   let headerContainer = document.querySelector('.header-container');
   let swiperContainer = document.querySelectorAll('.swiper-container');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`); F
+  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`); 
 }
 
 // Service single page` aircraft detailing
