@@ -744,7 +744,7 @@ input {
 .prev-ho {
   position: absolute;
   left: -60px;
-  top: -60px;
+  top: -58px;
   opacity: 0;
   transition: .3s;
 }
