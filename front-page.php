@@ -10,7 +10,10 @@
 		$link = get_field('button');
 		if ($link): ?>
 
-			<a class="cover-link" href="<?php echo esc_url($link); ?>">Explore Our Services</a>
+			<a class="cover-link" href="<?php echo esc_url($link); ?>">
+			<img class="cover-link-st" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-st.png" alt="">
+			<img class="cover-link-ho" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-ho.png" alt="">
+			Explore Our Services</a>
 		<?php endif; ?>
 
 		<div class="home-our-services-container">
