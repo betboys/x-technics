@@ -4168,6 +4168,8 @@ input {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
   }
 
   #contact-us-mobile::before {
