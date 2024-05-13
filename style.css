@@ -694,6 +694,10 @@ input {
   position: relative;
 }
 
+.swiper-button-prev.swiper-button-disabled>.prev-st {
+  display: none;
+}
+
 .swiper-button-prev:disabled {
   width: 180px;
   height: 54px;
