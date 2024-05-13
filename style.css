@@ -259,6 +259,11 @@ input {
   opacity: 1;
 }
 
+.dropdown-menu>.header-menu-list:hover:last-child .menu-link::before,
+.dropdown-menu>.header-menu-list:hover:last-child .menu-link::after {
+  content: none;
+}
+
 /* home cover */
 .home-cover {
   width: 100%;
