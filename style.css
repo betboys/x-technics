@@ -4177,10 +4177,12 @@ input {
     top: 0;
     right: 0;
     background-size: cover;
+    z-index: 1;
   }
 
   #contact-us-mobile {
     padding-top: 63px;
+    z-index: 1;
   }
 
   #contact-us-mobile>.contact-us-container {
@@ -4193,14 +4195,16 @@ input {
 
   .tel1 {
     position: absolute;
-    top: 0;
+    top: 31px;
     right: -62px;
+    z-index: 0;
   }
 
   .tel2 {
     position: absolute;
-    top: 0;
+    top: 31px;
     left: -121px;
+    z-index: 0;
   }
 }
 
