@@ -15,7 +15,8 @@
         <div class="service-provider-container our-service-inner our-service-inner-effect">
             <div class="provider-text-inner text-center">
                 <p class="title title-before-after-effect color-style text-center title-center">
-                    <?= the_field('s_heading'); ?></p>
+                    <?= the_field('s_heading'); ?>
+                </p>
             </div>
 
             <?php
@@ -65,6 +66,8 @@
                         endif; ?>
                         <?php if ($service_link): ?>
                             <a class="our-aircraft-link link-left-inner" href="<?= $service_link ?>">
+                                <img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.png" alt="">
+                                <img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.png" alt="">
                                 <span class="menu-link index">
                                     Explore More
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">

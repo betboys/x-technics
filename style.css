@@ -2540,10 +2540,6 @@ input {
     font-size: 22px;
   }
 
-  .menu-link:hover {
-    color: #0071AA;
-  }
-
   .menu-link:hover .dropdown-icon-fill {
     fill: #0071AA;
   }
