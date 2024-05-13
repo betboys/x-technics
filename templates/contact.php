@@ -39,8 +39,8 @@
 						FACEBOOK
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt=""> -->
-							<span
-								class="text-underline text-underline-none"><?= the_field('facebook_page_title', 'option'); ?></span>
+							<!-- <span
+								class="text-underline text-underline-none"><?= the_field('facebook_page_title', 'option'); ?></span> -->
 						</a>
 					</li>
 				<?php endif; ?>
@@ -50,8 +50,8 @@
 						LINKEDIN
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt=""> -->
-							<span
-								class="text-underline text-underline-none"><?= the_field('linkedin_page_title', 'option'); ?></span>
+							<!-- <span
+								class="text-underline text-underline-none"><?= the_field('linkedin_page_title', 'option'); ?></span> -->
 						</a>
 					</li>
 				<?php endif; ?>

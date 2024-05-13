@@ -816,6 +816,11 @@ input {
   transition: .3s;
 }
 
+.prev-mobile,
+.next-mobile {
+  display: none;
+}
+
 .prev-st {
   position: absolute;
   left: 0;
@@ -3496,16 +3501,12 @@ input {
   .swiper-button-prev,
   .swiper-button-next {
     width: 122px;
+    height: 54px;
   }
 
-  .swiper-button-prev,
-  .swiper-button-prev::before {
-    clip-path: polygon(25% 0.00%, 100% 0.00%, 100% 35%, 75% 100%, 0.00% 100%, 0.00% 69%);
-  }
-
-  .swiper-button-next,
-  .swiper-button-next::before {
-    clip-path: polygon(0.00% 0.00%, 75% 0.00%, 100% 70%, 100% 100%, 25% 100%, 0.00% 35%);
+  .prev-mobile,
+  .next-mobile {
+    display: block;
   }
 
   .next-prev-buuton {
