@@ -4179,14 +4179,14 @@ input {
 
   .tel1 {
     position: absolute;
-    top: 31px;
+    top: 60px;
     right: -62px;
     z-index: 0;
   }
 
   .tel2 {
     position: absolute;
-    top: 31px;
+    top: 60px;
     left: -121px;
     z-index: 0;
   }
