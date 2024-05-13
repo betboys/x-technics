@@ -438,6 +438,22 @@ if (document.querySelector('.aircraft-borescope')) {
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
+if (document.getElementById("contact-us-mobile")) {
+  // -----Country Code Selection
+  $("#mobile_code").intlTelInput({
+    initialCountry: "am",
+    separateDialCode: true,
+  });
+  // form text
+  let subscribe = document.querySelector('.subscribe-text');
+  let footerForm = document.querySelector('.footer-form');
+  let footerInner = document.querySelector('.logo-links-inner');
+
+  if (window.innerWidth < 1001) {
+    footerInner.append(subscribe, footerForm)
+  }
+}
+
 if (window.innerWidth <= 960) {
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');
@@ -446,23 +462,4 @@ if (window.innerWidth <= 960) {
   item.addEventListener('click', function (e) {
     item.href = 'https://x-technics.com/contact-us/';
   })
-}
-
-// cookies, privacy-policy, terms-of-service
-// if (document.querySelector('.security-inner')) {
-//   let headerUl = document.querySelector('.header-menu-inner');
-//   let headerUlList = headerUl.querySelectorAll('.header-menu-list');
-//   let last = headerUlList[headerUlList.length - 1];
-//   let item = last.querySelector('.menu-link');
-//   item.addEventListener('click', function (e) {
-//     item.href = 'https://x-technics.com/#contact-us';
-//   })
-// }
-
-if (document.getElementById("contact-us-mobile")) {
-  // -----Country Code Selection
-  $("#mobile_code").intlTelInput({
-    initialCountry: "am",
-    separateDialCode: true,
-  });
 }
