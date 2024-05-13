@@ -830,6 +830,7 @@ input {
   background: url(images/linear.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-us-container {
