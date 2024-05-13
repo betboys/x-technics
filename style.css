@@ -707,6 +707,19 @@ input {
   background-repeat: no-repeat;
 }
 
+.swiper-button-next.swiper-button-disabled>.next-st {
+  display: none;
+}
+
+.swiper-button-next:disabled {
+  width: 180px;
+  height: 54px;
+  background: url(https://x-technics.com/ysteeshy/2024/05/next-disabled.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .swiper-button-prev.swiper-button-disabled svg g path,
 .swiper-button-next.swiper-button-disabled svg g path {
   fill: #868E96;
