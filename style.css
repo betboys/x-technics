@@ -247,7 +247,8 @@ input {
   left: -68px;
   top: -58px;
   z-index: -1;
-  transition: .3s
+  transition: .3s;
+  opacity: 0;
 }
 
 .header-menu-list:hover:last-child .menu-link::before {
