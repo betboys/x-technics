@@ -259,8 +259,8 @@ input {
   opacity: 1;
 }
 
-.dropdown-menu>.header-menu-list:hover:last-child .menu-link::before,
-.dropdown-menu>.header-menu-list:hover:last-child .menu-link::after {
+.dropdown-menu>.header-menu-list:last-child .menu-link::before,
+.dropdown-menu>.header-menu-list:last-child .menu-link::after {
   content: none;
 }
 
