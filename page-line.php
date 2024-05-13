@@ -45,6 +45,8 @@
                     <div class="swiper-pagination mobile-pagination"></div>
                     <div class="next-prev-buuton mobile-buttons">
                         <button class="swiper-button-prev mobile-style-btn-prev">
+                            <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png"
+                                alt="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <g clip-path="url(#clip0_4019_3733)">
@@ -60,6 +62,8 @@
                             </svg>
                         </button>
                         <button class="swiper-button-next mobile-style-btn-next">
+                            <img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png"
+                                alt="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <g clip-path="url(#clip0_4019_3743)">
@@ -106,7 +110,8 @@
             <div class="left-text-rigth-image-cont line-intro">
                 <div class="left-text-cont" data-aos="fade-right">
                     <p class="title title-before-after-effect none-effect text-left">
-                        <?= the_field('wwd_heading'); ?></p>
+                        <?= the_field('wwd_heading'); ?>
+                    </p>
                     <p class="element-subtitle"><?= the_field('wwd_desc'); ?></p>
                 </div>
                 <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">

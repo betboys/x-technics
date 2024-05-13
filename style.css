@@ -3001,34 +3001,6 @@ input {
     width: 122px;
   }
 
-  .mobile-style-btn-prev {
-    clip-path: polygon(25% 0.00%, 100% 0.00%, 100% 35%, 75% 100%, 0.00% 100%, 0.00% 69%);
-  }
-
-  .mobile-style-btn-next,
-  .mobile-style-btn-next::before {
-    clip-path: polygon(0.00% 0.00%, 75% 0.00%, 100% 70%, 100% 100%, 25% 100%, 0.00% 35%);
-  }
-
-  .swiper-button-prev.swiper-button-disabled::before {
-    clip-path: polygon(25% 0.00%, 100% 0.00%, 100% 35%, 75% 100%, 0.00% 100%, 0.00% 69%);
-    content: '';
-    position: absolute;
-    inset: 1.5px;
-    background: #070f18;
-  }
-
-  .mobile-style-btn-prev::before {
-    clip-path: polygon(25% 0.00%, 100% 0.00%, 100% 35%, 75% 100%, 0.00% 100%, 0.00% 69%);
-    content: '';
-    position: absolute;
-    inset: 1.5px;
-    background: #070f18;
-  }
-
-
-
-
   .mobile-pagination {
     margin-top: 32px;
   }
