@@ -3162,6 +3162,11 @@ input {
     background-repeat: no-repeat;
   }
 
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 122px;
+  }
+
   .swiper-button-disabled>.prev-mobile,
   .swiper-button-disabled>.next-mobile {
     display: none;
