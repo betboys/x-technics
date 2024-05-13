@@ -1,4 +1,5 @@
-<?php get_header(); ?>
+<?php get_header(); 
+/* Template Name: Contact us Template */ ?>
 
 <section class="contact-us" id="contact-us-mobile">
 	<h3 class="title title-before-after-effect"><?= the_field('contact_section_title', 'option'); ?></h3>
