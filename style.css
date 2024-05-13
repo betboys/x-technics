@@ -2473,7 +2473,8 @@ input {
 }
 
 .ndt-inner .detailing-services-list {
-  margin-left: 16px;
+  margin-left: 0;
+  display: flex;
 }
 
 /* single service aricraft ndt */
