@@ -2838,7 +2838,12 @@ input {
   }
 
   .this-content-intro {
-    width: 15.5vw;
+    width: 222px;
+  }
+
+  .info-flex-div {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   .left-text-cont {
