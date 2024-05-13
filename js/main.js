@@ -438,6 +438,20 @@ if (document.querySelector('.aircraft-borescope')) {
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
+let headerUl = document.querySelector('.header-menu-inner');
+let headerUlList = headerUl.querySelectorAll('.header-menu-list');
+let last = headerUlList[headerUlList.length - 1];
+let item = last.querySelector('.menu-link');
+
+item.click(function (e) {
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if (target.length) {
+    var scrollTo = target.offset().top;
+    $('body, html').animate({ scrollTop: scrollTo + 'px' }, 800);
+  }
+});
+
 if (document.getElementById("contact-us-mobile")) {
   // -----Country Code Selection
   $("#mobile_code").intlTelInput({
