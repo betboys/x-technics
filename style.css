@@ -90,12 +90,12 @@ input {
 }
 
 .left {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 1000;
   height: 100%;
-  width: 75%;
+  width: calc(70% + 17 * (100vw - 960px) / 60);
   display: none;
   background: none;
 }
