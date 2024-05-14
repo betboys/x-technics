@@ -12,6 +12,8 @@
 
 <body <?php body_class(); ?>>
 	<main class="main">
+	<div class="left"></div>
+
 		<header itemscope itemtype="http://schema.org/WPHeader" class="header">
 			<div class="header-container">
 				<a class="link" href="<?php echo get_bloginfo('url'); ?>">

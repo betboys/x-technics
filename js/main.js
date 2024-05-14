@@ -20,15 +20,26 @@ if (window.innerWidth <= 960) {
   let openMenu = document.querySelector('.open-menu');
   let closeMenu = document.querySelector('.close-menu');
   let navigation = document.querySelector('.header-navigation');
+  let left = document.querySelector(".left");
 
   openMenu.addEventListener('click', function () {
+    left.style.display = "block";
     headerBefore.classList.add('style');
     navigation.style.display = 'block';
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
   });
 
+  left.addEventListener("click", function () {
+		left.style.display = "none"
+		headerBefore.classList.remove('style');
+		navigation.style.display = 'none';
+		closeMenu.style.display = 'none';
+		openMenu.style.display = 'block';
+	});
+
   closeMenu.addEventListener('click', function () {
+    left.style.display = "none";
     headerBefore.classList.remove('style');
     navigation.style.display = 'none';
     closeMenu.style.display = 'none';
