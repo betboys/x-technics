@@ -35,13 +35,6 @@ if (window.innerWidth <= 960) {
     openMenu.style.display = 'block';
   });
 
-  headerBefore.addEventListener('click', function () {
-    headerBefore.classList.remove('style');
-    navigation.style.display = 'none';
-    closeMenu.style.display = 'none';
-    openMenu.style.display = 'block';
-  });
-
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');
   let last = headerUlList[headerUlList.length - 1];
