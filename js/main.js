@@ -35,6 +35,13 @@ if (window.innerWidth <= 960) {
     openMenu.style.display = 'block';
   });
 
+  headerBefore.addEventListener('click', function () {
+    headerBefore.classList.remove('style');
+    navigation.style.display = 'none';
+    closeMenu.style.display = 'none';
+    openMenu.style.display = 'block';
+  });
+
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');
   let last = headerUlList[headerUlList.length - 1];
@@ -230,7 +237,7 @@ if (document.querySelector('.aircraft-battery')) {
   let headerContainer = document.querySelector('.header-container');
   let swiperContainer = document.querySelectorAll('.swiper-container');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`); 
+  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
 // Service single page` aircraft detailing
