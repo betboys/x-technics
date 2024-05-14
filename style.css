@@ -108,7 +108,6 @@ input {
   top: 0;
   z-index: 100;
   padding: 23px 0;
-  border-bottom: 0.5px solid #ADB5BD;
   background: rgba(1, 1, 2, 0.60);
   background-blend-mode: luminosity;
   backdrop-filter: blur(21.75px);
@@ -424,8 +423,19 @@ input {
   object-fit: unset;
 }
 
+.services-content-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: .8s;
+}
+
 .services-content-image-hover {
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: .8s;
+  opacity: 0;
 }
 
 @keyframes changeBackgroundColor {
@@ -450,16 +460,6 @@ input {
   100% {
     background-color: #24B6FF;
   }
-}
-
-.services-content-list:first-child,
-.services-content-list:first-child .services-content-image {
-  clip-path: polygon(10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 10%);
-}
-
-.services-content-list:last-child,
-.services-content-list:last-child .services-content-image {
-  clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 90%, 90% 100%, 0.00% 100%);
 }
 
 .services-content-list:nth-child(3),
@@ -2671,11 +2671,11 @@ input {
   }
 
   .services-content-list:hover .services-content-image {
-    display: none;
+    opacity: 0;
   }
 
   .services-content-list:hover .services-content-image-hover {
-    display: block;
+    opacity: 1;
   }
 
   .socal-media-iink:hover {
