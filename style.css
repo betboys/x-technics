@@ -3639,8 +3639,16 @@ input {
 
   .home-hero-img {
     width: 895px;
+    height: unset;
     object-fit: cover;
     top: -6rem;
+  }
+
+  .about-hero-img {
+    right: -10rem;
+    width: 1000px;
+    height: unset;
+    top: -3rem;
   }
 
   .menu-link {
@@ -4176,6 +4184,11 @@ input {
     width: unset;
     height: 300px;
     left: 0;
+  }
+
+  .cover-image,
+  .about-cover-image {
+    opacity: .5 !important;
   }
 
   .certificate-image {
