@@ -2,7 +2,17 @@
 	<h3 class="title title-before-after-effect"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links" data-aos="fade-left">
-			<p class="contact-us-heading"><?= the_field('contact_section_subtitle', 'option'); ?></p>
+			<?php
+			$featured_posts = get_field('contact_title');
+			if ($featured_posts): ?>
+				<?php foreach ($featured_posts as $featured_post):
+					$card_subtitle = get_field('contact_title', $featured_post->ID);
+					?>
+					<p class="contact-us-heading"><?php echo $card_subtitle; ?></p>
+				<?php endforeach;
+				wp_reset_postdata(); ?>
+			<?php endif; ?>
+			<!-- <p class="contact-us-heading"><?= the_field('contact_section_subtitle', 'option'); ?></p> -->
 			<ul class="socal-media-inner">
 				<?php if (get_field('phone_number', 'option')): ?>
 					<li class="socal-media-iist">
@@ -36,7 +46,7 @@
 				<?php if (get_field('facebook', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('facebook', 'option'); ?>">
-						FACEBOOK
+							FACEBOOK
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt=""> -->
 							<!-- <span
@@ -47,7 +57,7 @@
 				<?php if (get_field('linkedin', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('linkedin', 'option'); ?>">
-						LINKEDIN
+							LINKEDIN
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt=""> -->
 							<!-- <span
@@ -110,7 +120,8 @@
 				<div class="email-phone-inner">
 					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
 					<div class="phone-input">
-						<input class="input" type="number" id="mobile_code" class="form-control" placeholder="Phone Number" name="" required>
+						<input class="input" type="number" id="mobile_code" class="form-control"
+							placeholder="Phone Number" name="" required>
 						<!-- <span class="phone-text">Phone Number</span> -->
 					</div>
 				</div>
@@ -119,8 +130,8 @@
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.png" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.png" alt="">
+					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.png" alt="">
+					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.png" alt="">
 					<span class="menu-link index">SEND A QUOTE</span>
 				</button>
 			</form>
