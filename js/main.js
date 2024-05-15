@@ -215,7 +215,7 @@ if (document.querySelector('.aircraft-line')) {
   }
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
@@ -248,7 +248,7 @@ if (document.querySelector('.aircraft-battery')) {
     });
   }
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
@@ -282,7 +282,7 @@ if (document.querySelector('.detailing-cover')) {
   }
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
@@ -315,7 +315,7 @@ if (document.querySelector('.aircraft-ndt')) {
   });
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }
@@ -366,7 +366,7 @@ if (document.querySelector('.wheel-cover')) {
   }
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
 }
@@ -453,7 +453,7 @@ if (document.querySelector('.aircraft-borescope')) {
   });
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
 }

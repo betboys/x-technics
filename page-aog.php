@@ -17,7 +17,7 @@
             <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
             <div class="swiper-container" data-aos="fade-right">
                 <div class="swiper">
-                    <div class="swiper-wrapper offer-flex">
+                    <div class="swiper-wrapper offer-flex aod-offer-flex">
                         <?php
                         if (have_rows('features')):
                             while (have_rows('features')):
@@ -26,7 +26,7 @@
 
                                 $feature_desc = get_sub_field('license_desc');
                                 ?>
-                                <div class="swiper-slide offer-list">
+                                <div class="swiper-slide offer-list aod-offer-list">
                                     <img class="offer-img" src="<?= $icon_feautres ?>" alt="">
                                     <div class="offer-content"><?= $feature_desc ?></div>
                                 </div>

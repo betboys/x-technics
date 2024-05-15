@@ -2105,6 +2105,16 @@ input {
   animation: changeBackgroundColor 5s linear infinite;
 }
 
+.aod-offer-flex {
+  margin-inline: unset;
+}
+
+.aod-offer-list {
+  width: 276px;
+  height: 244px;
+  padding: 20px 24px;
+}
+
 .offer-list::before {
   content: '';
   position: absolute;
