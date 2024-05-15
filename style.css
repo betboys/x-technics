@@ -4312,6 +4312,13 @@ input {
     right: -7rem;
     top: 0rem;
   }
+
+  .aog-single-img {
+    width: 750px;
+    height: unset;
+    right: -9.5rem;
+    top: 0;
+}
 }
 
 @media (max-width: 390px) {

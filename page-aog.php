@@ -9,7 +9,7 @@
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>"
-                alt="" data-aos="fade-right">
+                alt="">
 
         </div>
         <div class="offer-inner aog-inner">
