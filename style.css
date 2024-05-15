@@ -40,7 +40,7 @@
 body {
   font-family: 'blender book';
   font-size: 16px;
-  font-weight: unset;
+  font-weight: normal;
   line-height: 100%;
   color: #fff;
 }
@@ -142,6 +142,7 @@ input {
   gap: 8px;
   font-family: 'blender medium';
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   letter-spacing: -0.002em;
   color: #fff;
@@ -186,6 +187,7 @@ input {
 .dropdown-menu .header-menu-list .menu-link {
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   letter-spacing: -0.032px;
   color: #FFF;
   justify-content: start;
@@ -204,6 +206,7 @@ input {
   background: none;
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   letter-spacing: -0.032px;
   color: #FFF;
   justify-content: start;
@@ -221,6 +224,7 @@ input {
   height: 54px;
   font-size: 20px;
   font-family: "blender heavy";
+  font-weight: normal;
   transition: .3s;
   color: #010102;
   text-transform: uppercase;
@@ -307,6 +311,7 @@ input {
 .cover-title {
   font-family: conthrax;
   font-size: 52px;
+  font-weight: normal;
   line-height: 140%;
   background: linear-gradient(90deg, #687EFF 0%, #98E4FF 101.8%);
   background-clip: text;
@@ -322,6 +327,7 @@ input {
 .subtitle {
   font-family: 'blender book';
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   letter-spacing: -0.002em;
   color: #ADB5BD;
@@ -345,6 +351,7 @@ input {
 .cover-link-text {
   font-family: 'blender heavy';
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   color: #010102;
   position: relative;
@@ -372,6 +379,7 @@ input {
 .title {
   font-family: conthrax;
   font-size: 32px;
+  font-weight: normal;
   line-height: 119%;
   letter-spacing: 0.1em;
   color: #24B6FF;
@@ -470,6 +478,7 @@ input {
   justify-content: space-between;
   font-family: 'blender bold';
   font-size: 40px;
+  font-weight: normal;
   line-height: normal;
   color: #fff;
   transition: .3s;
@@ -626,6 +635,7 @@ input {
   margin-left: 24px;
   font-family: 'blender bold';
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   color: #fff;
 }
@@ -782,6 +792,7 @@ input {
   margin-top: 32px;
   font-family: "blender book";
   font-size: 20px;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -916,6 +927,7 @@ input {
 .contact-us-heading {
   font-family: "blender bold";
   font-size: 32px;
+  font-weight: normal;
   line-height: 160%;
   letter-spacing: -0.064px;
   color: #24B6FF;
@@ -935,6 +947,7 @@ input {
   padding: 10px;
   font-family: "blender book";
   font-size: 16px;
+  font-weight: normal;
   letter-spacing: 0.32px;
   color: #CED4DA;
   transition: .3s;
@@ -960,6 +973,7 @@ input {
   color: #0496DF;
   font-family: "blender bold";
   font-size: 16px;
+  font-weight: normal;
   line-height: normal;
   letter-spacing: 0.32px;
 }
@@ -986,6 +1000,7 @@ input {
 .form-title {
   font-family: "blender medium";
   font-size: 20px;
+  font-weight: normal;
   color: #F8F9FA;
   position: relative;
 }
@@ -1017,6 +1032,7 @@ input {
 .label {
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   line-height: 150%;
   color: #FFF;
   padding: 10px 12px;
@@ -1057,6 +1073,7 @@ input {
   width: 100%;
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   line-height: 125%;
   color: #fff;
   padding: 10px 0;
@@ -1141,6 +1158,7 @@ input {
   top: -20px;
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   line-height: 125%;
   color: #ADB5BD;
 }
@@ -1153,6 +1171,7 @@ input {
   padding: 10px;
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   color: #E9ECEF;
   background: none;
 }
@@ -1218,6 +1237,7 @@ input {
 .terms-privacy-cookies-link {
   font-family: "blender medium";
   font-size: 16px;
+  font-weight: normal;
   line-height: 160%;
   letter-spacing: -0.032px;
   color: #CED4DA;
@@ -1229,6 +1249,7 @@ input {
   margin-top: 32px;
   font-family: "blender book";
   font-size: 14px;
+  font-weight: normal;
   color: #ADB5BD;
 }
 
@@ -1239,6 +1260,7 @@ input {
 .subscribe-text {
   font-family: "blender bold";
   font-size: 20px;
+  font-weight: normal;
   line-height: 160%;
   letter-spacing: -0.04px;
   color: #CED4DA;
@@ -1423,6 +1445,7 @@ input {
   padding: 0 24px;
   font-family: "blender bold";
   font-size: 20px;
+  font-weight: normal;
   line-height: 130%;
   color: #FFF;
   transition: .3s;
@@ -1475,6 +1498,7 @@ input {
   text-align: center;
   font-family: "blender book";
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   padding-bottom: 24px;
 }
@@ -1606,6 +1630,7 @@ input {
   font-family: "blender medium";
   font-size: 20px;
   font-style: normal;
+  font-weight: normal;
   line-height: 140%;
   color: #FFF;
 }
@@ -1614,6 +1639,7 @@ input {
   margin-top: 8px;
   font-family: "blender book";
   font-size: 16px;
+  font-weight: normal;
   line-height: 150%;
   color: #ADB5BD;
 }
@@ -1624,6 +1650,7 @@ input {
   gap: 30px;
   font-family: "blender medium";
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   color: #FFF;
   transition: .3s;
@@ -1744,6 +1771,7 @@ input {
   margin-top: 24px;
   font-family: "blender medium";
   font-size: 20px;
+  font-weight: normal;
   line-height: 122%;
   color: #FFF;
 }
@@ -1762,6 +1790,7 @@ input {
   font-family: "blender book";
   font-size: 20px;
   font-style: normal;
+  font-weight: normal;
   line-height: 122%;
   color: #ADB5BD;
   display: flex;
@@ -1891,6 +1920,7 @@ input {
 .element-title {
   font-family: "blender bold";
   font-size: 20px;
+  font-weight: normal;
   line-height: 122%;
   color: #F8F9FA;
   text-transform: capitalize;
@@ -1900,6 +1930,7 @@ input {
   margin-top: 16px;
   font-family: "blender book";
   font-size: 18px;
+  font-weight: normal;
   line-height: 122%;
   color: #ADB5BD;
   position: relative;
@@ -2007,6 +2038,7 @@ input {
   padding: 0 24px;
   font-family: "blender bold";
   font-size: 20px;
+  font-weight: normal;
   line-height: 120%;
   color: #FFF;
   transition: .3s;
@@ -2108,6 +2140,7 @@ input {
   margin-top: 12px;
   font-family: "blender book";
   font-size: 18px;
+  font-weight: normal;
   line-height: 122%;
   color: #ADB5BD;
   position: relative;
@@ -2119,6 +2152,7 @@ input {
 
 .offer-content-span {
   font-family: "blender bold";
+  font-weight: normal;
   color: #24B6FF;
 }
 
@@ -2271,6 +2305,7 @@ input {
   margin-top: 16px;
   font-family: "blender medium";
   font-size: 20px;
+  font-weight: normal;
   line-height: 160%;
   color: #FFF;
   text-align: center;
@@ -2378,6 +2413,7 @@ input {
   margin-bottom: 24px;
   font-family: "blender book";
   font-size: 20px;
+  font-weight: normal;
   line-height: 122%;
   color: #ADB5BD;
   display: flex;
@@ -2565,6 +2601,7 @@ input {
   -webkit-text-fill-color: transparent;
   font-family: conthrax;
   font-size: 52px;
+  font-weight: normal;
   line-height: 140%;
   text-transform: capitalize;
   text-align: center;
@@ -2577,6 +2614,7 @@ input {
 .security-inner .security-inner-container>ul>li {
   font-family: "blender book";
   font-size: 20px;
+  font-weight: normal;
   line-height: 140%;
   letter-spacing: -0.04px;
   color: #ADB5BD;
@@ -2586,6 +2624,7 @@ input {
 .security-inner .security-inner-container>h3 {
   font-family: conthrax;
   font-size: 20px;
+  font-weight: normal;
   line-height: 130%;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -3711,6 +3750,7 @@ input {
   .select-text {
     font-family: "blender medium";
     font-size: 18px;
+    font-weight: normal;
     line-height: 100%;
     color: #ADB5BD;
   }
@@ -4109,6 +4149,7 @@ input {
     gap: 8px;
     font-family: 'blender medium';
     font-size: 22px;
+    font-weight: normal;
     line-height: 120%;
     letter-spacing: -0.002em;
     color: #fff;
