@@ -3637,6 +3637,12 @@ input {
     --width: min(100% - 32px);
   }
 
+  .home-hero-img {
+    width: 895px;
+    object-fit: cover;
+    top: -6rem;
+  }
+
   .menu-link {
     font-size: 24px;
     justify-content: start;
@@ -4170,11 +4176,6 @@ input {
     width: unset;
     height: 300px;
     left: 0;
-  }
-
-  .cover-image,
-  .about-cover-image {
-    opacity: .5 !important;
   }
 
   .certificate-image {

@@ -8,7 +8,7 @@
                 <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image" src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
+            <img class="about-cover-image about-hero-img" src="<?= the_field('image'); ?>" alt="">
 
         </div>
         <div class="about-aour-mission">
