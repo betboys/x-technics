@@ -28,7 +28,7 @@
                                 ?>
                                 <div class="swiper-slide offer-list aod-offer-list">
                                     <img class="offer-img" src="<?= $icon_feautres ?>" alt="">
-                                    <div class="offer-content"><?= $feature_desc ?></div>
+                                    <div class="offer-content aod-offer-content"><?= $feature_desc ?></div>
                                 </div>
                             <?php endwhile;
                         endif;

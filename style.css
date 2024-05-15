@@ -2146,6 +2146,10 @@ input {
   position: relative;
 }
 
+.aod-offer-content {
+  font-size: 20px;
+}
+
 .offer-content-span {
   font-family: "blender bold";
   font-weight: 700;
