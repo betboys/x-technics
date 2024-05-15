@@ -417,7 +417,7 @@ if (document.querySelector('.aircraft-maintenance')) {
   }
 
   let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let swiperContainer = document.querySelectorAll('.swiper-wrapper');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('margin-left');
   swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
 }

@@ -2,16 +2,6 @@
 	<h3 class="title title-before-after-effect"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links" data-aos="fade-left">
-			<!-- <?php
-			$featured_posts = get_field('contact_title');
-			if ($featured_posts): ?>
-				<?php foreach ($featured_posts as $featured_post):
-					$card_subtitle = get_field('contact_title', $featured_post->ID);
-					?>
-					<p class="contact-us-heading"><?php echo $card_subtitle; ?></p>
-				<?php endforeach;
-				wp_reset_postdata(); ?>
-			<?php endif; ?> -->
 			<p class="contact-us-heading"><?= the_field('contact_title'); ?></p>
 			<ul class="socal-media-inner">
 				<?php if (get_field('phone_number', 'option')): ?>

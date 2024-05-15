@@ -630,7 +630,7 @@ input {
 }
 
 .our-aircraft-text {
-  width: 103px;
+  width: 113px;
   position: absolute;
   margin-left: 24px;
   font-family: 'blender bold';
@@ -2097,10 +2097,10 @@ input {
 }
 
 .offer-list {
-  width: 276px;
-  height: 244px;
+  width: 200px;
+  height: 200px;
   background: #0071AA;
-  padding: 20px 24px;
+  padding: 20px 18px;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
 }
@@ -4247,6 +4247,7 @@ input {
 
 @media (max-width: 480px) {
   .our-aircraft-text {
+    width: 103px;
     font-size: 16px;
   }
 
