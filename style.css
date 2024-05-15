@@ -3637,20 +3637,6 @@ input {
     --width: min(100% - 32px);
   }
 
-  .home-hero-img {
-    width: 895px;
-    height: unset;
-    object-fit: cover;
-    top: -6rem;
-  }
-
-  .about-hero-img {
-    right: -10rem;
-    width: 1000px;
-    height: unset;
-    top: -3rem;
-  }
-
   .menu-link {
     font-size: 24px;
     justify-content: start;
@@ -3873,11 +3859,6 @@ input {
   .information-intro-list {
     padding-bottom: 16px;
     margin-bottom: 16px;
-  }
-
-  .serive-cover-image {
-    height: 400px;
-    right: -14rem;
   }
 
   .ensurin-continuous {
@@ -4178,11 +4159,6 @@ input {
     left: 0;
   }
 
-  .cover-image,
-  .about-cover-image {
-    opacity: .5 !important;
-  }
-
   .certificate-image {
     width: 100%;
     height: unset;
@@ -4307,6 +4283,28 @@ input {
 
   .about-left-img {
     width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .home-hero-img {
+    width: 895px;
+    height: unset;
+    object-fit: cover;
+    top: -6rem;
+  }
+
+  .about-hero-img {
+    right: -10rem;
+    width: 1000px;
+    height: unset;
+    top: -3rem;
+    opacity: .5;
+  }
+
+  .serive-hero-img {
+    width: 570px;
+    top: -4.3rem;
   }
 }
 
