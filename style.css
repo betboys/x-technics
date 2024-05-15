@@ -2100,7 +2100,7 @@ input {
   width: 200px;
   height: 200px;
   background: #0071AA;
-  padding: 20px 18px;
+  padding: 20px 25px 20px 24px;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
 }
@@ -2139,7 +2139,7 @@ input {
 .offer-content {
   margin-top: 12px;
   font-family: "blender book";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 122%;
   color: #ADB5BD;
