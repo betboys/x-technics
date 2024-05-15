@@ -8,8 +8,7 @@
                 <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image single-service-width-image" src="<?= the_field('image'); ?>" alt=""
-                data-aos="fade-right">
+            <img class="about-cover-image single-service-width-image battery-hero-img" src="<?= the_field('image'); ?>" alt="">
         </div>
         <div class="offer-inner battery-offer">
             <div class="left-text-rigth-image-cont row-reverse">
