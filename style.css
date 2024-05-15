@@ -3656,10 +3656,6 @@ input {
     justify-content: start;
   }
 
-  .cover-image {
-    width: max-content;
-  }
-
   .cover-title {
     font-size: 40px;
   }
