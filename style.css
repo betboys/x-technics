@@ -40,7 +40,7 @@
 body {
   font-family: 'blender book';
   font-size: 16px;
-  font-weight: normal;
+  font-weight: unset;
   line-height: 100%;
   color: #fff;
 }
