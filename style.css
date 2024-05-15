@@ -4298,13 +4298,19 @@ input {
     right: -10rem;
     width: 1000px;
     height: unset;
-    top: -3rem;
+    top: 0;
     opacity: .5;
   }
 
   .serive-hero-img {
     width: 570px;
-    top: -4.3rem;
+    top: 0;
+  }
+
+  .line-single-img {
+    width: 1050px;
+    right: -7rem;
+    top: 0rem;
   }
 }
 
