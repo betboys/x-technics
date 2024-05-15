@@ -9,7 +9,7 @@
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-width-image borescope-image-cover"
-                src="<?= the_field('image'); ?>" alt="" data-aos="fade-right">
+                src="<?= the_field('image'); ?>" alt="">
         </div>
     </div>
     <div class="swiper-slide-inner borescopes-slide-top">

@@ -9,7 +9,7 @@
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-aircraft-image detailing-width-img"
-                src="<?= the_field('image'); ?>" alt="" data-aos="fade-left">
+                src="<?= the_field('image'); ?>" alt="">
         </div>
         <div class="detailing-services">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>

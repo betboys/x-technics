@@ -9,7 +9,7 @@
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
             <img class="about-cover-image single-service-width-image ndt-image-cover" src="<?= the_field('image'); ?>"
-                alt="" data-aos="fade-right">
+                alt="">
         </div>
         <div class="detailing-services borescope-service-single">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>

@@ -4325,6 +4325,33 @@ input {
     right: -4rem !important;
     width: 850px;
   }
+
+  .wheel-image {
+    width: 850px;
+    right: -9rem;
+    top: 0;
+  }
+
+  .detailing-width-img {
+    width: 750px;
+    height: unset;
+    top: 0;
+    right: -3rem;
+  }
+
+  .borescope-image-cover {
+    width: 630px;
+    right: 0rem !important;
+    height: unset;
+    top: 0;
+  }
+
+  .ndt-image-cover {
+    width: 700px;
+    right: -3rem !important;
+    height: unset;
+    top: 0;
+  }
 }
 
 @media (max-width: 390px) {
