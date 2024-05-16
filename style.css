@@ -2716,7 +2716,11 @@ input {
 }
 
 /* responsive */
-
+@media (max-width: 1400px) {
+  :root {
+    --paddingLeftAndRight: 8.333vw;
+  }
+}
 
 
 /* @media (max-width: 1700px) {
