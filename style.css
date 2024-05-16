@@ -2968,6 +2968,8 @@ input {
     align-items: start;
     gap: 32px;
     margin-left: 24px;
+    position: relative;
+    z-index: 100;
   }
 
   .menu-link {
