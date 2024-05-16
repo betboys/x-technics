@@ -2,7 +2,7 @@
 /* Template Name: AOG Maintenance Template */
 ?>
 <section class="service-cover aircraft-maintenance">
-    <div class="about-title-subtitle-inner">
+    <div class="aog-title-subtitle-inner">
         <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
     </div>
