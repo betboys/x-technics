@@ -2,16 +2,14 @@
 /* Template Name: About us Template */ ?>
 
 <section class="about-cover">
-    <div class="about-cover-container">
-        <div class="about-title-subtitle">
             <div class="about-title-subtitle-inner">
                 <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
                 <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
             </div>
-            <img class="about-cover-image about-hero-img" src="<?= the_field('image'); ?>" alt="">
+            <img class="about-hero-img" src="<?= the_field('image'); ?>" alt="">
+</section>
 
-        </div>
-        <div class="about-aour-mission">
+<div class="about-aour-mission">
             <h3 class="title title-before-after-effect"><?= the_field('our_mission_title'); ?></h3>
             <p class="subtitle subtitle-center"><?= the_field('our_mission_description'); ?></p>
         </div>
@@ -108,8 +106,6 @@
                 </a>
             </div>
         </div>
-    </div>
-</section>
 
 <?php echo get_template_part('templates/contact'); ?>
 

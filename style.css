@@ -867,7 +867,7 @@ input {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 10px;
+  padding: 10px 24px;
   font-family: "blender book";
   font-size: 16px;
   font-weight: normal;
@@ -1207,7 +1207,7 @@ input {
 /* about us */
 .about-cover {
   width: 100%;
-  margin-top: 101px;
+  padding-top: 101px;
   position: relative;
 }
 
@@ -1225,18 +1225,12 @@ input {
   z-index: 1;
 }
 
-.about-cover-container {
-  width: var(--width);
-  margin-inline: auto;
-}
-
-.about-title-subtitle {
-  width: 100%;
-}
-
 .about-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 126px;
+  width: 100%;
+  max-width: 540px;
   width: 740px;
-  padding-top: 7.25rem;
 }
 
 .about-cover-title {
@@ -1245,16 +1239,13 @@ input {
 }
 
 .about-cover-subtitle {
-  width: 529.9px;
   margin-top: 28px;
-  position: relative;
-  z-index: 1;
 }
 
-.about-cover-image {
+.about-hero-img {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
 }
 
 .about-aour-mission {

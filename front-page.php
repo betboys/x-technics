@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="home-cover">
-	<img class="cover-image home-hero-img" src="<?= the_field('image'); ?>" alt="">
+	<img class="home-hero-img" src="<?= the_field('image'); ?>" alt="">
 	<div class="cover-title-subtitle-inner">
 		<div data-aos="fade-right">
 			<h1 class="cover-title home-cover-title"><?= the_field('title'); ?></h1>
