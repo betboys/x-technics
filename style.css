@@ -81,6 +81,7 @@ input {
 
 :root {
   --width: 87.5vw;
+  --paddingLeftAndRight: 7.813vw;
 }
 
 .main {
@@ -114,8 +115,9 @@ input {
 }
 
 .header-container {
-  width: var(--width);
-  margin-inline: auto;
+  /* width: var(--width);
+  margin-inline: auto; */
+  padding: 0 var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -276,36 +278,13 @@ input {
   width: 100%;
   position: relative;
   z-index: 1;
-  margin-top: 101px;
-}
-
-.cover-image {
-  width: 77.604vw;
-  height: 33vw;
-  object-fit: fill;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.home-cover::before {
-  content: '';
-  position: absolute;
-  top: 19.188rem;
-  left: -22.938rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .cover-title-subtitle-inner {
-  width: var(--width);
+  padding-left: var(--paddingLeftAndRight);
+  /* width: var(--width);
   margin-inline: auto;
-  padding-top: 7.25rem;
+  padding-top: 7.25rem; */
 }
 
 .cover-title {
