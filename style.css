@@ -2314,6 +2314,26 @@ input {
 }
 
 /* single service detailing */
+.detailing-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  padding-bottom: 268px;
+  width: 100%;
+  max-width: 740;
+}
+
+.detailing-width-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.detailing-cover-subtitle {
+  width: 100%;
+  max-width: 540px;
+}
+
 .detailing-services {
   margin-top: 20.5rem;
   width: 800px;
