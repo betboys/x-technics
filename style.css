@@ -3320,12 +3320,22 @@ input {
   }
 
   .about-cards-container {
+    margin-top: 20px;
     grid-template-columns: repeat(auto-fill, minmax(209px, 1fr));
   }
 
   .about-card-text {
     font-size: 18px;
     padding-left: 16px;
+  }
+
+  .service-provider-container {
+    padding: 0 var(--paddingLeftAndRight);
+    padding-bottom: 112px;
+  }
+
+  .provider-text-inner>.subtitle-inner-top {
+    margin-top: 16px;
   }
 }
 
