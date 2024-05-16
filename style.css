@@ -3145,6 +3145,8 @@ input {
   }
 
   .cover-link {
+    display: flex;
+    margin-inline: auto;
     margin-top: 24px;
   }
 
