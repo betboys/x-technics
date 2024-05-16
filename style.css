@@ -1421,19 +1421,7 @@ input {
 }
 
 .service-card .about-card-list:last-child {
-  clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 86%, 86% 100%, 0.00% 100%);
-  background: #0071AA;
-  animation: changeBackgroundColor 5s linear infinite;
-}
-
-.service-card .about-card-list:last-child .about-card-img {
-  object-fit: cover;
-  clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 86%, 86% 100%, 0.00% 100%);
-}
-
-.service-card .about-card-list:last-child {
   display: block;
-  padding: 1px;
 }
 
 .our-link-inner {
@@ -1908,7 +1896,7 @@ input {
 
 .slide-image-size {
   width: 100%;
-  height: 100%;
+  height: unset;
   transform: scale(1);
 }
 
