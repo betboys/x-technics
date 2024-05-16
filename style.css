@@ -1327,11 +1327,6 @@ input {
   transform: rotate(-119deg) translate(-50%, -0.8px);
 }
 
-.about-card-list:first-child,
-.about-card-list:first-child .about-card-img {
-  clip-path: polygon(14% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 14%);
-}
-
 .about-card-img {
   width: 100%;
   height: 100%;
@@ -1911,20 +1906,7 @@ input {
   width: 21vw;
   height: 21vw;
   margin-right: 20px;
-  background: #24B6FF;
   position: relative;
-  animation: changeBackgroundColor 5s linear infinite;
-  padding: 1px;
-}
-
-.swiper-slide-margin-rigth:first-child,
-.swiper-slide-margin-rigth:first-child .service-single-link .slide-image-size {
-  clip-path: polygon(14% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 14%);
-}
-
-.swiper-slide-margin-rigth:last-child,
-.swiper-slide-margin-rigth:last-child .service-single-link .slide-image-size {
-  clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 86%, 86% 100%, 0.00% 100%)
 }
 
 .slide-image-size {
