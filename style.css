@@ -1512,9 +1512,7 @@ input {
 }
 
 .download-pdf {
-  margin-top: 7.5rem;
-  position: relative;
-  z-index: 1;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight); 
 }
 
 .download-pdf-container {
@@ -1681,14 +1679,25 @@ input {
 }
 
 /* single service aircraft */
-.single-service-aircraft-image {
+.aircraft-line {
   width: 100%;
-  height: unset;
-  z-index: 0;
+  padding-top: 100px;
+  position: relative;
 }
 
-.line-ensurin-continuous {
-  position: relative;
+.line-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  padding-bottom: 230px;
+  width: 100%;
+  max-width: 680px;
+}
+
+.aline-single-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .line-ensurin-continuous::before {
@@ -1724,17 +1733,26 @@ input {
 }
 
 .ensurin-continuous {
-  margin-top: 7.5rem;
-  position: relative;
-  z-index: 1;
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .content-text-inner {
-  width: 870px;
+  width: 100%;
+  max-width: 1030px;
+  padding-left: var(--paddingLeftAndRight);
 }
 
-.padding-rigth {
-  padding-right: 70px;
+.ensurin-continuous-subtitle {
+  margin-top: 24px;
+  font-family: "blender medium";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 122%;
+  color: #FFF;
+}
+
+.line-swiper-first {
+  margin-top: 32px;
 }
 
 .mobile-pagination,
@@ -1744,14 +1762,15 @@ input {
 
 .info-flex-div {
   width: 100%;
+  max-width: 1188px;
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
+  margin-inline: auto;
 }
 
 .this-content-intro {
-  width: 16.5vw;
-  height: 272px;
+  width: 222px;
   background: #0071AA;
   padding: 32px 20px;
   position: relative;
@@ -1764,7 +1783,6 @@ input {
   inset: 1.5px;
   background: #070f18;
 }
-
 
 .this-content-intro:first-child,
 .this-content-intro:first-child::before {
@@ -1804,7 +1822,9 @@ input {
 }
 
 .top-element {
-  margin-top: 7.75rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: 1500px;
 }
 
 .our-expertise-cont {
@@ -1847,7 +1867,7 @@ input {
 }
 
 .left-text-rigth-image-cont {
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1855,7 +1875,8 @@ input {
 }
 
 .left-text-cont {
-  width: 672px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .air-image-rigth {

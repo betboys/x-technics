@@ -1,21 +1,21 @@
 <?php get_header();
 /* Template Name: Line Maintenance Template */
 ?>
-<section class="service-cover aircraft-line">
-    <div class="about-title-subtitle-inner">
+<section class="aircraft-line">
+    <div class="line-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
     <img class="aline-single-img" src="<?= the_field('image'); ?>" alt="">
 </section>
-<section class="ensurin-continuous line-ensurin-continuous">
+<section class="ensurin-continuous">
     <div class="content-text-inner">
         <p class="title title-before-after-effect none-effect text-left line-title">
             <?= the_field('c_heading'); ?>
         </p>
-        <p class="this-element-subtitle padding-rigth"><?= the_field('c_desc'); ?></p>
+        <p class="ensurin-continuous-subtitle"><?= the_field('c_desc'); ?></p>
     </div>
-    <div class="swiper-container">
+    <div class="swiper-container line-swiper-first">
         <div class="swiper">
             <div class="swiper-wrapper info-flex-div" data-aos="fade-right">
                 <?php
@@ -26,7 +26,6 @@
                         $feature_title = get_sub_field('license_title');
                         $feature_desc = get_sub_field('license_desc');
                         ?>
-
                         <div class="swiper-slide this-content-intro">
                             <div class="image-title-cont">
                                 <img class="element-img" src="<?= $icon_feautres ?>" alt="">
@@ -74,7 +73,7 @@
         </div>
     </div>
 </section>
-<section class="content-text-inner top-element">
+<section class="top-element">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('ex_heading'); ?></p>
     <p class="this-element-subtitle padding-rigth"> <?= the_field('ex_desc'); ?></p>
     <div class="our-expertise-cont">
