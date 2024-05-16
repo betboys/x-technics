@@ -815,6 +815,10 @@ input {
   width: 35vw;
 }
 
+.value-trust-text-cont>.title {
+  text-align: left;
+}
+
 .none-effect::before {
   display: none;
 }
