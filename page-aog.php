@@ -71,21 +71,21 @@
     </div>
 
 </section>
-<section class="left-text-rigth-image-cont">
+<!-- <section class="left-text-rigth-image-cont">
     <div class="left-text-cont">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?>
         </p>
         <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
-</section>
-<section class="aog-whs">
+</section> -->
+<!-- <section class="aog-whs">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 
 
-</section>
-<section class="aog-flex-container">
+</section> -->
+<!-- <section class="aog-flex-container">
     <h3 class="title title-before-after-effect color-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
@@ -97,15 +97,14 @@
                 $title = get_sub_field('license_title');
                 ?>
                 <li class="our-aircraft-flex-list">
-                    <!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
                     <p class="our-aircraft-text"><?= $title ?></p>
                 </li>
                 <?Php
             endwhile;
         endif; ?>
     </ul>
-</section>
-<section class="swiper-slide-inner">
+</section> -->
+<!-- <section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">
@@ -165,12 +164,12 @@
             </button>
         </div>
     </div>
-</section>
-<section class="swiper-slide-inner width-center">
+</section> -->
+<!-- <section class="swiper-slide-inner width-center">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
     <div class="swiper-container swiper-after" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
-</section>
+</section> -->
 <?php echo get_template_part('templates/contact'); ?>
 <?Php get_footer(); ?>
