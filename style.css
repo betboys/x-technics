@@ -1763,6 +1763,7 @@ input {
 .info-flex-div {
   width: 100%;
   margin-top: 32px;
+  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
 }
