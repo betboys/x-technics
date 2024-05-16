@@ -1455,15 +1455,15 @@ input {
 /* certificate cover */
 .certificate-linear-1 {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -20%;
+  top: 10%;
   z-index: 0;
 }
 
 .certificate-linear-2 {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -26%;
+  top: 23%;
   z-index: 0;
 }
 
@@ -1558,6 +1558,41 @@ input {
 }
 
 /* service */
+.service-linear-1 {
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 0;
+}
+
+.service-linear-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.service-linear-3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.service-linear-4 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.service-linear-5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
 .service-cover {
   width: 100%;
   padding-top: 100px;

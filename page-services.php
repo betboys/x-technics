@@ -1,6 +1,11 @@
 <?php get_header();
 /* Template Name: Our Services Template */
 ?>
+<img class="service-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="service-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="service-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="service-linear-4" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="service-linear-5" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="service-cover our-service">
     <div class="service-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
