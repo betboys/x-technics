@@ -1,6 +1,9 @@
 <?php get_header();
 /* Template Name: Line Maintenance Template */
 ?>
+<img class="line-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="line-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="line-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="aircraft-line">
     <div class="line-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>

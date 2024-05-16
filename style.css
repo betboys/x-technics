@@ -1559,37 +1559,37 @@ input {
 
 /* service */
 .service-linear-1 {
-   position: absolute;
-   left: 0;
-   top: 0;
-   z-index: 0;
+  position: absolute;
+  left: -23%;
+  top: 2.3%;
+  z-index: 0;
 }
 
 .service-linear-2 {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -17%;
+  top: 16%;
   z-index: 0;
 }
 
 .service-linear-3 {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -32%;
+  top: 27.5%;
   z-index: 0;
 }
 
 .service-linear-4 {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -15%;
+  top: 43%;
   z-index: 0;
 }
 
 .service-linear-5 {
   position: absolute;
-  right: 0;
-  top: 0;
+  left: -34%;
+  top: 57%;
   z-index: 0;
 }
 
@@ -1935,6 +1935,27 @@ input {
 }
 
 /* single service aog */
+.line-linear-1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.line-linear-2 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.line-linear-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
 .aog-single-img {
   position: absolute;
   right: 0;
