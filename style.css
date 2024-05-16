@@ -6,6 +6,12 @@
 
 /* CUSTOM CSS*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: conthrax;
   src: url(fonts/conthrax/conthrax-sb.ttf);
