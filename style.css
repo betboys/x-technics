@@ -2335,8 +2335,9 @@ input {
 }
 
 .detailing-services {
-  margin-top: 20.5rem;
-  width: 800px;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: 800px;
   position: relative;
 }
 

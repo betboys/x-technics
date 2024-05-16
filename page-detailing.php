@@ -29,7 +29,7 @@
 
     </ul>
 </section>
-<section class="offer-inner offer-inner-top">
+<section class="offer-inner">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></p>
     <div class="swiper-container">
         <div class="swiper">
