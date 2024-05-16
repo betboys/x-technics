@@ -281,6 +281,8 @@ input {
 }
 
 .home-hero-img {
+  width: auto;
+  height: auto;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -288,6 +290,8 @@ input {
 
 .cover-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
+  padding-top: 126px;
+  padding-bottom: 137px;
 }
 
 .cover-title {
