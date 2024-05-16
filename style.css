@@ -1599,6 +1599,17 @@ input {
   left: 0;
   bottom: 24px;
   padding: 0 24px;
+  font-family: "blender bold";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 130%;
+  color: #FFF;
+  transition: .3s;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-transform: capitalize;
 }
 
 .text-center {
@@ -1612,7 +1623,7 @@ input {
 
 .information-inner {
   width: 100%;
-  max-width: 880px;
+  max-width: 1030px;
   padding-left: var(--paddingLeftAndRight);
   padding-top: var(--paddingTopAndBottom);
   padding-bottom: var(--paddingTopAndBottom);
