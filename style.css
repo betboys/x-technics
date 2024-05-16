@@ -2806,6 +2806,34 @@ input {
   .input {
     padding: 18px 0;
   }
+
+  .select-dropdown__list {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: #080f18;
+    border: 1px solid #0071AA;
+    max-height: 300px;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+    transform-origin: top left;
+    transform: scale(1, 0);
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+  }
+
+  .select-dropdown__list.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1, 1);
+  }
+
+  .select-dropdown__list-item {
+    display: block;
+  }
 }
 
 @media (max-width: 990px) {
