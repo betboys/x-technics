@@ -1951,12 +1951,13 @@ input {
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .aog-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
-  padding-bottom: 301px;
+  padding-bottom: 230px;
   width: 100%;
   max-width: 800px;
 }

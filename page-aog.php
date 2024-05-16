@@ -11,7 +11,7 @@
 <section class="offer-inner aog-inner">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container">
         <div class="swiper">
             <div class="swiper-wrapper offer-flex aod-offer-flex">
                 <?php
