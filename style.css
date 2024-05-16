@@ -2603,9 +2603,6 @@ input {
     color: #0071AA;
   }
 
-  .about-card-list:hover::before {
-    border: 2px solid #0071AA;
-  }
 
   .about-card-list:last-child:hover {
     border: none;
@@ -2631,13 +2628,6 @@ input {
     color: #0071AA;
   }
 
-  .swiper-slide-margin-rigth:hover {
-    padding: 2px;
-  }
-
-  .service-card .about-card-list:hover:last-child {
-    padding: 2px;
-  }
 
   .service-card .about-card-list:hover .our-service-card-link .about-card-text {
     color: #0071AA;
@@ -2677,10 +2667,6 @@ input {
 
   .iti__country:hover {
     background: #0e233d !important;
-  }
-
-  .about-card-list:hover {
-    padding: 2px;
   }
 
   .service-single-link:hover .slide-image-size {
