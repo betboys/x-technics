@@ -1941,6 +1941,12 @@ input {
 }
 
 /* single service aog */
+.aog-hero {
+  width: 100%;
+  padding-top: 100px;
+  position: relative;
+}
+
 .aog-inner {
   position: relative;
 }
