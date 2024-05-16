@@ -1965,6 +1965,10 @@ input {
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
+.no-top {
+  margin-top: 0;
+}
+
 .offer-flex {
   margin-inline: auto;
   margin-top: 24px;
