@@ -1259,11 +1259,6 @@ input {
   justify-content: space-between;
 }
 
-.about-left-img {
-  width: 26.542vw;
-  height: unset;
-}
-
 .right-text-inner {
   width: 35vw;
 }
@@ -2724,6 +2719,12 @@ input {
 }
 
 /* responsive */
+@media (max-width: 1540px) {
+  .about-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(244px, 1fr));
+  }
+}
+
 @media (max-width: 1440px) {
   :root {
     --paddingLeftAndRight: 8.333vw;
@@ -2750,11 +2751,25 @@ input {
   .about-title-subtitle-inner {
     max-width: 660px;
   }
+
+  .about-aour-mission {
+    max-width: 922px;
+  }
+
+  .right-text-inner {
+    width: 46.7vw;
+  }
 }
 
 @media (max-width: 1310px) {
   .services-content-link {
     font-size: 35px;
+  }
+}
+
+@media (max-width: 1243px) {
+  .about-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(192px, 1fr));
   }
 }
 
@@ -3040,6 +3055,16 @@ input {
   .value-trust-text-cont>.title {
     justify-content: start;
   }
+
+  .image-text-inner {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+
+  .right-text-inner {
+    width: 100%;
+  }
 }
 
 @media (max-width: 860px) {
@@ -3224,6 +3249,33 @@ input {
   .footer-container {
     justify-content: start;
   }
+
+  .about-aour-mission {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .image-text-inner {
+    padding: 112px var(--paddingLeftAndRight);
+  }
+
+  .about-card-list:last-child {
+    display: none;
+  }
+
+  .mobile-verion {
+    display: flex;
+    position: relative;
+  }
+
+  .mobile-verion::before {
+    content: '';
+    width: 252px;
+    height: 54px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/Button.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (max-width: 520px) {
@@ -3293,6 +3345,24 @@ input {
 
   .cover-title {
     font-size: 40px;
+  }
+
+  .subtitle-center {
+    margin-top: 16px;
+  }
+
+  .about-aour-mission>.subtitle-center {
+    padding: 0 10px;
+  }
+
+  .about-left-img {
+    width: 100%;
+    height: unset;
+  }
+
+  .right-text-inner>.subtitle-inner-top {
+    margin-top: 16px;
+    padding-right: 10px;
   }
 }
 
