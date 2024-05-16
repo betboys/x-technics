@@ -2038,12 +2038,8 @@ input {
   color: #24B6FF;
 }
 
-.margin-top {
-  margin-top: 6.25vw;
-}
-
-.swiper-slide-inner-effect2 {
-  position: relative;
+.aog-wcu {
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .swiper-slide-inner-effect2::before {
