@@ -1941,30 +1941,8 @@ input {
 }
 
 /* single service aog */
-.aog-hero {
-  width: 100%;
-  padding-top: 100px;
+.aog-inner {
   position: relative;
-}
-
-.aog-single-img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.aog-title-subtitle-inner {
-  padding-left: var(--paddingLeftAndRight);
-  padding-top: 126px;
-  padding-bottom: 230px;
-  width: 100%;
-  max-width: 800px;
-}
-
-.aog-cover-subtitle {
-  width: 100%;
-  max-width: 520px;
 }
 
 .aog-inner::before {
@@ -1984,19 +1962,7 @@ input {
 }
 
 .offer-inner {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
-}
-
-.no-top {
-  margin-top: 0;
-}
-
-.aog-whs {
-  padding: var(--paddingLeftAndRight) var(--paddingLeftAndRight);
-}
-
-.aog-flex-container {
-  padding: var(--paddingLeftAndRight) var(--paddingLeftAndRight);
+  margin-top: 18.188rem;
 }
 
 .offer-flex {
