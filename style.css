@@ -1123,9 +1123,8 @@ input {
 .footer {
   width: 100%;
   border-top: 1px solid #212529;
-  padding: 33px 0;
-  position: relative;
-  z-index: 1;
+  padding: 33px var(--paddingLeftAndRight);
+
 }
 
 .footer-container {
@@ -2738,9 +2737,33 @@ input {
   }
 }
 
+@media (max-width: 1310px) {
+  .services-content-link {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 1100px) {
   :root {
     --paddingLeftAndRight: 5.455vw;
+  }
+
+  .services-content-link {
+    font-size: 30px;
+  }
+
+  .services-content-link>svg {
+    display: none;
+  }
+
+  .services-content-list {
+    width: 43.5vw;
+  }
+
+  .services-content-list:nth-child(3),
+  .services-content-list:nth-child(4),
+  .services-content-list:nth-child(5) {
+    width: 28vw;
   }
 }
 
