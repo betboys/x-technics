@@ -1,5 +1,6 @@
 <?php get_header();
 /* Template Name: About us Template */ ?>
+<img class="about-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="about-cover">
     <div class="about-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>

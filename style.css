@@ -1201,6 +1201,13 @@ input {
 }
 
 /* about us */
+.about-linear-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
 .about-cover {
   width: 100%;
   padding-top: 100px;
