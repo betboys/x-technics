@@ -1207,7 +1207,7 @@ input {
 /* about us */
 .about-cover {
   width: 100%;
-  padding-top: 101px;
+  padding-top: 100px;
   position: relative;
 }
 
@@ -1229,8 +1229,8 @@ input {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   width: 100%;
-  max-width: 540px;
-  width: 740px;
+  max-width: 690px;
+
 }
 
 .about-cover-title {
