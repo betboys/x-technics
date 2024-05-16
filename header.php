@@ -15,6 +15,7 @@
 	<div class="left"></div>
 
 		<header itemscope itemtype="http://schema.org/WPHeader" class="header">
+			<div class="header-container">
 				<a class="link" href="<?php echo get_bloginfo('url'); ?>">
 					<img class="header-logo" src="<?= the_field('header_logo', 'option'); ?>" alt="Header Logo">
 				</a>
@@ -44,4 +45,5 @@
 
 
 				</nav>
+			</div>
 		</header>
