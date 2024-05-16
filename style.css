@@ -277,9 +277,23 @@ input {
 /* home cover */
 .home-linear-1 {
   position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
+  left: -22%;
+  top: 3%;
+  z-index: 0;
+}
+
+.home-linear-2 {
+  position: absolute;
+  right: -9%;
+  top: 53%;
+  z-index: 0;
+}
+
+.home-linear-3 {
+  position: absolute;
+  left: -20%;
+  bottom: -7%;
+  z-index: 0;
 }
 
 .home-cover {
@@ -293,6 +307,7 @@ input {
   right: 0;
   bottom: 0;
   background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
+  z-index: -1;
 }
 
 .cover-title-subtitle-inner {
