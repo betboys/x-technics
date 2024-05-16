@@ -2889,6 +2889,10 @@ input {
     width: 100% !important;
     padding-bottom: 24px;
     padding-left: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
 
