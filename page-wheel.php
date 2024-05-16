@@ -14,7 +14,7 @@
 </section>
 <section class="card-inner wheel-card">
     <p class="title title-before-after-effect title-center"><?= the_field('ex_heading'); ?></p>
-    <div class="swiper-container">
+    <div class="swiper-container no-top">
         <div class="swiper">
             <div class="swiper-wrapper card-container">
                 <?php
