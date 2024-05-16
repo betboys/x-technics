@@ -1948,6 +1948,14 @@ input {
   z-index: -1;
 }
 
+.aog-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  width: 100%;
+  max-width: 790px;
+  padding-bottom: 230px;
+}
+
 .aog-inner {
   position: relative;
 }
