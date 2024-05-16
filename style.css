@@ -2071,6 +2071,26 @@ input {
 }
 
 /* single service aircraft battery */
+.battery-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 122px;
+  padding-bottom: 242px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.battery-cover-subtitle {
+  width: 100%;
+  max-width: 535px;
+}
+
+.battery-hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .battery-offer {
   position: relative;
 }

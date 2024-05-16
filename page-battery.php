@@ -1,10 +1,10 @@
 <?php get_header();
 /* Template Name: Aircraft Battery Maintenance */
 ?>
-<section class="service-cover aircraft-battery">
-    <div class="about-title-subtitle-inner">
+<section class="service-cover">
+    <div class="battery-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-        <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+        <h2 class="subtitle battery-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
     <img class="battery-hero-img" src="<?= the_field('image'); ?>" alt="">
 </section>
