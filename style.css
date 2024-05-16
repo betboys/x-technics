@@ -2502,6 +2502,26 @@ input {
 }
 
 /* single service aricraft ndt */
+.ndt-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  padding-bottom: 220px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.ndt-cover-subtitle {
+  width: 100%;
+  max-width: 535px;
+}
+
+.ndt-image-cover {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .this-top-style {
   margin-top: 6.25vw;
 }
