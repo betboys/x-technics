@@ -2722,6 +2722,23 @@ input {
   }
 }
 
+@media (max-width: 1100px) {
+  :root {
+    --paddingLeftAndRight: 5.455vw;
+  }
+}
+
+@media (max-width: 744px) {
+  :root {
+    --paddingLeftAndRight: 5.376vw;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --paddingLeftAndRight: 3.077vw;
+  }
+}
 
 /* @media (max-width: 1700px) {
 
