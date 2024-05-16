@@ -2137,6 +2137,7 @@ input {
 .row-reverse {
   flex-direction: row-reverse;
   margin-top: 0;
+  padding: 0
 }
 
 .row-reverse::before {
@@ -2144,20 +2145,21 @@ input {
 }
 
 .card-inner {
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .card-container {
-  width: 65.3vw;
+  width: 100%;
+  max-width: 1036px;
   margin-inline: auto;
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
-  gap: 1vw;
+  gap: 20px;
 }
 
 .card-list {
-  width: 21.1vw;
+  width: 322px;
   background: #0071AA;
   padding: 32px;
   position: relative;
@@ -2190,10 +2192,11 @@ input {
 
 .font-size {
   font-size: 24px;
+  width: min-content;
 }
 
 .two-card-inner {
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .two-card-container {

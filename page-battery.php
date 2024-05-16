@@ -20,7 +20,7 @@
 </section>
 <section class="card-inner battery-card">
     <p class="title title-before-after-effect slide-title-sytle">Our Aircraft Battery Maintenance</p>
-    <div class="swiper-container">
+    <div class="swiper-container swiper-after">
         <div class="swiper">
             <div class="swiper-wrapper card-container">
                 <?php
