@@ -1,6 +1,9 @@
 <?php get_header();
 /* Template Name: Borescope and APU Inspection */
 ?>
+<img class="borescope-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="borescope-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="borescope-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="service-cover aircraft-borescope">
     <div class="borescope-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>

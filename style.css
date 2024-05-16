@@ -2296,17 +2296,16 @@ input {
 /* single service detailing */
 .detailing-linear-1 {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: -39%;
+  top: 11%;
   z-index: 0;
 }
 
 .detailing-linear-2 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -34%;
+  top: 45%;
   z-index: 0;
-  opacity: 0;
 }
 
 .detailing-title-subtitle-inner {
@@ -2373,6 +2372,29 @@ input {
 }
 
 /* single service borescope */
+.borescope-linear-1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.borescope-linear-2 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
+.borescope-linear-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
 .borescope-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 110px;
