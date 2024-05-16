@@ -2335,7 +2335,7 @@ input {
 }
 
 .detailing-services {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  padding: var(--paddingTopAndBottom) 0 var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   width: 100%;
   max-width: 800px;
   position: relative;
