@@ -16,7 +16,7 @@
     <p class="title title-before-after-effect title-center"><?= the_field('ex_heading'); ?></p>
     <div class="swiper-container no-top">
         <div class="swiper">
-            <div class="swiper-wrapper card-container">
+            <div class="swiper-wrapper card-container wheel-card-container">
                 <?php
                 if (have_rows('features')):
                     while (have_rows('features')):
@@ -26,10 +26,10 @@
                         $feature_desc = get_sub_field('license_desc');
                         ?>
 
-                        <div class="swiper-slide card-list" data-aos="fade-right">
+                        <div class="swiper-slide card-list wheel-slide" data-aos="fade-right">
                             <div class="card-image-text">
                                 <img class="card-image" src="<?= $icon_feautres ?>" alt="">
-                                <p class="element-title font-size"><?= $feature_title ?></p>
+                                <p class="element-title wheel-font-size"><?= $feature_title ?></p>
                             </div>
                             <p class="element-subtitle"><?= $feature_desc ?></p>
                         </div>

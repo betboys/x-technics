@@ -2150,7 +2150,7 @@ input {
 
 .card-container {
   width: 100%;
-  max-width: 1036px;
+  max-width: 1003px;
   margin-inline: auto;
   margin-top: 32px;
   display: flex;
@@ -2234,6 +2234,18 @@ input {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.wheel-card-container {
+  width: 1030px;
+}
+
+.wheel-slide {
+  width: 330px;
+}
+
+.wheel-font-size {
+  width: auto;
 }
 
 .whell-or {
