@@ -492,7 +492,7 @@ input {
 }
 
 .services-content-list:nth-child(7)>.services-content-link>.service-ttile {
-  width: 356px;
+  width: 357px;
 }
 
 .card-icon-stroke {
@@ -2734,6 +2734,10 @@ input {
   .services-content-list:nth-child(4),
   .services-content-list:nth-child(5) {
     width: 26.667vw;
+  }
+
+  .value-trust-text-cont {
+    width: 45vw;
   }
 }
 
