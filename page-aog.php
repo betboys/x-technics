@@ -8,7 +8,7 @@
     </div>
     <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>" alt="">
 </section>
-<div class="offer-inner aog-inner">
+<section class="offer-inner aog-inner">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
     <div class="swiper-container" data-aos="fade-right">
@@ -69,20 +69,20 @@
             </div>
         </div>
     </div>
-</div>
-<div class="left-text-rigth-image-cont">
+</section>
+<section class="left-text-rigth-image-cont">
     <div class="left-text-cont" data-aos="fade-left">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?>
         </p>
         <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
-</div>
-<div class="home-our-aircraft-engineers-inner margin-top swiper-slide-inner-effect2">
+</section>
+<section class="home-our-aircraft-engineers-inner margin-top swiper-slide-inner-effect2">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
-</div>
-<div class="our-aircraft-flex-container">
+</section>
+<section class="our-aircraft-flex-container">
     <h3 class="title title-before-after-effect color-style title-top-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
@@ -101,8 +101,8 @@
             endwhile;
         endif; ?>
     </ul>
-</div>
-<div class="swiper-slide-inner">
+</section>
+<section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">
@@ -162,12 +162,12 @@
             </button>
         </div>
     </div>
-</div>
-<div class="swiper-slide-inner width-center">
+</section>
+<section class="swiper-slide-inner width-center">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
     <div class="swiper-container swiper-after" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
-</div>
+</section>
 <?php echo get_template_part('templates/contact'); ?>
 <?Php get_footer(); ?>
