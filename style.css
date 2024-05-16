@@ -89,6 +89,8 @@ input {
   width: 100%;
   background: #010102;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .left {
@@ -472,7 +474,7 @@ input {
 
 /* home our aircraft engineers */
 .home-our-aircraft-engineers {
- padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .color-style::before {
@@ -1230,12 +1232,6 @@ input {
   padding-top: 126px;
   width: 100%;
   max-width: 690px;
-
-}
-
-.about-cover-title {
-  position: relative;
-  z-index: 1;
 }
 
 .about-cover-subtitle {
@@ -1246,6 +1242,7 @@ input {
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .about-aour-mission {
