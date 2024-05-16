@@ -3208,6 +3208,15 @@ input {
     gap: 8px;
     flex-direction: column;
   }
+
+  .footer-logo-img {
+    width: 123px;
+    height: unset;
+  }
+
+  .footer-container {
+    justify-content: start;
+  }
 }
 
 @media (max-width: 520px) {
@@ -3246,6 +3255,10 @@ input {
 
   .contact-us-container {
     align-items: center;
+  }
+
+  .form-inner {
+    max-width: 100%;
   }
 }
 
