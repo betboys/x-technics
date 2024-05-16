@@ -24,23 +24,20 @@ if (window.innerWidth <= 990) {
 
   openMenu.addEventListener('click', function () {
     left.style.display = "block";
-    // headerBefore.classList.add('style');
     navigation.style.display = 'block';
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
   });
 
-  // left.addEventListener("click", function () {
-	// 	left.style.display = "none"
-	// 	headerBefore.classList.remove('style');
-	// 	navigation.style.display = 'none';
-	// 	closeMenu.style.display = 'none';
-	// 	openMenu.style.display = 'block';
-	// });
+  left.addEventListener("click", function () {
+		left.style.display = "none"
+		navigation.style.display = 'none';
+		closeMenu.style.display = 'none';
+		openMenu.style.display = 'block';
+	});
 
   closeMenu.addEventListener('click', function () {
     left.style.display = "none";
-    // headerBefore.classList.remove('style');
     navigation.style.display = 'none';
     closeMenu.style.display = 'none';
     openMenu.style.display = 'block';
