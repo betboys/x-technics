@@ -1956,28 +1956,13 @@ input {
   padding-bottom: 230px;
 }
 
-.aog-inner {
-  position: relative;
-}
-
-.aog-inner::before {
-  content: '';
-  position: absolute;
-  top: -25.313rem;
-  right: -58.625rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-  z-index: 1;
+.aog-cover-subtitle {
+  width: 100%;
+  max-width: 520px;
 }
 
 .offer-inner {
-  margin-top: 18.188rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .offer-flex {
