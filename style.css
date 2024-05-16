@@ -1493,6 +1493,7 @@ input {
 }
 
 .certificate-block-inner {
+  padding: var(--paddingTopAndBottom) 0;
   position: relative;
 }
 
