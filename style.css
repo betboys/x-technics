@@ -2406,6 +2406,26 @@ input {
 }
 
 /* single service borescope */
+.borescope-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  padding-bottom: 242px;
+  width: 100%;
+  max-width: 870px;
+}
+
+.borescope-cover-subtitle {
+  width: 100%;
+  max-width: 540px;
+}
+
+.borescope-image-cover {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .borescopes-slide-top {
   margin-top: 16.25vw;
   position: relative;
