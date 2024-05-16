@@ -1,7 +1,7 @@
 <?php get_header();
 /* Template Name: Aircraft Wheel Service */
 ?>
-<section class="service-cover">
+<section class="service-cover wheel-cover">
     <div class="about-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
