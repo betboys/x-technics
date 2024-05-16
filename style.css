@@ -2089,15 +2089,15 @@ input {
 /* single service aircraft battery */
 .battery-linear-1 {
   position: absolute;
-  left: 0%;
-  top: 0%;
-  z-index: 0;
+  left: -25%;
+  top: 5.5%;
+  z-index: 1;
 }
 
 .battery-linear-2 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -30%;
+  top: 34%;
   z-index: 0;
   opacity: 0;
 }
@@ -2152,7 +2152,7 @@ input {
 
 .card-container {
   width: 100%;
-  max-width: 1003px;
+  max-width: 1006px;
   margin-inline: auto;
   margin-top: 32px;
   display: flex;
@@ -2223,6 +2223,29 @@ input {
 }
 
 /* single service aircraft wheel */
+.whell-linear-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.whell-linear-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0;
+}
+
+.whell-linear-3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0;
+}
+
 .whell-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 110px;

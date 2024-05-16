@@ -1,6 +1,9 @@
 <?php get_header();
 /* Template Name: Aircraft Wheel Service */
 ?>
+<img class="whell-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="whell-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="whell-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="service-cover wheel-cover">
     <div class="whell-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
