@@ -138,53 +138,51 @@
         </div>
     </div>
 </section>
-<section class="about-cover-container">
-    <div class="download-pdf">
-        <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
-        <ul class="download-pdf-container">
-            <?php
-            if (have_rows('certs')):
-                while (have_rows('certs')):
-                    the_row();
-                    $file = get_sub_field('certificate_file');
-                    $url = $file['url'];
-                    $title = $file['title'];
-                    $caption = $file['description'];
-                    $file_id = $file['ID'];
-                    $filesize = filesize(get_attached_file($file_id));
-                    $filesize = size_format($filesize, 2);
-                    ?>
+<section class="download-pdf">
+    <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
+    <ul class="download-pdf-container">
+        <?php
+        if (have_rows('certs')):
+            while (have_rows('certs')):
+                the_row();
+                $file = get_sub_field('certificate_file');
+                $url = $file['url'];
+                $title = $file['title'];
+                $caption = $file['description'];
+                $file_id = $file['ID'];
+                $filesize = filesize(get_attached_file($file_id));
+                $filesize = size_format($filesize, 2);
+                ?>
 
-                    <li class="download-pdf-list" data-aos="fade-left">
-                        <div class="download-pdf-link">
-                            <div class="pdf-img-text-inner">
-                                <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate.svg"
-                                    alt="">
-                                <div class="pdf-texts-intro">
-                                    <p class="pdf-title"><?= $title ?></p>
-                                    <p class="pdf-subtitle"><?= $caption ?></p>
-                                    <p class="pdf-subtitle">PDF | <?= $filesize ?></p>
-                                </div>
+                <li class="download-pdf-list" data-aos="fade-left">
+                    <div class="download-pdf-link">
+                        <div class="pdf-img-text-inner">
+                            <img class="pdf-img" src="<?php echo get_template_directory_uri(); ?>/images/Certificate.svg"
+                                alt="">
+                            <div class="pdf-texts-intro">
+                                <p class="pdf-title"><?= $title ?></p>
+                                <p class="pdf-subtitle"><?= $caption ?></p>
+                                <p class="pdf-subtitle">PDF | <?= $filesize ?></p>
                             </div>
-                            <a class="download-icon-inner" href="<?= $url ?>" download="download">
-                                <span>
-                                    Download
-                                </span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                                    <path class="download-icon"
-                                        d="M20.1417 26.7355C20.0636 26.8136 19.937 26.8136 19.8589 26.7355L11.806 18.6826C11.7288 18.6054 11.7277 18.4807 11.8035 18.4022L13.8589 16.2734C13.9366 16.1929 14.0652 16.1918 14.1442 16.2709L17.9922 20.1189C18.1182 20.2449 18.3337 20.1556 18.3337 19.9774V7.07695C18.3337 6.9665 18.4232 6.87695 18.5337 6.87695H21.467C21.5774 6.87695 21.667 6.9665 21.667 7.07695V19.9774C21.667 20.1556 21.8824 20.2449 22.0084 20.1189L25.8564 16.2709C25.9355 16.1918 26.064 16.1929 26.1417 16.2734L28.1972 18.4022C28.2729 18.4807 28.2718 18.6054 28.1947 18.6826L20.1417 26.7355ZM10.0003 33.5436C9.08366 33.5436 8.29894 33.2172 7.64616 32.5645C6.99338 31.9117 6.66699 31.127 6.66699 30.2103V25.4103C6.66699 25.2998 6.75654 25.2103 6.86699 25.2103H9.80033C9.91078 25.2103 10.0003 25.2998 10.0003 25.4103V30.0103C10.0003 30.1207 10.0899 30.2103 10.2003 30.2103H29.8003C29.9108 30.2103 30.0003 30.1207 30.0003 30.0103V25.4103C30.0003 25.2998 30.0899 25.2103 30.2003 25.2103H33.1337C33.2441 25.2103 33.3337 25.2998 33.3337 25.4103V30.2103C33.3337 31.127 33.0073 31.9117 32.3545 32.5645C31.7017 33.2172 30.917 33.5436 30.0003 33.5436H10.0003Z"
-                                        fill="white"></path>
-                                </svg>
-                            </a>
                         </div>
-                    </li>
-                    <?Php
-                endwhile;
-            endif; ?>
+                        <a class="download-icon-inner" href="<?= $url ?>" download="download">
+                            <span>
+                                Download
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+                                <path class="download-icon"
+                                    d="M20.1417 26.7355C20.0636 26.8136 19.937 26.8136 19.8589 26.7355L11.806 18.6826C11.7288 18.6054 11.7277 18.4807 11.8035 18.4022L13.8589 16.2734C13.9366 16.1929 14.0652 16.1918 14.1442 16.2709L17.9922 20.1189C18.1182 20.2449 18.3337 20.1556 18.3337 19.9774V7.07695C18.3337 6.9665 18.4232 6.87695 18.5337 6.87695H21.467C21.5774 6.87695 21.667 6.9665 21.667 7.07695V19.9774C21.667 20.1556 21.8824 20.2449 22.0084 20.1189L25.8564 16.2709C25.9355 16.1918 26.064 16.1929 26.1417 16.2734L28.1972 18.4022C28.2729 18.4807 28.2718 18.6054 28.1947 18.6826L20.1417 26.7355ZM10.0003 33.5436C9.08366 33.5436 8.29894 33.2172 7.64616 32.5645C6.99338 31.9117 6.66699 31.127 6.66699 30.2103V25.4103C6.66699 25.2998 6.75654 25.2103 6.86699 25.2103H9.80033C9.91078 25.2103 10.0003 25.2998 10.0003 25.4103V30.0103C10.0003 30.1207 10.0899 30.2103 10.2003 30.2103H29.8003C29.9108 30.2103 30.0003 30.1207 30.0003 30.0103V25.4103C30.0003 25.2998 30.0899 25.2103 30.2003 25.2103H33.1337C33.2441 25.2103 33.3337 25.2998 33.3337 25.4103V30.2103C33.3337 31.127 33.0073 31.9117 32.3545 32.5645C31.7017 33.2172 30.917 33.5436 30.0003 33.5436H10.0003Z"
+                                    fill="white"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <?Php
+            endwhile;
+        endif; ?>
 
 
-        </ul>
-    </div>
+    </ul>
 </section>
 <section class="swiper-slide-inner second-slide-wheel width-center">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
