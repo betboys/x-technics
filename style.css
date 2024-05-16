@@ -2409,7 +2409,7 @@ input {
 .borescope-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 110px;
-  padding-bottom: 242px;
+  padding-bottom: 302px;
   width: 100%;
   max-width: 870px;
 }
@@ -2426,9 +2426,12 @@ input {
   z-index: -1;
 }
 
-.borescopes-slide-top {
-  margin-top: 16.25vw;
-  position: relative;
+.borescope-service-single {
+  max-width: 940px;
+}
+
+.borescope-oae {
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .borescopes-slide-top::before {
