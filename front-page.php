@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<img class="home-linear-1" src="/image/linear.png" alt="">
 <section class="home-cover">
 	<img class="home-hero-img" src="<?= the_field('image'); ?>" alt="">
 	<div class="cover-title-subtitle-inner">

@@ -275,6 +275,13 @@ input {
 }
 
 /* home cover */
+.home-linear-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .home-cover {
   width: 100%;
   padding-top: 100px;
