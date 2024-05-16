@@ -642,7 +642,8 @@ input {
 
 .slide-title-sytle {
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
+  padding: 0 var(--paddingLeftAndRight);
   margin-inline: auto;
   text-align: center;
 }
@@ -2975,6 +2976,59 @@ input {
 
   .our-aircraft-link {
     margin-top: 16px;
+  }
+
+  .swiper-slide-inner {
+    padding: 0;
+  }
+
+  .value-trust {
+    padding: 112px var(--paddingLeftAndRight);
+  }
+
+  .swiper-container {
+    margin-top: 16px;
+  }
+
+  .swiper-slide {
+    width: 287px;
+    text-align: center;
+  }
+
+  .slide-image {
+    width: 180px;
+    height: 80px;
+  }
+
+  .swiper-slide-active .slide-image-text {
+    font-size: 20px;
+  }
+
+  .swiper-pagination {
+    margin-top: 32px;
+  }
+
+  .next-prev-buuton {
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .prev-st,
+  .prev-ho,
+  .next-st,
+  .next-ho {
+    display: none;
+  }
+
+  .prev-mobile,
+  .next-mobile {
+    display: block;
+    position: absolute;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 122px;
   }
 }
 
