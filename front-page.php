@@ -276,7 +276,7 @@
 			<p class="title title-before-after-effect none-effect"><?= the_field('text_heading'); ?></p>
 			<p class="subtitle value-trust-subtitle-top"><?= the_field('text_content'); ?></p>
 		</div>
-		<img class="value-trust-image" src="<?= the_field('text_image'); ?>" alt="" data-aos="fade-right">
+		<img class="value-trust-image" src="<?= the_field('text_image'); ?>" alt="">
 	</div>
 </section>
 <?php echo get_template_part('templates/contact'); ?>

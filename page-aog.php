@@ -83,7 +83,7 @@
                     </p>
                     <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
                 </div>
-                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
+                <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
             </div>
         </div>
     </div>

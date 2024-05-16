@@ -16,7 +16,7 @@
             <p class="subtitle subtitle-center"><?= the_field('our_mission_description'); ?></p>
         </div>
         <div class="image-text-inner">
-            <img class="about-left-img" src="<?= the_field('wwd_image'); ?>" alt="" data-aos="fade-left">
+            <img class="about-left-img" src="<?= the_field('wwd_image'); ?>" alt="">
             <div class="right-text-inner" data-aos="fade-right">
                 <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_title'); ?></p>
                 <p class="subtitle subtitle-inner-top"><?= the_field('wwd_description'); ?></p>
