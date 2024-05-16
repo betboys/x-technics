@@ -2374,25 +2374,23 @@ input {
 /* single service borescope */
 .borescope-linear-1 {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: -27%;
+  top: 7%;
   z-index: 0;
 }
 
 .borescope-linear-2 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -25%;
+  top: 27%;
   z-index: 0;
-  opacity: 0;
 }
 
 .borescope-linear-3 {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: -25%;
+  top: 41%;
   z-index: 0;
-  opacity: 0;
 }
 
 .borescope-title-subtitle-inner {
@@ -2450,6 +2448,29 @@ input {
 }
 
 /* single service aricraft ndt */
+.ndt-linear-1 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.ndt-linear-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
+.ndt-linear-3 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
 .ndt-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 110px;
