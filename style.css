@@ -2884,12 +2884,12 @@ input {
     margin-top: 20px;
     flex-direction: column;
     gap: 34px;
+    order: 3;
   }
 
   .logo-links-inner {
     display: flex;
     flex-direction: column;
-    order: 3;
     margin-top: 0;
   }
 
