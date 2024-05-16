@@ -3301,6 +3301,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     color: #FFF;
     font-family: "blender heavy";
     font-size: 22px;
