@@ -2237,9 +2237,7 @@ input {
 }
 
 .relative {
-  position: relative;
-  z-index: 1;
-  margin-top: 22.625rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .single-service-aircraft-image-top {
