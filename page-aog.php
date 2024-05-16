@@ -78,11 +78,11 @@
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
 </section>
-<section class="aog-whs">
+<section class="home-our-aircraft-engineers-inner margin-top swiper-slide-inner-effect2">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 </section>
-<section class="aog-flex-container">
+<section class="our-aircraft-flex-container">
     <h3 class="title title-before-after-effect color-style title-top-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
