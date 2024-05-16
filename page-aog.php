@@ -85,27 +85,7 @@
 
 
 </section>
-<section class="aog-flex-container">
-    <h3 class="title title-before-after-effect color-style title-center">
-        <?= the_field('license_heading'); ?>
-    </h3>
-    <ul class="our-aircraft-flex-inner" data-aos="fade-right">
-        <?php
-        if (have_rows('licneses')):
-            while (have_rows('licneses')):
-                the_row();
-                $title = get_sub_field('license_title');
-                ?>
-                <li class="our-aircraft-flex-list">
-                    <!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
-                    <p class="our-aircraft-text"><?= $title ?></p>
-                </li>
-                <?Php
-            endwhile;
-        endif; ?>
-    </ul>
-</section>
-<!-- <section class="swiper-slide-inner">
+<section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">
@@ -165,12 +145,12 @@
             </button>
         </div>
     </div>
-</section> -->
-<!-- <section class="swiper-slide-inner width-center">
+</section>
+<section class="swiper-slide-inner width-center">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
     <div class="swiper-container swiper-after" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
-</section> -->
+</section>
 <?php echo get_template_part('templates/contact'); ?>
 <?Php get_footer(); ?>
