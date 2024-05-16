@@ -3310,13 +3310,14 @@ input {
 
   .explore-more::before {
     content: '';
-    width: 252px;
-    height: 59px;
+    width: 260px;
+    height: 60px;
     background: url(https://x-technics.com/ysteeshy/2024/05/Button.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
+    top: -15px;
   }
 
   .about-cards-container {
