@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-
+<img class="security-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="security-inner">
             <div class="security-inner-container">
            

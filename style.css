@@ -2450,25 +2450,23 @@ input {
 /* single service aricraft ndt */
 .ndt-linear-1 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -33%;
+  top: 9%;
   z-index: 0;
 }
 
 .ndt-linear-2 {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: -26%;
+  top: 42%;
   z-index: 0;
-  opacity: 0;
 }
 
 .ndt-linear-3 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -25%;
+  top: 60%;
   z-index: 0;
-  opacity: 0;
 }
 
 .ndt-title-subtitle-inner {
@@ -2504,6 +2502,13 @@ input {
 }
 
 /* terms of service, privacy police, cookies */
+.security-linear-1 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
 .security-inner {
   width: 100%;
   margin-top: 101px;
