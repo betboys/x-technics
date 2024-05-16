@@ -14,7 +14,7 @@ dropdown.addEventListener('mouseout', function () {
   dropdownIcon.classList.remove('rotate');
 });
 
-if (window.innerWidth <= 960) {
+if (window.innerWidth <= 990) {
   // open and close menu
   let headerBefore = document.querySelector('.header');
   let openMenu = document.querySelector('.open-menu');
@@ -23,37 +23,37 @@ if (window.innerWidth <= 960) {
   let left = document.querySelector(".left");
 
   openMenu.addEventListener('click', function () {
-    left.style.display = "block";
-    headerBefore.classList.add('style');
+    // left.style.display = "block";
+    // headerBefore.classList.add('style');
     navigation.style.display = 'block';
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
   });
 
-  left.addEventListener("click", function () {
-		left.style.display = "none"
-		headerBefore.classList.remove('style');
-		navigation.style.display = 'none';
-		closeMenu.style.display = 'none';
-		openMenu.style.display = 'block';
-	});
+  // left.addEventListener("click", function () {
+	// 	left.style.display = "none"
+	// 	headerBefore.classList.remove('style');
+	// 	navigation.style.display = 'none';
+	// 	closeMenu.style.display = 'none';
+	// 	openMenu.style.display = 'block';
+	// });
 
   closeMenu.addEventListener('click', function () {
-    left.style.display = "none";
-    headerBefore.classList.remove('style');
+    // left.style.display = "none";
+    // headerBefore.classList.remove('style');
     navigation.style.display = 'none';
     closeMenu.style.display = 'none';
     openMenu.style.display = 'block';
   });
 
-  if (navigation.style.display == 'block') {
-    headerBefore.addEventListener("click", function () {
-      headerBefore.classList.remove('style');
-      navigation.style.display = 'none';
-      closeMenu.style.display = 'none';
-      openMenu.style.display = 'block';
-    });
-  }
+  // if (navigation.style.display == 'block') {
+  //   headerBefore.addEventListener("click", function () {
+  //     headerBefore.classList.remove('style');
+  //     navigation.style.display = 'none';
+  //     closeMenu.style.display = 'none';
+  //     openMenu.style.display = 'block';
+  //   });
+  // }
 
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');

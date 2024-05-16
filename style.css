@@ -2747,6 +2747,7 @@ input {
     top: 0;
     background: #010102;
     overflow: hidden;
+    display: none;
   }
 
   .header-navigation::before {
