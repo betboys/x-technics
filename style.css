@@ -2504,8 +2504,8 @@ input {
 /* terms of service, privacy police, cookies */
 .security-linear-1 {
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: -23%;
+  top: -6%;
   z-index: 0;
 }
 
