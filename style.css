@@ -2221,6 +2221,21 @@ input {
 }
 
 /* single service aircraft wheel */
+.wheel-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 110px;
+  padding-bottom: 302px;
+  width: 100%;
+  max-width: 690px;
+}
+
+.wheel-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .relative {
   position: relative;
   z-index: 1;
