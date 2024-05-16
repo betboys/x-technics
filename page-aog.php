@@ -11,7 +11,7 @@
 <section class="offer-inner aog-inner">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-    <div class="swiper-container">
+    <div class="swiper-container no-top">
         <div class="swiper">
             <div class="swiper-wrapper offer-flex aod-offer-flex">
                 <?php
@@ -72,21 +72,21 @@
 
 </section>
 <section class="left-text-rigth-image-cont">
-    <div class="left-text-cont" data-aos="fade-left">
+    <div class="left-text-cont">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?>
         </p>
         <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
 </section>
-<section class="home-our-aircraft-engineers-inner margin-top swiper-slide-inner-effect2">
+<section class="aog-whs">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 
 
 </section>
-<section class="our-aircraft-flex-container">
-    <h3 class="title title-before-after-effect color-style title-top-style title-center">
+<section class="aog-flex-container">
+    <h3 class="title title-before-after-effect color-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
     <ul class="our-aircraft-flex-inner" data-aos="fade-right">

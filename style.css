@@ -1984,7 +1984,19 @@ input {
 }
 
 .offer-inner {
-  margin-top: 18.188rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+}
+
+.no-top {
+  margin-top: 0;
+}
+
+.aog-whs {
+  padding: var(--paddingLeftAndRight) var(--paddingLeftAndRight);
+}
+
+.aog-flex-container {
+  padding: var(--paddingLeftAndRight) var(--paddingLeftAndRight);
 }
 
 .offer-flex {
