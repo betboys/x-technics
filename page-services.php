@@ -8,7 +8,7 @@
     </div>
     <img class="serive-hero-img" src="<?= the_field('image'); ?>" alt="">
 </section>
-<section class="service-provider-container our-service-inner our-service-inner-effect">
+<section class="service-provider-container">
     <div class="provider-text-inner text-center">
         <p class="title title-before-after-effect color-style text-center title-center">
             <?= the_field('s_heading'); ?>
@@ -27,7 +27,7 @@
                 <li class="about-card-list" data-aos="fade-right">
                     <a class="our-service-card-link" href="<?php echo esc_url($permalink); ?>">
                         <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
-                        <p class="about-card-text our-service-card-text new-style"> <?php echo esc_html($title); ?></p>
+                        <p class="service-card-text"> <?php echo esc_html($title); ?></p>
                     </a>
                 </li>
             <?php endforeach;

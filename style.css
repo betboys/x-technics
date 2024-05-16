@@ -1575,46 +1575,30 @@ input {
 /* service */
 .service-cover {
   width: 100%;
-  margin-top: 101px;
+  padding-top: 100px;
   position: relative;
 }
 
-.service-image {
-  height: unset;
-  z-index: 0;
-}
-
-.our-service-inner {
-  margin-top: 19.792vw;
-  position: relative;
-}
-
-.our-service-inner::before {
-  content: '';
+.serive-hero-img {
   position: absolute;
-  top: -27.125rem;
-  left: -32rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
-.our-service-inner::after {
-  content: '';
+.service-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 130px;
+  width: 100%;
+  max-width: 680px;
+  padding-bottom: 320px;
+}
+
+.service-card-text {
   position: absolute;
-  top: 23.75rem;
-  right: -54.313rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
+  left: 0;
+  bottom: 24px;
+  padding: 0 24px;
 }
 
 .text-center {
@@ -1627,55 +1611,15 @@ input {
 }
 
 .information-inner {
-  width: 1000px;
-  margin-top: 7.5rem;
+  width: 100%;
+  max-width: 880px;
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: var(--paddingTopAndBottom);
+  padding-bottom: var(--paddingTopAndBottom);
 }
 
-.child-2,
-.child-4,
-.child-6 {
-  position: relative;
-}
-
-.child-2::before {
-  content: '';
-  position: absolute;
-  top: -7rem;
-  left: -28.938rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.child-4::before {
-  content: '';
-  position: absolute;
-  top: -25.875rem;
-  right: -78rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
-.child-6::before {
-  content: '';
-  position: absolute;
-  top: -6.538rem;
-  left: -32.188rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.child-1 {
+  padding-top: 120px;
 }
 
 .this-element-subtitle {
