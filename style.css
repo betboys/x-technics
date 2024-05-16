@@ -1277,10 +1277,7 @@ input {
 }
 
 .about-card-list {
-  background: #0071AA;
   position: relative;
-  animation: changeBackgroundColor 5s linear infinite;
-  padding: 1px;
   overflow: hidden;
 }
 
@@ -1329,7 +1326,7 @@ input {
 
 .about-card-img {
   width: 100%;
-  height: 100%;
+  height: unset;
 }
 
 .about-card-text {
