@@ -2924,6 +2924,17 @@ input {
   .home-our-services-container {
     padding: 0 var(--paddingLeftAndRight);
     padding-top: 80px;
+    padding-bottom: 56px;
+  }
+
+  .title-before-after-effect::before,
+  .title-before-after-effect::after {
+    min-width: 32px;
+  }
+
+  .title {
+    font-size: 24px;
+    gap: 24px;
   }
 }
 
@@ -2947,23 +2958,13 @@ input {
     font-size: 40px;
   }
 
-  .title {
-    font-size: 24px;
-    gap: 24px;
-  }
-
   .services-content-flex {
     margin-top: 16px;
   }
 
-  .title-before-after-effect::before,
-  .title-before-after-effect::after {
-    min-height: 32px;
-  }
-
   .services-content-list {
     width: 45.5vw !important;
-  };
+  }
 }
 
 /* @media (max-width: 1700px) {
