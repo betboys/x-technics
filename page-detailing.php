@@ -1,6 +1,8 @@
 <?php get_header();
 /* Template Name: Aircraft Detailing */
 ?>
+<img class="detailing-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="detailing-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="service-cover detailing-cover">
     <div class="detailing-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>

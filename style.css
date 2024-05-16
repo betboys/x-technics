@@ -2225,25 +2225,23 @@ input {
 /* single service aircraft wheel */
 .whell-linear-1 {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -24%;
+  top: 9%;
   z-index: 0;
 }
 
 .whell-linear-2 {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -26%;
+  top: 30%;
   z-index: 0;
-  opacity: 0;
 }
 
 .whell-linear-3 {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -29%;
+  top: 54%;
   z-index: 0;
-  opacity: 0;
 }
 
 .whell-title-subtitle-inner {
@@ -2296,6 +2294,21 @@ input {
 }
 
 /* single service detailing */
+.detailing-linear-1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.detailing-linear-2 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
 .detailing-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 110px;
