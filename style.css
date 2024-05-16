@@ -50,8 +50,6 @@ body {
 }
 
 img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -84,6 +82,7 @@ input {
 :root {
   --width: 87.5vw;
   --paddingLeftAndRight: 7.813vw;
+  --paddingTopAndBottom: 60px;
 }
 
 .main {
@@ -281,8 +280,6 @@ input {
 }
 
 .home-hero-img {
-  width: auto;
-  height: auto;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -359,7 +356,7 @@ input {
 }
 
 .home-our-services-container {
-  padding: 60px var(--paddingLeftAndRight);
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .title {
@@ -475,7 +472,7 @@ input {
 
 /* home our aircraft engineers */
 .home-our-aircraft-engineers {
- padding: 60px var(--paddingLeftAndRight);
+ padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .color-style::before {
@@ -495,8 +492,6 @@ input {
 }
 
 .our-aircraft-flex-inner {
-  width: var(--width);
-  margin-inline: auto;
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
@@ -571,6 +566,7 @@ input {
   margin-top: 56px;
   width: 100%;
   max-width: 672px;
+  margin-inline: auto;
   text-align: center;
 }
 
@@ -608,7 +604,7 @@ input {
 }
 
 .swiper-slide-inner {
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .swiper-slide-inner-home {
@@ -631,7 +627,8 @@ input {
 }
 
 .slide-title-sytle {
-  width: 890px;
+  width: 100%;
+  max-width: 900px;
   margin-inline: auto;
   text-align: center;
 }
@@ -679,7 +676,6 @@ input {
 
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
-  /* background: #868E96; */
   cursor: auto;
   pointer-events: none;
   position: relative;
@@ -794,9 +790,7 @@ input {
 }
 
 .value-trust {
-  width: var(--width);
-  margin-inline: auto;
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -821,8 +815,7 @@ input {
 /* contact us */
 .contact-us {
   width: 100%;
-  padding-top: 7.5rem;
-  padding-bottom: 3.75rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   position: relative;
 }
 
@@ -848,7 +841,8 @@ input {
 }
 
 .contact-us-socal-mekia-links {
-  width: 350px;
+  width: 100%;
+  max-width: 360px;
   position: relative;
   z-index: 1;
 }
@@ -908,9 +902,10 @@ input {
 }
 
 .form-inner {
-  width: 711px;
+  width: 100%;
+  max-width: 692px;
   background: #0071AA;
-  padding: 40px 55px;
+  padding: 40px 54px;
   position: relative;
 }
 
