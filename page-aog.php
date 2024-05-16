@@ -1,10 +1,10 @@
 <?php get_header();
 /* Template Name: AOG Maintenance Template */
 ?>
-<section class="service-cover aircraft-maintenance">
-    <div class="about-title-subtitle-inner">
+<section class="aog-hero">
+    <div class="aog-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-        <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+        <h2 class="subtitle aog-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
     <img class="aog-single-img" src="<?= the_field('image'); ?>" alt="">
 </section>

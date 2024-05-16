@@ -1941,8 +1941,29 @@ input {
 }
 
 /* single service aog */
-.aog-inner {
+.aog-hero {
+  width: 100%;
+  padding-top: 100px;
   position: relative;
+}
+
+.aog-single-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.aog-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 126px;
+  padding-bottom: 301px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.aog-cover-subtitle {
+  width: 100%;
+  max-width: 520px;
 }
 
 .aog-inner::before {
