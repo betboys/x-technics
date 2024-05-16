@@ -2654,11 +2654,11 @@ input {
   }
 
   .about-card-list:hover .about-card-text {
-    top: 50%;
+    top: calc(50% + 5 * (100vw - 1920px) / 60);
   }
 
   .about-card-list:hover .about-card-text-hidden {
-    top: 55%;
+    top: calc(55% + 5 * (100vw - 1920px) / 60);
   }
 
   .about-card-link:hover {
