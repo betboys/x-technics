@@ -2767,8 +2767,8 @@ input {
     width: 532px;
     height: 509px;
     position: absolute;
-    right: 0;
-    top: -0rem;
+    right: -50%;
+    bottom: 0;
     background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu2.png);
     background-size: cover;
     background-position: center;
