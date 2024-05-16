@@ -83,7 +83,7 @@
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 </section>
 <section class="aog-flex-container">
-    <h3 class="title title-before-after-effect color-style title-top-style title-center">
+    <h3 class="title title-before-after-effect color-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
     <ul class="our-aircraft-flex-inner" data-aos="fade-right">
