@@ -94,7 +94,7 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
   // select
   let selectContainer = document.querySelector('.select-dropdown__list');
   let checkbox = document.querySelectorAll('.checkbox-inner');
-  if (window.innerWidth < 745) {
+  if (window.innerWidth <= 1100) {
     for (let i = 0; i < checkbox.length; i++) {
       let selectList = document.createElement('li');
       selectList.setAttribute('class', 'select-dropdown__list-item');
