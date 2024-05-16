@@ -2,13 +2,13 @@
 /* Template Name: Aircraft Wheel Service */
 ?>
 <section class="service-cover wheel-cover">
-    <div class="about-title-subtitle-inner">
+    <div class="whell-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
     <img class="wheel-image" src="<?= the_field('image'); ?>" alt="">
 </section>
-<section class="home-our-aircraft-engineers-inner relative">
+<section class="whell-or">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></h3>
     <p class="subtitle subtitle-width-style"><?= the_field('c_desc'); ?></p>
 </section>
