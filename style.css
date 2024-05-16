@@ -1936,6 +1936,10 @@ input {
   margin-left: var(--paddingLeftAndRight);
 }
 
+.swiper-after {
+  margin-top: 32px;
+}
+
 /* single service aog */
 .aog-inner {
   position: relative;
