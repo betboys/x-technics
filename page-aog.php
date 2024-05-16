@@ -1,17 +1,17 @@
 <?php get_header();
 /* Template Name: AOG Maintenance Template */
 ?>
-<section class="service-cover aircraft-maintenance">
-    <div class="about-title-subtitle-inner">
-        <h1 class="cover-title about-cover-title" data-aos="fade-left"><?= the_field('title'); ?></h1>
-        <h2 class="subtitle about-cover-subtitle" data-aos="fade-left"><?= the_field('description'); ?></h2>
+<section class="aog-hero">
+    <div class="aog-title-subtitle-inner">
+        <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
+        <h2 class="subtitle aog-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>" alt="">
+    <img class="aog-single-img" src="<?= the_field('image'); ?>" alt="">
 </section>
 <section class="offer-inner aog-inner">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container no-top" data-aos="fade-right">
         <div class="swiper">
             <div class="swiper-wrapper offer-flex aod-offer-flex">
                 <?php
@@ -78,11 +78,11 @@
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
 </section>
-<section class="home-our-aircraft-engineers-inner margin-top swiper-slide-inner-effect2">
+<section class="aog-whs">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 </section>
-<section class="our-aircraft-flex-container">
+<section class="aog-flex-container">
     <h3 class="title title-before-after-effect color-style title-top-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
