@@ -3263,11 +3263,22 @@ input {
   }
 
   .mobile-verion {
-    display: flex;
-    position: relative;
+    display: block;
   }
 
-  .mobile-verion::before {
+  .explore-more {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "blender heavy";
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 109.091%;
+  }
+
+  .explore-more::before {
     content: '';
     width: 252px;
     height: 54px;
@@ -3275,6 +3286,7 @@ input {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: absolute;
   }
 }
 
