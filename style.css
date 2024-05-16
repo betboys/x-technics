@@ -1230,6 +1230,7 @@ input {
 .about-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
+  padding-bottom: 301px;
   width: 100%;
   max-width: 690px;
 }
@@ -1246,9 +1247,10 @@ input {
 }
 
 .about-aour-mission {
-  width: 672px;
+  width: 100%;
+  max-width: 972px;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   margin-inline: auto;
-  margin-top: 22.5rem;
 }
 
 .subtitle-center {
@@ -1257,7 +1259,7 @@ input {
 }
 
 .image-text-inner {
-  margin-top: 13.313rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1282,15 +1284,12 @@ input {
 
 .about-cards-container {
   margin-top: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 }
 
 .about-card-list {
-  width: 21vw;
-  height: 21vw;
   background: #0071AA;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
@@ -1418,11 +1417,12 @@ input {
 /* service provider */
 .service-provider-container {
   width: 100%;
-  margin-top: 7.5rem;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .provider-text-inner {
-  width: 880px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .service-card {
