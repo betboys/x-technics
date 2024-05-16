@@ -2813,7 +2813,7 @@ input {
     left: 0;
     right: 0;
     top: 100%;
-    background: #080f18;
+    background: rgba(19, 27, 35, 0.96);
     border: 1px solid #0071AA;
     max-height: 300px;
     overflow: auto;
@@ -2833,6 +2833,41 @@ input {
 
   .select-dropdown__list-item {
     display: block;
+  }
+
+  .container-select {
+    display: block;
+    position: relative;
+  }
+
+  .form-category-intro {
+    display: none;
+  }
+
+  .select-dropdown__button {
+    padding: 14px 28px;
+    border: 1px solid #24B6FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+
+  .select-text {
+    font-family: "blender medium";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 100%;
+    color: #ADB5BD;
+  }
+
+  .label {
+    padding: 12px 24px !important;
+    width: 100%;
+  }
+
+  .label::before {
+    display: none;
   }
 }
 
