@@ -23,7 +23,7 @@ if (window.innerWidth <= 990) {
   let left = document.querySelector(".left");
 
   openMenu.addEventListener('click', function () {
-    // left.style.display = "block";
+    left.style.display = "block";
     // headerBefore.classList.add('style');
     navigation.style.display = 'block';
     openMenu.style.display = 'none';
@@ -39,7 +39,7 @@ if (window.innerWidth <= 990) {
 	// });
 
   closeMenu.addEventListener('click', function () {
-    // left.style.display = "none";
+    left.style.display = "none";
     // headerBefore.classList.remove('style');
     navigation.style.display = 'none';
     closeMenu.style.display = 'none';
