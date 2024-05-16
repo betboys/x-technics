@@ -45,6 +45,10 @@ body {
   color: #fff;
 }
 
+body.hidden {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

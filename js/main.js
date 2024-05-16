@@ -21,8 +21,10 @@ if (window.innerWidth <= 990) {
   let closeMenu = document.querySelector('.close-menu');
   let navigation = document.querySelector('.header-navigation');
   let left = document.querySelector(".left");
+  let body = document.querySelector('body');
 
   openMenu.addEventListener('click', function () {
+    body.classList.add('hidden');
     left.style.display = "block";
     navigation.style.display = 'block';
     openMenu.style.display = 'none';
@@ -30,6 +32,7 @@ if (window.innerWidth <= 990) {
   });
 
   left.addEventListener("click", function () {
+    body.classList.remove('hidden');
 		left.style.display = "none"
 		navigation.style.display = 'none';
 		closeMenu.style.display = 'none';
@@ -37,6 +40,7 @@ if (window.innerWidth <= 990) {
 	});
 
   closeMenu.addEventListener('click', function () {
+    body.classList.remove('hidden');
     left.style.display = "none";
     navigation.style.display = 'none';
     closeMenu.style.display = 'none';
