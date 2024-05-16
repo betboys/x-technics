@@ -2716,7 +2716,10 @@ input {
 }
 
 /* responsive */
-@media (max-width: 1700px) {
+
+
+
+/* @media (max-width: 1700px) {
 
   .about-card-list:hover .about-card-text,
   .service-card .about-card-list:hover .about-card-text {
@@ -4236,7 +4239,7 @@ input {
   .air-image-rigth {
     width: 100%;
   }
-}
+} */
 
 /* data aos */
 [data-aos][data-aos][data-aos-duration="50"],
