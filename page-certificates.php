@@ -1,5 +1,7 @@
 <?php get_header();
 /* Template Name: Certifcates Template */ ?>
+<img class="certificate-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="certificate-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="certificate-cover">
     <div class="certificate-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>

@@ -1203,8 +1203,8 @@ input {
 /* about us */
 .about-linear-1 {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -23%;
+  top: 7%;
   z-index: 0;
 }
 
@@ -1453,6 +1453,20 @@ input {
 }
 
 /* certificate cover */
+.certificate-linear-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.certificate-linear-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
 .certificate-cover {
   width: 100%;
   margin-top: 100px;
