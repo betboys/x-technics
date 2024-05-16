@@ -2787,6 +2787,10 @@ input {
   .header-menu-list:last-child .menu-link {
     justify-content: center;
   }
+
+  .menu-link {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 744px) {
