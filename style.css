@@ -1941,6 +1941,13 @@ input {
 }
 
 /* single service aog */
+.aog-single-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .aog-inner {
   position: relative;
 }
