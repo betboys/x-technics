@@ -2755,10 +2755,10 @@ input {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(/images/burger-menu1.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu1.png);
     background-size: cover;
     background-position: center;
-    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .header-menu-inner {
