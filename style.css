@@ -286,9 +286,12 @@ input {
   position: absolute;
   right: 0;
   bottom: 0;
+  background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
 }
 
 .cover-title-subtitle-inner {
+  width: 100%;
+  max-width: 740px;
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   padding-bottom: 137px;
@@ -306,10 +309,6 @@ input {
   text-transform: capitalize;
 }
 
-.home-cover-title {
-  width: 740px;
-}
-
 .subtitle {
   font-family: 'blender book';
   font-size: 20px;
@@ -320,7 +319,8 @@ input {
 }
 
 .home-cover-subtitle {
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
   margin-top: 28px;
 }
 
