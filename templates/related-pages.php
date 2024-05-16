@@ -1,5 +1,5 @@
 <div class="swiper">
-    <div class="swiper-wrapper grid-swiper">
+    <div class="swiper-wrapper single-slider">
         <?php
         $current_page_id = get_the_ID();
         $parent_page_id = wp_get_post_parent_id($current_page_id);

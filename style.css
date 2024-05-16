@@ -1932,21 +1932,8 @@ input {
   text-transform: capitalize;
 }
 
-.swiper-slide-inner-effect {
-  position: relative;
-}
-
-.swiper-slide-inner-effect::before {
-  content: '';
-  position: absolute;
-  top: -33.25rem;
-  left: -23.438rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.single-slider {
+  margin-left: var(--paddingLeftAndRight);
 }
 
 /* single service aog */
