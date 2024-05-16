@@ -2042,6 +2042,10 @@ input {
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
+.aog-flex-container {
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+}
+
 .swiper-slide-inner-effect2::before {
   content: '';
   position: absolute;
