@@ -613,21 +613,6 @@ input {
   position: relative;
 }
 
-.swiper-slide-inner-home::before {
-  content: '';
-  position: absolute;
-  top: -19.25rem;
-  right: -23.875rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 .slide-title-sytle {
   width: 100%;
   max-width: 900px;
@@ -819,19 +804,6 @@ input {
   width: 100%;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   position: relative;
-}
-
-.contact-us::before {
-  content: '';
-  position: absolute;
-  top: 7.375rem;
-  left: -33.625rem;
-  width: 78rem;
-  height: 62rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .contact-us-container {
@@ -1213,20 +1185,6 @@ input {
   position: relative;
 }
 
-.about-cover::before {
-  content: '';
-  position: absolute;
-  top: 20.938rem;
-  left: -24.25rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-
 .about-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
@@ -1497,34 +1455,6 @@ input {
   position: relative;
 }
 
-.certificate-block-inner::before {
-  content: '';
-  position: absolute;
-  top: -19.625rem;
-  left: -29.438rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.certificate-block-inner::after {
-  content: '';
-  position: absolute;
-  top: 7.75em;
-  right: -51.563rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 .download-pdf {
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
@@ -1714,36 +1644,8 @@ input {
   z-index: -1;
 }
 
-.line-ensurin-continuous::before {
-  content: '';
-  position: absolute;
-  top: -8.875rem;
-  left: -25.5rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .line-intro {
   position: relative;
-}
-
-.line-intro::before {
-  content: '';
-  position: absolute;
-  top: -11.5rem;
-  right: -53.125rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
 }
 
 .ensurin-continuous {
@@ -2060,19 +1962,6 @@ input {
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
-.swiper-slide-inner-effect2::before {
-  content: '';
-  position: absolute;
-  top: -3.813rem;
-  left: -26.438rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .subtitle-width-style {
   width: 672px;
   margin-inline: auto;
@@ -2109,37 +1998,8 @@ input {
   position: relative;
 }
 
-.battery-offer::before {
-  content: '';
-  position: absolute;
-  top: -20.5rem;
-  left: -36.875rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-
 .battery-card {
   position: relative;
-}
-
-.battery-card::before {
-  content: '';
-  position: absolute;
-  top: 13.188rem;
-  right: -57.438rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
 }
 
 .single-service-width-image {
@@ -2276,55 +2136,12 @@ input {
   position: relative;
 }
 
-.slide-weel::before {
-  content: '';
-  position: absolute;
-  top: -17rem;
-  left: -25.188rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .wheel-card {
   position: relative;
 }
 
-.wheel-card::before {
-  content: '';
-  position: absolute;
-  top: -26.938rem;
-  right: -49.563rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 .second-slide-wheel {
   position: relative;
-}
-
-.second-slide-wheel::before {
-  content: '';
-  position: absolute;
-  top: -37.375rem;
-  right: -46.25rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
 }
 
 /* single service detailing */
@@ -2353,19 +2170,6 @@ input {
   width: 100%;
   max-width: 800px;
   position: relative;
-}
-
-.detailing-services::before {
-  content: '';
-  position: absolute;
-  top: -13.938rem;
-  left: -30.25rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .detailing-services-inner {
@@ -2404,21 +2208,6 @@ input {
   position: relative;
 }
 
-.detailing-slide::before {
-  content: '';
-  position: absolute;
-  top: 0.438rem;
-  right: -53.25rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 /* single service borescope */
 .borescope-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
@@ -2448,19 +2237,6 @@ input {
   padding: var(--paddingTopAndBottom) 0;
 }
 
-.borescopes-slide-top::before {
-  content: '';
-  position: absolute;
-  top: -15.313rem;
-  left: -27.813rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .list-style {
   list-style: none;
 }
@@ -2473,36 +2249,8 @@ input {
   position: relative;
 }
 
-.borescope-container::before {
-  content: '';
-  position: absolute;
-  top: 6.813rem;
-  right: -52.313rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 .borescope-pdf {
   position: relative;
-}
-
-.borescope-pdf::before {
-  content: '';
-  position: absolute;
-  top: -13.438rem;
-  left: -33.688rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .borescope-service-single .detailing-services-list {
@@ -2544,51 +2292,8 @@ input {
   position: relative;
 }
 
-.ndt-linear::before {
-  content: '';
-  position: absolute;
-  top: -39.125rem;
-  right: -55.938rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
-}
-
 .ndt-slide {
   position: relative;
-}
-
-.ndt-slide::before {
-  content: '';
-  position: absolute;
-  top: -36.5rem;
-  left: -27.938rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.ndt-slide::after {
-  content: '';
-  position: absolute;
-  top: 8.125rem;
-  right: -49.625rem;
-  width: 78rem;
-  height: 75rem;
-  background: url(images/linear.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform-origin: center;
-  transform: rotate(180deg);
 }
 
 /* terms of service, privacy police, cookies */
