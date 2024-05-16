@@ -1958,15 +1958,15 @@ input {
 /* single service aog */
 .aog-linear-1 {
   position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
+  right: -37%;
+  top: 3%;
+  z-index: 1;
 }
 
 .aog-linear-2 {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -25%;
+  top: 34.5%;
   z-index: 0;
 }
 
@@ -2087,6 +2087,21 @@ input {
 }
 
 /* single service aircraft battery */
+.battery-linear-1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+}
+
+.battery-linear-2 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0;
+}
+
 .battery-title-subtitle-inner {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 122px;
