@@ -2875,7 +2875,7 @@ input {
   }
 }
 
-@media (max-widdth: 1000px) {
+@media (max-width: 1000px) {
   .subscribe-container {
     display: none;
   }
