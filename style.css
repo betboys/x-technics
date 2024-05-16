@@ -2731,6 +2731,8 @@ input {
 @media (max-width: 990px) {
   .burger-menu-container {
     display: block;
+    position: relative;
+    z-index: 1;
   }
 
   .close-menu {
@@ -2743,6 +2745,20 @@ input {
     position: fixed;
     right: 0;
     top: 0;
+    background: #010102;
+  }
+
+  .header-navigation::before {
+    content: '';
+    width: 450px;
+    height: 497px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/images/burger-menu1.png);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
   }
 
   .header-menu-inner {
@@ -2750,6 +2766,7 @@ input {
     flex-direction: column;
     align-items: start;
     gap: 32px;
+    margin-left: 24px;
   }
 
   .menu-link {
@@ -2769,6 +2786,7 @@ input {
     flex-direction: column;
     gap: 24px;
     margin-top: 20px;
+    margin-left: 36px;
   }
 
   .dropdown-menu .header-menu-list .menu-link {
