@@ -3264,6 +3264,7 @@ input {
 
   .mobile-verion {
     display: block;
+    margin-top: 35px;
   }
 
   .explore-more {
@@ -3281,12 +3282,16 @@ input {
   .explore-more::before {
     content: '';
     width: 252px;
-    height: 54px;
+    height: 59px;
     background: url(https://x-technics.com/ysteeshy/2024/05/Button.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
+  }
+
+  .about-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(209px, 1fr));
   }
 }
 
@@ -3376,6 +3381,12 @@ input {
     margin-top: 16px;
     padding-right: 10px;
   }
+}
+
+@media (max-width: 470px) {
+  .about-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(28.5vw, 1fr));
+}
 }
 
 /* @media (max-width: 1700px) {
