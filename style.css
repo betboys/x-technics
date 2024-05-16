@@ -2522,8 +2522,8 @@ input {
   z-index: -1;
 }
 
-.this-top-style {
-  margin-top: 6.25vw;
+.ndt-oae {
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .ndt-linear {

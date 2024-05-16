@@ -28,9 +28,9 @@
 
     </ul>
 </section>
-<section class="offer-inner offer-inner-top ndt-linear">
+<section class="offer-inner ndt-linear">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></p>
-    <div class="swiper-container">
+    <div class="swiper-container swiper-after">
         <div class="swiper">
             <div class="swiper-wrapper offer-flex" data-aos="fade-right">
                 <?php
@@ -86,7 +86,7 @@
         </div>
     </div>
 </section>
-<section class="detailing-services this-top-style borescope-service-single">
+<section class="detailing-services borescope-service-single">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading_copy'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc_copy'); ?></p>
     <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
@@ -105,7 +105,7 @@
 
     </ul>
 </section>
-<section class="home-our-aircraft-engineers-inner margin-top">
+<section class="ndt-oae">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>
     </h3>
     <div class="our-aircraft-flex-container">
