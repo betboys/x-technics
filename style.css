@@ -1701,6 +1701,27 @@ input {
 }
 
 /* single service aircraft */
+.line-linear-1 {
+  position: absolute;
+  left: -20%;
+  top: 9%;
+  z-index: 0;
+}
+
+.line-linear-2 {
+  position: absolute;
+  right: -27%;
+  top: 37%;
+  z-index: 1;
+}
+
+.line-linear-3 {
+  position: absolute;
+  left: -21%;
+  top: 59%;
+  z-index: 0;
+}
+
 .aircraft-line {
   width: 100%;
   padding-top: 100px;
@@ -1935,24 +1956,17 @@ input {
 }
 
 /* single service aog */
-.line-linear-1 {
+.aog-linear-1 {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  right: 0;
+  top: 0;
   z-index: 0;
 }
 
-.line-linear-2 {
+.aog-linear-2 {
   position: absolute;
-  right: 0%;
-  top: 0%;
-  z-index: 0;
-}
-
-.line-linear-3 {
-  position: absolute;
-  left: 0%;
-  top: 0%;
+  left: 0;
+  top: 0;
   z-index: 0;
 }
 
