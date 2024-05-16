@@ -2722,7 +2722,7 @@ input {
 }
 
 /* responsive */
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   :root {
     --paddingLeftAndRight: 8.333vw;
   }
@@ -2841,6 +2841,11 @@ input {
 @media (max-width: 520px) {
   :root {
     --paddingLeftAndRight: 3.077vw;
+  }
+
+  .header-logo {
+    width: 123px;
+    height: unset;
   }
 }
 
