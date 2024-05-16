@@ -291,7 +291,7 @@ input {
 
 .cover-title-subtitle-inner {
   width: 100%;
-  max-width: 740px;
+  max-width: 890px;
   padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   padding-bottom: 137px;
@@ -359,7 +359,7 @@ input {
 }
 
 .home-our-services-container {
-  margin-top: 12.25rem;
+  padding: 60px var(--paddingLeftAndRight);
 }
 
 .title {
@@ -397,7 +397,7 @@ input {
 }
 
 .services-content-list {
-  width: 43.229vw;
+  width: 41.667vw;
   position: relative;
   padding: 1px;
 }
@@ -424,34 +424,10 @@ input {
   opacity: 0;
 }
 
-@keyframes changeBackgroundColor {
-  0% {
-    background-color: #24B6FF;
-  }
-
-  25% {
-    background-color: #0983C1;
-
-  }
-
-  50% {
-    background-color: #076595;
-  }
-
-  75% {
-    background-color: #00527b;
-  }
-
-
-  100% {
-    background-color: #24B6FF;
-  }
-}
-
 .services-content-list:nth-child(3),
 .services-content-list:nth-child(4),
 .services-content-list:nth-child(5) {
-  width: 28.469vw;
+  width: 27.427vw;
 }
 
 .services-content-link {
@@ -499,7 +475,7 @@ input {
 
 /* home our aircraft engineers */
 .home-our-aircraft-engineers {
-  padding-top: 7.5rem;
+ padding: 60px var(--paddingLeftAndRight);
 }
 
 .color-style::before {
@@ -511,7 +487,8 @@ input {
 }
 
 .our-aircraft-subtitle {
-  width: 760px;
+  width: 100%;
+  max-width: 760px;
   margin-top: 24px;
   margin-inline: auto;
   text-align: center;
@@ -528,14 +505,11 @@ input {
 }
 
 .our-aircraft-flex-list {
-  width: 190px;
-  height: 112px;
+  width: 188.732px;
+  height: 111.999px;
   display: flex;
   align-items: center;
   position: relative;
-  /* animation: changeBackgroundColor 5s linear infinite;
-  display: flex;
-  align-items: center; */
 }
 
 .our-aircraft-flex-list:nth-child(1) {
@@ -578,39 +552,6 @@ input {
   animation: changeBackgroundColorBorder 5s linear infinite;
 }
 
-@keyframes changeBackgroundColorBorder {
-  0% {
-    border: 2px solid #24B6FF;
-    border-right: none;
-    border-top: none;
-  }
-
-  25% {
-    border: 2px solid #0983C1;
-    border-right: none;
-    border-top: none;
-  }
-
-  50% {
-    border: 2px solid #076595;
-    border-right: none;
-    border-top: none;
-  }
-
-  75% {
-    border: 2px solid #00527b;
-    border-right: none;
-    border-top: none;
-  }
-
-
-  100% {
-    border: 2px solid #24B6FF;
-    border-right: none;
-    border-top: none;
-  }
-}
-
 .our-aircraft-image {
   width: 100%;
 }
@@ -627,8 +568,10 @@ input {
 }
 
 .our-aircraft-description {
-  text-align: center;
   margin-top: 56px;
+  width: 100%;
+  max-width: 672px;
+  text-align: center;
 }
 
 .our-aircraft-link {
