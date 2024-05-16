@@ -3280,10 +3280,10 @@ input {
   }
 
   .about-hero-img {
-    right: -9rem;
+    right: -8rem;
     bottom: unset;
     top: 5rem;
-    width: 1000px;
+    width: 900px;
     height: unset;
   }
 
