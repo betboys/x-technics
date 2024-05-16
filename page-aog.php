@@ -82,8 +82,10 @@
 <section class="aog-whs">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
+
+
 </section>
-<!-- <section class="aog-flex-container">
+<section class="aog-flex-container">
     <h3 class="title title-before-after-effect color-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
@@ -95,13 +97,14 @@
                 $title = get_sub_field('license_title');
                 ?>
                 <li class="our-aircraft-flex-list">
+                    <!-- <img class="our-aircraft-image" src="<?php echo get_template_directory_uri(); ?>/images/License.png" alt=""> -->
                     <p class="our-aircraft-text"><?= $title ?></p>
                 </li>
                 <?Php
             endwhile;
         endif; ?>
     </ul>
-</section> -->
+</section>
 <!-- <section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
