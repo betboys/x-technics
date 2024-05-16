@@ -1468,18 +1468,31 @@ input {
 /* certificate cover */
 .certificate-cover {
   width: 100%;
-  margin-top: 101px;
+  margin-top: 100px;
   position: relative;
 }
 
+.certificate-title-subtitle-inner {
+  padding-left: var(--paddingLeftAndRight);
+  padding-top: 116px;
+  padding-bottom: 180px;
+  width: 100%;
+  max-width: 700px;
+}
+
 .certificate-image {
-  width: 58.854vw;
-  height: unset;
-  z-index: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.certificate-cover-subtitle {
+  width: 100%;
+  max-width: 540px;
 }
 
 .certificate-block-inner {
-  margin-top: 11.979vw;
   position: relative;
 }
 
