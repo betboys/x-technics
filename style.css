@@ -84,7 +84,6 @@ input {
 }
 
 :root {
-  --width: 87.5vw;
   --paddingLeftAndRight: 7.813vw;
   --paddingTopAndBottom: 60px;
 }
@@ -835,8 +834,6 @@ input {
 
 .contact-us-container {
   margin-top: 32px;
-  width: var(--width);
-  margin-inline: auto;
   display: flex;
   justify-content: space-between;
 }

@@ -1,7 +1,7 @@
 <section class="contact-us" id="contact-us">
 	<h3 class="title title-before-after-effect"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
-		<div class="contact-us-socal-mekia-links">
+		<div class="contact-us-socal-mekia-links" data-aos="fade-left">
 			<p class="contact-us-heading"><?= the_field('contact_title'); ?></p>
 			<ul class="socal-media-inner">
 				<?php if (get_field('phone_number', 'option')): ?>
@@ -57,7 +57,7 @@
 				<?php endif; ?>
 			</ul>
 		</div>
-		<div class="form-inner">
+		<div class="form-inner" data-aos="fade-right">
 			<p class="form-title">I’m interested in . . .</p>
 			<form class="form" method="POST" action="">
 				<div class="container-select">
