@@ -1512,7 +1512,7 @@ input {
 }
 
 .download-pdf {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight); 
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .download-pdf-container {
@@ -1733,16 +1733,16 @@ input {
 }
 
 .ensurin-continuous {
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .content-text-inner {
   width: 100%;
-  max-width: 1030px;
-  padding-left: var(--paddingLeftAndRight);
+  max-width: 870px;
 }
 
 .ensurin-continuous-subtitle {
+  width: 92%;
   margin-top: 24px;
   font-family: "blender medium";
   font-size: 20px;
@@ -1762,15 +1762,13 @@ input {
 
 .info-flex-div {
   width: 100%;
-  max-width: 1188px;
   margin-top: 32px;
-  display: flex;
-  justify-content: space-between;
-  margin-inline: auto;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
 }
 
 .this-content-intro {
-  width: 222px;
+  width: auto;
   background: #0071AA;
   padding: 32px 20px;
   position: relative;
