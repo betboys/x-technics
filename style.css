@@ -3470,6 +3470,8 @@ input {
     padding-bottom: 140px;
     padding-right: var(--paddingLeftAndRight);
   }
+
+  
 }
 
 @media (max-width: 605px) {
@@ -3516,11 +3518,30 @@ input {
   .swiper-button-next:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
-}
+  }
 
-  .prev-mobile, .next-mobile {
+  .prev-mobile,
+  .next-mobile {
     z-index: -1;
-}
+  }
+
+  .ensurin-continuous {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .ensurin-continuous-subtitle {
+    margin-top: 16px;
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .info-flex-div {
+    margin-top: 20px;
+  }
+
+  .top-element {
+    padding: 112px var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 520px) {

@@ -33,11 +33,11 @@ if (window.innerWidth <= 990) {
 
   left.addEventListener("click", function () {
     body.classList.remove('hidden');
-		left.style.display = "none"
-		navigation.style.display = 'none';
-		closeMenu.style.display = 'none';
-		openMenu.style.display = 'block';
-	});
+    left.style.display = "none"
+    navigation.style.display = 'none';
+    closeMenu.style.display = 'none';
+    openMenu.style.display = 'block';
+  });
 
   closeMenu.addEventListener('click', function () {
     body.classList.remove('hidden');
@@ -213,6 +213,13 @@ if (document.querySelector('.aircraft-line')) {
         prevEl: '.swiper-button-prev',
       }
     });
+  }
+  if (window.innerWidth <= 744) {
+    let elAbsolute = document.querySelectorAll(".el-absolute");
+    let ourExpertiseList = document.querySelectorAll(".our-expertise-list");
+    for (let i = 0; i < elAbsolute.length; i++) {
+      ourExpertiseList[i].appendChild(elAbsolute[i]);
+    }
   }
 }
 
