@@ -3171,6 +3171,11 @@ input {
     height: unset !important;
     margin-right: 0;
   }
+
+  .swiper-slide-margin-rigth>.service-single-link>.slide-image {
+    width: unset;
+    height: unset;
+  }
 }
 
 @media (max-width: 860px) {
