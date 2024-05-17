@@ -2292,7 +2292,7 @@ input {
   padding-top: 110px;
   padding-bottom: 268px;
   width: 100%;
-  max-width: 740;
+  max-width: 740px;
 }
 
 .detailing-width-img {
@@ -3265,6 +3265,11 @@ input {
     padding-top: 303px;
     padding-bottom: 127px;
   }
+
+  .detailing-title-subtitle-inner {
+    padding-top: 303px;
+    padding-bottom: 142px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -3576,6 +3581,10 @@ input {
     padding: 112px var(--paddingLeftAndRight);
   }
 
+  .detailing-services-main {
+    padding: 0 var(--paddingLeftAndRight) 122px var(--paddingLeftAndRight);
+  }
+
   .download-pdf-container {
     margin-top: 16px;
   }
@@ -3792,6 +3801,10 @@ input {
 
   .wheel-card {
     padding: 112px var(--paddingLeftAndRight);
+  }
+
+  .detailing-title-subtitle-inner {
+    padding-right: var(--paddingLeftAndRight);
   }
 }
 
@@ -4045,6 +4058,15 @@ input {
   .wheel-image {
     position: absolute;
     right: -11rem;
+    bottom: unset;
+    z-index: -1;
+    top: 5rem;
+    width: 900px;
+  }
+
+  .detailing-width-img {
+    position: absolute;
+    right: -6rem;
     bottom: unset;
     z-index: -1;
     top: 5rem;

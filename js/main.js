@@ -269,7 +269,7 @@ if (document.querySelector('.detailing-cover')) {
     },
   });
 
-  if (window.innerWidth > 1201) {
+  if (window.innerWidth > 990) {
     const swiper2 = new Swiper(swipers[1], {
       slidesPerView: 'auto',
       speed: 1000,
@@ -343,7 +343,7 @@ if (document.querySelector('.wheel-cover')) {
     },
   });
 
-  if (window.innerWidth > 1201) {
+  if (window.innerWidth > 990) {
     const swiper3 = new Swiper(swipers[2], {
       slidesPerView: 'auto',
       speed: 1000,
@@ -389,7 +389,7 @@ if (document.querySelector('.aircraft-maintenance')) {
     },
   });
 
-  if (window.innerWidth > 1201) {
+  if (window.innerWidth > 990) {
     const swiper3 = new Swiper(swipers[2], {
       slidesPerView: 'auto',
       speed: 1000,

@@ -10,7 +10,7 @@
     </div>
     <img class="detailing-width-img" src="<?= the_field('image'); ?>" alt="">
 </section>
-<section class="detailing-services">
+<section class="detailing-services detailing-services-main">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>
     <ul class="detailing-services-inner">
         <?php
