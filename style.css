@@ -3502,6 +3502,11 @@ input {
     font-size: 20px;
     padding-right: 0;
   }
+
+  .mobile-pagination,
+  .mobile-buttons {
+    display: block;
+  }
 }
 
 @media (max-width: 520px) {
