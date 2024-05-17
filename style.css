@@ -1920,9 +1920,9 @@ input {
   text-transform: capitalize;
 }
 
-.single-slider {
+/* .single-slider {
   margin-left: var(--paddingLeftAndRight);
-}
+} */
 
 .swiper-after {
   margin-top: 32px;
