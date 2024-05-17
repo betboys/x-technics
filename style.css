@@ -3768,10 +3768,18 @@ input {
     top: 5rem;
     width: 1000px;
   }
+
+  .slide-text-style {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 470px) {
   .about-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(28.5vw, 1fr));
+  }
+
+  .single-slider {
     grid-template-columns: repeat(auto-fill, minmax(28.5vw, 1fr));
   }
 }
