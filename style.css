@@ -3474,12 +3474,33 @@ input {
 
 @media (max-width: 605px) {
   .info-flex-div {
+    width: max-content;
     display: flex;
     gap: 0;
   }
 
   .this-content-intro {
+    width: 306px !important;
     margin-right: 22px;
+    padding: 32px;
+  }
+
+  .element-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .image-title-cont {
+    gap: 16px;
+  }
+
+  .element-title {
+    font-size: 22px;
+  }
+
+  .element-subtitle {
+    font-size: 20px;
+    padding-right: 0;
   }
 }
 
