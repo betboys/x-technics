@@ -3288,19 +3288,21 @@ input {
 
 @media (max-width: 960px) {
   .contact-us-mobile {
-    padding-top: 112px;
+    padding-top: 112px !important;
   }
 
   .tel1 {
     position: absolute;
     right: -4rem;
     top: 5rem;
+    z-index: -1;
   }
 
   .tel2 {
     position: absolute;
     left: -7rem;
     top: 5rem;
+    z-index: -1;
   }
 
   .contact-title {
@@ -3313,6 +3315,15 @@ input {
     -webkit-text-fill-color: transparent;
     position: relative;
     z-index: 1;
+  }
+
+  .contact-linear-1 {
+    position: absolute;
+    width: 746.5px;
+    height: 717.828px;
+    left: -100%;
+    z-index: 0;
+    top: 0;
   }
 }
 
