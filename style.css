@@ -3474,7 +3474,7 @@ input {
   .our-expertise-list {
     max-width: 500px;
     padding: 32px;
-    height: 206px;
+    height: 230px;
   }
 
   .img-settings {
@@ -3489,7 +3489,26 @@ input {
   .el-absolute {
     font-size: 20px;
     padding-right: 0;
+    width: 100%;
+    max-width: 294px;
   }
+
+  .image-texts-container {
+    width: 100%;
+    max-width: 294px;
+  }
+
+  .our-expertise-list:first-child,
+  .our-expertise-list:first-child:before {
+    clip-path: polygon(10.7% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 26%);
+  }
+
+  .our-expertise-list:last-child,
+  .our-expertise-list:last-child:before {
+    clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 74%, 90.3% 100%, 0.00% 100%);
+  }
+
+
 }
 
 @media (max-width: 605px) {
