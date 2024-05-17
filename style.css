@@ -3173,7 +3173,7 @@ input {
   }
 
   .swiper-slide-margin-rigth>.service-single-link>.slide-image {
-    width: unset;
+    width: 100%;
     height: unset;
   }
 }
