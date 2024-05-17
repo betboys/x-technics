@@ -2197,7 +2197,8 @@ input {
 }
 
 .two-card-image {
-  width: 12vw;
+  width: 210px;
+  height: unset;
 }
 
 /* single service aircraft wheel */
@@ -3738,6 +3739,14 @@ input {
   .battery-card-list:last-child::before {
     clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 88%, 87% 100%, 0.00% 100%) !important;
   }
+
+  .card-inner {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .two-card-inner {
+    padding: 112px var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 605px) {
@@ -3812,6 +3821,13 @@ input {
   .left-text-rigth-image-cont {
     padding: 0 var(--paddingLeftAndRight);
   }
+
+  .two-card-container {
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
 }
 
 @media (max-width: 520px) {
