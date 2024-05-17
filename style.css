@@ -1909,6 +1909,7 @@ input {
 }
 
 .slide-text-style {
+  text-align: left !important;
   position: absolute;
   left: 0;
   bottom: 24px;
@@ -3274,6 +3275,7 @@ input {
 
   .swiper-slide-inner {
     padding: 0;
+    padding-bottom: 112px;
   }
 
   .value-trust {
