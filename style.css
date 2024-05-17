@@ -1770,7 +1770,8 @@ input {
 }
 
 .this-content-intro {
-  width: auto;
+  width: auto !important;
+  text-align: unset !important;
   background: #0071AA;
   padding: 32px 20px;
   position: relative;
@@ -1813,6 +1814,7 @@ input {
 
 .element-subtitle {
   margin-top: 16px;
+  padding-right: 5px;
   font-family: "blender book";
   font-size: 18px;
   font-weight: normal;
@@ -1920,12 +1922,8 @@ input {
   text-transform: capitalize;
 }
 
-/* .single-slider {
-  margin-left: var(--paddingLeftAndRight);
-} */
-
 .swiper-after {
-  margin-top: 35px;
+  margin-top: 32px;
 }
 
 /* single service aog */
@@ -2721,6 +2719,12 @@ input {
 }
 
 /* responsive */
+@media (max-width: 1635px) {
+  .info-flex-div {
+    grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+  }
+}
+
 @media (max-width: 1540px) {
   .about-cards-container {
     grid-template-columns: repeat(auto-fill, minmax(244px, 1fr));
@@ -3456,6 +3460,27 @@ input {
     width: 32px;
     height: 32px;
   }
+
+  .aircraft-line {
+    padding-top: 0;
+  }
+
+  .line-title-subtitle-inner {
+    padding-top: 303px;
+    padding-bottom: 140px;
+    padding-right: var(--paddingLeftAndRight);
+  }
+}
+
+@media (max-width: 605px) {
+  .info-flex-div {
+    display: flex;
+    gap: 0;
+  }
+
+  .this-content-intro {
+    margin-right: 22px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -3577,6 +3602,17 @@ input {
 
   .certificate-cover-subtitle {
     padding-right: 38px;
+  }
+
+  .line-title-subtitle-inner>.about-cover-subtitle {
+    padding-right: 57px;
+  }
+
+  .aline-single-img {
+    right: -7rem;
+    bottom: unset;
+    top: 5rem;
+    width: 1000px;
   }
 }
 
