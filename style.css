@@ -3888,9 +3888,12 @@ input {
     gap: 16px;
   }
 
-  /* .detailing-swiper {
+  .detailing-swiper {
     width: max-content;
   }
+
+  /* 
+  
 
   .detailing-slide {
     width: 360px !important;
