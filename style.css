@@ -314,11 +314,16 @@ input {
   z-index: -1;
 }
 
-.hero-phone::before {
+.hero-photo::before {
   content: '';
   position: absolute;
   inset: 0;
   background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
+}
+
+.hero-photo-style {
+  width: 100%;
+  height: unset;
 }
 
 .cover-title-subtitle-inner {
