@@ -3512,6 +3512,15 @@ input {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
   }
+
+  .swiper-button-next:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+}
+
+  .prev-mobile, .next-mobile {
+    z-index: -1;
+}
 }
 
 @media (max-width: 520px) {
