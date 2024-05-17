@@ -3505,7 +3505,12 @@ input {
 
   .mobile-pagination,
   .mobile-buttons {
-    display: block;
+    display: flex;
+  }
+
+  .swiper-button-prev:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
   }
 }
 
