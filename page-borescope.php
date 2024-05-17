@@ -149,7 +149,7 @@
 
     </ul>
 </section>
-<section class="swiper-slide-inner width-center">
+<section class="swiper-slide-inner width-center swiper-slide-inner-effect">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
     <div class="swiper-container swiper-after" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>

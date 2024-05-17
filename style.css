@@ -2927,6 +2927,14 @@ input {
   .checkbox:checked+.label {
     background: none !important;
   }
+
+  .borescope-oae>.title-before-after-effect {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .detailing-services {
+    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 1000px) {
@@ -3546,6 +3554,14 @@ input {
     padding: 112px var(--paddingLeftAndRight);
   }
 
+  .borescope-oae {
+    padding: 0;
+  }
+
+  .detailing-services {
+    padding: 112px var(--paddingLeftAndRight);
+  }
+
   .download-pdf-container {
     margin-top: 16px;
   }
@@ -3827,7 +3843,7 @@ input {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-}
+  }
 }
 
 @media (max-width: 520px) {
