@@ -2935,6 +2935,10 @@ input {
   .detailing-services {
     padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   }
+
+  .detailing-swiper-wrapper {
+    display: flex;
+  }
 }
 
 @media (max-width: 1000px) {
