@@ -213,10 +213,12 @@ if (document.querySelector('.aircraft-line')) {
     }
   }
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft battery
@@ -247,10 +249,12 @@ if (document.querySelector('.aircraft-battery')) {
     });
   }
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft detailing
@@ -281,10 +285,12 @@ if (document.querySelector('.detailing-cover')) {
     });
   }
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft ndt
@@ -314,10 +320,12 @@ if (document.querySelector('.aircraft-ndt')) {
     }
   });
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft wheel
@@ -365,10 +373,12 @@ if (document.querySelector('.wheel-cover')) {
     });
   }
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft maintenance
@@ -416,10 +426,12 @@ if (document.querySelector('.aircraft-maintenance')) {
     });
   }
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 // Service single page` aircraft borescope
@@ -452,10 +464,12 @@ if (document.querySelector('.aircraft-borescope')) {
     },
   });
 
-  let headerContainer = document.querySelector('.header-container');
-  let swiperContainer = document.querySelectorAll('.swiper-container');
-  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  if (window.innerWidth <= 990) {
+    let headerContainer = document.querySelector('.header-container');
+    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  }
 }
 
 if (document.getElementById("contact-us-mobile")) {
