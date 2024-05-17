@@ -3215,6 +3215,11 @@ input {
     display: flex;
   }
 
+  .card-swiper>.mobile-buttons>.swiper-button-prev,
+  .card-swiper>.mobile-buttons>.swiper-button-next {
+    width: 122px;
+  }
+
   .card-swiper>.mobile-buttons>.swiper-button-prev:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
@@ -3227,6 +3232,8 @@ input {
 
   .card-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
   .card-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
+    display: block;
+    position: absolute;
     z-index: -1;
   }
 }
