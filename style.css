@@ -3211,7 +3211,7 @@ input {
   }
 
   .card-swiper>.mobile-pagination,
-  .card-container>.mobile-buttons {
+  .card-swiper>.mobile-buttons {
     display: flex;
   }
 
