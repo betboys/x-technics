@@ -169,7 +169,7 @@
 <section class="home-our-aircraft-engineers">
 	<div class="home-our-aircraft-engineers-inner">
 		<h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
-		<p class="subtitle our-aircraft-subtitle"><?= the_field('license_description'); ?></p>
+		<p class="subtitle our-aircraft-subtitle home-oael"><?= the_field('license_description'); ?></p>
 		<div class="our-aircraft-flex-container">
 			<ul class="our-aircraft-flex-inner">
 				<?php
@@ -276,7 +276,7 @@
 <section class="value-trust">
 	<div class="value-trust-text-cont" data-aos="fade-left">
 		<p class="title title-before-after-effect none-effect"><?= the_field('text_heading'); ?></p>
-		<p class="subtitle value-trust-subtitle-top"><?= the_field('text_content'); ?></p>
+		<p class="subtitle value-trust-subtitle-top home-wvtap"><?= the_field('text_content'); ?></p>
 	</div>
 	<img class="value-trust-image" src="<?= the_field('text_image'); ?>" alt="">
 </section>

@@ -282,22 +282,22 @@ input {
 /* home cover */
 .home-linear-1 {
   position: absolute;
-  left: -22%;
-  top: 3%;
+  left: calc(-22% + 46*(100vw - 1920px) / 60);
+  top: calc(3% + -4*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .home-linear-2 {
   position: absolute;
-  right: -9%;
-  top: 53%;
+  right: calc(-9% + 31*(100vw - 1920px) / 60);
+  top: calc(53% + 34*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .home-linear-3 {
   position: absolute;
-  left: -20%;
-  bottom: -7%;
+  left: calc(-20% + 54*(100vw - 1920px) / 60);
+  bottom: calc(-7% + 0*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -1210,8 +1210,8 @@ input {
 /* about us */
 .about-linear-1 {
   position: absolute;
-  left: -23%;
-  top: 7%;
+  left: calc(-23% + 46*(100vw - 1920px) / 60);
+  top: calc(7% + 0*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -1439,15 +1439,15 @@ input {
 /* certificate cover */
 .certificate-linear-1 {
   position: absolute;
-  left: -20%;
-  top: 10%;
+  left: calc(-20% + 41*(100vw - 1920px) / 60);
+  top: calc(10% + 11*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .certificate-linear-2 {
   position: absolute;
-  right: -26%;
-  top: 23%;
+  right: calc(-26% + 44*(100vw - 1920px) / 60);
+  top: calc(23% + 2*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -1544,36 +1544,36 @@ input {
 /* service */
 .service-linear-1 {
   position: absolute;
-  left: -23%;
+  left: calc(-23% + 42 * (100vw - 1920px) / 60);
   top: 2.3%;
   z-index: 0;
 }
 
 .service-linear-2 {
   position: absolute;
-  right: -17%;
-  top: 16%;
+  right: calc(-17% + 61*(100vw - 1920px) / 60);
+  top: calc(16% + 11*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .service-linear-3 {
   position: absolute;
-  left: -32%;
-  top: 27.5%;
+  left: calc(-32% + 25*(100vw - 1920px) / 60);
+  top: calc(27.5% + 10*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .service-linear-4 {
   position: absolute;
-  right: -15%;
-  top: 43%;
+  right: calc(-15% + 64*(100vw - 1920px) / 60);
+  top: calc(43% + 12*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .service-linear-5 {
   position: absolute;
-  left: -34%;
-  top: 57%;
+  left: calc(-34% + 25*(100vw - 1920px) / 60);
+  top: calc(57% + 7*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -1689,21 +1689,21 @@ input {
 /* single service aircraft */
 .line-linear-1 {
   position: absolute;
-  left: -20%;
+  left: calc(-20% + 37*(100vw - 1920px) / 60);
   top: 9%;
   z-index: 0;
 }
 
 .line-linear-2 {
   position: absolute;
-  right: -27%;
+  right: calc(-27% + 33 * (100vw - 1920px) / 60);
   top: 37%;
   z-index: 1;
 }
 
 .line-linear-3 {
   position: absolute;
-  left: -21%;
+  left: calc(-21% + 52 * (100vw - 1920px) / 60);
   top: 59%;
   z-index: 0;
 }
@@ -1935,15 +1935,15 @@ input {
 /* single service aog */
 .aog-linear-1 {
   position: absolute;
-  right: -37%;
+  right: calc(-37% + 33 * (100vw - 1920px) / 60);
   top: 3%;
   z-index: 1;
 }
 
 .aog-linear-2 {
   position: absolute;
-  left: -25%;
-  top: 34.5%;
+  left: calc(-25% + 46*(100vw - 1920px) / 60);
+  top: calc(34.5% + -4*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -2067,17 +2067,16 @@ input {
 /* single service aircraft battery */
 .battery-linear-1 {
   position: absolute;
-  left: -25%;
+  left: calc(-25% + 39 * (100vw - 1920px) / 60);
   top: 5.5%;
   z-index: 1;
 }
 
 .battery-linear-2 {
   position: absolute;
-  right: -30%;
+  right: calc(-30% + 44 * (100vw - 1920px) / 60);
   top: 34%;
   z-index: 0;
-  opacity: 0;
 }
 
 .battery-title-subtitle-inner {
@@ -2204,22 +2203,22 @@ input {
 /* single service aircraft wheel */
 .whell-linear-1 {
   position: absolute;
-  right: -24%;
+  right: calc(-24% + 40 * (100vw - 1920px) / 60);
   top: 9%;
   z-index: 0;
 }
 
 .whell-linear-2 {
   position: absolute;
-  left: -26%;
-  top: 30%;
+  left: calc(-26% + 40*(100vw - 1920px) / 60);
+  top: calc(30% + -10*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
 .whell-linear-3 {
   position: absolute;
-  right: -29%;
-  top: 54%;
+  right: calc(-29% + 56*(100vw - 1920px) / 60);
+  top: calc(54% + -12*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -2275,14 +2274,14 @@ input {
 /* single service detailing */
 .detailing-linear-1 {
   position: absolute;
-  left: -39%;
+  left: calc(-39% + 24 * (100vw - 1920px) / 60);
   top: 11%;
   z-index: 0;
 }
 
 .detailing-linear-2 {
   position: absolute;
-  right: -34%;
+  right: calc(-34% + 40 * (100vw - 1920px) / 60);
   top: 45%;
   z-index: 0;
 }
@@ -2353,22 +2352,22 @@ input {
 /* single service borescope */
 .borescope-linear-1 {
   position: absolute;
-  left: -27%;
+  left: calc(-27% + 40 * (100vw - 1920px) / 60);
   top: 7%;
   z-index: 0;
 }
 
 .borescope-linear-2 {
   position: absolute;
-  right: -25%;
+  right: calc(-25% + 43 * (100vw - 1920px) / 60);
   top: 27%;
   z-index: 0;
 }
 
 .borescope-linear-3 {
   position: absolute;
-  left: -25%;
-  top: 41%;
+  left: calc(-25% + 44*(100vw - 1920px) / 60);
+  top: calc(41% + -7*(100vw - 1920px) / 60);
   z-index: 0;
 }
 
@@ -2429,21 +2428,21 @@ input {
 /* single service aricraft ndt */
 .ndt-linear-1 {
   position: absolute;
-  right: -33%;
+  right: calc(-33% + 45 * (100vw - 1920px) / 60);
   top: 9%;
   z-index: 0;
 }
 
 .ndt-linear-2 {
   position: absolute;
-  left: -26%;
+  left: calc(-26% + 46 * (100vw - 1920px) / 60);
   top: 42%;
   z-index: 0;
 }
 
 .ndt-linear-3 {
   position: absolute;
-  right: -25%;
+  right: calc(-25% + 53 * (100vw - 1920px) / 60);
   top: 60%;
   z-index: 0;
 }
@@ -3825,13 +3824,13 @@ input {
     padding-right: var(--paddingLeftAndRight);
   }
 
-   .ndt-onm {
+  .ndt-onm {
     padding: 0 var(--paddingLeftAndRight);
-   }
+  }
 
-   .ndt-linear {
+  .ndt-linear {
     padding-top: 112px !important;
-   }
+  }
 }
 
 @media (max-width: 605px) {
@@ -4137,6 +4136,51 @@ input {
     bottom: unset;
     top: 0rem;
     width: 900px;
+  }
+
+  .our-aircraft-text {
+    width: 103px;
+    font-size: 16px;
+  }
+
+  .home-cover-subtitle {
+    padding-right: 50px;
+  }
+
+  .home-oael {
+    padding: 0 10px !important;
+  }
+
+  .home-wvtap {
+    padding-right: 10px;
+  }
+
+  .battery-cover-subtitle {
+    padding-right: 44px;
+  }
+
+  .wheel-hero-subtitle {
+    padding-right: 39px;
+  }
+
+  .wheel-or {
+    padding: 0 5px;
+  }
+
+  .detailing-cover-subtitle {
+    padding-right: 44px;
+  }
+
+  .borescope-cover-subtitle {
+    padding-right: 44px;
+  }
+
+  .borescope-at {
+    padding: 0 20px;
+  }
+
+  .ndt-cover-subtitle {
+    padding-right: 44px;
   }
 }
 

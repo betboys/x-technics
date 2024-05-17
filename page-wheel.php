@@ -7,13 +7,13 @@
 <section class="service-cover wheel-cover">
     <div class="whell-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
-        <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
+        <h2 class="subtitle about-cover-subtitle wheel-hero-subtitle"><?= the_field('description'); ?></h2>
     </div>
     <img class="wheel-image" src="<?= the_field('image'); ?>" alt="">
 </section>
 <section class="whell-or">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></h3>
-    <p class="subtitle subtitle-width-style"><?= the_field('c_desc'); ?></p>
+    <p class="subtitle subtitle-width-style wheel-or"><?= the_field('c_desc'); ?></p>
 </section>
 <section class="card-inner wheel-card">
     <p class="title title-before-after-effect title-center"><?= the_field('ex_heading'); ?></p>

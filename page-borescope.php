@@ -13,7 +13,7 @@
 </section>
 <section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('c_heading'); ?></h3>
-    <p class="subtitle our-aircraft-subtitle"><?= the_field('c_desc'); ?></p>
+    <p class="subtitle our-aircraft-subtitle borescope-at"><?= the_field('c_desc'); ?></p>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">
             <div class="swiper-wrapper">
