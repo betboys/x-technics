@@ -3286,6 +3286,36 @@ input {
   }
 }
 
+@media (max-width: 960px) {
+  .contact-us-mobile {
+    padding-top: 112px;
+  }
+
+  .tel1 {
+    position: absolute;
+    right: -4rem;
+    top: 5rem;
+  }
+
+  .tel2 {
+    position: absolute;
+    left: -7rem;
+    top: 5rem;
+  }
+
+  .contact-title {
+    font: 600 40px / normal conthrax;
+    text-transform: capitalize;
+    text-align: center;
+    background: linear-gradient(90deg, #687EFF 0%, #98E4FF 76.01%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+}
+
 @media (max-width: 860px) {
   .our-aircraft-flex-inner {
     width: 100%;
