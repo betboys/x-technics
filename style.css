@@ -2941,6 +2941,10 @@ input {
     width: unset;
     flex-wrap: wrap;
   }
+
+  .ndt-oae>.title-before-after-effect {
+    padding: 0 var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 1000px) {
@@ -3910,24 +3914,6 @@ input {
     gap: 16px;
   }
 
-  /* 
-  
-
-  .detailing-slide {
-    width: 360px !important;
-    text-align: left !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 20px !important;
-    padding: 20px 24px !important;
-    height: 80px !important;
-  }
-
-
-
-  
-} */
-
   .detailing-slide-img {
     width: 32px;
     height: 32px;
@@ -3951,6 +3937,14 @@ input {
   .detailing-swiper-wrapper {
     width: max-content;
     gap: 0;
+  }
+
+  .ndt-wcx {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .ndt-oae {
+    padding: 112px 0;
   }
 }
 
