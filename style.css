@@ -2800,6 +2800,12 @@ input {
   }
 }
 
+@media (max-width: 1207px) {
+  .card-list {
+    width: 26.5vw;
+  }
+}
+
 @media (max-width: 1130px) {
   .our-aircraft-flex-list {
     width: 169px;
@@ -3184,6 +3190,44 @@ input {
   .aog-title-subtitle-inner {
     padding-top: 303px;
     padding-bottom: 140px;
+  }
+
+  .battery-title-subtitle-inner {
+    padding-top: 303px;
+    padding-bottom: 134px;
+  }
+
+  .card-container {
+    width: max-content;
+    max-width: max-content;
+    margin-inline: unset;
+    margin-top: 20px;
+    gap: 0;
+  }
+
+  .card-list {
+    width: 306p;
+    margin-right: 20px;
+  }
+
+  .card-container>.mobile-pagination,
+  .card-container>.mobile-buttons {
+    display: flex;
+  }
+
+  .card-container>.mobile-buttons>.swiper-button-prev:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
+  }
+
+  .card-container>.mobile-buttons>.swiper-button-next:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+  }
+
+  .card-container>.mobile-buttons>.swiper-button-prev>.prev-mobile,
+  .card-container>.mobile-buttons>.swiper-button-next>.next-mobile {
+    z-index: -1;
   }
 }
 
@@ -3646,6 +3690,10 @@ input {
   .aog-swiper-slide {
     padding: 112px 0;
   }
+
+  .battery-title-subtitle-inner {
+    padding-right: var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 605px) {
@@ -3871,6 +3919,14 @@ input {
 
   .aog-wcu>.subtitle-width-style {
     padding: 0 10px;
+    margin-top: 16px;
+  }
+
+  .battery-hero-img {
+    right: -4rem;
+    bottom: unset;
+    top: 5rem;
+    width: 850px;
   }
 }
 
