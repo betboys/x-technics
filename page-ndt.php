@@ -11,7 +11,7 @@
     </div>
     <img class="ndt-image-cover" src="<?= the_field('image'); ?>" alt="">
 </section>
-<section class="detailing-services borescope-service-single">
+<section class="detailing-services borescope-service-single ndt-onm">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
     <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
@@ -33,9 +33,9 @@
 </section>
 <section class="offer-inner ndt-linear">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></p>
-    <div class="swiper-container swiper-after">
+    <div class="swiper-container swiper-after detailing-swiper">
         <div class="swiper">
-            <div class="swiper-wrapper offer-flex" data-aos="fade-right">
+            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper" data-aos="fade-right">
                 <?php
                 if (have_rows('airplanes')):
                     while (have_rows('airplanes')):
@@ -43,9 +43,9 @@
                         $img = get_sub_field('airplane_image');
                         $desc = get_sub_field('airplane_title');
                         ?>
-                        <div class="swiper-slide offer-list">
-                            <img class="offer-img" src="<?php echo $img; ?>" alt="">
-                            <div class="offer-content"><?= $desc ?></div>
+                        <div class="swiper-slide offer-list detailing-slides">
+                            <img class="offer-img detailing-slide-img" src="<?php echo $img; ?>" alt="">
+                            <div class="offer-content detailing-slide-content"><?= $desc ?></div>
                         </div>
                         <?Php
                     endwhile;
@@ -130,7 +130,7 @@
         </ul>
     </div>
 </section>
-<section class="swiper-slide-inner ndt-slide width-center">
+<section class="swiper-slide-inner ndt-slide width-center swiper-slide-inner-effect">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
     <div class="swiper-container swiper-after" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>
