@@ -1279,6 +1279,10 @@ input {
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 }
 
+.about-main>.about-card-list:nth-child(7) {
+  background: red;
+}
+
 .about-card-list {
   position: relative;
   overflow: hidden;
@@ -2493,8 +2497,7 @@ input {
 }
 
 .security-inner-container {
-  width: var(--width);
-  margin-inline: auto;
+  padding: 0 var(--paddingLeftAndRight);
 }
 
 .security-inner .security-inner-container>h1 {
@@ -2976,6 +2979,8 @@ input {
   .terms-privacy-cookies {
     margin-top: 32px;
     order: 4;
+    position: relative;
+    z-index: 10;
   }
 
   .website-text {

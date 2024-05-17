@@ -28,7 +28,7 @@
     <?php
     $featured_posts = get_field('services');
     if ($featured_posts): ?>
-        <ul class="about-cards-container">
+        <ul class="about-cards-container about-main">
             <?php foreach ($featured_posts as $featured_post):
                 $permalink = get_permalink($featured_post->ID);
                 $title = get_the_title($featured_post->ID);
