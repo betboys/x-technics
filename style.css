@@ -3577,14 +3577,24 @@ input {
     clip-path: polygon(8% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 28%);
   }
 
+  .offer-list:last-child,
+  .offer-list:last-child::before {
+    clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 72%, 92% 100%, 0.00% 100%);
+  }
+
   .aod-offer-list {
     display: flex;
     gap: 20px;
     text-align: left;
     width: 360px;
-    height: max-content;
+    height: 116px;
     align-items: center;
     padding: 18px 24px;
+    margin-right: 20px;
+  }
+
+  .aod-offer-flex {
+    gap: 0;
   }
 
   .aod-offer-list>.offer-img {
@@ -3595,6 +3605,26 @@ input {
   .aod-offer-content {
     margin-top: 0;
     font-size: 16px;
+  }
+
+  .aog-swiper>.mobile-pagination,
+  .aog-swiper>.mobile-buttons {
+    display: flex;
+  }
+
+  .aog-swiper>.swiper-button-prev:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
+  }
+
+  .aog-swiper>.swiper-button-next:disabled {
+    width: 122px;
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+  }
+
+  .aog-swiper>.prev-mobile,
+  .aog-swiper>.next-mobile {
+    z-index: -1;
   }
 }
 
