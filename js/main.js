@@ -368,7 +368,7 @@ if (document.querySelector('.wheel-cover')) {
   let headerContainer = document.querySelector('.header-container');
   let swiperContainer = document.querySelectorAll('.swiper-container');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
 // Service single page` aircraft maintenance
@@ -419,7 +419,7 @@ if (document.querySelector('.aircraft-maintenance')) {
   let headerContainer = document.querySelector('.header-container');
   let swiperContainer = document.querySelectorAll('.swiper-container');
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
 }
 
 // Service single page` aircraft borescope
