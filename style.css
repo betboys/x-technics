@@ -3612,18 +3612,18 @@ input {
     display: flex;
   }
 
-  .aog-swiper>.swiper-button-prev:disabled {
+  .aog-swiper>.mobile-buttons>.swiper-button-prev:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
   }
 
-  .aog-swiper>.swiper-button-next:disabled {
+  .aog-swiper>.mobile-buttons>.swiper-button-next:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
   }
 
-  .aog-swiper>.prev-mobile,
-  .aog-swiper>.next-mobile {
+  .aog-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
+  .aog-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
     z-index: -1;
   }
 }
