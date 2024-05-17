@@ -314,7 +314,7 @@ input {
   z-index: -1;
 }
 
-.home-hero-img::before {
+.hero-phone::before {
   content: '';
   position: absolute;
   inset: 0;
