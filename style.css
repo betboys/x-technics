@@ -2777,6 +2777,10 @@ input {
   .about-cards-container {
     grid-template-columns: repeat(auto-fill, minmax(192px, 1fr));
   }
+
+  .certificate-block-inner>.title-before-after-effect {
+    padding: 0 var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 1130px) {
@@ -3407,6 +3411,51 @@ input {
   .certificate-title-subtitle-inner {
     padding-right: var(--paddingLeftAndRight);
   }
+
+  .certificate-block-inner {
+    padding: 0;
+    padding-bottom: 112px;
+  }
+
+  .download-pdf {
+    padding: 112px var(--paddingLeftAndRight);
+  }
+
+  .download-pdf-container {
+    margin-top: 16px;
+  }
+
+  .download-pdf-link {
+    padding: 0;
+    padding-bottom: 16px;
+  }
+
+  .pdf-img-text-inner {
+    gap: 12px;
+  }
+
+  .pdf-img {
+    width: 47px;
+    height: unset;
+  }
+
+  .pdf-title {
+    line-height: 80%;
+  }
+
+  .pdf-subtitle {
+    font-size: 14px;
+    line-height: 114.286%;
+  }
+
+  .download-icon-inner>span {
+    display: none;
+  }
+
+  .download-icon-inner>svg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -3468,7 +3517,7 @@ input {
     top: 5rem;
     width: 1100px;
     height: unset;
-}
+  }
 
   .about-cover-subtitle {
     margin-top: 16px;
@@ -3517,7 +3566,7 @@ input {
 
   .service-title-subtitle-inner {
     padding-top: 302px;
-}
+  }
 
   .certificate-image {
     right: 0;
