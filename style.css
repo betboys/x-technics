@@ -3369,7 +3369,7 @@ input {
   }
 
   .child-1 {
-    padding-top: 0;
+    padding-top: 0 !important;
   }
 
   .information-inner {
