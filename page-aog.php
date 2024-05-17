@@ -104,7 +104,7 @@
         endif; ?>
     </ul>
 </section>
-<section class="swiper-slide-inner">
+<section class="swiper-slide-inner aog-swiper-slide">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">

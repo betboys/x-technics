@@ -2053,7 +2053,8 @@ input {
 }
 
 .subtitle-width-style {
-  width: 672px;
+  width: 100%;
+  max-width: 672px;
   margin-inline: auto;
   text-align: center;
   margin-top: 32px;
@@ -2779,6 +2780,8 @@ input {
   .left-text-cont {
     max-width: 41.667vw;
   }
+
+
 }
 
 @media (max-width: 1310px) {
@@ -3625,6 +3628,23 @@ input {
   .aog-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
   .aog-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
     z-index: -1;
+  }
+
+  .offer-inner {
+    padding: 0 var(--paddingLeftAndRight);
+    padding-bottom: 112px;
+  }
+
+  .aog-wcu {
+    padding: 112px var(--paddingLeftAndRight);
+  }
+
+  .aog-flex-container {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .aog-swiper-slide {
+    padding: 112px 0;
   }
 }
 
