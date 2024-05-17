@@ -1279,8 +1279,8 @@ input {
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 }
 
-.about-main>.about-card-list:nth-child(7) {
-  background: red;
+.about-main>.about-card-list:nth-child(7)>.about-card-img {
+  display: none;
 }
 
 .about-card-list {
