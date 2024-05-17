@@ -3275,6 +3275,9 @@ input {
 
   .swiper-slide-inner {
     padding: 0;
+  }
+
+  .swiper-slide-inner-effect  {
     padding-bottom: 112px;
   }
 
