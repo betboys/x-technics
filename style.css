@@ -311,8 +311,14 @@ input {
   position: absolute;
   right: 0;
   bottom: 0;
-  background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
   z-index: -1;
+}
+
+.home-hero-img::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
 }
 
 .cover-title-subtitle-inner {
@@ -348,12 +354,6 @@ input {
   width: 100%;
   max-width: 540px;
   margin-top: 28px;
-}
-
-.items::before {
-  content: '';
-  position: absolute;
-  inset: 0;
 }
 
 .cover-link {
