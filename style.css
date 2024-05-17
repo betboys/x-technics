@@ -1283,6 +1283,14 @@ input {
   display: none;
 }
 
+.about-main>.about-card-list:nth-child(7)::before {
+  content: '';
+  background: url(https://x-technics.com/ysteeshy/2024/05/Subtract-70.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .about-card-list {
   position: relative;
   overflow: hidden;
