@@ -350,7 +350,7 @@ input {
   margin-top: 28px;
 }
 
-.item::before {
+.items::before {
   content: '';
   position: absolute;
   inset: 0;
