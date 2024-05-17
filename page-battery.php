@@ -3,6 +3,7 @@
 ?>
 <img class="battery-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="battery-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<img class="battery-linear-3" style="display: none;" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="service-cover aircraft-battery">
     <div class="battery-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
