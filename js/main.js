@@ -218,7 +218,7 @@ if (document.querySelector('.aircraft-line')) {
   let noneBtn = document.querySelector(".none-btn");
   let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
   swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
-  noneBtn.setAttribute("style", `transfotm: transalteX(-${marginLeft})`);
+  noneBtn.setAttribute("style", `transform: translateX(-${marginLeft})`);
 }
 
 // Service single page` aircraft battery
