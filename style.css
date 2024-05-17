@@ -3868,6 +3868,10 @@ input {
   .aog-cover-subtitle {
     padding-right: 54px;
   }
+
+  .aog-wcu>.subtitle-width-style {
+    padding: 0 10px;
+  }
 }
 
 @media (max-width: 470px) {
