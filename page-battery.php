@@ -22,7 +22,7 @@
 </section>
 <section class="card-inner battery-card">
     <p class="title title-before-after-effect slide-title-sytle">Our Aircraft Battery Maintenance</p>
-    <div class="swiper-container swiper-after">
+    <div class="swiper-container swiper-after battery-swiper-cont">
         <div class="swiper card-swiper">
             <div class="swiper-wrapper card-container">
                 <?php
@@ -33,12 +33,12 @@
                         $feature_title = get_sub_field('license_title');
                         $feature_desc = get_sub_field('license_desc');
                         ?>
-                        <div class="swiper-slide card-list" data-aos="fade-right">
+                        <div class="swiper-slide card-list battery-card-list" data-aos="fade-right">
                             <div class="card-image-text">
                                 <img class="card-image" src="<?= $icon_feautres ?>" alt="">
-                                <p class="element-title font-size"><?= $feature_title ?></p>
+                                <p class="element-title font-size battery-card-subtitle"><?= $feature_title ?></p>
                             </div>
-                            <p class="element-subtitle"><?= $feature_desc ?></p>
+                            <p class="element-subtitle battery-card-bottom-subtitle"><?= $feature_desc ?></p>
                         </div>
                     <?php endwhile;
                 endif;
