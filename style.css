@@ -2938,6 +2938,8 @@ input {
 
   .detailing-swiper-wrapper {
     display: flex;
+    width: unset;
+    flex-wrap: wrap;
   }
 }
 
@@ -3931,6 +3933,7 @@ input {
   }
 
   .detailing-swiper-wrapper {
+    width: max-content;
     gap: 0;
   }
 }
