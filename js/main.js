@@ -204,7 +204,7 @@ if (document.querySelector('.aircraft-line')) {
     },
   });
 
-  if (window.innerWidth > 1201) {
+  if (window.innerWidth > 990) {
     const swiper2 = new Swiper(swipers[1], {
       slidesPerView: 'auto',
       speed: 1000,
