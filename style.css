@@ -3251,6 +3251,15 @@ input {
     gap: 32px;
     margin-top: 32px;
   }
+
+  .our-aircraft-subtitle {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .borescope-title-subtitle-inner {
+    padding-top: 303px;
+    padding-bottom: 139px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -3763,6 +3772,10 @@ input {
   .two-card-inner {
     padding: 112px var(--paddingLeftAndRight);
   }
+
+  .borescope-title-subtitle-inner {
+    padding-right: var(--paddingLeftAndRight);
+  }
 }
 
 @media (max-width: 605px) {
@@ -4003,6 +4016,13 @@ input {
     bottom: unset;
     top: 5rem;
     width: 850px;
+  }
+
+  .borescope-image-cover {
+    right: 0;
+    bottom: unset;
+    top: 5rem;
+    width: 630px;
   }
 }
 
