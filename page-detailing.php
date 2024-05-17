@@ -33,9 +33,9 @@
 </section>
 <section class="offer-inner">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></p>
-    <div class="swiper-container">
+    <div class="swiper-container detailing-swiper">
         <div class="swiper">
-            <div class="swiper-wrapper offer-flex" data-aos="fade-right">
+            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper" data-aos="fade-right">
                 <?php
                 if (have_rows('features')):
                     while (have_rows('features')):
@@ -44,9 +44,9 @@
 
                         $feature_desc = get_sub_field('license_desc');
                         ?>
-                        <div class="swiper-slide offer-list">
-                            <img class="offer-img" src="<?= $icon_feautres ?>" alt="">
-                            <div class="offer-content"><?= $feature_desc ?></div>
+                        <div class="swiper-slide offer-list detailing-slide">
+                            <img class="offer-img detailing-slide-img" src="<?= $icon_feautres ?>" alt="">
+                            <div class="offer-content detailing-slide-content"><?= $feature_desc ?></div>
                         </div>
                     <?php endwhile;
                 endif;
