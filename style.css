@@ -1285,8 +1285,11 @@ input {
 
 .about-main>.about-card-list:nth-child(7)::before {
   content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
   background: url(https://x-technics.com/ysteeshy/2024/05/Subtract-70.webp);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -3777,6 +3780,14 @@ input {
 
   .about-card-list:last-child {
     display: none;
+  }
+
+  .about-main>.about-card-list:nth-child(7)::before {
+    display: none;
+  }
+
+  .about-main>.about-card-list:nth-child(7)>.about-card-img {
+    display: block;
   }
 
   .mobile-verion {
