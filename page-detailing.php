@@ -44,7 +44,7 @@
 
                         $feature_desc = get_sub_field('license_desc');
                         ?>
-                        <div class="swiper-slide offer-list detailing-slide">
+                        <div class="swiper-slide offer-list detailing-slides">
                             <img class="offer-img detailing-slide-img" src="<?= $icon_feautres ?>" alt="">
                             <div class="offer-content detailing-slide-content"><?= $feature_desc ?></div>
                         </div>
