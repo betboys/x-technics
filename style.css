@@ -3150,6 +3150,27 @@ input {
     width: 100%;
     max-width: 586px;
   }
+
+  .none-btn {
+    display: none;
+  }
+
+  .swiper-after {
+    padding: 0 var(--paddingLeftAndRight);
+  }
+
+  .single-slider {
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(207px, 1fr));
+  }
+
+  .swiper-slide-margin-rigth {
+    width: unset !important;
+    height: unset !important;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 860px) {
