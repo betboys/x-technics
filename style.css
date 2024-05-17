@@ -759,6 +759,10 @@ input {
   margin-inline: auto;
 }
 
+.none-btn {
+  padding-right: var(--paddingLeftAndRight);
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   width: 180px;
