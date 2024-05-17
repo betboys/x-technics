@@ -350,6 +350,12 @@ input {
   margin-top: 28px;
 }
 
+.item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
 .cover-link {
   width: 249px;
   height: 54px;
