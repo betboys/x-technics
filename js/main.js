@@ -47,15 +47,6 @@ if (window.innerWidth <= 990) {
     openMenu.style.display = 'block';
   });
 
-  // if (navigation.style.display == 'block') {
-  //   headerBefore.addEventListener("click", function () {
-  //     headerBefore.classList.remove('style');
-  //     navigation.style.display = 'none';
-  //     closeMenu.style.display = 'none';
-  //     openMenu.style.display = 'block';
-  //   });
-  // }
-
   let headerUl = document.querySelector('.header-menu-inner');
   let headerUlList = headerUl.querySelectorAll('.header-menu-list');
   let last = headerUlList[headerUlList.length - 1];
@@ -221,6 +212,13 @@ if (document.querySelector('.aircraft-line')) {
       ourExpertiseList[i].appendChild(elAbsolute[i]);
     }
   }
+
+  let headerContainer = document.querySelector('.header-container');
+  let swiperContainer = document.querySelectorAll('.swiper-container');
+  let noneBtn = document.querySelector(".none-btn");
+  let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
+  swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+  noneBtn.setAttribute("style", `transfotm: transalteX(${-marginLeft})`);
 }
 
 // Service single page` aircraft battery

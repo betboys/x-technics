@@ -1385,11 +1385,6 @@ input {
   animation: none;
 }
 
-.about-card-list:last-child .about-card-img {
-  object-fit: inherit;
-  height: 100%;
-}
-
 .about-card-list:last-child {
   padding: 0px;
 }
