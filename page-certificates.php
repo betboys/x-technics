@@ -7,7 +7,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle certificate-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="certificate-image" src="<?= the_field('image'); ?>" alt="">
+    <div class="certificate-image hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="home-our-aircraft-engineers-inner certificate-block-inner">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>

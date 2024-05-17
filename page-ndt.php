@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle ndt-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="ndt-image-cover" src="<?= the_field('image'); ?>" alt="">
+    <div class="ndt-image-cover hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="detailing-services borescope-service-single ndt-onm">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>

@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle detailing-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="detailing-width-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="detailing-width-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="detailing-services detailing-services-main">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>

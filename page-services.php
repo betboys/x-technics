@@ -11,7 +11,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="serive-hero-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="serive-hero-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="service-provider-container">
     <div class="provider-text-inner text-center">

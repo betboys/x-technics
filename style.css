@@ -4499,6 +4499,10 @@ input {
   .ndt-cover-subtitle {
     padding-right: 44px;
   }
+
+  .hero-photo::before {
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 74.07%);
+  }
 }
 
 @media (max-width: 470px) {

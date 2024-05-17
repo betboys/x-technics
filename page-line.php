@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="aline-single-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="aline-single-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="ensurin-continuous">
     <div class="content-text-inner">

@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle aog-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="about-cover-image single-service-aircraft-image aog-single-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="aog-single-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="offer-inner aog-inner">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>

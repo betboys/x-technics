@@ -6,7 +6,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="about-hero-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="about-hero-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="about-aour-mission">
     <h3 class="title title-before-after-effect"><?= the_field('our_mission_title'); ?></h3>

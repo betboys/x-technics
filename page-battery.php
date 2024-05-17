@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle battery-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="battery-hero-img" src="<?= the_field('image'); ?>" alt="">
+    <div class="battery-hero-img hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="offer-inner battery-offer">
     <div class="left-text-rigth-image-cont row-reverse">

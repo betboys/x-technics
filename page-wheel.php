@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle wheel-hero-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="wheel-image" src="<?= the_field('image'); ?>" alt="">
+    <div class="wheel-image hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="whell-or">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></h3>

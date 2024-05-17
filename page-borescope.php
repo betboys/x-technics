@@ -9,7 +9,9 @@
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle borescope-cover-subtitle"><?= the_field('description'); ?></h2>
     </div>
-    <img class="borescope-image-cover" src="<?= the_field('image'); ?>" alt="">
+    <div class="borescope-image-cover hero-photo">
+        <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
+    </div>
 </section>
 <section class="swiper-slide-inner">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('c_heading'); ?></h3>
