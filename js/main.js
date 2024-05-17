@@ -3,17 +3,17 @@ var $ = jQuery;
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownIcon = document.querySelector('.dropdown-icon');
+if (window.innerWidth > 990) {
+  dropdown.addEventListener('mouseover', function () {
+    dropdownMenu.classList.add('visitble');
+    dropdownIcon.classList.add('rotate');
+  });
 
-dropdown.addEventListener('mouseover', function () {
-  dropdownMenu.classList.add('visitble');
-  dropdownIcon.classList.add('rotate');
-});
-
-dropdown.addEventListener('mouseout', function () {
-  dropdownMenu.classList.remove('visitble');
-  dropdownIcon.classList.remove('rotate');
-});
-
+  dropdown.addEventListener('mouseout', function () {
+    dropdownMenu.classList.remove('visitble');
+    dropdownIcon.classList.remove('rotate');
+  });
+}
 if (window.innerWidth <= 990) {
   // open and close menu
   let headerBefore = document.querySelector('.header');
