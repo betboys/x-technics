@@ -3206,27 +3206,27 @@ input {
   }
 
   .card-list {
-    width: 306p;
+    width: 306px;
     margin-right: 20px;
   }
 
-  .card-container>.mobile-pagination,
+  .card-swiper>.mobile-pagination,
   .card-container>.mobile-buttons {
     display: flex;
   }
 
-  .card-container>.mobile-buttons>.swiper-button-prev:disabled {
+  .card-swiper>.mobile-buttons>.swiper-button-prev:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
   }
 
-  .card-container>.mobile-buttons>.swiper-button-next:disabled {
+  .card-swiper>.mobile-buttons>.swiper-button-next:disabled {
     width: 122px;
     background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
   }
 
-  .card-container>.mobile-buttons>.swiper-button-prev>.prev-mobile,
-  .card-container>.mobile-buttons>.swiper-button-next>.next-mobile {
+  .card-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
+  .card-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
     z-index: -1;
   }
 }
