@@ -213,7 +213,7 @@ if (document.querySelector('.aircraft-line')) {
     }
   }
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -249,7 +249,7 @@ if (document.querySelector('.aircraft-battery')) {
     });
   }
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -285,7 +285,7 @@ if (document.querySelector('.detailing-cover')) {
     });
   }
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -320,7 +320,7 @@ if (document.querySelector('.aircraft-ndt')) {
     }
   });
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -373,7 +373,7 @@ if (document.querySelector('.wheel-cover')) {
     });
   }
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -426,7 +426,7 @@ if (document.querySelector('.aircraft-maintenance')) {
     });
   }
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
@@ -464,7 +464,7 @@ if (document.querySelector('.aircraft-borescope')) {
     },
   });
 
-  if (window.innerWidth < 990) {
+  if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
     let swiperContainer = document.querySelectorAll('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
