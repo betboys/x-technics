@@ -60,8 +60,7 @@
             wp_reset_postdata(); ?>
             <?php if (get_field('service_link')): ?>
                 <li class="about-card-list">
-                    <img class="about-card-img" src="<?php echo get_template_directory_uri(); ?>https://x-technics.com/ysteeshy/2024/05/Subtract-style-1.webp"
-                        alt="">
+                    <img class="about-card-img" src="https://x-technics.com/ysteeshy/2024/05/Subtract-style-1.webp" alt="">
                     <div class="text-link">
                         <p class="card-text-link">Explore more
                             by clicking on the button</p>
