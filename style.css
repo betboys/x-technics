@@ -2591,6 +2591,10 @@ input {
     color: #0071AA;
   }
 
+  .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
+    color: #010102;
+  }
+
   .our-service-card-link:hover .service-card-text {
     color: #0071AA;
   }
