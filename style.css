@@ -2587,7 +2587,7 @@ input {
     font-size: unset;
   }
 
-  .header-menu-inner>.header-menu-list>.menu-linkhover {
+  .header-menu-inner>.header-menu-list>.menu-link:hover {
     color: #0071AA;
   }
 
