@@ -8,7 +8,7 @@
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="tel:<?= the_field('phone_number', 'option'); ?>">
 							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/phone.svg" alt="">
+								src="https://x-technics.com/ysteeshy/2024/05/Group-1000001755.svg" alt="">
 							<span><span class="text-underline"><?= the_field('phone_number', 'option'); ?></span></span>
 						</a>
 					</li>
@@ -16,8 +16,7 @@
 				<?php if (get_field('email', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="mailto:<?= the_field('email', 'option'); ?>">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt="">
+							<img class="socal-media-image" src="https://x-technics.com/ysteeshy/2024/05/Vector.svg" alt="">
 							<span class="text-underline"><?= the_field('email', 'option'); ?></span>
 						</a>
 					</li>
@@ -25,8 +24,7 @@
 				<?php if (get_field('location', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
+							<img class="socal-media-image" src="https://x-technics.com/ysteeshy/2024/05/Icons36.svg" alt="">
 							<span class="text-underline"><?= the_field('location', 'option'); ?></span>
 						</a>
 					</li>
