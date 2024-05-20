@@ -58,7 +58,7 @@
             <div class="swiper-pagination mobile-pagination"></div>
             <div class="next-prev-buuton mobile-buttons">
                 <button class="swiper-button-prev mobile-style-btn-prev">
-                    <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.png" alt="">
+                    <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.webp" alt="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clip-path="url(#clip0_4019_3733)">
                             <path
@@ -73,7 +73,7 @@
                     </svg>
                 </button>
                 <button class="swiper-button-next mobile-style-btn-next">
-                    <img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png" alt="">
+                    <img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.webp" alt="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clip-path="url(#clip0_4019_3743)">
                             <path

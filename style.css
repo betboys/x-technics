@@ -243,7 +243,7 @@ input {
   content: '';
   width: 182px;
   height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/menu-st.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/menu-st.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ input {
   content: '';
   width: 320px;
   height: 170px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/menu-ho.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/menu-ho.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ input {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%);
+  /* background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%); */
 }
 
 .hero-photo-style {
@@ -540,28 +540,28 @@ input {
 }
 
 .our-aircraft-flex-list:nth-child(1) {
-  background: url(images/License.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(2) {
-  background: url(images/License2.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(3) {
-  background: url(images/License3.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License3.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(4) {
-  background: url(images/License4.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License4.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -706,7 +706,7 @@ input {
 .swiper-button-prev:disabled {
   width: 180px;
   height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/prev-disabled.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/prev-disabled.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -719,7 +719,7 @@ input {
 .swiper-button-next:disabled {
   width: 180px;
   height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/next-disabled.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/next-disabled.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2708,10 +2708,6 @@ input {
     opacity: 1;
   }
 
-  .header-menu-list>.menu-link:hover {
-    color: #0071AA;
-  }
-
   .cover-link:hover .cover-link-st {
     opacity: 0;
   }
@@ -3069,7 +3065,7 @@ input {
     position: absolute;
     right: 0;
     top: -10rem;
-    background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu1.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu1.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3082,7 +3078,7 @@ input {
     position: absolute;
     right: -50%;
     bottom: 0;
-    background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu2.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/burger-menu2.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3274,12 +3270,12 @@ input {
 
   .card-swiper>.mobile-buttons>.swiper-button-prev:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
   }
 
   .card-swiper>.mobile-buttons>.swiper-button-next:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
   }
 
   .card-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
@@ -3829,7 +3825,7 @@ input {
     content: '';
     width: 260px;
     height: 60px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/Button.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/Button.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4049,12 +4045,12 @@ input {
 
   .aog-swiper>.mobile-buttons>.swiper-button-prev:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
   }
 
   .aog-swiper>.mobile-buttons>.swiper-button-next:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
   }
 
   .aog-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
@@ -4192,12 +4188,12 @@ input {
 
   .swiper-button-prev:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
   }
 
   .swiper-button-next:disabled {
     width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.png);
+    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
   }
 
   .prev-mobile,

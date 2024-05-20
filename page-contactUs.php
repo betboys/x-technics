@@ -2,8 +2,8 @@
 /* Template Name: Contact us Template */ ?>
 <img class="contact-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="contact-us contact-us-mobile" id="contact-us-mobile">
-    <img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.png" alt="">
-    <img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.png" alt="">
+    <img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.webp" alt="">
+    <img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.webp" alt="">
 	<h3 class="contact-title"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links">
@@ -124,8 +124,8 @@
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.png" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.png" alt="">
+				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
+				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
 					<span class="menu-link index">SEND A QUOTE</span>
 				</button>
 			</form>

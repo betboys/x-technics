@@ -16,8 +16,8 @@
 		if ($link): ?>
 
 			<a class="cover-link" href="<?php echo esc_url($link); ?>">
-				<img class="cover-link-st" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-st.png" alt="">
-				<img class="cover-link-ho" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-ho.png" alt="">
+				<img class="cover-link-st" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-st.webp" alt="">
+				<img class="cover-link-ho" src="https://x-technics.com/ysteeshy/2024/05/cover-link-img-ho.webp" alt="">
 				<span class="cover-link-text">Explore Our Services</span>
 			</a>
 		<?php endif; ?>
@@ -192,8 +192,8 @@
 			$link = get_field('button_license');
 			if ($link): ?>
 				<a class="our-aircraft-link" href="<?php echo esc_url($link); ?>">
-					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.png" alt="">
-					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.png" alt="">
+					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
+					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
 					<span class="menu-link index">
 						Explore More
 						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -239,9 +239,9 @@
 		<div class="swiper-pagination"></div>
 		<div class="next-prev-buuton">
 			<button class="swiper-button-prev">
-				<img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.png" alt="">
-				<img class="prev-ho" src="https://x-technics.com/ysteeshy/2024/05/prev-ho.png" alt="">
-				<img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.png" alt="">
+				<img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.webp" alt="">
+				<img class="prev-ho" src="https://x-technics.com/ysteeshy/2024/05/prev-ho.webp" alt="">
+				<img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.webp" alt="">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 					<g clip-path="url(#clip0_4019_3733)">
 						<path
@@ -256,9 +256,9 @@
 				</svg>
 			</button>
 			<button class="swiper-button-next">
-				<img class="next-st" src="https://x-technics.com/ysteeshy/2024/05/next-st.png" alt="">
-				<img class="next-ho" src="https://x-technics.com/ysteeshy/2024/05/next-ho.png" alt="">
-				<img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.png" alt="">
+				<img class="next-st" src="https://x-technics.com/ysteeshy/2024/05/next-st.webp" alt="">
+				<img class="next-ho" src="https://x-technics.com/ysteeshy/2024/05/next-ho.webp" alt="">
+				<img class="next-mobile" src="https://x-technics.com/ysteeshy/2024/05/next-mobile.webp" alt="">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 					<g clip-path="url(#clip0_4019_3743)">
 						<path
