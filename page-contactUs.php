@@ -1,9 +1,9 @@
-<?php get_header(); 
+<?php get_header();
 /* Template Name: Contact us Template */ ?>
 <img class="contact-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <section class="contact-us contact-us-mobile" id="contact-us-mobile">
-    <img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.webp" alt="">
-    <img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.webp" alt="">
+	<img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.webp" alt="">
+	<img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.webp" alt="">
 	<h3 class="contact-title"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links">
@@ -13,7 +13,7 @@
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="tel:<?= the_field('phone_number', 'option'); ?>">
 							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/phone.svg" alt="">
+								src="https://x-technics.com/ysteeshy/2024/05/Group-1000001755.svg" alt="">
 							<span><span class="text-underline"><?= the_field('phone_number', 'option'); ?></span></span>
 						</a>
 					</li>
@@ -21,8 +21,7 @@
 				<?php if (get_field('email', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="mailto:<?= the_field('email', 'option'); ?>">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/message.svg" alt="">
+							<img class="socal-media-image" src="https://x-technics.com/ysteeshy/2024/05/Vector.svg" alt="">
 							<span class="text-underline"><?= the_field('email', 'option'); ?></span>
 						</a>
 					</li>
@@ -30,8 +29,7 @@
 				<?php if (get_field('location', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="">
-							<img class="socal-media-image"
-								src="<?php echo get_template_directory_uri(); ?>/images/location.svg" alt="">
+							<img class="socal-media-image" src="https://x-technics.com/ysteeshy/2024/05/Icons36.svg" alt="">
 							<span class="text-underline"><?= the_field('location', 'option'); ?></span>
 						</a>
 					</li>
@@ -41,7 +39,7 @@
 				<?php if (get_field('facebook', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('facebook', 'option'); ?>">
-						FACEBOOK
+							FACEBOOK
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt=""> -->
 							<!-- <span
@@ -52,7 +50,7 @@
 				<?php if (get_field('linkedin', 'option')): ?>
 					<li class="socal-media-iist">
 						<a class="socal-media-iink" href="<?= the_field('linkedin', 'option'); ?>">
-						LINKEDIN
+							LINKEDIN
 							<!-- <img class="socal-media-image"
 								src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt=""> -->
 							<!-- <span
@@ -115,7 +113,8 @@
 				<div class="email-phone-inner">
 					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
 					<div class="phone-input">
-						<input class="input" type="number" id="mobile_code" class="form-control" placeholder="Phone Number" name="" required>
+						<input class="input" type="number" id="mobile_code" class="form-control"
+							placeholder="Phone Number" name="" required>
 						<!-- <span class="phone-text">Phone Number</span> -->
 					</div>
 				</div>
@@ -124,8 +123,8 @@
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
+					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
 					<span class="menu-link index">SEND A QUOTE</span>
 				</button>
 			</form>
