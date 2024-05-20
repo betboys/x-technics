@@ -2587,6 +2587,10 @@ input {
     font-size: unset;
   }
 
+  .header-menu-inner>.header-menu-list>.menu-linkhover {
+    color: #0071AA;
+  }
+
   .our-service-card-link:hover .service-card-text {
     color: #0071AA;
   }
