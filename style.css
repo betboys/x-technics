@@ -3259,6 +3259,10 @@ input {
     padding: 0 var(--paddingLeftAndRight);
   }
 
+  .ndt-linear>.swiper-container {
+    padding: 0;
+  }
+
   .single-slider {
     width: 100%;
     gap: 20px;
