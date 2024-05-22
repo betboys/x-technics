@@ -901,8 +901,13 @@ input {
 }
 
 .text-underline {
-  text-decoration-line: underline;
   position: relative;
+}
+
+.socal-media-inner>.socal-media-iist:first-child>.socal-media-iink>span>.text-underline::before {
+  left: unset;
+  right: 0;
+  width: 62%;
 }
 
 .text-underline::before {
@@ -912,7 +917,7 @@ input {
   background: #CED4DA;
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 110%;
 }
 
 .text-underline-none {
