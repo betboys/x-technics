@@ -132,7 +132,7 @@
                 <li class="download-pdf-list" data-aos="fade-left">
                     <div class="download-pdf-link">
                         <div class="pdf-img-text-inner">
-                            <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.webp" alt="">
+                            <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.png" alt="">
                             <div class="pdf-texts-intro">
                                 <p class="pdf-title"><?= $title ?></p>
                                 <p class="pdf-subtitle"><?= $caption ?></p>
