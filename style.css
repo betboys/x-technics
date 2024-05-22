@@ -154,7 +154,7 @@ input {
   line-height: 120%;
   letter-spacing: -0.002em;
   color: #fff;
-  transition: .3s;
+  transition: .8s;
 }
 
 .dropdown {
@@ -200,7 +200,7 @@ input {
   color: #FFF;
   justify-content: start;
   padding-top: 16px;
-  transition: .3s;
+  transition: .8s;
 }
 
 .dropdown-menu .header-menu-list:last-child {
@@ -219,7 +219,7 @@ input {
   color: #FFF;
   justify-content: start;
   padding-top: 16px;
-  transition: .3s;
+  transition: .8s;
   text-transform: unset;
 }
 
@@ -233,7 +233,7 @@ input {
   font-size: 20px;
   font-family: "blender heavy";
   font-weight: normal;
-  transition: .3s;
+  transition: .8s;
   color: #010102;
   text-transform: uppercase;
   position: relative;
@@ -476,7 +476,7 @@ input {
   font-weight: normal;
   line-height: normal;
   color: #fff;
-  transition: .3s;
+  transition: .8s;
   text-transform: capitalize;
 }
 
@@ -503,7 +503,7 @@ input {
 }
 
 .card-icon-stroke {
-  transition: .3s;
+  transition: .8s;
 }
 
 /* home our aircraft engineers */
@@ -615,7 +615,7 @@ input {
   justify-content: center;
   margin-inline: auto;
   position: relative;
-  transition: .3s;
+  transition: .8s;
   z-index: 1;
 }
 
@@ -623,7 +623,7 @@ input {
   position: absolute;
   left: 0;
   top: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .button-hover {
@@ -631,7 +631,7 @@ input {
   left: -60px;
   top: -60px;
   opacity: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .index {
@@ -777,7 +777,7 @@ input {
   display: grid;
   place-items: center;
   position: relative;
-  transition: .3s;
+  transition: .8s;
 }
 
 .prev-mobile,
@@ -789,7 +789,7 @@ input {
   position: absolute;
   left: 0;
   top: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .prev-ho {
@@ -797,14 +797,14 @@ input {
   left: -60px;
   top: -58px;
   opacity: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .next-st {
   position: absolute;
   left: 0;
   top: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .next-ho {
@@ -812,7 +812,7 @@ input {
   left: -60px;
   top: -58px;
   opacity: 0;
-  transition: .3s;
+  transition: .8s;
 }
 
 .value-trust {
@@ -896,7 +896,7 @@ input {
   font-weight: normal;
   letter-spacing: 0.32px;
   color: #CED4DA;
-  transition: .3s;
+  transition: .8s;
   border: 1px solid transparent;
 }
 
@@ -987,7 +987,7 @@ input {
   user-select: none;
   display: inline-block;
   backface-visibility: hidden;
-  transition: .3s;
+  transition: .8s;
   position: relative;
 }
 
@@ -1141,7 +1141,7 @@ input {
   margin-top: 0;
   margin-inline: unset;
   font-size: 18px;
-  transition: .3s;
+  transition: .8s;
 }
 
 /* footer */
@@ -1188,7 +1188,7 @@ input {
   letter-spacing: -0.032px;
   color: #CED4DA;
   text-decoration-line: underline;
-  transition: .3s;
+  transition: .8s;
 }
 
 .website-text {
@@ -1378,7 +1378,7 @@ input {
   font-weight: normal;
   line-height: 130%;
   color: #FFF;
-  transition: .3s;
+  transition: .8s;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -1393,7 +1393,7 @@ input {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  transition: .3s;
+  transition: .8s;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1566,11 +1566,11 @@ input {
   font-weight: normal;
   line-height: 120%;
   color: #FFF;
-  transition: .3s;
+  transition: .8s;
 }
 
 .download-icon {
-  transition: .3s;
+  transition: .8s;
 }
 
 /* service */
@@ -1640,7 +1640,7 @@ input {
   font-weight: normal;
   line-height: 130%;
   color: #FFF;
-  transition: .3s;
+  transition: .8s;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -1952,7 +1952,7 @@ input {
   font-weight: normal;
   line-height: 120%;
   color: #FFF;
-  transition: .3s;
+  transition: .8s;
   text-transform: capitalize;
   display: -webkit-box;
   -webkit-line-clamp: 1;
