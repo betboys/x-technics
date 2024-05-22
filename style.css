@@ -902,6 +902,17 @@ input {
 
 .text-underline {
   text-decoration-line: underline;
+  position: relative;
+}
+
+.text-underline::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #CED4DA;
+  position: absolute;
+  left: 0;
+  top: 100%;
 }
 
 .text-underline-none {
