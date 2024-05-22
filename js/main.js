@@ -432,6 +432,15 @@ if (document.querySelector('.aircraft-maintenance')) {
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
     swiperContainer[2].setAttribute('style', `margin-left: ${marginLeft}`);
   }
+
+  if (window.innerWidth <= 400) {
+    let aodSlide = document.querySelectorAll(".aod-offer-list");
+    let windowWidth = window.innerWidth;
+    let newSlideWidth = windowWidth - 30;
+    for (let i = 0; i < aodSlide.length; i++) {
+      aodSlide[i].setAttribute("style", `width: ${newSlideWidth}px`);
+    }
+  }
 }
 
 // Service single page` aircraft borescope
