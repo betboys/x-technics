@@ -1328,9 +1328,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #0071AA;
-  clip-path: polygon(0.00% 0.00%, 92% 0.00%, 100% 50.00%, 100% 100%, 8% 100%, 0.00% 50.00%);
-  transition: .3s;
+  transition: .5s;
   position: absolute;
   left: 24px;
   bottom: 24px;
@@ -1339,26 +1337,31 @@ input {
 
 .about-card-link::before {
   content: '';
+  background: url(https://x-technics.com/ysteeshy/2024/05/next-st.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 1px;
-  background: #0071AA;
+  height: 100%;
+  display: block;
   position: absolute;
-  right: 8%;
-  top: 0;
-  transform-origin: right;
-  transform: rotate(-119deg) translate(50%, 0.8px);
+  left: 0;
+  transition: .5s;
 }
 
 .about-card-link::after {
   content: '';
-  width: 100%;
-  height: 1px;
-  background: #0071AA;
+  background: url(https://x-technics.com/ysteeshy/2024/05/next-ho.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 170px;
+  display: block;
   position: absolute;
-  bottom: 0;
-  left: 8%;
-  transform-origin: left;
-  transform: rotate(-119deg) translate(-50%, -0.8px);
+  left: -60px;
+  opacity: 0;
+  transition: .5s;
 }
 
 .about-card-img {
@@ -2708,8 +2711,12 @@ input {
     top: calc(55% + 5 * (100vw - 1920px) / 60);
   }
 
-  .about-card-link:hover {
-    background: #00527b69;
+  .about-card-link:hover::before {
+    opacity: 0;
+  }
+
+  .about-card-link:hover::after {
+    opacity: 1;
   }
 
   .form .our-aircraft-link:hover::before {
