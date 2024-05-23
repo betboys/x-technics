@@ -105,7 +105,7 @@
 					</div>
 					<div class="checkbox-inner">
 						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">NDT(non-destructive-testing)</label>
+						<label class="label" for="">NDT (non-destructive-testing)</label>
 					</div>
 				</ul>
 
