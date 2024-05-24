@@ -1776,11 +1776,22 @@ input {
   display: none;
 }
 
-.single-line>.swiper>.swiper-wrapper>.swiper-slide:first-child>.service-single-link>.slide-single-img-inner {
-  background: red;
-  display: block;
+.single-line>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-aog>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-battery>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-wheel>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-detailing>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-borescope>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
+.single-ndt>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner {
   width: 100%;
   height: 100%;
+}
+
+.single-line>.swiper>.swiper-wrapper>.swiper-slide:first-child>.service-single-link>.slide-single-img-inner {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: red;
 }
 
 .line-linear-1 {
