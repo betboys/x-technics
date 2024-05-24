@@ -311,6 +311,8 @@ input {
 }
 
 .home-hero-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -843,7 +845,12 @@ input {
 }
 
 .value-trust-text-cont {
-  width: 35vw;
+  width: 672px;
+}
+
+.value-trust-image {
+  width: 452px;
+  height: unset;
 }
 
 .value-trust-text-cont>.title {
@@ -1293,6 +1300,8 @@ input {
 }
 
 .about-hero-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1321,8 +1330,13 @@ input {
   justify-content: space-between;
 }
 
+.about-left-img {
+  width: 452px;
+  height: unset;
+}
+
 .right-text-inner {
-  width: 35vw;
+  width: 672px;
 }
 
 .text-left {
@@ -1668,6 +1682,8 @@ input {
 }
 
 .serive-hero-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1849,6 +1865,8 @@ input {
 }
 
 .aline-single-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2085,6 +2103,8 @@ input {
 }
 
 .aog-single-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2233,6 +2253,8 @@ input {
 }
 
 .battery-hero-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2378,6 +2400,8 @@ input {
 }
 
 .wheel-image {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2447,6 +2471,8 @@ input {
 }
 
 .detailing-width-img {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2540,6 +2566,8 @@ input {
 }
 
 .borescope-image-cover {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2618,6 +2646,8 @@ input {
 }
 
 .ndt-image-cover {
+  width: 1440px;
+  height: unset;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -3191,6 +3221,12 @@ input {
     z-index: 1;
   }
 
+  .home-hero-img {
+    bottom: unset;
+    width: 1440px;
+    top: 5rem;
+  }
+
   .header-menu-list:last-child .menu-link::after {
     display: none;
   }
@@ -3296,12 +3332,6 @@ input {
 
   .cover-title-subtitle-inner {
     padding-top: 303px;
-  }
-
-  .home-hero-img {
-    bottom: unset;
-    top: 5rem;
-    width: 1000px;
   }
 
   .value-trust {
@@ -3530,6 +3560,11 @@ input {
 @media (max-width: 744px) {
   :root {
     --paddingLeftAndRight: 5.376vw;
+  }
+
+  .certificate-image {
+    bottom: unset;
+    top: 5rem;
   }
 
   .home-linear-1 {
