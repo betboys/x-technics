@@ -94,7 +94,7 @@
 </section>
 <section class="swiper-slide-inner detailing-slide width-center swiper-slide-inner-effect">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
-    <div class="swiper-container swiper-after" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-detailing" data-aos="fade-right">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>
