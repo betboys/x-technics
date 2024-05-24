@@ -4418,7 +4418,7 @@ input {
 
 @media (max-width: 520px) {
   :root {
-    --paddingLeftAndRight: 3.077vw;
+    --paddingLeftAndRight: 16px;
   }
 
   .header-logo {
@@ -4438,10 +4438,6 @@ input {
 
   .services-content-flex {
     margin-top: 16px;
-  }
-
-  .services-content-list {
-    width: 45.5vw !important;
   }
 
   .value-trust-image {
