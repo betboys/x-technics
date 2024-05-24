@@ -1279,10 +1279,11 @@ input {
 }
 
 .about-title-subtitle-inner {
+  width: 100%;
+  max-width: 660px;
+  padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   padding-bottom: 301px;
-  width: 100%;
-  max-width: 540px;
 }
 
 .about-cover-subtitle {
@@ -1312,7 +1313,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1335,7 +1336,7 @@ input {
   margin-top: 32px;
   gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
 }
 
 .about-main>.about-card-list:nth-child(7)>.about-card-img {
@@ -1474,7 +1475,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .provider-text-inner {
@@ -2746,11 +2747,11 @@ input {
   }
 
   .about-card-list:hover .about-card-text {
-    top: calc(50% + 5 * (100vw - 1920px) / 60);
+    top: calc(35% + 5 * (100vw - 1920px) / 60);
   }
 
   .about-card-list:hover .about-card-text-hidden {
-    top: calc(55% + 5 * (100vw - 1920px) / 60);
+    top: calc(40% + 5 * (100vw - 1920px) / 60);
   }
 
   .about-card-link:hover::before {
