@@ -652,6 +652,10 @@ input {
 }
 
 .swiper-slide-inner {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  overflow: hidden;
   padding: var(--paddingTopAndBottom) 0;
 }
 
@@ -1528,6 +1532,8 @@ input {
 
 .certificate-cover {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   margin-top: 100px;
   position: relative;
 }
@@ -1558,6 +1564,9 @@ input {
 }
 
 .download-pdf {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
