@@ -4513,9 +4513,13 @@ input {
   }
 
   .home-hero-img {
-    width: 900px;
+    width: 620px;
     bottom: unset;
-    top: 5rem;
+    top: 7rem;
+  }
+
+  .home-hero-img::before {
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%) !important;
   }
 
   .cover-title {
