@@ -1797,6 +1797,8 @@ input {
 
 .aircraft-line {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding-top: 100px;
   position: relative;
 }
@@ -1806,7 +1808,7 @@ input {
   padding-top: 110px;
   padding-bottom: 230px;
   width: 100%;
-  max-width: 680px;
+  max-width: 650px;
 }
 
 .aline-single-img {
@@ -1821,6 +1823,9 @@ input {
 }
 
 .ensurin-continuous {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
@@ -1852,7 +1857,7 @@ input {
   width: 100%;
   margin-top: 32px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(222px, 1fr));
   gap: 20px;
 }
 
@@ -1911,9 +1916,10 @@ input {
 }
 
 .top-element {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   width: 100%;
-  max-width: 1500px;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .our-expertise-cont {
@@ -1956,6 +1962,9 @@ input {
 }
 
 .left-text-rigth-image-cont {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
@@ -1965,11 +1974,11 @@ input {
 
 .left-text-cont {
   width: 100%;
-  max-width: 600px;
+  max-width: 613px;
 }
 
 .air-image-rigth {
-  width: 586px;
+  width: 452px;
   height: unset;
 }
 
