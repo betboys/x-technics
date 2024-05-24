@@ -3365,7 +3365,7 @@ input {
   }
 
   .swiper-after {
-    padding: 0 var(--paddingLeftAndRight);
+    padding: 0;
   }
 
   .ndt-linear>.swiper-container {
@@ -3846,6 +3846,7 @@ input {
 
   .swiper-slide-inner {
     padding: 0;
+    padding-inline: var(--paddingLeftAndRight);
   }
 
   .swiper-slide-inner-effect {
