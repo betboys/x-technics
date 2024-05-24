@@ -1506,11 +1506,12 @@ input {
   z-index: 1;
 }
 
-.service-card>.about-card-list:last-child>.about-card-img {
+.service-card>.about-card-list:last-child>.our-service-card-link>.about-card-img {
   display: none;
 }
 
 .service-card>.about-card-list:last-child::before {
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
