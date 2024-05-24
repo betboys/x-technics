@@ -2125,8 +2125,8 @@ input {
 }
 
 .aog-single-img {
-  width: 1440px;
-  height: unset;
+  width: 942px;
+  max-height: 533px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -4617,10 +4617,10 @@ input {
   }
 
   .aline-single-img {
-    right: -7rem;
+    right: -8rem;
     bottom: unset;
     top: 5rem;
-    width: 1000px;
+    width: 750px;
   }
 
   .slide-text-style {
@@ -4630,10 +4630,14 @@ input {
   }
 
   .aog-single-img {
-    right: -11rem;
+    right: -12rem;
     bottom: unset;
     top: 5rem;
-    width: 800px;
+    width: 620px;
+  }
+
+  .aog-single-img::before {
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%);
   }
 
   .aog-cover-subtitle {
