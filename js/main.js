@@ -225,7 +225,7 @@ if (document.querySelector('.aircraft-line')) {
 if (document.querySelector('.aircraft-battery')) {
   // swipet slide
   let swipers = document.querySelectorAll('.swiper');
-  if (window.innerWidth > 990) {
+  if (window.innerWidth < 990) {
     const swiper = new Swiper(swipers[0], {
       slidesPerView: 'auto',
       speed: 1000,
