@@ -2422,11 +2422,11 @@ input {
 }
 
 .wheel-image {
-  width: 1440px;
-  height: unset;
+  width: 954px;
+  max-height: 540px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 5rem;
   z-index: -1;
 }
 
@@ -4665,11 +4665,15 @@ input {
 
   .wheel-image {
     position: absolute;
-    right: -11rem;
+    right: -13rem;
     bottom: unset;
     z-index: -1;
     top: 5rem;
-    width: 900px;
+    width: 620px;
+  }
+
+  .wheel-image::before {
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%);
   }
 
   .detailing-width-img {
