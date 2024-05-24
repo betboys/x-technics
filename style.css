@@ -655,7 +655,6 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  overflow: hidden;
   padding: var(--paddingTopAndBottom) 0;
 }
 
@@ -663,7 +662,6 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  overflow: hidden;
   position: relative;
 }
 
