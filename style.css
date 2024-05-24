@@ -84,7 +84,7 @@ input {
 }
 
 :root {
-  --paddingLeftAndRight: 7.813vw;
+  --paddingLeftAndRight: 120px;
   --paddingTopAndBottom: 60px;
 
   --width: 1440px;
@@ -128,6 +128,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
+  padding-inline: var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -329,9 +330,10 @@ input {
 
 .cover-title-subtitle-inner {
   width: 100%;
-  max-width: 890px;
+  max-width: 860px;
   padding-top: 126px;
   padding-bottom: 137px;
+  padding-left: var(--paddingLeftAndRight);
 }
 
 .cover-title {
@@ -399,7 +401,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .title {
@@ -438,7 +440,7 @@ input {
 }
 
 .services-content-list {
-  width: 36.972vw;
+  width: 590px;
   position: relative;
 }
 
@@ -467,7 +469,7 @@ input {
 .services-content-list:nth-child(3),
 .services-content-list:nth-child(4),
 .services-content-list:nth-child(5) {
-  width: 24.427vw;
+  width: 384px;
 }
 
 .services-content-link {
@@ -654,6 +656,10 @@ input {
 }
 
 .swiper-slide-inner-home {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  overflow: hidden;
   position: relative;
 }
 
@@ -828,7 +834,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -859,7 +865,7 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) 0;
+  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   position: relative;
 }
 
@@ -1180,13 +1186,11 @@ input {
   max-width: var(--width);
   margin-inline: auto;
   border-top: 1px solid #212529;
-  padding: 33px 0;
+  padding: 33px var(--paddingLeftAndRight);
 
 }
 
 .footer-container {
-  width: var(--width);
-  margin-inline: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -1278,7 +1282,7 @@ input {
   padding-top: 126px;
   padding-bottom: 301px;
   width: 100%;
-  max-width: 690px;
+  max-width: 540px;
 }
 
 .about-cover-subtitle {
