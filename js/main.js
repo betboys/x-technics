@@ -134,7 +134,7 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
 if (document.querySelector('.home-cover')) {
   // swipet slide
   const swiper = new Swiper('.swiper', {
-    slidesPerView: 'auto',
+    slidesPerView: 3,
     speed: 1000,
     centeredSlides: true,
     loop: true,
