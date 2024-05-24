@@ -1796,7 +1796,7 @@ input {
   height: 100%;
   display: block;
   background: url(https://x-technics.com/ysteeshy/2024/05/Subtract.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1806,7 +1806,7 @@ input {
   height: 100%;
   display: block;
   background: url(https://x-technics.com/ysteeshy/2024/05/Subtract-4.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
