@@ -1700,8 +1700,8 @@ input {
 }
 
 .serive-hero-img {
-  width: 1440px;
-  height: unset;
+  width: 1000px;
+  max-height: 639px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2493,11 +2493,11 @@ input {
 }
 
 .detailing-width-img {
-  width: 1440px;
-  height: unset;
+  width: 948px;
+  max-height: 536px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 5rem;
   z-index: -1;
 }
 
@@ -2588,8 +2588,8 @@ input {
 }
 
 .borescope-image-cover {
-  width: 1440px;
-  height: unset;
+  max-width: 940px;
+  max-height: 567px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2668,8 +2668,8 @@ input {
 }
 
 .ndt-image-cover {
-  width: 1440px;
-  height: unset;
+  width: 950px;
+  max-height: 629px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -3245,6 +3245,11 @@ input {
     display: block;
     position: relative;
     z-index: 1;
+  }
+
+  .borescope-image-cover {
+    bottom: unset;
+    top: 9rem;
   }
 
   .home-hero-img {
@@ -4583,10 +4588,11 @@ input {
   }
 
   .serive-hero-img {
-    right: -9rem;
+    right: unset;
     bottom: unset;
     top: 5rem;
-    width: 800px;
+    width: 540px;
+    left: 0;
   }
 
   .this-element-subtitle {
@@ -4656,13 +4662,6 @@ input {
     width: 100%;
   }
 
-  .borescope-image-cover {
-    right: 0;
-    bottom: unset;
-    top: 9rem;
-    width: 630px;
-  }
-
   .wheel-image {
     position: absolute;
     right: -13rem;
@@ -4678,18 +4677,18 @@ input {
 
   .detailing-width-img {
     position: absolute;
-    right: -6rem;
+    right: -10rem;
     bottom: unset;
     z-index: -1;
     top: 5rem;
-    width: 900px;
+    width: 620px;
   }
 
   .ndt-image-cover {
-    right: -6rem;
+    right: -5rem;
     bottom: unset;
     top: 0rem;
-    width: 900px;
+    width: 547px;
   }
 
   .our-aircraft-text {
