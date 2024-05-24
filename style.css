@@ -2065,8 +2065,8 @@ input {
 
 .offer-inner {
   width: 100%;
-    max-width: var(--width);
-    margin-inline: auto;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
@@ -2223,21 +2223,24 @@ input {
 }
 
 .card-inner {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
 .card-container {
   width: 100%;
-  max-width: 1006px;
+  max-width: 1034px;
   margin-inline: auto;
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 19px;
 }
 
 .card-list {
-  width: 322px;
+  width: 332px;
   background: #0071AA;
   padding: 32px;
   position: relative;
@@ -2274,6 +2277,9 @@ input {
 }
 
 .two-card-inner {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
