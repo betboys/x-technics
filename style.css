@@ -2064,6 +2064,9 @@ input {
 }
 
 .offer-inner {
+  width: 100%;
+    max-width: var(--width);
+    margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
