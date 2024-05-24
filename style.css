@@ -2418,14 +2418,17 @@ input {
 }
 
 .detailing-services {
-  padding: var(--paddingTopAndBottom) 0 var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   width: 100%;
-  max-width: 800px;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0 var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   position: relative;
 }
 
 .detailing-services-inner {
   margin-top: 24px;
+  width: 100%;
+  max-width: 804px;
 }
 
 .detailing-services-list {
