@@ -1575,6 +1575,8 @@ input {
 }
 
 .certificate-image {
+  width: 746px;
+  max-height: 691px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1881,12 +1883,16 @@ input {
 }
 
 .aline-single-img {
-  width: 1440px;
-  height: unset;
+  width: 1160px;
+  max-height: 655px;
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.aline-single-img::before {
+  background: linear-gradient(245deg, rgba(1, 1, 2, 0.05) 0%, #010102 100%);
 }
 
 .line-intro {
