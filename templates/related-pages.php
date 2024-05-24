@@ -25,7 +25,7 @@
                 <div class="swiper-slide swiper-slide-margin-rigth" data-aos="fade-right">
                     <a class="service-single-link" href="<?php echo get_permalink(); ?>">
                     <div class="slide-single-img-inner">
-                        <img class="slide-image slide-image-size" src="<?= $featured_image_url ?>" alt="">
+                        <img class="slide-image slide-image-size single-slide-photo" src="<?= $featured_image_url ?>" alt="">
                     </div>
                         <p class="slide-text-style single-slide-text"><?php the_title(); ?></p>
                     </a>

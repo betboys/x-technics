@@ -3870,6 +3870,11 @@ input {
     height: 80px;
   }
 
+  .single-slide-photo {
+    width: 100%;
+    height: unset;
+  }
+
   .swiper-slide-active .slide-image-text {
     font-size: 20px;
   }
