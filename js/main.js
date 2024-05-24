@@ -225,18 +225,20 @@ if (document.querySelector('.aircraft-line')) {
 if (document.querySelector('.aircraft-battery')) {
   // swipet slide
   let swipers = document.querySelectorAll('.swiper');
-  const swiper = new Swiper(swipers[0], {
-    slidesPerView: 'auto',
-    speed: 1000,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  });
+  if (window.innerWidth > 990) {
+    const swiper = new Swiper(swipers[0], {
+      slidesPerView: 'auto',
+      speed: 1000,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  }
 
   if (window.innerWidth > 990) {
     const swiper2 = new Swiper(swipers[1], {
@@ -319,14 +321,16 @@ if (document.querySelector('.aircraft-ndt')) {
     },
   });
 
-  const swiper2 = new Swiper(swipers[1], {
-    slidesPerView: 'auto',
-    speed: 1000,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-  });
+  if (window.innerWidth > 990) {
+    const swiper2 = new Swiper(swipers[1], {
+      slidesPerView: 'auto',
+      speed: 1000,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+  }
 
   if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
@@ -481,14 +485,16 @@ if (document.querySelector('.aircraft-borescope')) {
 
   });
 
-  const swiper2 = new Swiper(swipers[1], {
-    slidesPerView: 'auto',
-    speed: 1000,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
+  if (window.innerWidth > 990) {
+    const swiper2 = new Swiper(swipers[1], {
+      slidesPerView: 'auto',
+      speed: 1000,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
 
   if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');

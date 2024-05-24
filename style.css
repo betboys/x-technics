@@ -4556,6 +4556,8 @@ input {
 
   .slide-text-style {
     font-size: 18px;
+    padding-right: 3px;
+    padding-left: 16px;
   }
 
   .aog-single-img {
