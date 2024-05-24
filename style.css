@@ -2275,10 +2275,10 @@ input {
 }
 
 .battery-hero-img {
-  width: 1440px;
-  height: unset;
+  width: 675px;
+  max-height: 606px;
   position: absolute;
-  right: 0;
+  right: 6rem;
   bottom: 0;
   z-index: -1;
 }
@@ -4650,10 +4650,10 @@ input {
   }
 
   .battery-hero-img {
-    right: -4rem;
+    right: 0;
     bottom: unset;
     top: 5rem;
-    width: 850px;
+    width: 100%;
   }
 
   .borescope-image-cover {
