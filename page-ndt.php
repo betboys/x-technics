@@ -91,7 +91,7 @@
         </div>
     </div>
 </section>
-<section class="detailing-services borescope-service-single ndt-wcx">
+<section class="detailing-services ndt-wcx">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading_copy'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc_copy'); ?></p>
     <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
