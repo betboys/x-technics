@@ -86,6 +86,8 @@ input {
 :root {
   --paddingLeftAndRight: 7.813vw;
   --paddingTopAndBottom: 60px;
+
+  --width: 1440px;
 }
 
 .main {
@@ -123,7 +125,9 @@ input {
 }
 
 .header-container {
-  padding: 0 var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -299,6 +303,8 @@ input {
 
 .home-cover {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding-top: 100px;
   position: relative;
 }
@@ -314,7 +320,6 @@ input {
   content: '';
   position: absolute;
   inset: 0;
-  /* background: linear-gradient(243deg, rgba(1, 1, 2, 0.05) 41.11%, #010102 80.01%); */
 }
 
 .hero-photo-style {
@@ -325,7 +330,6 @@ input {
 .cover-title-subtitle-inner {
   width: 100%;
   max-width: 890px;
-  padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   padding-bottom: 137px;
 }
@@ -392,7 +396,10 @@ input {
 }
 
 .home-our-services-container {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .title {
@@ -431,7 +438,7 @@ input {
 }
 
 .services-content-list {
-  width: 41.667vw;
+  width: 36.972vw;
   position: relative;
 }
 
@@ -460,7 +467,7 @@ input {
 .services-content-list:nth-child(3),
 .services-content-list:nth-child(4),
 .services-content-list:nth-child(5) {
-  width: 27.427vw;
+  width: 24.427vw;
 }
 
 .services-content-link {
@@ -508,7 +515,10 @@ input {
 
 /* home our aircraft engineers */
 .home-our-aircraft-engineers {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .color-style::before {
@@ -650,7 +660,6 @@ input {
 .slide-title-sytle {
   width: 100%;
   max-width: 1200px;
-  padding: 0 var(--paddingLeftAndRight);
   margin-inline: auto;
   text-align: center;
 }
@@ -816,7 +825,10 @@ input {
 }
 
 .value-trust {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -845,7 +857,9 @@ input {
 /* contact us */
 .contact-us {
   width: 100%;
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
   position: relative;
 }
 
@@ -1163,8 +1177,10 @@ input {
 /* footer */
 .footer {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   border-top: 1px solid #212529;
-  padding: 33px var(--paddingLeftAndRight);
+  padding: 33px 0;
 
 }
 
@@ -1252,12 +1268,13 @@ input {
 
 .about-cover {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding-top: 100px;
   position: relative;
 }
 
 .about-title-subtitle-inner {
-  padding-left: var(--paddingLeftAndRight);
   padding-top: 126px;
   padding-bottom: 301px;
   width: 100%;
@@ -1277,8 +1294,8 @@ input {
 
 .about-aour-mission {
   width: 100%;
-  max-width: 972px;
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  max-width: 672px;
+  padding: var(--paddingTopAndBottom) 0;
   margin-inline: auto;
 }
 
@@ -1288,7 +1305,10 @@ input {
 }
 
 .image-text-inner {
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1448,7 +1468,9 @@ input {
 /* service provider */
 .service-provider-container {
   width: 100%;
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  max-width: var(--width);
+  margin-inline: auto;
+  padding: var(--paddingTopAndBottom) 0;
 }
 
 .provider-text-inner {
