@@ -27,7 +27,7 @@
                     <div class="slide-single-img-inner">
                         <img class="slide-image slide-image-size" src="<?= $featured_image_url ?>" alt="">
                     </div>
-                        <p class="slide-text-style"><?php the_title(); ?></p>
+                        <p class="slide-text-style single-slide-text"><?php the_title(); ?></p>
                     </a>
                 </div>
             <?php endwhile;

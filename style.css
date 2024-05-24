@@ -2061,6 +2061,10 @@ input {
   overflow: hidden;
 }
 
+.single-slide-text {
+  padding-right: 13px;
+}
+
 .swiper-after {
   margin-top: 32px;
 }
