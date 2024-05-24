@@ -1654,6 +1654,8 @@ input {
 
 .service-cover {
   width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding-top: 100px;
   position: relative;
 }
@@ -1669,7 +1671,7 @@ input {
   padding-left: var(--paddingLeftAndRight);
   padding-top: 130px;
   width: 100%;
-  max-width: 680px;
+  max-width: 620px;
   padding-bottom: 320px;
 }
 
@@ -1702,7 +1704,8 @@ input {
 
 .information-inner {
   width: 100%;
-  max-width: 1030px;
+  max-width: var(--width);
+  margin-inline: auto;
   padding-left: var(--paddingLeftAndRight);
   padding-top: var(--paddingTopAndBottom);
   padding-bottom: var(--paddingTopAndBottom);
