@@ -13,7 +13,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="detailing-services borescope-service-single ndt-onm">
+<section class="detailing-services ndt-onm">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
     <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
