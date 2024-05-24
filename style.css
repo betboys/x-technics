@@ -1791,7 +1791,10 @@ input {
   width: 100%;
   height: 100%;
   display: block;
-  background: red;
+  background: url(https://x-technics.com/ysteeshy/2024/05/Subtract.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .line-linear-1 {
