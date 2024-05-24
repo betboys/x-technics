@@ -2505,8 +2505,10 @@ input {
   z-index: -1;
 }
 
-.borescope-service-single {
-  max-width: 940px;
+.borescope-service-single>.detailing-services-inner>.detailing-services-list {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .borescope-oae {
