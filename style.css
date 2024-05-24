@@ -3291,11 +3291,17 @@ input {
   }
 
   .home-cover {
-    padding-top: 81px;
+    padding-top: 0;
   }
 
   .cover-title-subtitle-inner {
     padding-top: 303px;
+  }
+
+  .home-hero-img {
+    bottom: unset;
+    top: 5rem;
+    width: 1000px;
   }
 
   .value-trust {
