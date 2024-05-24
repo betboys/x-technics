@@ -2241,6 +2241,7 @@ input {
 
 .card-list {
   width: 332px;
+  height: 330px;
   background: #0071AA;
   padding: 32px;
   position: relative;
@@ -2332,7 +2333,7 @@ input {
   padding-top: 110px;
   padding-bottom: 302px;
   width: 100%;
-  max-width: 690px;
+  max-width: 660px;
 }
 
 .wheel-image {
@@ -2344,10 +2345,12 @@ input {
 
 .wheel-card-container {
   max-width: 1030px;
+  gap: 20px;
 }
 
 .wheel-slide {
   width: 330px;
+  height: 380px;
 }
 
 .wheel-font-size {
@@ -2355,6 +2358,9 @@ input {
 }
 
 .whell-or {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
 }
 
