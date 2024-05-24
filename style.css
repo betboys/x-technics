@@ -2963,10 +2963,6 @@ input {
     max-width: 660px;
   }
 
-  .about-aour-mission {
-    max-width: 922px;
-  }
-
   .right-text-inner {
     width: 46.7vw;
   }
@@ -2978,13 +2974,17 @@ input {
   .left-text-cont {
     max-width: 41.667vw;
   }
-
-
 }
 
 @media (max-width: 1310px) {
   .services-content-link {
     font-size: 35px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .card-list {
+    height: 390px;
   }
 }
 
@@ -3504,6 +3504,10 @@ input {
   .ndt-title-subtitle-inner {
     padding-top: 303px;
     padding-bottom: 139px;
+  }
+
+  .swiper-slide-inner-effect {
+    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   }
 }
 
