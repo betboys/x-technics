@@ -766,12 +766,12 @@ input {
   transform-origin: center;
 }
 
-.swiper-slide-active .slide-image-text {
+.swiper-slide-next .slide-image-text {
   font-size: 28px;
   color: #FFF;
 }
 
-.swiper-slide-active .slide-image {
+.swiper-slide-next .slide-image {
   transform: scale(1);
 }
 
