@@ -4637,7 +4637,7 @@ input {
   }
 
   .aog-single-img::before {
-    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%);
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%) !important;
   }
 
   .aog-cover-subtitle {
@@ -4673,7 +4673,7 @@ input {
   }
 
   .wheel-image::before {
-    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%);
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%) !important;
   }
 
   .detailing-width-img {
