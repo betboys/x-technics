@@ -1385,6 +1385,16 @@ input {
   border: 1px solid #24B6FF;
 }
 
+.about-card-list:first-child,
+.about-card-list:first-child>.about-card-img {
+  clip-path: polygon(23% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 23%);
+}
+
+.about-card-list:nth-child(7),
+.about-card-list:nth-child(7)>.about-card-img {
+  clip-path: polygon( 0.00% 0.00%, 100% 0.00%, 100% 77%, 77% 100%, 0.00% 100% );
+}
+
 .mobile-verion {
   display: none;
 }
@@ -1433,7 +1443,7 @@ input {
 
 .about-card-img {
   width: 100%;
-  height: unset;
+  height: 100%;
 }
 
 .about-card-text {
