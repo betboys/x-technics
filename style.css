@@ -776,7 +776,7 @@ input {
   transform: scale(.5);
   transform-origin: center;
   width: 375px;
-  height: 219px;
+  max-height: 219px;
 }
 
 .swiper-slide-active .slide-image-text {
@@ -787,7 +787,7 @@ input {
 .swiper-slide-active .slide-image {
   transform: scale(1);
   width: 375px;
-  height: 219px;
+  max-height: 219px;
 }
 
 .swiper-slide-duplicate-active {
