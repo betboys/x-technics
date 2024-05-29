@@ -4173,6 +4173,15 @@ input {
     overflow: hidden;
   }
 
+  .about-card-list:first-child::after,
+  .about-card-list:nth-child(7)::after,
+  .about-card-list:first-child>.our-service-card-link::after,
+  .about-card-list:last-child>.our-service-card-link::after,
+  .swiper-slide-margin-rigth:first-child>.service-single-link::after,
+  .swiper-slide-margin-rigth:last-child>.service-single-link::after {
+    height: 2px;
+  }
+
   .child-1 {
     padding-top: 0 !important;
   }
