@@ -2839,14 +2839,6 @@ input {
     border: none;
   }
 
-  .service-card .about-card-list:last-child:hover::before {
-    border: 2px solid #0071AA;
-  }
-
-  .service-card .about-card-list:last-child:hover::after {
-    height: 2px;
-  }
-
   .download-icon-inner:hover {
     color: #0071AA;
   }

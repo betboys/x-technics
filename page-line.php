@@ -159,7 +159,7 @@
     </ul>
 </section>
 <section class="swiper-slide-inner swiper-slide-inner-effect width-center">
-    <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services:</h3>
+    <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
     <div class="swiper-container swiper-after single-line">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
