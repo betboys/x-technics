@@ -4056,6 +4056,10 @@ input {
     margin-top: 32px;
   }
 
+  .loop-slide {
+    width: 323px;
+  }
+
   .next-prev-buuton {
     gap: 32px;
     margin-top: 32px;
