@@ -772,7 +772,7 @@ input {
 
 .slide-image-text {
   color: #868E96;
-  margin-top: 32px;
+  margin-top: 40px;
   font-family: "blender book";
   font-size: 20px;
   font-weight: normal;
@@ -803,6 +803,7 @@ input {
 .swiper-slide-active .slide-image-text {
   font-size: 28px;
   color: #FFF;
+  margin-top: 32px;
 }
 
 .swiper-slide-active .slide-image {
