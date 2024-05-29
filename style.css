@@ -182,11 +182,13 @@ input {
 
 .dropdown-icon.rotate {
   transform: rotate(180deg);
+  transition: .8s;
 }
 
 .dropdown-icon {
   display: flex;
   transform-origin: center;
+  transition: .8s;
 }
 
 .dropdown-menu .header-menu-list:first-child .menu-link {
@@ -1374,6 +1376,13 @@ input {
 .about-card-list {
   position: relative;
   overflow: hidden;
+}
+
+.about-card-list::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #24B6FF;
 }
 
 .mobile-verion {
