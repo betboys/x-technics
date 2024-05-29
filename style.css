@@ -767,8 +767,10 @@ input {
 
 .slide-image {
   transition: all .25s ease-out;
-  transform: scale(.75);
+  transform: scale(.5);
   transform-origin: center;
+  width: 375px;
+  height: 219px;
 }
 
 .swiper-slide-active .slide-image-text {
@@ -778,6 +780,19 @@ input {
 
 .swiper-slide-active .slide-image {
   transform: scale(1);
+  width: 375px;
+  height: 219px;
+}
+
+.swiper-slide-duplicate-active {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide-duplicate-active>.slide-image-text {
+  margin-top: 0;
 }
 
 .next-prev-buuton {
