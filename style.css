@@ -1507,6 +1507,10 @@ input {
   z-index: 1;
 }
 
+.service-card>.about-card-list>.our-service-card-link>.service-card-text {
+  -webkit-line-clamp: 2;
+}
+
 .service-card>.about-card-list:last-child>.our-service-card-link>.about-card-img {
   display: none;
 }
