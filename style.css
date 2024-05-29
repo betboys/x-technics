@@ -785,6 +785,11 @@ input {
   margin-top: 40px;
 } 
 
+.loop-wrapper>.swiper-slide-prev,
+.loop-wrapper>.swiper-slide-next {
+  padding-top: 40px;
+}
+
 .swiper-slide-active .slide-image-text {
   font-size: 28px;
   color: #FFF;
