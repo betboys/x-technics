@@ -1648,8 +1648,8 @@ input {
 }
 
 .certificate-image {
-  width: 746px;
-  max-height: 691px;
+  width: 1017px;
+  max-height: 554.535px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -4840,7 +4840,7 @@ input {
   }
 
   .hero-photo::before {
-    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 74.07%);
+    background: linear-gradient(202deg, rgba(1, 1, 2, 0.00) 20.59%, #010102 100%);
   }
 }
 
