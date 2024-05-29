@@ -166,7 +166,7 @@ if (document.querySelector('.certificate-cover')) {
     speed: 1000,
     centeredSlides: true,
     loop: true,
-    spaceBetween: 118,
+    spaceBetween: 50,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -372,7 +372,7 @@ if (document.querySelector('.wheel-cover')) {
     speed: 1000,
     centeredSlides: true,
     loop: true,
-    spaceBetween: 118,
+    spaceBetween: 50,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -425,7 +425,7 @@ if (document.querySelector('.aircraft-maintenance')) {
     speed: 1000,
     centeredSlides: true,
     loop: true,
-    spaceBetween: 118,
+    spaceBetween: 50,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -473,7 +473,7 @@ if (document.querySelector('.aircraft-borescope')) {
     speed: 1000,
     centeredSlides: true,
     loop: true,
-    spaceBetween: 118,
+    spaceBetween: 50,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
