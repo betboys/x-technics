@@ -1589,6 +1589,11 @@ input {
   -webkit-line-clamp: 2;
 }
 
+.service-card>.about-card-list::after,
+.service-card>.about-card-list::before {
+  display: none;
+}
+
 .service-card .about-card-list:last-child {
   display: block;
 }
