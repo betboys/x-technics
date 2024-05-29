@@ -2112,7 +2112,12 @@ input {
   z-index: 1;
 }
 
-.swiper-slide-margin-rigth:first-child::after {
+.swiper-slide-margin-rigth:first-child>.service-single-link
+.swiper-slide-margin-rigth:first-child>.service-single-link>.slide-single-img-inner>.single-slide-photo {
+  clip-path: polygon(23% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 23%);
+}
+
+.swiper-slide-margin-rigth:first-child>.service-single-link::after {
   content: "";
   width: 100%;
   height: 1px;
