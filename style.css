@@ -2207,8 +2207,9 @@ input {
 }
 
 .slide-image-size {
-  width: 100%;
+  width: 100% !important;
   height: unset;
+  max-height: unset !important;
   transform: scale(1);
 }
 
