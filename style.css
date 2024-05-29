@@ -1538,6 +1538,7 @@ input {
 .our-service-card-link {
   display: flex;
   position: relative;
+  z-index: 2;
 }
 
 .our-service-card-link::before {
@@ -1545,6 +1546,7 @@ input {
   position: absolute;
   inset: 0;
   border: 1px solid #24B6FF;
+  z-index: 1;
 }
 
 .about-card-list:first-child>.our-service-card-link::after {
@@ -1572,10 +1574,10 @@ input {
   background: #24B6FF;
   position: absolute;
   right: 23%;
-  top: 0;
+  bottom: 0;
   z-index: 1;
   transform-origin: right;
-  transform: translate(0px, 0px) rotate(134.3deg);
+  transform: translate(0px, 0px) rotate(135deg);
 }
 
 .new-style {
