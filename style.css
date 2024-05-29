@@ -787,7 +787,8 @@ input {
 } 
 
 .loop-wrapper>.swiper-slide-prev,
-.loop-wrapper>.swiper-slide-next {
+.loop-wrapper>.swiper-slide-next,
+.swiper-slide-duplicate {
   padding-top: 40px;
   justify-content: unset;
 }
