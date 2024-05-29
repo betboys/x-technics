@@ -138,7 +138,7 @@ if (document.querySelector('.home-cover')) {
     speed: 1000,
     centeredSlides: true,
     loop: true,
-    spaceBetween: 118,
+    spaceBetween: 50,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

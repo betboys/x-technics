@@ -697,6 +697,7 @@ input {
 
 .loop-slide {
   width: 455px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -780,7 +781,7 @@ input {
 }
 
 .loop-wrapper>.swiper-slide-prev>.slide-image-text,
-.loop-wrapper>.swiper-slide-next.slide-image-text {
+.loop-wrapper>.swiper-slide-next>.slide-image-text {
   margin-top: 40px;
 } 
 
