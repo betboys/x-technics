@@ -783,7 +783,7 @@ input {
   transition: all .25s ease-out;
   /* transform: scale(.5); */
   /* transform-origin: center; */
-  width: 179px;
+  /* width: 179px; */
   max-height: 101px;
 }
 
