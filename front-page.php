@@ -227,7 +227,7 @@
 						$image = get_sub_field('airplane_image');
 						?>
 
-						<div class="swiper-slide">
+						<div class="swiper-slide loop-slide">
 							<img class="slide-image" src="<?= $image ?>" alt="">
 							<p class="slide-image-text"><?= $title ?></p>
 						</div>
