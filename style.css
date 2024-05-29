@@ -791,7 +791,7 @@ input {
 .loop-wrapper>.swiper-slide-next>.slide-image-text,
 .loop-wrapper>.swiper-slide-duplicate>.slide-image-text {
   margin-top: 40px;
-} 
+}
 
 .loop-wrapper>.swiper-slide-prev,
 .loop-wrapper>.swiper-slide-next {
@@ -4074,7 +4074,12 @@ input {
   }
 
   .slide-image {
-    transition: 0;
+    transition: none;
+  }
+
+  .loop-wrapper>.swiper-slide-prev,
+  .loop-wrapper>.swiper-slide-next {
+    padding-top: 0;
   }
 
   .next-prev-buuton {
