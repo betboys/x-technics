@@ -1463,12 +1463,11 @@ input {
 .about-card-list:last-child {
   display: grid;
   place-items: center;
-  background: none;
-  animation: none;
 }
 
-.about-card-list:last-child {
-  padding: 0px;
+.about-card-list-last::before,
+.about-card-list-last::after {
+  content: none;
 }
 
 .text-link {

@@ -59,7 +59,7 @@
             <?php endforeach;
             wp_reset_postdata(); ?>
             <?php if (get_field('service_link')): ?>
-                <li class="about-card-list">
+                <li class="about-card-list about-card-list-last">
                     <img class="about-card-img" src="https://x-technics.com/ysteeshy/2024/05/Subtract-style-1.webp" alt="">
                     <div class="text-link">
                         <p class="card-text-link">Explore more
