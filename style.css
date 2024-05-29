@@ -4061,6 +4061,18 @@ input {
     height: 130px;
   }
 
+  .swiper-slide-active .slide-image {
+    width: 180px;
+  }
+
+  .swiper-slide-active .slide-image-text {
+    margin-top: 0;
+  }
+
+  .slide-image-text {
+    margin-top: 0;
+  }
+
   .next-prev-buuton {
     gap: 32px;
     margin-top: 32px;
