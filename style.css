@@ -691,7 +691,7 @@ input {
 }
 
 .swiper-slide {
-  width: 402px;
+  width: 418px;
   position: relative;
   cursor: pointer;
 }
@@ -785,7 +785,6 @@ input {
 }
 
 .swiper-slide-duplicate-active {
-  width: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
