@@ -1371,6 +1371,18 @@ input {
   z-index: 1;
 }
 
+.about-card-list::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #24B6FF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: left;
+  transform: translate(0px, 0px) rotate(0deg);
+}
+
 .about-card-list:first-child,
 .about-card-list:first-child>.about-card-img {
   clip-path: polygon(23% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 23%);
@@ -1468,6 +1480,10 @@ input {
 .about-card-list-last::before,
 .about-card-list-last::after {
   content: none;
+}
+
+.about-card-list-last>.about-card-img {
+  height: unset;
 }
 
 .text-link {
