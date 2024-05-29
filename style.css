@@ -1585,7 +1585,12 @@ input {
   border-width: 2px;
 }
 
-.our-service-card-link:hover::after {
+.about-card-list:first-child>.our-service-card-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
+.about-card-list:last-child>.our-service-card-link:hover::after {
   height: 3px;
   background: #98E4FF;
 }
