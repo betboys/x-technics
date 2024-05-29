@@ -1369,7 +1369,6 @@ input {
   inset: 0;
   border: 1px solid #24B6FF;
   z-index: 1;
-  transition: .3s;
 }
 
 .about-card-list:first-child,
@@ -1388,19 +1387,16 @@ input {
   z-index: 1;
   transform-origin: left;
   transform: translate(0px, 0px) rotate(134.3deg);
-  transition: .3s;
 }
 
 .about-card-list:hover::before {
   border-width: 2px;
-}
-
-.about-card-list:first-child:hover::before {
-  border-width: 2px;
+  border-color: #98E4FF;
 }
 
 .about-card-list:first-child:hover::after {
-  height: 2px;
+  height: 3px;
+  background: #98E4FF;
 }
 
 /* .about-card-list:nth-child(7),
