@@ -779,6 +779,11 @@ input {
   max-height: 101px;
 }
 
+.loop-wrapper>.swiper-slide-prev>.slide-image-text,
+.loop-wrapper>.swiper-slide-next.slide-image-text {
+  margin-top: 40px;
+} 
+
 .swiper-slide-active .slide-image-text {
   font-size: 28px;
   color: #FFF;
