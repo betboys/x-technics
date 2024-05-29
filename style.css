@@ -2188,12 +2188,7 @@ input {
   font-weight: normal;
   line-height: 120%;
   color: #FFF;
-  transition: .8s;
-  text-transform: capitalize;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  transition: .5s;
 }
 
 .single-slide-text {
