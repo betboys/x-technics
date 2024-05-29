@@ -1358,21 +1358,6 @@ input {
   grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
 }
 
-.about-main>.about-card-list:nth-child(7)>.about-card-img {
-  display: none;
-}
-
-.about-main>.about-card-list:nth-child(7)::before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: url(https://x-technics.com/ysteeshy/2024/05/Subtract-1-1.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .about-card-list {
   position: relative;
   overflow: hidden;
@@ -1383,6 +1368,7 @@ input {
   position: absolute;
   inset: 0;
   border: 1px solid #24B6FF;
+  z-index: 1;
 }
 
 .about-card-list:first-child,
@@ -1390,10 +1376,10 @@ input {
   clip-path: polygon(23% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 23%);
 }
 
-.about-card-list:nth-child(7),
+/* .about-card-list:nth-child(7),
 .about-card-list:nth-child(7)>.about-card-img {
   clip-path: polygon( 0.00% 0.00%, 100% 0.00%, 100% 77%, 77% 100%, 0.00% 100% );
-}
+} */
 
 .mobile-verion {
   display: none;
@@ -1410,6 +1396,7 @@ input {
   left: 24px;
   bottom: 24px;
   opacity: 0;
+  z-index: 2;
 }
 
 .about-card-link::before {
@@ -4030,14 +4017,6 @@ input {
 
   .about-card-list:last-child {
     display: none;
-  }
-
-  .about-main>.about-card-list:nth-child(7)::before {
-    display: none;
-  }
-
-  .about-main>.about-card-list:nth-child(7)>.about-card-img {
-    display: block;
   }
 
   .mobile-verion {
