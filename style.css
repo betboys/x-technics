@@ -4043,16 +4043,6 @@ input {
     margin-top: 16px;
   }
 
-  .swiper-slide {
-    width: 287px;
-    text-align: center;
-  }
-
-  .slide-image {
-    width: 180px;
-    height: 80px;
-  }
-
   .single-slide-photo {
     width: 100%;
     height: unset;
