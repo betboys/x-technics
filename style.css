@@ -4069,7 +4069,8 @@ input {
     margin-top: 0;
   }
 
-  .slide-image-text {
+  .slide-image-text,
+  .loop-wrapper>.swiper-slide-prev>.slide-image-text {
     margin-top: 0;
   }
 
@@ -4080,6 +4081,7 @@ input {
   .loop-wrapper>.swiper-slide-prev,
   .loop-wrapper>.swiper-slide-next {
     padding-top: 0;
+    justify-content: space-between;
   }
 
   .next-prev-buuton {
