@@ -1580,6 +1580,16 @@ input {
   transform: translate(0px, 0px) rotate(135deg);
 }
 
+.our-service-card-link:hover::before {
+  border-color: #98E4FF;
+  border-width: 2px;
+}
+
+.our-service-card-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
 .new-style {
   position: absolute;
   top: unset;
@@ -1789,11 +1799,7 @@ input {
   font-weight: normal;
   line-height: 130%;
   color: #FFF;
-  transition: .8s;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  transition: .5s;
   text-transform: capitalize;
 }
 
