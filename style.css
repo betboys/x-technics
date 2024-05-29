@@ -4073,6 +4073,10 @@ input {
     margin-top: 0;
   }
 
+  .slide-image {
+    transition: 0;
+  }
+
   .next-prev-buuton {
     gap: 32px;
     margin-top: 32px;
