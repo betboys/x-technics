@@ -1386,7 +1386,7 @@ input {
   top: 0;
   z-index: 1;
   transform-origin: left;
-  transform: translate(0px, 0px) rotate(134.3deg);
+  transform: translate(0px, 0px) rotate(135deg);
 }
 
 .about-card-list:hover::before {
@@ -1880,45 +1880,6 @@ input {
 }
 
 /* single service aircraft */
-.single-line>.swiper>.swiper-wrapper>.swiper-slide:first-child>.service-single-link>.slide-single-img-inner>.slide-image {
-  display: none;
-}
-
-.single-ndt>.swiper>.swiper-wrapper>.swiper-slide:last-child>.service-single-link>.slide-single-img-inner>.slide-image {
-  display: none;
-}
-
-.single-line>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-aog>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-battery>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-wheel>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-detailing>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-borescope>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner,
-.single-ndt>.swiper>.swiper-wrapper>.swiper-slide>.service-single-link>.slide-single-img-inner {
-  width: 100%;
-  height: 100%;
-}
-
-.single-line>.swiper>.swiper-wrapper>.swiper-slide:first-child>.service-single-link>.slide-single-img-inner {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: url(https://x-technics.com/ysteeshy/2024/05/Subtract.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.single-ndt>.swiper>.swiper-wrapper>.swiper-slide:last-child>.service-single-link>.slide-single-img-inner {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: url(https://x-technics.com/ysteeshy/2024/05/Subtract-4.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .line-linear-1 {
   position: absolute;
   left: calc(-20% + 37*(100vw - 1920px) / 60);
