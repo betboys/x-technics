@@ -1429,18 +1429,14 @@ input {
 
 .about-card-text {
   position: absolute;
-  top: 85%;
+  bottom: 24px;
   padding: 0 24px;
   font-family: "blender bold";
   font-size: 20px;
   font-weight: normal;
   line-height: 130%;
   color: #FFF;
-  transition: .8s;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  transition: .3s;
   text-transform: capitalize;
 }
 
@@ -1451,9 +1447,9 @@ input {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  transition: .8s;
+  transition: .3s;
   position: absolute;
-  top: 100%;
+  bottom: -100px;
   left: 0;
   padding: 0 24px;
 }
@@ -1505,10 +1501,6 @@ input {
   justify-content: unset;
   position: relative;
   z-index: 1;
-}
-
-.service-card>.about-card-list>.our-service-card-link>.service-card-text {
-  -webkit-line-clamp: 2;
 }
 
 .service-card>.about-card-list:last-child>.our-service-card-link>.about-card-img {
@@ -2868,20 +2860,12 @@ input {
     opacity: 1;
   }
 
-  .service-card .about-card-list:hover .new-style {
-    top: unset !important;
-  }
-
-  .service-card .about-card-list:hover .about-card-text {
-    top: 85%;
-  }
-
   .about-card-list:hover .about-card-text {
-    top: calc(35% + 5 * (100vw - 1920px) / 60);
+    bottom: calc(169px + 0 * (100vw - 1920px) / 60);
   }
 
   .about-card-list:hover .about-card-text-hidden {
-    top: calc(40% + 5 * (100vw - 1920px) / 60);
+    bottom: calc(78px + 0 * (100vw - 1920px) / 60);
   }
 
   .about-card-link:hover::before {
