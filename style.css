@@ -774,10 +774,10 @@ input {
 
 .slide-image {
   transition: all .25s ease-out;
-  transform: scale(.5);
-  transform-origin: center;
-  width: 375px;
-  max-height: 219px;
+  /* transform: scale(.5); */
+  /* transform-origin: center; */
+  width: 179px;
+  max-height: 101px;
 }
 
 .swiper-slide-active .slide-image-text {
