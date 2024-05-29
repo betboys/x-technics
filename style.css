@@ -2148,6 +2148,21 @@ input {
   transform: translate(0px, 0px) rotate(135deg);
 }
 
+.service-single-link:hover::before {
+  border-color: #98E4FF;
+  border-width: 2px;
+}
+
+.swiper-slide-margin-rigth:first-child>.service-single-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
+.swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
 .swiper-slide-margin-rigth {
   width: 285px;
   height: 284px;
