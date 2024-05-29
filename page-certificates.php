@@ -36,7 +36,7 @@
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
     <div class="swiper-container" data-aos="fade-right">
         <div class="swiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper loop-wrapper">
                 <?php
                 if (have_rows('airplanes')):
                     while (have_rows('airplanes')):
@@ -45,7 +45,7 @@
                         $image = get_sub_field('airplane_image');
                         ?>
 
-                        <div class="swiper-slide">
+                        <div class="swiper-slide loop-slide">
                             <img class="slide-image" src="<?= $image ?>" alt="">
                             <p class="slide-image-text"><?= $title ?></p>
                         </div>
