@@ -4136,6 +4136,10 @@ input {
   .about-card-text {
     font-size: 18px;
     padding-left: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .service-provider-container {
@@ -4156,6 +4160,17 @@ input {
     font-size: 18px;
     padding-left: 16px;
     padding-right: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .single-slide-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .child-1 {
