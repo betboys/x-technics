@@ -1391,6 +1391,14 @@ input {
   transition: .8s;
 }
 
+.about-card-list:hover::before {
+  border-width: 2px;
+}
+
+.about-card-list:first-child:hover::after {
+  height: 2px;
+}
+
 /* .about-card-list:nth-child(7),
 .about-card-list:nth-child(7)>.about-card-img {
   clip-path: polygon( 0.00% 0.00%, 100% 0.00%, 100% 77%, 77% 100%, 0.00% 100% );
