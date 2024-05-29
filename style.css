@@ -701,6 +701,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .swiper-pagination {
@@ -788,6 +789,7 @@ input {
 .loop-wrapper>.swiper-slide-prev,
 .loop-wrapper>.swiper-slide-next {
   padding-top: 40px;
+  justify-content: unset;
 }
 
 .swiper-slide-active .slide-image-text {
@@ -796,7 +798,7 @@ input {
 }
 
 .swiper-slide-active .slide-image {
-  transform: scale(1);
+  /* transform: scale(1); */
   width: 375px;
   max-height: 219px;
 }
