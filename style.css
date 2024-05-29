@@ -4070,7 +4070,9 @@ input {
   }
 
   .slide-image-text,
-  .loop-wrapper>.swiper-slide-prev>.slide-image-text {
+  .loop-wrapper>.swiper-slide-prev>.slide-image-text,
+  .loop-wrapper>.swiper-slide-next>.slide-image-text,
+  .loop-wrapper>.swiper-slide-duplicate>.slide-image-text {
     margin-top: 0;
   }
 
