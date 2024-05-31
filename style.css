@@ -2186,21 +2186,6 @@ input {
   transform: translate(0px, 0px) rotate(135deg);
 }
 
-.service-single-link:hover::before {
-  border-color: #98E4FF;
-  border-width: 2px;
-}
-
-.swiper-slide-margin-rigth:first-child>.service-single-link:hover::after {
-  height: 3px;
-  background: #98E4FF;
-}
-
-.swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
-  height: 3px;
-  background: #98E4FF;
-}
-
 .swiper-slide-margin-rigth {
   width: 285px;
   height: 284px;
@@ -3053,6 +3038,21 @@ input {
 
   .swiper-button-next:hover .next-ho {
     opacity: 1;
+  }
+
+  .service-single-link:hover::before {
+    border-color: #98E4FF;
+    border-width: 2px;
+  }
+
+  .swiper-slide-margin-rigth:first-child>.service-single-link:hover::after {
+    height: 3px;
+    background: #98E4FF;
+  }
+
+  .swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
+    height: 3px;
+    background: #98E4FF;
   }
 }
 
@@ -4796,7 +4796,7 @@ input {
 
   .slide-text-style {
     font-size: 18px;
-    padding-right: 3px;
+    padding-right: 16px;
     padding-left: 16px;
   }
 
