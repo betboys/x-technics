@@ -1241,7 +1241,8 @@ input {
   margin-inline: auto;
   border-top: 1px solid #212529;
   padding: 33px var(--paddingLeftAndRight);
-
+  position: relative;
+  z-index: 1;
 }
 
 .footer-container {
