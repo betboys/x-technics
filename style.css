@@ -703,6 +703,7 @@ input {
   align-items: center;
   justify-content: unset;
   padding-top: 40px;
+  cursor: auto;
 }
 
 .swiper-slide-active {
@@ -2016,6 +2017,7 @@ input {
   padding: 32px 20px;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
+  cursor: auto;
 }
 
 .this-content-intro::before {
@@ -2300,6 +2302,7 @@ input {
   padding: 20px 25px 20px 24px;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
+  cursor: auto;
 }
 
 .aod-offer-flex {
@@ -2458,6 +2461,7 @@ input {
   padding: 32px;
   position: relative;
   animation: changeBackgroundColor 5s linear infinite;
+  cursor: auto;
 }
 
 .card-list::before {
