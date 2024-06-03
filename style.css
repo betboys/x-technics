@@ -932,6 +932,8 @@ input {
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 }
 
 .socal-media-img {
