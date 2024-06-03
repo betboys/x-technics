@@ -5926,8 +5926,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 [data-aos^=fade][data-aos^=fade].aos-animate {
   opacity: 1;
   transform: translateZ(0);
-  position: relative;
-  z-index: -1;
 }
 
 [data-aos=fade-up] {
