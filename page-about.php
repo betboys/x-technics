@@ -1,7 +1,7 @@
 <?php get_header();
 /* Template Name: About us Template */ ?>
 <img class="about-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="about-cover">
+<section class="about-cover" data-aos="fade-up">
     <div class="about-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -10,18 +10,18 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="about-aour-mission">
+<section class="about-aour-mission" data-aos="fade-up">
     <h3 class="title title-before-after-effect"><?= the_field('our_mission_title'); ?></h3>
     <p class="subtitle subtitle-center"><?= the_field('our_mission_description'); ?></p>
 </section>
-<section class="image-text-inner">
+<section class="image-text-inner" data-aos="fade-up">
     <img class="about-left-img" src="<?= the_field('wwd_image'); ?>" alt="">
-    <div class="right-text-inner" data-aos="fade-right">
+    <div class="right-text-inner">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_title'); ?></p>
         <p class="subtitle subtitle-inner-top"><?= the_field('wwd_description'); ?></p>
     </div>
 </section>
-<section class="service-provider-container">
+<section class="service-provider-container" data-aos="fade-up">
     <div class="provider-text-inner">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('s_heading'); ?></p>
         <p class="subtitle subtitle-inner-top"><?= the_field('s_desc'); ?></p>
@@ -37,7 +37,7 @@
                 $card_subtitle = get_field('card_subtitle', $featured_post->ID);
                 $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
                 ?>
-                <li class="about-card-list" data-aos="fade-right">
+                <li class="about-card-list">
                     <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                     <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                     <p class="subtitle about-card-text-hidden"><?php echo $card_subtitle; ?></p>

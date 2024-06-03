@@ -4,7 +4,7 @@
 <img class="battery-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="battery-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="battery-linear-3" style="display: none;" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover aircraft-battery">
+<section class="service-cover aircraft-battery" data-aos="fade-up">
     <div class="battery-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle battery-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,9 +13,9 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="offer-inner battery-offer">
+<section class="offer-inner battery-offer" data-aos="fade-up">
     <div class="left-text-rigth-image-cont row-reverse">
-        <div class="left-text-cont" data-aos="fade-left">
+        <div class="left-text-cont">
             <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?>
             </p>
             <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
@@ -23,7 +23,7 @@
         <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
     </div>
 </section>
-<section class="card-inner battery-card">
+<section class="card-inner battery-card" data-aos="fade-up">
     <p class="title title-before-after-effect slide-title-sytle">Our Aircraft Battery Maintenance</p>
     <div class="swiper-container swiper-after battery-swiper-cont">
         <div class="swiper card-swiper">
@@ -36,7 +36,7 @@
                         $feature_title = get_sub_field('license_title');
                         $feature_desc = get_sub_field('license_desc');
                         ?>
-                        <div class="swiper-slide card-list battery-card-list" data-aos="fade-right">
+                        <div class="swiper-slide card-list battery-card-list">
                             <div class="card-image-text">
                                 <img class="card-image" src="<?= $icon_feautres ?>" alt="">
                                 <p class="element-title font-size battery-card-subtitle"><?= $feature_title ?></p>
@@ -83,7 +83,7 @@
         </div>
     </div>
 </section>
-<section class="two-card-inner">
+<section class="two-card-inner" data-aos="fade-up">
     <p class="title title-before-after-effect color-style text-center title-center">
         <?= the_field('ex_heading'); ?>
     </p>
@@ -95,7 +95,7 @@
                 $icon_feautres = get_sub_field('icon_feautres');
                 $feature_title = get_sub_field('license_title');
                 ?>
-                <li class="two-card-list" data-aos="fade-right">
+                <li class="two-card-list">
                     <img class="two-card-image" src="<?= $icon_feautres ?>" alt="">
                     <p class="two-card-text"><?= $feature_title ?></p>
                 </li>
@@ -104,9 +104,9 @@
         ?>
     </ul>
 </section>
-<section class="swiper-slide-inner width-center swiper-slide-inner-effect">
+<section class="swiper-slide-inner width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-battery" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-battery">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>

@@ -4,7 +4,7 @@
 <img class="aog-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="aog-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="aog-linear-3" style="display: none;" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover aircraft-maintenance">
+<section class="service-cover aircraft-maintenance" data-aos="fade-up">
     <div class="aog-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle aog-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,10 +13,10 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="offer-inner aog-inner">
+<section class="offer-inner aog-inner" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-    <div class="swiper-container no-top" data-aos="fade-right">
+    <div class="swiper-container no-top">
         <div class="swiper aog-swiper">
             <div class="swiper-wrapper offer-flex aod-offer-flex">
                 <?php
@@ -75,23 +75,23 @@
         </div>
     </div>
 </section>
-<section class="left-text-rigth-image-cont">
-    <div class="left-text-cont" data-aos="fade-left">
+<section class="left-text-rigth-image-cont" data-aos="fade-up">
+    <div class="left-text-cont">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('wwd_heading'); ?>
         </p>
         <p class="element-subtitle element-subtitle-top"><?= the_field('wwd_desc'); ?></p>
     </div>
-    <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="" data-aos="fade-right">
+    <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
 </section>
-<section class="aog-wcu">
+<section class="aog-wcu" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></h3>
     <p class="subtitle subtitle-width-style subtitle-width"><?= the_field('ex_desc'); ?></p>
 </section>
-<section class="aog-flex-container">
+<section class="aog-flex-container" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center">
         <?= the_field('license_heading'); ?>
     </h3>
-    <ul class="our-aircraft-flex-inner" data-aos="fade-right">
+    <ul class="our-aircraft-flex-inner">
         <?php
         if (have_rows('licneses')):
             while (have_rows('licneses')):
@@ -107,9 +107,9 @@
         endif; ?>
     </ul>
 </section>
-<section class="swiper-slide-inner aog-swiper-slide">
+<section class="swiper-slide-inner aog-swiper-slide" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container">
         <div class="swiper">
             <div class="swiper-wrapper loop-wrapper">
                 <?php
@@ -168,9 +168,9 @@
         </div>
     </div>
 </section>
-<section class="swiper-slide-inner swiper-slide-inner-effect width-center">
+<section class="swiper-slide-inner swiper-slide-inner-effect width-center" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-aog" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-aog">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>

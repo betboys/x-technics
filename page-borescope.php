@@ -4,7 +4,7 @@
 <img class="borescope-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="borescope-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="borescope-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover aircraft-borescope">
+<section class="service-cover aircraft-borescope" data-aos="fade-up">
     <div class="borescope-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle borescope-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,10 +13,10 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="swiper-slide-inner">
+<section class="swiper-slide-inner" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('c_heading'); ?></h3>
     <p class="subtitle our-aircraft-subtitle borescope-at"><?= the_field('c_desc'); ?></p>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container">
         <div class="swiper">
             <div class="swiper-wrapper loop-wrapper">
                 <?php
@@ -76,7 +76,7 @@
         </div>
     </div>
 </section>
-<section class="detailing-services borescope-service-single">
+<section class="detailing-services borescope-service-single" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>
     <ul class="detailing-services-inner">
         <li class="detailing-services-list list-style">
@@ -84,11 +84,11 @@
         </li>
     </ul>
 </section>
-<section class="borescope-oae">
+<section class="borescope-oae" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading_copy'); ?>
     </h3>
     <div class="our-aircraft-flex-container width-max">
-        <ul class="our-aircraft-flex-inner" data-aos="fade-right">
+        <ul class="our-aircraft-flex-inner">
             <?php
             if (have_rows('licenses')):
                 while (have_rows('licenses')):
@@ -105,7 +105,7 @@
         </ul>
     </div>
 </section>
-<section class="download-pdf borescope-pdf">
+<section class="download-pdf borescope-pdf" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
     <ul class="download-pdf-container">
         <?php
@@ -121,7 +121,7 @@
                 $filesize = size_format($filesize, 2);
                 ?>
 
-                <li class="download-pdf-list" data-aos="fade-right">
+                <li class="download-pdf-list">
                     <div class="download-pdf-link">
                         <div class="pdf-img-text-inner">
                             <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.png" alt="">
@@ -150,9 +150,9 @@
 
     </ul>
 </section>
-<section class="swiper-slide-inner width-center swiper-slide-inner-effect">
+<section class="swiper-slide-inner width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-borescope" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-borescope">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>

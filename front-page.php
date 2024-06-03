@@ -2,12 +2,12 @@
 <img class="home-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="home-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="home-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="home-cover">
+<section class="home-cover" data-aos="fade-up">
 	<div class="home-hero-img hero-photo">
 		<img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
 	</div>
 	<div class="cover-title-subtitle-inner">
-		<div data-aos="fade-right">
+		<div>
 			<h1 class="cover-title home-cover-title"><?= the_field('title'); ?></h1>
 			<h2 class="subtitle home-cover-subtitle"><?= the_field('description'); ?></h2>
 		</div>
@@ -23,14 +23,14 @@
 		<?php endif; ?>
 	</div>
 </section>
-<section class="home-our-services-container">
+<section class="home-our-services-container" data-aos="fade-up">
 	<h3 class="title title-before-after-effect"><?= the_field('heading'); ?></h3>
 	<ul class="services-content-flex">
 		<?php
 		if (have_rows('card1')):
 			while (have_rows('card1')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image1'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover1'); ?>"
 						alt="">
@@ -50,7 +50,7 @@
 		if (have_rows('card2')):
 			while (have_rows('card2')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image2'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover2'); ?>"
 						alt="">
@@ -70,7 +70,7 @@
 		if (have_rows('card3')):
 			while (have_rows('card3')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image3'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover3'); ?>"
 						alt="">
@@ -90,7 +90,7 @@
 		if (have_rows('card4')):
 			while (have_rows('card4')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image4'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover4'); ?>"
 						alt="">
@@ -110,7 +110,7 @@
 		if (have_rows('card5')):
 			while (have_rows('card5')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image5'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover5'); ?>"
 						alt="">
@@ -130,7 +130,7 @@
 		if (have_rows('card6')):
 			while (have_rows('card6')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image6'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover6'); ?>"
 						alt="">
@@ -150,7 +150,7 @@
 		if (have_rows('card7')):
 			while (have_rows('card7')):
 				the_row(); ?>
-				<li class="services-content-list" data-aos="fade-right">
+				<li class="services-content-list">
 					<img class="services-content-image" src="<?php the_sub_field('home_our_service_image7'); ?>" alt="">
 					<img class="services-content-image-hover" src="<?php the_sub_field('home_our_service_image_hover7'); ?>"
 						alt="">
@@ -168,7 +168,7 @@
 		endif; ?>
 	</ul>
 </section>
-<section class="home-our-aircraft-engineers">
+<section class="home-our-aircraft-engineers" data-aos="fade-up">
 	<div class="home-our-aircraft-engineers-inner">
 		<h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
 		<p class="subtitle our-aircraft-subtitle home-oael"><?= the_field('license_description'); ?></p>
@@ -180,7 +180,7 @@
 						the_row();
 						$title = get_sub_field('license_title');
 						?>
-						<li class="our-aircraft-flex-list" data-aos="fade-right">
+						<li class="our-aircraft-flex-list">
 							<p class="our-aircraft-text"><?= $title ?></p>
 						</li>
 						<?Php
@@ -214,9 +214,9 @@
 		</div>
 	</div>
 </section>
-<section class="swiper-slide-inner swiper-slide-inner-home">
+<section class="swiper-slide-inner swiper-slide-inner-home" data-aos="fade-up">
 	<h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-	<div class="swiper-container" data-aos="fade-left">
+	<div class="swiper-container">
 		<div class="swiper">
 			<div class="swiper-wrapper loop-wrapper">
 				<?php
@@ -275,8 +275,8 @@
 		</div>
 	</div>
 </section>
-<section class="value-trust">
-	<div class="value-trust-text-cont" data-aos="fade-left">
+<section class="value-trust" data-aos="fade-up">
+	<div class="value-trust-text-cont">
 		<p class="title title-before-after-effect none-effect"><?= the_field('text_heading'); ?></p>
 		<p class="subtitle value-trust-subtitle-top home-wvtap"><?= the_field('text_content'); ?></p>
 	</div>

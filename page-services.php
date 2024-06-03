@@ -6,7 +6,7 @@
 <img class="service-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="service-linear-4" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="service-linear-5" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover our-service">
+<section class="service-cover our-service" data-aos="fade-up">
     <div class="service-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -15,7 +15,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="service-provider-container">
+<section class="service-provider-container" data-aos="fade-up">
     <div class="provider-text-inner text-center">
         <p class="title title-before-after-effect color-style text-center title-center">
             <?= the_field('s_heading'); ?>
@@ -31,7 +31,7 @@
                 $title = get_the_title($featured_post->ID);
                 $featured_image_url = get_the_post_thumbnail_url($featured_post->ID, 'full');
                 ?>
-                <li class="about-card-list" data-aos="fade-right">
+                <li class="about-card-list">
                     <a class="our-service-card-link" href="<?php echo esc_url($permalink); ?>">
                         <img class="about-card-img" src="<?php echo $featured_image_url; ?>" alt="">
                         <p class="service-card-text"> <?php echo esc_html($title); ?></p>
@@ -52,7 +52,7 @@ if (have_rows('services_boxes')):
         $service_subtitle = get_sub_field('service_subtitle');
         $service_link = get_sub_field('service_link');
         ?>
-        <section class="information-inner child-<?= $count ?>" data-aos="fade-right">
+        <section class="information-inner child-<?= $count ?>" data-aos="fade-up">
             <p class="title title-before-after-effect none-effect text-left max-width"><?= $service_title ?></p>
             <p class="this-element-subtitle"><?= $service_subtitle ?></p>
             <ul class="information-intro">

@@ -4,7 +4,7 @@
 <img class="ndt-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="ndt-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="ndt-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover aircraft-ndt">
+<section class="service-cover aircraft-ndt" data-aos="fade-up">
     <div class="ndt-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle ndt-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,10 +13,10 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="detailing-services ndt-onm">
+<section class="detailing-services ndt-onm" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc'); ?></p>
-    <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
+    <ul class="detailing-services-inner ndt-inner">
         <?php
         if (have_rows('features')):
             while (have_rows('features')):
@@ -33,11 +33,11 @@
 
     </ul>
 </section>
-<section class="offer-inner ndt-linear">
+<section class="offer-inner ndt-linear" data-aos="fade-up">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading'); ?></p>
     <div class="swiper-container swiper-after detailing-swiper">
         <div class="swiper">
-            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper" data-aos="fade-right">
+            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper">
                 <?php
                 if (have_rows('airplanes')):
                     while (have_rows('airplanes')):
@@ -91,10 +91,10 @@
         </div>
     </div>
 </section>
-<section class="detailing-services ndt-wcx">
+<section class="detailing-services ndt-wcx" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('c_heading_copy'); ?></p>
     <p class="this-element-subtitle"><?= the_field('c_desc_copy'); ?></p>
-    <ul class="detailing-services-inner ndt-inner" data-aos="fade-right">
+    <ul class="detailing-services-inner ndt-inner">
         <?php
         if (have_rows('features_copy')):
             while (have_rows('features_copy')):
@@ -110,7 +110,7 @@
 
     </ul>
 </section>
-<section class="ndt-oae">
+<section class="ndt-oae" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>
     </h3>
     <div class="our-aircraft-flex-container">
@@ -122,7 +122,7 @@
                     $title = get_sub_field('license_title');
 
                     ?>
-                    <li class="our-aircraft-flex-list" data-aos="fade-right">
+                    <li class="our-aircraft-flex-list">
                         <p class="our-aircraft-text"><?= $title ?></p>
                     </li>
                     <?Php
@@ -132,9 +132,9 @@
         </ul>
     </div>
 </section>
-<section class="swiper-slide-inner ndt-slide width-center swiper-slide-inner-effect">
+<section class="swiper-slide-inner ndt-slide width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-ndt" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-ndt">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>

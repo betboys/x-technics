@@ -4,7 +4,7 @@
 <img class="line-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="line-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="line-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="aircraft-line">
+<section class="aircraft-line" data-aos="fade-up">
     <div class="line-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,7 +13,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="ensurin-continuous">
+<section class="ensurin-continuous" data-aos="fade-up">
     <div class="content-text-inner">
         <p class="title title-before-after-effect none-effect text-left line-title">
             <?= the_field('c_heading'); ?>
@@ -22,7 +22,7 @@
     </div>
     <div class="swiper-container line-swiper-first">
         <div class="swiper">
-            <div class="swiper-wrapper info-flex-div" data-aos="fade-right">
+            <div class="swiper-wrapper info-flex-div">
                 <?php
                 if (have_rows('features')):
                     while (have_rows('features')):
@@ -78,7 +78,7 @@
         </div>
     </div>
 </section>
-<section class="top-element">
+<section class="top-element" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"> <?= the_field('ex_heading'); ?></p>
     <p class="this-element-subtitle padding-rigth"> <?= the_field('ex_desc'); ?></p>
     <div class="our-expertise-cont">
@@ -90,7 +90,7 @@
                 $feature_title = get_sub_field('license_title');
                 $feature_desc = get_sub_field('license_desc');
                 ?>
-                <article class="our-expertise-list" data-aos="fade-right">
+                <article class="our-expertise-list">
                     <div class="image-texts-container">
                         <img class="img-settings" src="<?= $icon_feautres ?>" alt="">
                         <div class="title-subtitle-lists">
@@ -104,8 +104,8 @@
         ?>
     </div>
 </section>
-<section class="left-text-rigth-image-cont line-intro">
-    <div class="left-text-cont" data-aos="fade-right">
+<section class="left-text-rigth-image-cont line-intro" data-aos="fade-up">
+    <div class="left-text-cont">
         <p class="title title-before-after-effect none-effect text-left">
             <?= the_field('wwd_heading'); ?>
         </p>
@@ -113,7 +113,7 @@
     </div>
     <img class="air-image-rigth" src="<?= the_field('wwd_img'); ?>" alt="">
 </section>
-<section class="download-pdf">
+<section class="download-pdf" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
     <ul class="download-pdf-container">
         <?php
@@ -129,7 +129,7 @@
                 $filesize = size_format($filesize, 2);
                 ?>
 
-                <li class="download-pdf-list" data-aos="fade-left">
+                <li class="download-pdf-list">
                     <div class="download-pdf-link">
                         <div class="pdf-img-text-inner">
                             <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.png" alt="">
@@ -158,13 +158,11 @@
 
     </ul>
 </section>
-<section class="swiper-slide-inner swiper-slide-inner-effect width-center">
+<section class="swiper-slide-inner swiper-slide-inner-effect width-center" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
     <div class="swiper-container swiper-after single-line">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>
-
 <?php echo get_template_part('templates/contact'); ?>
-
 <?php get_footer(); ?>

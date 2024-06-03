@@ -2,7 +2,7 @@
 /* Template Name: Certifcates Template */ ?>
 <img class="certificate-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="certificate-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="certificate-cover">
+<section class="certificate-cover" data-aos="fade-up">
     <div class="certificate-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle certificate-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -11,7 +11,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="home-our-aircraft-engineers-inner certificate-block-inner">
+<section class="home-our-aircraft-engineers-inner certificate-block-inner" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>
     </h3>
     <div class="our-aircraft-flex-container">
@@ -22,7 +22,7 @@
                     the_row();
                     $title = get_sub_field('license_title');
                     ?>
-                    <li class="our-aircraft-flex-list" data-aos="fade-right">
+                    <li class="our-aircraft-flex-list">
                         <p class="our-aircraft-text"><?= $title ?></p>
                     </li>
                     <?Php
@@ -32,9 +32,9 @@
         </ul>
     </div>
 </section>
-<section class="swiper-slide-inner">
+<section class="swiper-slide-inner" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container">
         <div class="swiper">
             <div class="swiper-wrapper loop-wrapper">
                 <?php
@@ -93,7 +93,7 @@
         </div>
     </div>
 </section>
-<section class="download-pdf">
+<section class="download-pdf" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
     <ul class="download-pdf-container">
         <?php
@@ -109,7 +109,7 @@
                 $filesize = size_format($filesize, 2);
                 ?>
 
-                <li class="download-pdf-list" data-aos="fade-right">
+                <li class="download-pdf-list">
                     <div class="download-pdf-link">
                         <div class="pdf-img-text-inner">
                             <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.png" alt="">

@@ -4,7 +4,7 @@
 <img class="detailing-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="detailing-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="detailing-linear-3" style="display: none;" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover detailing-cover">
+<section class="service-cover detailing-cover" data-aos="fade-up">
     <div class="detailing-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle detailing-cover-subtitle"><?= the_field('description'); ?></h2>
@@ -13,7 +13,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="detailing-services detailing-services-main">
+<section class="detailing-services detailing-services-main" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('ex_heading'); ?></p>
     <ul class="detailing-services-inner">
         <?php
@@ -25,7 +25,7 @@
 
                 ?>
 
-                <li class="detailing-services-list" data-aos="fade-right"><?= $feature_desc ?>
+                <li class="detailing-services-list"><?= $feature_desc ?>
                 </li>
             <?php endwhile;
         endif;
@@ -34,11 +34,11 @@
 
     </ul>
 </section>
-<section class="offer-inner">
+<section class="offer-inner" data-aos="fade-up">
     <p class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></p>
     <div class="swiper-container detailing-swiper">
         <div class="swiper">
-            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper" data-aos="fade-right">
+            <div class="swiper-wrapper offer-flex detailing-swiper-wrapper">
                 <?php
                 if (have_rows('features')):
                     while (have_rows('features')):
@@ -92,9 +92,9 @@
         </div>
     </div>
 </section>
-<section class="swiper-slide-inner detailing-slide width-center swiper-slide-inner-effect">
+<section class="swiper-slide-inner detailing-slide width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-detailing" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-detailing">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>

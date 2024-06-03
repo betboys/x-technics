@@ -4,7 +4,7 @@
 <img class="whell-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="whell-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="whell-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="service-cover wheel-cover">
+<section class="service-cover wheel-cover" data-aos="fade-up">
     <div class="whell-title-subtitle-inner">
         <h1 class="cover-title about-cover-title"><?= the_field('title'); ?></h1>
         <h2 class="subtitle about-cover-subtitle wheel-hero-subtitle"><?= the_field('description'); ?></h2>
@@ -13,11 +13,11 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="whell-or">
+<section class="whell-or" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('c_heading'); ?></h3>
     <p class="subtitle subtitle-width-style wheel-or"><?= the_field('c_desc'); ?></p>
 </section>
-<section class="card-inner wheel-card">
+<section class="card-inner wheel-card" data-aos="fade-up">
     <p class="title title-before-after-effect title-center"><?= the_field('ex_heading'); ?></p>
     <div class="swiper-container no-top">
         <div class="swiper">
@@ -31,7 +31,7 @@
                         $feature_desc = get_sub_field('license_desc');
                         ?>
 
-                        <div class="swiper-slide card-list wheel-slide" data-aos="fade-right">
+                        <div class="swiper-slide card-list wheel-slide">
                             <div class="card-image-text">
                                 <img class="card-image" src="<?= $icon_feautres ?>" alt="">
                                 <p class="element-title wheel-font-size"><?= $feature_title ?></p>
@@ -81,9 +81,9 @@
         </div>
     </div>
 </section>
-<section class="swiper-slide-inner slide-weel">
+<section class="swiper-slide-inner slide-weel" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('ex_desc'); ?></h3>
-    <div class="swiper-container" data-aos="fade-right">
+    <div class="swiper-container">
         <div class="swiper">
             <div class="swiper-wrapper loop-wrapper">
                 <?php
@@ -143,7 +143,7 @@
         </div>
     </div>
 </section>
-<section class="download-pdf">
+<section class="download-pdf" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
     <ul class="download-pdf-container">
         <?php
@@ -159,7 +159,7 @@
                 $filesize = size_format($filesize, 2);
                 ?>
 
-                <li class="download-pdf-list" data-aos="fade-left">
+                <li class="download-pdf-list">
                     <div class="download-pdf-link">
                         <div class="pdf-img-text-inner">
                             <img class="pdf-img" src="https://x-technics.com/ysteeshy/2024/05/Certificate.png" alt="">
@@ -188,9 +188,9 @@
 
     </ul>
 </section>
-<section class="swiper-slide-inner second-slide-wheel width-center swiper-slide-inner-effect">
+<section class="swiper-slide-inner second-slide-wheel width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
-    <div class="swiper-container swiper-after single-wheel" data-aos="fade-right">
+    <div class="swiper-container swiper-after single-wheel">
         <?php echo get_template_part('templates/related-pages'); ?>
     </div>
 </section>
