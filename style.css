@@ -887,6 +887,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .value-trust-text-cont {
@@ -1374,6 +1375,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .about-left-img {
@@ -1714,6 +1716,8 @@ input {
   max-width: var(--width);
   margin-inline: auto;
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  position: relative;
+  z-index: 1 !important;
 }
 
 .download-pdf-container {
@@ -5926,6 +5930,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 [data-aos^=fade][data-aos^=fade].aos-animate {
   opacity: 1;
   transform: translateZ(0);
+  z-index: -1;
 }
 
 [data-aos=fade-up] {
