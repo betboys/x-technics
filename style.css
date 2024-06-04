@@ -923,7 +923,9 @@ input {
   width: 100%;
   max-width: var(--width);
   margin-inline: auto;
-  padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  padding-inline: var(--paddingLeftAndRight);
+  padding-top: 120px;
+  padding-bottom: var(--paddingTopAndBottom);
   position: relative;
   z-index: 1 !important;
 }
