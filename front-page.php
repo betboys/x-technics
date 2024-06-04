@@ -2,7 +2,7 @@
 <img class="home-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="home-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
 <img class="home-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="home-cover" data-aos="fade-up">
+<section class="home-cover">
 	<div class="home-hero-img hero-photo">
 		<img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
 	</div>
