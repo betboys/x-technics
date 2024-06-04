@@ -22,7 +22,7 @@
                 $featured_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                 ?>
 
-                <div class="swiper-slide swiper-slide-margin-rigth" data-aos="fade-right">
+                <div class="swiper-slide swiper-slide-margin-rigth">
                     <a class="service-single-link" href="<?php echo get_permalink(); ?>">
                     <div class="slide-single-img-inner">
                         <img class="slide-image slide-image-size single-slide-photo" src="<?= $featured_image_url ?>" alt="">
