@@ -552,6 +552,7 @@ if (document.getElementById("contact-us-mobile")) {
 
 $(document).on('click', 'a[href^="#"]', function (event) {
   event.preventDefault();
+  $("contact-us").style.paddingTop = "120px";
   $('html, body').animate({
     scrollTop: $($.attr(this, 'href')).offset().top
   }, 800);
