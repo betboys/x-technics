@@ -62,7 +62,7 @@
 				<?php endif; ?>
 				<?php if (get_field('location', 'option')): ?>
 					<li class="socal-media-iist">
-						<a class="socal-media-iink" href="">
+						<a class="socal-media-iink" href="<?= the_field('location_add', 'option'); ?>">
 							<div class="socal-media-img">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 									fill="none">
