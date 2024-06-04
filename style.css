@@ -3370,6 +3370,14 @@ input {
     z-index: 1;
   }
 
+  .contact-title {
+    padding-top: 0;
+  }
+
+  .contact-us {
+    padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
+  }
+
   .borescope-image-cover {
     bottom: unset;
     top: 9rem;
