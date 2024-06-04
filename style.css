@@ -926,6 +926,7 @@ input {
   padding: var(--paddingTopAndBottom) var(--paddingLeftAndRight);
   position: relative;
   z-index: 1 !important;
+  padding-top: 120px;
 }
 
 .contact-us-container {
