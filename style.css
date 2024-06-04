@@ -930,7 +930,7 @@ input {
 }
 
 .contact-title {
-  padding-top: 120px;
+  padding-top: var(--paddingTopAndBottom);
 }
 
 .contact-us-container {
