@@ -924,10 +924,13 @@ input {
   max-width: var(--width);
   margin-inline: auto;
   padding-inline: var(--paddingLeftAndRight);
-  padding-top: 120px;
   padding-bottom: var(--paddingTopAndBottom);
   position: relative;
   z-index: 1 !important;
+}
+
+.contact-title {
+  padding-top: 120px;
 }
 
 .contact-us-container {
