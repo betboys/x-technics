@@ -2830,6 +2830,9 @@ input {
 }
 
 .security-inner-container {
+  width: 100%;
+  max-width: var(--width);
+  margin-inline: auto;
   padding: 0 var(--paddingLeftAndRight);
 }
 
