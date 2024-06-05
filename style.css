@@ -2904,7 +2904,7 @@ input {
 }
 
 /* all hover */
-@media (min-width: 1200px) {
+@media (min-width: 744px) {
   .dropdown-menu .header-menu-list:last-child .menu-link:hover {
     background: none;
     font-size: unset;
@@ -3153,10 +3153,6 @@ input {
 @media (max-width: 1207px) {
   .card-list {
     width: 26.5vw;
-  }
-
-  .button-hover {
-    display: none;
   }
 }
 
