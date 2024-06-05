@@ -2995,14 +2995,6 @@ input {
     opacity: 1;
   }
 
-  .about-card-list:hover .about-card-text {
-    bottom: calc(169px + 0 * (100vw - 1920px) / 60);
-  }
-
-  .about-card-list:hover .about-card-text-hidden {
-    bottom: calc(78px + 0 * (100vw - 1920px) / 60);
-  }
-
   .about-card-link:hover::before {
     opacity: 0;
   }
@@ -3072,6 +3064,16 @@ input {
   .swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
     height: 3px;
     background: #98E4FF;
+  }
+}
+
+@media (min-width: 1207px) {
+  .about-card-list:hover .about-card-text {
+    bottom: calc(169px + 0 * (100vw - 1920px) / 60);
+  }
+
+  .about-card-list:hover .about-card-text-hidden {
+    bottom: calc(78px + 0 * (100vw - 1920px) / 60);
   }
 }
 
