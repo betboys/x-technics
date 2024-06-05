@@ -3322,6 +3322,12 @@ input {
   }
 }
 
+@media (max-width: 1000px) and (min-width: 744px) {
+  .about-card-list:hover .about-card-text {
+    color: #24B6FF;
+  }
+}
+
 @media (max-width: 1000px) {
   .subscribe-container {
     display: none;
