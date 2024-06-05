@@ -3168,14 +3168,6 @@ input {
   .about-card-text {
     padding: 0 13px;
   }
-
-  .about-card-list:hover .about-card-text {
-    bottom: calc(143px + 0*(100vw - 1920px) / 60);
-  }
-
-  .about-card-list:hover .about-card-text-hidden {
-    bottom: calc(67px + 0*(100vw - 1920px) / 60);
-  }
 }
 
 @media (max-width: 1130px) {
@@ -3315,6 +3307,16 @@ input {
 
   .ndt-oae>.title-before-after-effect {
     padding: 0 var(--paddingLeftAndRight);
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-card-list:hover .about-card-text {
+    bottom: calc(143px + 0*(100vw - 1920px) / 60);
+  }
+
+  .about-card-list:hover .about-card-text-hidden {
+    bottom: calc(67px + 0*(100vw - 1920px) / 60);
   }
 }
 
