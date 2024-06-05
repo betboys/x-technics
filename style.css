@@ -3154,6 +3154,28 @@ input {
   .card-list {
     width: 26.5vw;
   }
+
+  .about-card-link {
+    left: 13px;
+    bottom: 13px;
+  }
+
+  .about-card-text-hidden {
+    padding: 0 13px;
+    margin-block: 13px;
+  }
+
+  .about-card-text {
+    padding: 0 13px;
+  }
+
+  .about-card-list:hover .about-card-text {
+    bottom: calc(143px + 0*(100vw - 1920px) / 60);
+  }
+
+  .about-card-list:hover .about-card-text-hidden {
+    bottom: calc(67px + 0*(100vw - 1920px) / 60);
+  }
 }
 
 @media (max-width: 1130px) {
