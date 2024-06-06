@@ -4213,8 +4213,12 @@ input {
     gap: 8px;
   }
 
-  .page-id-16>.contact-us>.contact-us-container>.contact-us-socal-mekia-links>.contact-us-heading {
+  .page-id-16 .contact-us-heading {
     width: 59%;
+  }
+
+  .value-trust-text-cont>.title {
+    font-size: 18px;
   }
 
   .website-links-inner {
