@@ -656,6 +656,11 @@ input {
   z-index: 1;
 }
 
+.em {
+  font-size: 20px;
+  font-family: 'blender heavy';
+}
+
 .swiper-slide-inner {
   width: 100%;
   max-width: var(--width);
@@ -4034,12 +4039,23 @@ input {
 
   .home-cover-subtitle {
     margin-top: 16px;
+    font-size: 22px;
   }
 
   .cover-link {
     display: flex;
     margin-inline: auto;
     margin-top: 24px;
+    width: 290px;
+  }
+
+  .cover-link-text {
+    font-size: 22px;
+  }
+
+  .cover-link-st {
+    width: 290px;
+    height: 54px;
   }
 
   .cover-title-subtitle-inner {
@@ -4058,7 +4074,17 @@ input {
   }
 
   .title {
-    font-size: 24px;
+    font-size: 20px;
+    gap: 24px;
+  }
+
+  .title-center {
+    font-size: 18px;
+    gap: 24px;
+  }
+
+  .slide-title-sytle {
+    font-size: 18px;
     gap: 24px;
   }
 
@@ -4179,12 +4205,16 @@ input {
   }
 
   .contact-us-heading {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .socal-media-inner {
     margin-top: 32px;
     gap: 8px;
+  }
+
+  .page-id-16>.contact-us>.contact-us-container>.contact-us-socal-mekia-links>.contact-us-heading {
+    width: 59%;
   }
 
   .website-links-inner {
@@ -4917,11 +4947,11 @@ input {
   }
 
   .home-cover-subtitle {
-    padding-right: 50px;
+    padding-right: 47px;
   }
 
   .home-oael {
-    padding: 0 10px !important;
+    padding: 0 0px !important;
   }
 
   .home-wvtap {
