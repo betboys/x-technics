@@ -3071,14 +3071,6 @@ input {
     background: #98E4FF;
   }
 
-  .page-id-171 .contact-us-heading {
-    width: 66%;
-  }
-
-  .page-id-194 .contact-us-heading {
-    width: 88%;
-  }
-
   .aog-cover-subtitle {
     font-size: 22px;
   }
@@ -4238,6 +4230,18 @@ input {
     width: 70%;
   }
 
+  .page-id-216 .contact-us-heading {
+    width: 80%;
+  }
+
+  .page-id-171 .contact-us-heading {
+    width: 66%;
+  }
+
+  .page-id-194 .contact-us-heading {
+    width: 88%;
+  }
+
   .about-cover-subtitle {
     font-size: 22px;
   }
@@ -4994,10 +4998,6 @@ input {
   .battery-cover-subtitle {
     padding-right: 13px;
     font-size: 22px;
-  }
-
-  .page-id-216 .contact-us-heading {
-    width: 80%;
   }
 
   .wheel-or {
