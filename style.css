@@ -1260,6 +1260,10 @@ input {
   top: -58px;
 }
 
+.cont-btn-span {
+  color: #010102;
+}
+
 /* footer */
 .footer {
   width: 100%;

@@ -173,7 +173,7 @@
 				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
 					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/menu-st.webp" alt="">
 					<img class="button-hover cont-btn-hov" src="https://x-technics.com/ysteeshy/2024/05/menu-ho.webp" alt="">
-					<span class="menu-link index">SEND A QUOTE</span>
+					<span class="menu-link index cont-btn-span">SEND A QUOTE</span>
 				</button>
 			</form>
 		</div>
