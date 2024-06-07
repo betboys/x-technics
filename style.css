@@ -4854,7 +4854,11 @@ input {
   }
 
   .service-title-subtitle-inner>.about-cover-subtitle {
-    padding-right: 48px;
+    padding-right: 10px;
+  }
+
+  .page-id-7 .contact-us-heading {
+    width: 88%;
   }
 
   .serive-hero-img {
