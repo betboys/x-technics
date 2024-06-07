@@ -3114,11 +3114,11 @@ input {
 
 @media (max-width: 1920px) and (min-width: 1000px) {
   .about-card-list:hover .about-card-text {
-    bottom: calc(169px + 0 * (100vw - 1920px) / 60);
+    bottom: calc(169px + 1.7 * (100vw - 1920px) / 60);
   }
 
   .about-card-list:hover .about-card-text-hidden {
-    bottom: calc(78px + 0 * (100vw - 1920px) / 60);
+    bottom: calc(78px + 0.7 * (100vw - 1920px) / 60);
   }
 }
 
