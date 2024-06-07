@@ -1695,9 +1695,8 @@ input {
   display: block;
 }
 
-.about-card-list:nth-child(7),
-.about-card-list:nth-child(7)>.about-card-img .service-page>.about-card-list:last-child,
-.service-page .about-card-list:last-child>.about-card-img {
+.service-page>.about-card-list:last-child,
+.service-page>.about-card-list:last-child>.about-card-img {
   clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 77%, 77% 100%, 0.00% 100%);
 }
 
