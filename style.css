@@ -1251,6 +1251,15 @@ input {
   transition: .8s;
 }
 
+.cont-btn {
+  width: 180px;
+}
+
+.cont-btn-hov {
+  left: -69px;
+  top: -58px;
+}
+
 /* footer */
 .footer {
   width: 100%;

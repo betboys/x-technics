@@ -170,9 +170,9 @@
 					oninput="this.parentNode.dataset.replicatedValue = this.value"
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
-				<button class="our-aircraft-link send-btn send-btn-form-cust">
+				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
 					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/menu-st.webp" alt="">
-					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/menu-ho.webp" alt="">
+					<img class="button-hover cont-btn-hov" src="https://x-technics.com/ysteeshy/2024/05/menu-ho.webp" alt="">
 					<span class="menu-link index">SEND A QUOTE</span>
 				</button>
 			</form>
