@@ -1691,17 +1691,17 @@ input {
   content: none;
 }
 
-.service-page .about-card-list:last-child {
+.service-page>.about-card-list:last-child {
   display: block;
 }
 
 .about-card-list:nth-child(7),
-.about-card-list:nth-child(7)>.about-card-img .service-page .about-card-list:last-child,
+.about-card-list:nth-child(7)>.about-card-img .service-page>.about-card-list:last-child,
 .service-page .about-card-list:last-child>.about-card-img {
   clip-path: polygon(0.00% 0.00%, 100% 0.00%, 100% 77%, 77% 100%, 0.00% 100%);
 }
 
-.service-page .about-card-list:last-child:after {
+.service-page>.about-card-list:last-child:after {
   content: "";
   width: 100%;
   height: 1px;
