@@ -235,22 +235,22 @@ input {
 }
 
 .header-menu-list:last-child .menu-link {
-  width: 182px;
+  width: 200px;
   height: 54px;
   font-size: 20px;
   font-family: "blender heavy";
   font-weight: normal;
   transition: .8s;
-  color: #010102;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
 }
 
 .header-menu-list:last-child .menu-link::before {
   content: '';
-  width: 182px;
+  width: 200px;
   height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/next-mobile.webp);
+  background: url(https://x-technics.com/ysteeshy/2024/05/next-st.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
