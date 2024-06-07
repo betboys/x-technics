@@ -135,7 +135,7 @@ if (document.querySelector('.home-cover')) {
   // swipet slide
   const swiper = new Swiper('.swiper', {
     slidesPerView: 'auto',
-    speed: 1000,
+    speed: 1400,
     centeredSlides: true,
     loop: true,
     spaceBetween: 50,
