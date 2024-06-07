@@ -789,7 +789,7 @@ input {
 }
 
 .slide-image {
-  transition: all .25s ease-out;
+  transition: all 1.4s ease-out;
   /* transform: scale(.5); */
   /* transform-origin: center; */
   /* width: 179px; */
