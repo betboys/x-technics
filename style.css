@@ -4082,6 +4082,10 @@ input {
     width: 59%;
   }
 
+  .home-our-serive-title {
+    font-size: 20px;
+  }
+
   .title-center {
     font-size: 18px;
     gap: 24px;

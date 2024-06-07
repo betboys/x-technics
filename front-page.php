@@ -24,7 +24,7 @@
 	</div>
 </section>
 <section class="home-our-services-container" data-aos="fade-up">
-	<h3 class="title title-before-after-effect"><?= the_field('heading'); ?></h3>
+	<h3 class="title title-before-after-effect home-our-serive-title"><?= the_field('heading'); ?></h3>
 	<ul class="services-content-flex">
 		<?php
 		if (have_rows('card1')):
