@@ -4074,8 +4074,12 @@ input {
   }
 
   .title {
-    font-size: 20px;
+    font-size: 18px;
     gap: 24px;
+  }
+
+  .page-id-5 .contact-us-heading {
+    width: 59%;
   }
 
   .title-center {
@@ -4215,6 +4219,14 @@ input {
 
   .page-id-16 .contact-us-heading {
     width: 59%;
+  }
+
+  .about-cover-subtitle {
+    font-size: 22px;
+  }
+
+  .about-title-subtitle-inner {
+    max-width: 100%;
   }
 
   .value-trust-text-cont>.title {
