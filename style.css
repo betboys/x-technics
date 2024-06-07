@@ -1325,7 +1325,7 @@ input {
 }
 
 .footer-form {
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -3070,6 +3070,18 @@ input {
     height: 3px;
     background: #98E4FF;
   }
+
+  .page-id-171 .contact-us-heading {
+    width: 66%;
+  }
+
+  .page-id-194 .contact-us-heading {
+    width: 88%;
+  }
+
+  .aog-cover-subtitle {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1207px) {
@@ -4213,6 +4225,7 @@ input {
   }
 
   .contact-us-heading {
+    padding-inline: 24px;
     font-size: 18px;
   }
 
@@ -4893,7 +4906,7 @@ input {
   }
 
   .line-title-subtitle-inner>.about-cover-subtitle {
-    padding-right: 57px;
+    padding-right: 18px;
   }
 
   .aline-single-img {
@@ -4921,7 +4934,7 @@ input {
   }
 
   .aog-cover-subtitle {
-    padding-right: 54px;
+    padding-right: 19px;
   }
 
   .aog-wcu>.subtitle-width-style {
@@ -4983,11 +4996,12 @@ input {
   }
 
   .battery-cover-subtitle {
-    padding-right: 44px;
+    padding-right: 13px;
+    font-size: 22px;
   }
 
-  .wheel-hero-subtitle {
-    padding-right: 39px;
+  .page-id-216 .contact-us-heading {
+    width: 80%;
   }
 
   .wheel-or {
