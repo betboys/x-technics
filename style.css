@@ -235,7 +235,7 @@ input {
 }
 
 .header-menu-list:last-child .menu-link {
-  width: 200px;
+  width: 180px;
   height: 54px;
   font-size: 20px;
   font-family: "blender heavy";
@@ -248,7 +248,7 @@ input {
 
 .header-menu-list:last-child .menu-link::before {
   content: '';
-  width: 200px;
+  width: 180px;
   height: 54px;
   background: url(https://x-technics.com/ysteeshy/2024/05/next-st.webp);
   background-size: cover;
@@ -263,15 +263,15 @@ input {
 
 .header-menu-list:last-child .menu-link::after {
   content: '';
-  width: 320px;
-  height: 170px;
+  width: 300px;
+  height: 157px;
   background: url(https://x-technics.com/ysteeshy/2024/05/next-ho.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  left: -69px;
-  top: -58px;
+  left: -60px;
+  top: -51px;
   z-index: -1;
   opacity: 0;
   transition: .8s;
