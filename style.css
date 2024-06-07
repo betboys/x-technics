@@ -4230,16 +4230,12 @@ input {
     width: 70%;
   }
 
-  .page-id-216 .contact-us-heading {
+  .page-id-171 .contact-us-heading {
     width: 80%;
   }
 
-  .page-id-171 .contact-us-heading {
-    width: 66%;
-  }
-
   .page-id-194 .contact-us-heading {
-    width: 88%;
+    width: 91%;
   }
 
   .about-cover-subtitle {
@@ -4902,7 +4898,9 @@ input {
   }
 
   .certificate-cover-subtitle {
-    padding-right: 38px;
+    padding-right: 0;
+    font-size: 22px;
+    margin-top: 16px;
   }
 
   .line-title-subtitle-inner>.about-cover-subtitle {
@@ -5005,11 +5003,13 @@ input {
   }
 
   .detailing-cover-subtitle {
-    padding-right: 44px;
+    padding-right: 19px;
+    font-size: 22px;
   }
 
   .borescope-cover-subtitle {
-    padding-right: 44px;
+    padding-right: 10px;
+    font-size: 22px;
   }
 
   .borescope-at {
@@ -5017,7 +5017,9 @@ input {
   }
 
   .ndt-cover-subtitle {
-    padding-right: 44px;
+    padding-right: 0;
+    font-size: 22px;
+    margin-top: 16px;
   }
 
   .hero-photo::before {
