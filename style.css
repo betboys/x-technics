@@ -3110,6 +3110,11 @@ input {
   .aog-cover-subtitle {
     font-size: 22px;
   }
+
+  .service-page .about-card-list:last-child:hover::after {
+    height: 3px;
+    background: #98E4FF;
+  }
 }
 
 @media (max-width: 1920px) and (min-width: 1000px) {
