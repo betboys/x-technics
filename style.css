@@ -2920,7 +2920,7 @@ input {
   }
 
   .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
-    color: #010102;
+    color: #fff;
   }
 
   .our-service-card-link:hover .service-card-text {
