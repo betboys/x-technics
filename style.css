@@ -1691,6 +1691,10 @@ input {
   content: none;
 }
 
+.service-page .about-card-list:last-child {
+  display: block;
+}
+
 /* certificate cover */
 .certificate-linear-1 {
   position: absolute;
@@ -3090,7 +3094,7 @@ input {
   }
 }
 
-@media (min-width: 1207px) {
+@media (max-width: 1920px) and (min-width: 1000px) {
   .about-card-list:hover .about-card-text {
     bottom: calc(169px + 0 * (100vw - 1920px) / 60);
   }
@@ -3332,16 +3336,6 @@ input {
 
   .ndt-oae>.title-before-after-effect {
     padding: 0 var(--paddingLeftAndRight);
-  }
-}
-
-@media (min-width: 1000px) {
-  .about-card-list:hover .about-card-text {
-    bottom: calc(143px + 0*(100vw - 1920px) / 60);
-  }
-
-  .about-card-list:hover .about-card-text-hidden {
-    bottom: calc(67px + 0*(100vw - 1920px) / 60);
   }
 }
 

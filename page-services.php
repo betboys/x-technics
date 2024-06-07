@@ -15,7 +15,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="service-provider-container" data-aos="fade-up">
+<section class="service-provider-container service-page" data-aos="fade-up">
     <div class="provider-text-inner">
         <p class="title title-before-after-effect none-effect text-left"><?= the_field('s_heading'); ?></p>
         <p class="subtitle subtitle-inner-top"><?= the_field('s_desc'); ?></p>
