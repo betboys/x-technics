@@ -2979,14 +2979,6 @@ input {
     color: #0071AA;
   }
 
-  .header-menu-inner>.header-menu-list>.menu-link:focus {
-    color: #0071AA;
-  }
-
-  .header-menu-inner>.header-menu-list>.menu-link:active {
-    color: #0071AA;
-  }
-
   .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
     color: #010102;
   }

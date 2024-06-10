@@ -14,6 +14,7 @@ function fadeout() {
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownIcon = document.querySelector('.dropdown-icon');
+let menuLink = document.querySelectorAll(".menu-link");
 if (window.innerWidth > 990) {
   dropdown.addEventListener('mouseover', function () {
     dropdownMenu.classList.add('visitble');
@@ -33,6 +34,12 @@ if (window.innerWidth <= 990) {
   let navigation = document.querySelector('.header-navigation');
   let left = document.querySelector(".left");
   let body = document.querySelector('body');
+
+  for (let i = 0; i < menuLink.length; i++) {
+    menuLink[i].addEventListener("click", function() {
+      menuLink[i].style.color = "#0071AA";
+    })
+  }
 
   openMenu.addEventListener('click', function () {
     body.classList.add('hidden');
