@@ -5,7 +5,7 @@ $(document).ready(function () {
   document.querySelector('body').classList.add('hidden');
 });
 function fadeout() {
-  $('.preloader').delay(2000).fadeOut('slow', function () {
+  $('.preloader').delay(3000).fadeOut('slow', function () {
     $('.notLoaded').removeClass('notLoaded');
     document.querySelector('body').classList.remove('hidden');
   });
