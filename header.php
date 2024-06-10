@@ -11,10 +11,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<video class="preloader-video" src="https://x-technics.com/ysteeshy/2024/06/draft.mp4" type="video/mp4"
 			autoplay="" loop="" playsinline="" webkit-playsinline="" muted=""></video>
-	</div>
+	</div> -->
 
 	<main class="main">
 		<div class="left"></div>
