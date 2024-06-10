@@ -3004,6 +3004,10 @@ input {
   .menu-link:hover {
     color: #0071AA !important;
   }
+
+  .em:hover {
+    color: #fff !important;
+  }
 }
 
 .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
