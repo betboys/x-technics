@@ -205,7 +205,7 @@
 			<?php
 			$link = get_field('button_license');
 			if ($link): ?>
-				<a class="our-aircraft-link" href="<?php echo esc_url($link); ?>">
+				<a class="our-aircraft-link oal" href="<?php echo esc_url($link); ?>">
 					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
 					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
 					<span class="menu-link index em">

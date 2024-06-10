@@ -659,7 +659,7 @@ input {
   z-index: 1;
 }
 
-.our-aircraft-link>.button-standart {
+.oal>.button-standart {
   position: absolute;
   left: 0;
   top: 0;
@@ -669,7 +669,7 @@ input {
   object-fit: fill;
 }
 
-.our-aircraft-link>.button-hover {
+.oal>.button-hover {
   position: absolute;
   left: -65px;
   top: -60px;
@@ -1282,7 +1282,23 @@ input {
 }
 
 .cont-btn {
-  width: 180px;
+  width: 200px;
+}
+
+.cont-btn>.button-standart {
+  width: 200px;
+  object-fit: fill;
+}
+
+.cont-btn>.button-hover {
+  position: absolute;
+  left: -74px;
+  top: -58px;
+  opacity: 0;
+  transition: .8s;
+  width: 348px;
+  object-fit: fill;
+  height: 170px;
 }
 
 .cont-btn-hov {
