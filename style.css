@@ -3577,6 +3577,10 @@ input {
     font-size: 24px;
   }
 
+  .cont-btn-span {
+    font-size: 20px;
+  }
+
   .home-cover {
     padding-top: 0;
   }
