@@ -659,6 +659,19 @@ input {
   z-index: 1;
 }
 
+.s {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transition: .8s;
+}
+
+.p2 {
+  opacity: 0;
+  transition: .8s;
+  fill: #0071aa24;
+}
+
 .button-standart {
   position: absolute;
   left: 0;
