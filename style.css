@@ -3972,6 +3972,7 @@ input {
     top: 13%;
     width: 746.5px;
     height: 717.828px;
+    z-index: -1;
   }
 
   .aog-linear-2 {
