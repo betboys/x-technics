@@ -2970,187 +2970,188 @@ input {
 
 /* all hover */
 /* @media (min-width: 744px) { */
-  .dropdown-menu .header-menu-list:last-child .menu-link:hover {
-    background: none;
-    font-size: unset;
-  }
+.dropdown-menu .header-menu-list:last-child .menu-link:hover {
+  background: none;
+  font-size: unset;
+}
 
-  .header-menu-inner>.header-menu-list>.menu-link:hover {
-    color: #0071AA;
-  }
+.header-menu-inner>.header-menu-list>.menu-link:hover {
+  color: #0071AA;
+}
 
-  @media (max-width: 990px) {
-    .menu-link:hover {
-     transition: 0s;
-    }
-  }
-
-
+@media (max-width: 990px) {
   .menu-link:hover {
-    color: #0071AA !important;
+    transition: 0s !important;
   }
+}
 
 
-  .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
-    color: #010102;
-  }
-
-  .our-service-card-link:hover .service-card-text {
-    color: #0071AA;
-  }
-
-  .menu-link:hover .dropdown-icon-fill {
-    fill: #0071AA;
-  }
-
-  .dropdown-menu .header-menu-list .menu-link:hover {
-    color: #0071AA;
-  }
-
-  .services-content-link:hover {
-    color: #0071AA;
-  }
-
-  .services-content-link:hover .card-icon-stroke {
-    stroke: #0071AA;
-  }
-
-  .services-content-list:hover .services-content-image {
-    opacity: 0;
-  }
-
-  .services-content-list:hover .services-content-image-hover {
-    opacity: 1;
-  }
-
-  .socal-media-iink:hover {
-    border: 1px solid #24B6FF;
-    background: #080f18;
-  }
-
-  .label:hover {
-    color: #0071AA;
-    box-shadow: 14px 4px 60px 0px rgba(36, 182, 255, 0.40), 0px 4px 4px 0px rgba(1, 3, 162, 0.12);
-    background: linear-gradient(90deg, rgba(0, 113, 170, 0.14) 0.2%, rgba(36, 182, 255, 0.14) 99.8%);
-  }
-
-  .label:hover::before {
-    border: 2px solid #24B6FF;
-  }
-
-  .terms-privacy-cookies-link:hover {
-    color: #0071AA;
-  }
+.menu-link:hover {
+  color: #0071AA !important;
+}
 
 
-  .about-card-list:last-child:hover {
-    border: none;
-  }
+.header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
+  color: #010102;
+}
 
-  .download-icon-inner:hover {
-    color: #0071AA;
-  }
+.our-service-card-link:hover .service-card-text {
+  color: #0071AA;
+}
 
-  .download-icon-inner:hover .download-icon {
-    fill: #0071AA;
-  }
+.menu-link:hover .dropdown-icon-fill {
+  fill: #0071AA;
+}
 
-  .swiper-slide-margin-rigth:hover .slide-text-style {
-    color: #0071AA;
-  }
+.dropdown-menu .header-menu-list .menu-link:hover {
+  color: #0071AA;
+}
+
+.services-content-link:hover {
+  color: #0071AA;
+}
+
+.services-content-link:hover .card-icon-stroke {
+  stroke: #0071AA;
+}
+
+.services-content-list:hover .services-content-image {
+  opacity: 0;
+}
+
+.services-content-list:hover .services-content-image-hover {
+  opacity: 1;
+}
+
+.socal-media-iink:hover {
+  border: 1px solid #24B6FF;
+  background: #080f18;
+}
+
+.label:hover {
+  color: #0071AA;
+  box-shadow: 14px 4px 60px 0px rgba(36, 182, 255, 0.40), 0px 4px 4px 0px rgba(1, 3, 162, 0.12);
+  background: linear-gradient(90deg, rgba(0, 113, 170, 0.14) 0.2%, rgba(36, 182, 255, 0.14) 99.8%);
+}
+
+.label:hover::before {
+  border: 2px solid #24B6FF;
+}
+
+.terms-privacy-cookies-link:hover {
+  color: #0071AA;
+}
 
 
-  .service-card .about-card-list:hover .our-service-card-link .about-card-text {
-    color: #0071AA;
-  }
+.about-card-list:last-child:hover {
+  border: none;
+}
 
-  .about-card-list:last-child .swiper-button-next:hover::before {
-    background: #162535;
-  }
+.download-icon-inner:hover {
+  color: #0071AA;
+}
 
-  .about-card-list:hover .about-card-link {
-    opacity: 1;
-  }
+.download-icon-inner:hover .download-icon {
+  fill: #0071AA;
+}
 
-  .about-card-link:hover::before {
-    opacity: 0;
-  }
+.swiper-slide-margin-rigth:hover .slide-text-style {
+  color: #0071AA;
+}
 
-  .about-card-link:hover::after {
-    opacity: 1;
-  }
 
-  .form .our-aircraft-link:hover::before {
-    background: #020810;
-  }
+.service-card .about-card-list:hover .our-service-card-link .about-card-text {
+  color: #0071AA;
+}
 
-  .iti__country:hover {
-    background: #0e233d !important;
-  }
+.about-card-list:last-child .swiper-button-next:hover::before {
+  background: #162535;
+}
 
-  .header-menu-list:hover:last-child .menu-link::before {
-    opacity: 0;
-  }
+.about-card-list:hover .about-card-link {
+  opacity: 1;
+}
 
-  .header-menu-list:hover:last-child .menu-link::after {
-    opacity: 1;
-  }
+.about-card-link:hover::before {
+  opacity: 0;
+}
 
-  .cover-link:hover .cover-link-st {
-    opacity: 0;
-  }
+.about-card-link:hover::after {
+  opacity: 1;
+}
 
-  .cover-link:hover .cover-link-ho {
-    opacity: 1;
-  }
+.form .our-aircraft-link:hover::before {
+  background: #020810;
+}
 
-  .our-aircraft-link:hover .button-standart {
-    opacity: 0;
-  }
+.iti__country:hover {
+  background: #0e233d !important;
+}
 
-  .our-aircraft-link:hover .button-hover {
-    opacity: 1;
-  }
+.header-menu-list:hover:last-child .menu-link::before {
+  opacity: 0;
+}
 
-  .swiper-button-prev:hover .prev-st {
-    opacity: 0;
-  }
+.header-menu-list:hover:last-child .menu-link::after {
+  opacity: 1;
+}
 
-  .swiper-button-prev:hover .prev-ho {
-    opacity: 1;
-  }
+.cover-link:hover .cover-link-st {
+  opacity: 0;
+}
 
-  .swiper-button-next:hover .naxt-st {
-    opacity: 0;
-  }
+.cover-link:hover .cover-link-ho {
+  opacity: 1;
+}
 
-  .swiper-button-next:hover .next-ho {
-    opacity: 1;
-  }
+.our-aircraft-link:hover .button-standart {
+  opacity: 0;
+}
 
-  .service-single-link:hover::before {
-    border-color: #98E4FF;
-    border-width: 2px;
-  }
+.our-aircraft-link:hover .button-hover {
+  opacity: 1;
+}
 
-  .swiper-slide-margin-rigth:first-child>.service-single-link:hover::after {
-    height: 3px;
-    background: #98E4FF;
-  }
+.swiper-button-prev:hover .prev-st {
+  opacity: 0;
+}
 
-  .swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
-    height: 3px;
-    background: #98E4FF;
-  }
+.swiper-button-prev:hover .prev-ho {
+  opacity: 1;
+}
 
-  .aog-cover-subtitle {
-    font-size: 22px;
-  }
+.swiper-button-next:hover .naxt-st {
+  opacity: 0;
+}
 
-  .service-page .about-card-list:last-child:hover::after {
-    height: 3px;
-    background: #98E4FF;
-  }
+.swiper-button-next:hover .next-ho {
+  opacity: 1;
+}
+
+.service-single-link:hover::before {
+  border-color: #98E4FF;
+  border-width: 2px;
+}
+
+.swiper-slide-margin-rigth:first-child>.service-single-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
+.swiper-slide-margin-rigth:last-child>.service-single-link:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
+.aog-cover-subtitle {
+  font-size: 22px;
+}
+
+.service-page .about-card-list:last-child:hover::after {
+  height: 3px;
+  background: #98E4FF;
+}
+
 /* } */
 
 @media (max-width: 1920px) and (min-width: 1000px) {
