@@ -2987,12 +2987,9 @@ input {
 
 
   .menu-link:hover {
-    color: #0071AA;
+    color: #0071AA !important;
   }
 
-  .menu-link:focus {
-    color: #0071AA;
-  }
 
   .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
     color: #010102;

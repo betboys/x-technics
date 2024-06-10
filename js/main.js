@@ -14,7 +14,6 @@ function fadeout() {
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownIcon = document.querySelector('.dropdown-icon');
-let menuLink = document.querySelectorAll(".menu-link");
 if (window.innerWidth > 990) {
   dropdown.addEventListener('mouseover', function () {
     dropdownMenu.classList.add('visitble');
