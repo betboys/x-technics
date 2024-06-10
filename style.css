@@ -4301,11 +4301,24 @@ input {
   }
 
   .prev-mobile,
-  .next-mobile,
+  .next-mobile {
+    display: block;
+    position: absolute;
+  }
+
   .next-mobile-ho,
   .prev-mobile-ho {
     display: block;
-    position: absolute;
+    opacity: 0;
+    transition: .5s;
+  }
+
+  .swiper-button-next:hover .next-mobile-ho {
+    opacity: 1;
+  }
+
+  .swiper-button-prev:hover .prev-mobile-ho {
+    opacity: 1;
   }
 
   .swiper-button-prev,
