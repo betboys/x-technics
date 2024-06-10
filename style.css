@@ -2983,13 +2983,11 @@ input {
   .menu-link:hover {
     transition: 0s !important;
   }
+
+  .menu-link:hover {
+    color: #0071AA !important;
+  }
 }
-
-
-.menu-link:hover {
-  color: #0071AA !important;
-}
-
 
 .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
   color: #010102;
