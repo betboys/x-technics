@@ -3292,12 +3292,11 @@ input {
   }
 
   .contact-us-container {
-    flex-direction: column;
     gap: 16px;
   }
 
   .form-inner {
-    max-width: 358px;
+    max-width: 40vw;
     padding: 42px 20px;
   }
 
@@ -3830,6 +3829,16 @@ input {
     max-width: 358px;
     gap: 20px;
     margin-inline: auto;
+  }
+}
+
+@media (max-width: 762px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+
+  .form-inner {
+    width: 100%;
   }
 }
 
