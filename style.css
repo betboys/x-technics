@@ -111,6 +111,24 @@ input {
   backdrop-filter: blur(20px);
 }
 
+/* preloader */
+.preloader {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notLoaded {
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  margin: 0px;
+}
+
 /* header */
 .header {
   width: 100%;
