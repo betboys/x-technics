@@ -10,6 +10,22 @@ var $ = jQuery;
 //     document.querySelector('body').classList.remove('hidden');
 //   });
 // }
+
+
+
+
+let aaa = document.querySelectorAll(".swiper-button-next")
+let maaa = document.querySelectorAll(".next-mobile-ho")
+
+
+for (let i = 0; i < aaa.length; i++) {
+  aaa[i].addEventListener("click", function () {
+    maaa[i].style.opacity = '1'
+  })
+}
+
+
+
 // open sub menu
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
