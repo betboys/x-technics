@@ -1380,7 +1380,7 @@ input {
 }
 
 .footer-form {
-  margin-top: 0px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
