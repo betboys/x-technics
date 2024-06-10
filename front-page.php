@@ -213,10 +213,10 @@
 			$link = get_field('button_license');
 			if ($link): ?>
 				<a class="our-aircraft-link" href="<?php echo esc_url($link); ?>">
-					<svg class="s" width="234" height="54" viewBox="0 0 234 54">
-						<path class="p1" d="M0,0h220.213694L234,27v27h-213.973896L0,27L0,0Z" fill="none" stroke="#0071AA"
+					<svg class="s" width="260" height="54" viewBox="0 0 260 54">
+						<path class="p1" d="M0,0h240.144359l19.85564,27-.000001,27h-239.533436L-0.000004,27L0,0Z" fill="none" stroke="#0071AA"
 							stroke-width="1" />
-						<path class="p2" d="M0,0h220.213694L234,27v27h-213.973896L0,27L0,0Z" fill="none" stroke="#0071AA"
+						<path class="p2" d="M0,0h240.144359l19.85564,27-.000001,27h-239.533436L-0.000004,27L0,0Z" fill="none" stroke="#0071AA"
 							stroke-width="1" />
 					</svg>
 					<!-- <img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
