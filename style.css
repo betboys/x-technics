@@ -3404,7 +3404,7 @@ input {
 
 @media (max-width: 1000px) {
   .subscribe-container {
-    display: none;
+    width: 43%;
   }
 
   .footer-form {
@@ -3838,6 +3838,14 @@ input {
   }
 
   .form-inner {
+    width: 100%;
+  }
+
+  .subscribe-container {
+    display: none;
+  }
+
+  .subscribe-container {
     width: 100%;
   }
 }

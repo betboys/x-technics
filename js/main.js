@@ -136,9 +136,9 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
   let footerForm = document.querySelector('.footer-form');
   let footerInner = document.querySelector('.logo-links-inner');
 
-  // if (window.innerWidth < 1001) {
-  //   footerInner.append(subscribe, footerForm)
-  // }
+  if (window.innerWidth < 762) {
+    footerInner.append(subscribe, footerForm)
+  }
 }
 
 // Home page
