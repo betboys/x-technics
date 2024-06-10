@@ -576,36 +576,36 @@ input {
 }
 
 .our-aircraft-flex-list {
-  width: 189px;
-  height: 112px;
+  width: 188.732px;
+  height: 111.999px;
   display: flex;
   align-items: center;
   position: relative;
 }
 
 .our-aircraft-flex-list:nth-child(1) {
-  background: url(https://x-technics.com/ysteeshy/2024/06/License-DesktopRight.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(2) {
-  background: url(https://x-technics.com/ysteeshy/2024/06/License-DesktopNone.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(3) {
-  background: url(https://x-technics.com/ysteeshy/2024/06/License-DesktopNone.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License3.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .our-aircraft-flex-list:nth-child(4) {
-  background: url(https://x-technics.com/ysteeshy/2024/06/License-DesktopLeft.png);
+  background: url(https://x-technics.com/ysteeshy/2024/05/License4.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -647,7 +647,7 @@ input {
 }
 
 .our-aircraft-link {
-  width: 260px;
+  width: 234px;
   height: 54px;
   margin-top: 32px;
   display: flex;
@@ -659,25 +659,19 @@ input {
   z-index: 1;
 }
 
-.our-aircraft-link>.button-standart {
+.button-standart {
   position: absolute;
   left: 0;
   top: 0;
   transition: .8s;
-  width: 260px;
-  height: 54px;
-  object-fit: fill;
 }
 
-.our-aircraft-link>.button-hover {
+.button-hover {
   position: absolute;
-  left: -65px;
+  left: -60px;
   top: -60px;
   opacity: 0;
   transition: .8s;
-  width: 391px;
-  object-fit: fill;
-  height: 173px;
 }
 
 .index {
