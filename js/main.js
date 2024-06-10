@@ -20,11 +20,10 @@ let maaa = document.querySelectorAll(".next-mobile-ho")
 
 for (let i = 0; i < aaa.length; i++) {
   aaa[i].addEventListener("click", function () {
-    
-    setTimeout(() => {
-      
       maaa[i].style.opacity = '1'
-    }, 300);
+      setTimeout(() => {
+      maaa[i].style.opacity = '0' 
+      }, 100);
   })
 }
 
