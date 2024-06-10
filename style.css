@@ -3861,7 +3861,7 @@ input {
   }
 
   .form-inner {
-    width: 100%;
+    max-width: 100%;
   }
 
   .subscribe-container {
@@ -4311,6 +4311,7 @@ input {
     display: block;
     opacity: 0;
     transition: .5s;
+    position: absolute;
   }
 
   .swiper-button-next:hover .next-mobile-ho {
