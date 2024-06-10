@@ -659,6 +659,23 @@ input {
   z-index: 1;
 }
 
+.oal {
+  width: 260px;
+}
+
+.oal>.button-standart {
+  width: 260px;
+  height: 54px;
+  object-fit: fill;
+}
+
+.oal>.button-hover {
+  left: -66px;
+  height: 392px;
+  height: 173px;
+  object-fit: fill;
+}
+
 .button-standart {
   position: absolute;
   left: 0;
