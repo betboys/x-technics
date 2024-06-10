@@ -2979,6 +2979,21 @@ input {
     color: #0071AA;
   }
 
+  @media (max-width: 990px) {
+    .menu-link:hover {
+     transition: 0s;
+    }
+  }
+
+
+  .menu-link:hover {
+    color: #0071AA;
+  }
+
+  .menu-link:focus {
+    color: #0071AA;
+  }
+
   .header-menu-inner>.header-menu-list:last-child>.menu-link:hover {
     color: #010102;
   }

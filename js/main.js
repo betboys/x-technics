@@ -35,14 +35,6 @@ if (window.innerWidth <= 990) {
   let left = document.querySelector(".left");
   let body = document.querySelector('body');
 
-  for (let i = 0; i < menuLink.length; i++) {
-    menuLink[i].addEventListener("click", function(e) {
-      e.preventDefault()
-      menuLink[i].style.transition = '0s'
-      menuLink[i].style.color = "#0071AA";
-    })
-  }
-
   openMenu.addEventListener('click', function () {
     body.classList.add('hidden');
     left.style.display = "block";
