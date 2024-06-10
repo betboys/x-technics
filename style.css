@@ -647,7 +647,7 @@ input {
 }
 
 .our-aircraft-link {
-  width: 234px;
+  width: 260px;
   height: 54px;
   margin-top: 32px;
   display: flex;
@@ -659,19 +659,25 @@ input {
   z-index: 1;
 }
 
-.button-standart {
+.our-aircraft-link>.button-standart {
   position: absolute;
   left: 0;
   top: 0;
   transition: .8s;
+  width: 260px;
+  height: 54px;
+  object-fit: fill;
 }
 
-.button-hover {
+.our-aircraft-link>.button-hover {
   position: absolute;
-  left: -60px;
+  left: -65px;
   top: -60px;
   opacity: 0;
   transition: .8s;
+  width: 391px;
+  object-fit: fill;
+  height: 173px;
 }
 
 .index {
