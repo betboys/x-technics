@@ -253,7 +253,7 @@ input {
 }
 
 .header-menu-list:last-child .menu-link {
-  width: 182px;
+  width: 200px;
   height: 54px;
   font-size: 20px;
   font-family: "blender heavy";
@@ -262,6 +262,31 @@ input {
   color: #fff;
   text-transform: uppercase;
   position: relative;
+}
+
+.header-menu-list:last-child .menu-link:hover .svg {
+  filter: drop-shadow(14px 4px 60px #24b6ff66);
+}
+
+.header-menu-list:last-child .menu-link:hover .i2 {
+  opacity: 1;
+}
+
+.svg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.i1 {
+  transition: .8s;
+  fill: none;
+}
+
+.i2 {
+  opacity: 0;
+  transition: .8s;
+  fill: #0071aa24;
 }
 
 /* .header-menu-list:last-child .menu-link::before {
