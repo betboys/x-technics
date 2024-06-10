@@ -671,7 +671,7 @@ input {
 
 .oal>.button-hover {
   left: -66px;
-  height: 392px;
+  width: 392px;
   height: 173px;
   object-fit: fill;
 }
