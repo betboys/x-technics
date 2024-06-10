@@ -512,6 +512,11 @@ input {
   text-transform: capitalize;
 }
 
+.service-link-svg {
+  min-width: 40px;
+  min-height: 40px;
+}
+
 .services-content-list:nth-child(1)>.services-content-link>.service-ttile {
   width: 280px;
 }
