@@ -4314,11 +4314,11 @@ input {
     position: absolute;
   }
 
-  .swiper-button-next:hover .next-mobile-ho {
+  .swiper-button-next:focus .next-mobile-ho {
     opacity: 1;
   }
 
-  .swiper-button-prev:hover .prev-mobile-ho {
+  .swiper-button-prev:focus .prev-mobile-ho {
     opacity: 1;
   }
 
