@@ -10,25 +10,28 @@ var $ = jQuery;
 //     document.querySelector('body').classList.remove('hidden');
 //   });
 // }
-
-
-
-
-let aaa = document.querySelectorAll(".swiper-button-next")
-let maaa = document.querySelectorAll(".next-mobile-ho")
-
-
-for (let i = 0; i < aaa.length; i++) {
-  aaa[i].addEventListener("click", function () {
-      maaa[i].style.opacity = '1'
+if (window.innerWidth <= 744) {
+  let aaa = document.querySelectorAll(".swiper-button-next");
+  let maaa = document.querySelectorAll(".next-mobile-ho");
+  for (let i = 0; i < aaa.length; i++) {
+    aaa[i].addEventListener("click", function () {
+      maaa[i].style.opacity = '1';
       setTimeout(() => {
-      maaa[i].style.opacity = '0' 
+        maaa[i].style.opacity = '0';
       }, 150);
-  })
+    })
+  }
+  let bbb = document.querySelectorAll(".swiper-button-prev");
+  let mbbb = document.querySelectorAll(".prev-mobile-ho");
+  for (let i = 0; i < bbb.length; i++) {
+    bbb[i].addEventListener("click", function () {
+      mbbb[i].style.opacity = '1';
+      setTimeout(() => {
+        mbbb[i].style.opacity = '0';
+      }, 150);
+    })
+  }
 }
-
-
-
 // open sub menu
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
