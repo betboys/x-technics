@@ -659,7 +659,7 @@ input {
   z-index: 1;
 }
 
-.oal>.button-standart {
+.our-aircraft-link>.button-standart {
   position: absolute;
   left: 0;
   top: 0;
@@ -669,7 +669,7 @@ input {
   object-fit: fill;
 }
 
-.oal>.button-hover {
+.our-aircraft-link>.button-hover {
   position: absolute;
   left: -65px;
   top: -60px;
@@ -1282,7 +1282,7 @@ input {
 }
 
 .cont-btn {
-  width: 200px;
+  width: 180px;
 }
 
 .cont-btn-hov {
