@@ -1045,7 +1045,12 @@ input {
   gap: 24px;
 }
 
+.website-links-inner>.socal-media-iist {
+  width: 100%;
+}
+
 .website-links-inner>.socal-media-iist>.socal-media-iink {
+  width: 100%;
   color: #0496DF;
   font-family: "blender bold";
   font-size: 16px;
