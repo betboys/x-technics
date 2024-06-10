@@ -893,7 +893,9 @@ input {
 }
 
 .prev-mobile,
-.next-mobile {
+.next-mobile,
+.next-mobile-ho,
+.prev-mobile-ho {
   display: none;
 }
 
@@ -4299,7 +4301,9 @@ input {
   }
 
   .prev-mobile,
-  .next-mobile {
+  .next-mobile,
+  .next-mobile-ho,
+  .prev-mobile-ho {
     display: block;
     position: absolute;
   }
