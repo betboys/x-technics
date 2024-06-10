@@ -1215,10 +1215,6 @@ input {
   border: 1px solid #0071AA !important;
 }
 
-.iti__flag {
-  scale: 1.2 1.8 !important;
-}
-
 .iti--separate-dial-code .iti__selected-dial-code {
   margin-left: 10px !important;
 }
@@ -2968,7 +2964,7 @@ input {
 }
 
 /* all hover */
-@media (min-width: 744px) {
+/* @media (min-width: 744px) { */
   .dropdown-menu .header-menu-list:last-child .menu-link:hover {
     background: none;
     font-size: unset;
@@ -3138,7 +3134,7 @@ input {
     height: 3px;
     background: #98E4FF;
   }
-}
+/* } */
 
 @media (max-width: 1920px) and (min-width: 1000px) {
   .about-card-list:hover .about-card-text {
