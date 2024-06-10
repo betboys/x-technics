@@ -37,6 +37,7 @@ if (window.innerWidth <= 990) {
 
   for (let i = 0; i < menuLink.length; i++) {
     menuLink[i].addEventListener("click", function() {
+      menuLink[i].style.transition = '0s'
       menuLink[i].style.color = "#0071AA";
     })
   }
