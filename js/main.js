@@ -14,6 +14,15 @@ var $ = jQuery;
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownIcon = document.querySelector('.dropdown-icon');
+
+let headerUl = document.querySelector('.header-menu-inner');
+let headerUlList = headerUl.querySelectorAll('.header-menu-list');
+let last = headerUlList[headerUlList.length - 1];
+let item = last.querySelector('.menu-link');
+
+item.innerHTML += '<svg class="svg" width="200" height="54" viewBox="0 0 200 54"><path class="i1" d="M0,0h180.400847l19.599152,27-.000001,27L20.37661,54L-0.000004,27L0,0Z" stroke="#0071AA" stroke-width="1" /><path class="i2" d="M0,0h180.400847l19.599152,27-.000001,27L20.37661,54L-0.000004,27L0,0Z" stroke="#0071AA" stroke-width="1" /></svg>';
+
+
 if (window.innerWidth > 990) {
   dropdown.addEventListener('mouseover', function () {
     dropdownMenu.classList.add('visitble');
