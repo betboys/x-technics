@@ -647,7 +647,7 @@ input {
 }
 
 .our-aircraft-link {
-  width: 260px;
+  width: 234px;
   height: 54px;
   margin-top: 32px;
   display: flex;
@@ -657,19 +657,6 @@ input {
   position: relative;
   transition: .8s;
   z-index: 1;
-}
-
-.s {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  transition: .8s;
-}
-
-.p2 {
-  opacity: 0;
-  transition: .8s;
-  fill: #0071aa24;
 }
 
 .button-standart {
@@ -3115,11 +3102,11 @@ input {
   opacity: 1;
 }
 
-.our-aircraft-link:hover .s {
-  filter: drop-shadow(14px 4px 60px #24b6ff66);
+.our-aircraft-link:hover .button-standart {
+  opacity: 0;
 }
 
-.our-aircraft-link:hover .p2 {
+.our-aircraft-link:hover .button-hover {
   opacity: 1;
 }
 
