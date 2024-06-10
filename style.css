@@ -1285,22 +1285,6 @@ input {
   width: 200px;
 }
 
-.cont-btn>.button-standart {
-  width: 200px;
-  object-fit: fill;
-}
-
-.cont-btn>.button-hover {
-  position: absolute;
-  left: -74px;
-  top: -58px;
-  opacity: 0;
-  transition: .8s;
-  width: 348px;
-  object-fit: fill;
-  height: 170px;
-}
-
 .cont-btn-hov {
   left: -69px;
   top: -58px;
