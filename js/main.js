@@ -23,7 +23,7 @@ for (let i = 0; i < aaa.length; i++) {
       maaa[i].style.opacity = '1'
       setTimeout(() => {
       maaa[i].style.opacity = '0' 
-      }, 100);
+      }, 500);
   })
 }
 
