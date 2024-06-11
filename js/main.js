@@ -564,6 +564,7 @@ if (document.getElementById("contact-us-mobile")) {
   // select
   let selectContainer = document.querySelector('.select-dropdown__list');
   let checkbox = document.querySelectorAll('.checkbox-inner');
+  let label = document.querySelectorAll('.label');
   for (let i = 0; i < checkbox.length; i++) {
     let selectList = document.createElement('li');
     selectList.setAttribute('class', 'select-dropdown__list-item');
