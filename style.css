@@ -3895,6 +3895,10 @@ input {
   opacity: .5;
 }
 
+.wpcf7-not-valid-tip {
+  display: none !important;
+}
+
 @media (max-width: 960px) {
   .contact-us-mobile {
     padding-top: 112px !important;
