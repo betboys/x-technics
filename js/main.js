@@ -103,7 +103,7 @@ if (window.innerWidth <= 990) {
   })
 }
 
-if (document.querySelector('.home-cover') || document.querySelector('.about-cover') || document.querySelector('.service-cover') || document.querySelector('.certificate-cover') || document.querySelector('.aircraft-line') || document.querySelector('.aircraft-battery') || document.querySelector('.detailing-cover') || document.querySelector('.aircraft-ndt') || document.querySelector('.wheel-cover') || document.querySelector('.aircraft-maintenance') || document.querySelector('.aircraft-borescope')) {
+if (document.querySelector('.home-cover') || document.querySelector('.about-cover') || document.querySelector('.service-cover') || document.querySelector('.certificate-cover') || document.querySelector('.aircraft-line') || document.querySelector('.aircraft-battery') || document.querySelector('.detailing-cover') || document.querySelector('.aircraft-ndt') || document.querySelector('.wheel-cover') || document.querySelector('.aircraft-maintenance') || document.querySelector('.aircraft-borescope') || document.querySelector(".contact-us-mobile")) {
   /* data aos */
   AOS.init({
     duration: 400,
@@ -136,7 +136,6 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
       selectList.dataset.value = `${i}`;
       selectList.append(checkbox[i]);
       selectContainer.append(selectList);
-
       checkbox[i].addEventListener('click', function () {
         label[i].classList.toggle('checked')
       })
@@ -548,52 +547,52 @@ if (document.querySelector('.aircraft-borescope')) {
   }
 }
 
-if (document.getElementById("contact-us-mobile")) {
-  // -----Country Code Selection
-  $("#mobile_code").intlTelInput({
-    initialCountry: "am",
-    separateDialCode: true,
-  });
-  // form text
-  let subscribe = document.querySelector('.subscribe-text');
-  let footerForm = document.querySelector('.footer-form');
-  let footerInner = document.querySelector('.logo-links-inner');
-  if (window.innerWidth < 1001) {
-    footerInner.append(subscribe, footerForm)
-  }
-  // select
-  let selectContainer = document.querySelector('.select-dropdown__list');
-  let checkbox = document.querySelectorAll('.checkbox-inner');
-  let label = document.querySelectorAll('.label');
-  for (let i = 0; i < checkbox.length; i++) {
-    let selectList = document.createElement('li');
-    selectList.setAttribute('class', 'select-dropdown__list-item');
-    selectList.dataset.value = `${i}`;
-    selectList.append(checkbox[i]);
-    selectContainer.append(selectList);
-    checkbox[i].addEventListener('click', function () {
-      label[i].classList.toggle('checked')
-    })
-  }
-  $('.select-dropdown__button').on('click', function () {
-    $('.select-dropdown__list').toggleClass('active');
-  });
-  $('.select-dropdown__list-item').on('click', function () {
-    var itemValue = $(this).data('value');
-    $('.select-dropdown__button span').text($(this).text()).parent().attr('data-value', itemValue);
-    $('.select-dropdown__list').toggleClass('active');
-  });
-  let select = document.querySelector('.container-select');
-  let btnSvg = document.querySelector('.select-icon');
-  select.onclick = () => {
-    if (btnSvg.style.transform != 'rotate(180deg)') {
-      btnSvg.style.transform = 'rotate(180deg)'
-    }
-    else {
-      btnSvg.style.transform = 'rotate(0deg)'
-    }
-  }
-}
+// if (document.getElementById("contact-us-mobile")) {
+//   // -----Country Code Selection
+//   $("#mobile_code").intlTelInput({
+//     initialCountry: "am",
+//     separateDialCode: true,
+//   });
+//   // form text
+//   let subscribe = document.querySelector('.subscribe-text');
+//   let footerForm = document.querySelector('.footer-form');
+//   let footerInner = document.querySelector('.logo-links-inner');
+//   if (window.innerWidth < 1001) {
+//     footerInner.append(subscribe, footerForm)
+//   }
+//   // select
+//   let selectContainer = document.querySelector('.select-dropdown__list');
+//   let checkbox = document.querySelectorAll('.checkbox-inner');
+//   let label = document.querySelectorAll('.label');
+//   for (let i = 0; i < checkbox.length; i++) {
+//     let selectList = document.createElement('li');
+//     selectList.setAttribute('class', 'select-dropdown__list-item');
+//     selectList.dataset.value = `${i}`;
+//     selectList.append(checkbox[i]);
+//     selectContainer.append(selectList);
+//     checkbox[i].addEventListener('click', function () {
+//       label[i].classList.toggle('checked')
+//     })
+//   }
+//   $('.select-dropdown__button').on('click', function () {
+//     $('.select-dropdown__list').toggleClass('active');
+//   });
+//   $('.select-dropdown__list-item').on('click', function () {
+//     var itemValue = $(this).data('value');
+//     $('.select-dropdown__button span').text($(this).text()).parent().attr('data-value', itemValue);
+//     $('.select-dropdown__list').toggleClass('active');
+//   });
+//   let select = document.querySelector('.container-select');
+//   let btnSvg = document.querySelector('.select-icon');
+//   select.onclick = () => {
+//     if (btnSvg.style.transform != 'rotate(180deg)') {
+//       btnSvg.style.transform = 'rotate(180deg)'
+//     }
+//     else {
+//       btnSvg.style.transform = 'rotate(0deg)'
+//     }
+//   }
+// }
 
 $(document).on('click', 'a[href^="#"]', function (event) {
   event.preventDefault();
