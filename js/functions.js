@@ -77,13 +77,13 @@ $(document).ready(function () {
           // $(".contact-us-container .form-inner").html(
           //   "<p class='form-title'>Email sent successfully</p>"
           // );
-          $('#popup-contact').css('display','flex');
+          $('#popup-form').css('display','flex');
         } else {
           // Handle error response
           // $(".contact-us-container .form-inner").html(
           //   '<p class="form-title">Error: Failed to send email</p>'
           // );
-          $('#popup-contact').css('display','flex');
+          $('#popup-form').css('display','flex');
 
         }
       },
