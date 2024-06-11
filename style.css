@@ -3221,9 +3221,10 @@ input {
 .header-menu-list:hover:last-child .menu-link::after {
   opacity: 1;
 }
-
-.cover-link:hover .cover-link-ho {
-  opacity: 1;
+@media (max-width: 1920px) and (min-width: 744px) { 
+  .cover-link:hover .cover-link-ho {
+    opacity: 1;
+  }
 }
 
 .our-aircraft-link:hover .button-standart {

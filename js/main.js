@@ -13,6 +13,15 @@ function fadeout() {
 if (window.innerWidth <= 744) {
   let aaa = document.querySelectorAll(".swiper-button-next");
   let maaa = document.querySelectorAll(".next-mobile-ho");
+  let a0 = document.querySelector(".cover-link");
+  let a1 = document.querySelector('.cover-link-ho');
+  a0.addEventListener('click', function () {
+    a1.style.opacity = '1';
+    setTimeout(() => {
+      a1.style.opacity = '0';
+    }, 500);
+  })
+
   for (let i = 0; i < aaa.length; i++) {
     aaa[i].addEventListener("click", function () {
       maaa[i].style.opacity = '1';
