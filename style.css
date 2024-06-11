@@ -14,6 +14,7 @@
   left: 0;
   top: 0;
   background: red;
+  z-index: 9999;
 }
 
 * {
