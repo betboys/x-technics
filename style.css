@@ -3721,6 +3721,10 @@ input {
     font-size: 24px;
   }
 
+  .cont-btn-span:hover {
+    color: #010102 !important;
+  }
+
   .home-cover {
     padding-top: 0;
   }
