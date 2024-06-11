@@ -32,6 +32,28 @@ if (window.innerWidth <= 744) {
     })
   }
 }
+if (window.innerWidth <= 1240) {
+  let aaa = document.querySelectorAll(".swiper-button-next");
+  let maaa = document.querySelectorAll(".next-ho");
+  for (let i = 0; i < aaa.length; i++) {
+    aaa[i].addEventListener("click", function () {
+      maaa[i].style.opacity = '1';
+      setTimeout(() => {
+        maaa[i].style.opacity = '0';
+      }, 150);
+    })
+  }
+  let bbb = document.querySelectorAll(".swiper-button-prev");
+  let mbbb = document.querySelectorAll(".prev-ho");
+  for (let i = 0; i < bbb.length; i++) {
+    bbb[i].addEventListener("click", function () {
+      mbbb[i].style.opacity = '1';
+      setTimeout(() => {
+        mbbb[i].style.opacity = '0';
+      }, 150);
+    })
+  }
+}
 // subscribe buuton
 let subBtn = document.querySelector(".subBtn");
 let subInp = document.querySelector(".subInp");
