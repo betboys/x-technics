@@ -3252,6 +3252,10 @@ input {
   }
 }
 
+.wpcf7 form .wpcf7-response-output {
+  display: none !important;
+}
+
 .service-single-link:hover::before {
   border-color: #98E4FF;
   border-width: 2px;
