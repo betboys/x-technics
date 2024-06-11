@@ -25,6 +25,7 @@
   width: 478.957px;
   height: 394px;
   position: relative;
+  z-index: 1;
   background: rgba(12, 25, 39, 0.95);
   display: flex;
   align-items: center;
@@ -35,7 +36,8 @@
   content: '';
   position: absolute;
   inset: 0;
-  border: .5px solid #0071AA;
+  border: 1px solid #0071AA;
+  z-index: 2;
 }
 
 .popup-intro {
