@@ -3650,7 +3650,7 @@ input {
 
   .header-menu-inner {
     padding-top: 122px;
-    padding-bottom: 32px;
+    padding-bottom: 122px;
     height: 100%;
     flex-direction: column;
     align-items: start;
@@ -3894,6 +3894,7 @@ input {
 @media (max-width: 960px) {
   .contact-us-mobile {
     padding-top: 112px !important;
+    z-index: unset !important;
   }
 
   .tel1 {

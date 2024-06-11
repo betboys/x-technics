@@ -1,7 +1,7 @@
 <?php get_header();
 /* Template Name: Contact us Template */ ?>
 <img class="contact-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<section class="contact-us contact-us-mobile" id="contact-us-mobile" data-aos="fade-up">
+<section class="contact-us contact-us-mobile" id="contact-us-mobile">
 	<img class="tel1" src="https://x-technics.com/ysteeshy/2024/05/tel1.webp" alt="">
 	<img class="tel2" src="https://x-technics.com/ysteeshy/2024/05/tel2.webp" alt="">
 	<h3 class="contact-title"><?= the_field('contact_section_title', 'option'); ?></h3>
