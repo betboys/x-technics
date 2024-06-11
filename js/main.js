@@ -1,21 +1,15 @@
 var $ = jQuery;
-// preloader
-// $(document).ready(function () {
-//   window.setTimeout('fadeout();', 3000);
-//   document.querySelector('body').classList.add('hidden');
-// });
-// function fadeout() {
-//   $('.preloader').delay(3000).fadeOut('slow', function () {
-//     $('.notLoaded').removeClass('notLoaded');
-//     document.querySelector('body').classList.remove('hidden');
-//   });
-// }
-// let popupBtn = document.querySelector(".popup-btn");
-// let 
-// popupBtn.addEventListener("click", function() {
-
-// })
-
+preloader
+$(document).ready(function () {
+  window.setTimeout('fadeout();', 3000);
+  document.querySelector('body').classList.add('hidden');
+});
+function fadeout() {
+  $('.preloader').delay(3000).fadeOut('slow', function () {
+    $('.notLoaded').removeClass('notLoaded');
+    document.querySelector('body').classList.remove('hidden');
+  });
+}
 if (window.innerWidth <= 744) {
   let aaa = document.querySelectorAll(".swiper-button-next");
   let maaa = document.querySelectorAll(".next-mobile-ho");
