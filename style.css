@@ -7,15 +7,75 @@
 /* CUSTOM CSS*/
 
 .popup-form {
-  display: none;
+  display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
-  left: 0;
-  top: 0;
-  background: red;
+  inset: 0;
   z-index: 9999;
+  overflow: hidden;
+  background: rgba(1, 1, 2, 0.60);
+  -webkit-backdrop-filter: blur(21.75px);
+  backdrop-filter: blur(21.75px);
 }
+
+.popup-cont {
+  width: 394px;
+  height: 478.957px;
+  border: 0.5px solid #0071AA;
+  background: rgba(12, 25, 39, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-intro {
+  width: 329px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.popup-result {
+  margin-top: 8px;
+  color: #24B6FF;
+  font-family: Conthrax;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 62.5%;
+}
+
+.popup-result-text {
+  color: #F8F9FA;
+  text-align: center;
+  font-family: 'blender book';
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.popup-btn {
+  width: 234px;
+  height: 54px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-btn-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-family: 'blender heavy';
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 120%;
+}
+
+
 
 * {
   margin: 0;
