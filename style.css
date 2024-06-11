@@ -3213,10 +3213,6 @@ input {
   opacity: 1;
 }
 
-.cover-link:hover .cover-link-st {
-  opacity: 0;
-}
-
 .cover-link:hover .cover-link-ho {
   opacity: 1;
 }
