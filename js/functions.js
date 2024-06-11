@@ -90,9 +90,11 @@ $(document).ready(function () {
       },
       error: function (xhr, status, error) {
         // Handle AJAX error
-        $(".contact-us-container .form-inner").html(
-          '<p class="form-title">Error: ' + error + "</p>"
-        );
+        // $(".contact-us-container .form-inner").html(
+        //   '<p class="form-title">Error: ' + error + "</p>"
+        // );
+        $('body').css('overflow', 'hidden');
+        $('#popup-form-error').css('display', 'flex');
       },
     });
   });
@@ -106,5 +108,14 @@ $(document).ready(function ($) {
     // You can perform other actions here
     // For example, make an AJAX request, show/hide elements, or manipulate the DOM
   });
-
+});
+$(document).ready(function ($) {
+  // Attach a click event handler to the button
+  $('.popup-btn-error').click(function () {
+    // Your code to execute when the button is clicked
+    $('.popup-form-error').css('display', 'none');
+    $('body').css('overflow', 'scroll');
+    // You can perform other actions here
+    // For example, make an AJAX request, show/hide elements, or manipulate the DOM
+  });
 });
