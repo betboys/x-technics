@@ -23,6 +23,9 @@
 	</div>
 </footer>
 </main>
+
+<div class="popup-form" id="popup-form"></div>
+
 <?php wp_footer();
 $page_template = get_page_template_slug(get_the_ID());
 

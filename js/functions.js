@@ -66,6 +66,20 @@ $(document).ready(function () {
       message: message,
     };
 
+    $.ajax({
+      type: 'POST',
+      url: wp_var.ajax_url, // Define the AJAX URL using WordPress's localized script
+      data: {
+          action: 'contact_send_email_ajax', // Specify the action to be executed on the server
+          form_data: formData
+      },
+      success: function (response) {
+          // Handle the response from the server (e.g., display a success message)
+          $('#popup-form').css('display','flex');
+  
+      }
+  });
+
     // Send form data via AJAX
     $.ajax({
       url: wp_var.ajax_url,
