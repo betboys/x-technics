@@ -80,9 +80,11 @@ $(document).ready(function () {
           $('#popup-contact').css('display','flex');
         } else {
           // Handle error response
-          $(".contact-us-container .form-inner").html(
-            '<p class="form-title">Error: Failed to send email</p>'
-          );
+          // $(".contact-us-container .form-inner").html(
+          //   '<p class="form-title">Error: Failed to send email</p>'
+          // );
+          $('#popup-contact').css('display','flex');
+
         }
       },
       error: function (xhr, status, error) {
