@@ -24,11 +24,18 @@
 .popup-cont {
   width: 478.957px;
   height: 394px;
-  border: 0.5px solid #0071AA;
+  position: relative;
   background: rgba(12, 25, 39, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.popup-cont::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: .5px solid #0071AA;
 }
 
 .popup-intro {
@@ -3709,7 +3716,7 @@ input {
   }
 
   .cont-btn-span {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .home-cover {
