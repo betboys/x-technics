@@ -18,7 +18,7 @@ if (window.innerWidth <= 744) {
       maaa[i].style.opacity = '1';
       setTimeout(() => {
         maaa[i].style.opacity = '0';
-      }, 150);
+      }, 800);
     })
   }
   let bbb = document.querySelectorAll(".swiper-button-prev");
@@ -28,7 +28,7 @@ if (window.innerWidth <= 744) {
       mbbb[i].style.opacity = '1';
       setTimeout(() => {
         mbbb[i].style.opacity = '0';
-      }, 150);
+      }, 800);
     })
   }
 }
