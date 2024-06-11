@@ -77,13 +77,13 @@ $(document).ready(function () {
           // $(".contact-us-container .form-inner").html(
           //   "<p class='form-title'>Email sent successfully</p>"
           // );
-          $('#popup-form').css('display','flex');
+          $('#popup-form').css('display', 'flex');
         } else {
           // Handle error response
           // $(".contact-us-container .form-inner").html(
           //   '<p class="form-title">Error: Failed to send email</p>'
           // );
-          $('#popup-form').css('display','flex');
+          $('#popup-form').css('display', 'flex');
 
         }
       },
@@ -95,4 +95,15 @@ $(document).ready(function () {
       },
     });
   });
+});
+$(document).ready(function ($) {
+  // Attach a click event handler to the button
+  $('.popup-btn').click(function () {
+    // Your code to execute when the button is clicked
+    $('.popup-form').css('display', 'none');
+
+    // You can perform other actions here
+    // For example, make an AJAX request, show/hide elements, or manipulate the DOM
+  });
+
 });

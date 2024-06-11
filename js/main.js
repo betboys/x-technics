@@ -10,6 +10,12 @@ var $ = jQuery;
 //     document.querySelector('body').classList.remove('hidden');
 //   });
 // }
+// let popupBtn = document.querySelector(".popup-btn");
+// let 
+// popupBtn.addEventListener("click", function() {
+
+// })
+
 if (window.innerWidth <= 744) {
   let aaa = document.querySelectorAll(".swiper-button-next");
   let maaa = document.querySelectorAll(".next-mobile-ho");

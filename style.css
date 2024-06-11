@@ -7,7 +7,7 @@
 /* CUSTOM CSS*/
 
 .popup-form {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -23,7 +23,7 @@
 
 .popup-cont {
   width: 478.957px;
-  height: 394pxx;
+  height: 394px;
   border: 0.5px solid #0071AA;
   background: rgba(12, 25, 39, 0.95);
   display: flex;
