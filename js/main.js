@@ -32,6 +32,17 @@ if (window.innerWidth <= 744) {
     })
   }
 }
+// subscribe buuton
+let subBtn = document.querySelector(".subBtn");
+let subInp = document.querySelector(".subInp");
+subInp.addEventListener("input", function () {
+  if (subInp.value == "") {
+    subBtn.disabled = true;
+  }
+  else {
+    subBtn.disabled = false;
+  }
+});
 // open sub menu
 let dropdown = document.querySelector('.dropdown');
 let dropdownMenu = document.querySelector('.dropdown-menu');
