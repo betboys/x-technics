@@ -37,7 +37,7 @@
   position: absolute;
   inset: 0;
   border: 1px solid #0071AA;
-  z-index: 2;
+  z-index: 0;
 }
 
 .popup-intro {
