@@ -81,6 +81,17 @@
   opacity: 1;
 }
 
+@media (max-width: 744px) {
+  .popup-cont {
+    width: 358px;
+    height: 382px;
+  }
+
+  .popup-intro {
+    width: 294px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
