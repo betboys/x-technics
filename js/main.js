@@ -1,5 +1,5 @@
 var $ = jQuery;
-preloader
+// preloader
 $(document).ready(function () {
   window.setTimeout('fadeout();', 3000);
   document.querySelector('body').classList.add('hidden');
