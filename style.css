@@ -713,6 +713,10 @@ input {
   width: 100%;
 }
 
+.ser-span {
+  font-family: 'blender heavy';
+}
+
 .our-aircraft-text {
   width: 113px;
   position: absolute;
