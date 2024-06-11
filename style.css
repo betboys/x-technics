@@ -473,7 +473,7 @@ input {
 }
 
 .cover-link {
-  width: 249px;
+  width: 290px;
   height: 54px;
   margin-top: 28px;
   display: inline-flex;
@@ -492,6 +492,9 @@ input {
 }
 
 .cover-link-st {
+  width: 290px;
+  height: 54px;
+  object-fit: fill;
   position: absolute;
   left: 0;
   top: 0;
@@ -499,11 +502,14 @@ input {
 }
 
 .cover-link-ho {
+  width: 410px;
   position: absolute;
   left: -60px;
   top: -60px;
   opacity: 0;
   transition: .8s;
+  height: 174px;
+  object-fit: fill;
 }
 
 .home-our-services-container {
