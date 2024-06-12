@@ -77,8 +77,10 @@
   line-height: 120%;
 }
 
-.popup-btn:hover .button-hover {
-  opacity: 1;
+@media (min-width: 1240px) {
+  .popup-btn:hover .button-hover {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 744px) {
@@ -3213,7 +3215,8 @@ input {
 .header-menu-list:hover:last-child .menu-link::after {
   opacity: 1;
 }
-@media (max-width: 1920px) and (min-width: 744px) { 
+
+@media (max-width: 1920px) and (min-width: 744px) {
   .cover-link:hover .cover-link-ho {
     opacity: 1;
   }
