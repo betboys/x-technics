@@ -24,20 +24,11 @@
 .popup-cont {
   width: 478.957px;
   height: 394px;
-  position: relative;
-  z-index: 1;
+  border: 1px solid #0071AA;
   background: rgba(12, 25, 39, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.popup-cont::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid #0071AA;
-  z-index: 0;
 }
 
 .popup-intro {
