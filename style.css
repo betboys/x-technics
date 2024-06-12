@@ -3533,6 +3533,7 @@ input {
   .footer-form {
     margin-top: 20px;
     flex-direction: column;
+    align-items: unset;
     gap: 34px;
     order: 3;
   }
