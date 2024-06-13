@@ -1716,6 +1716,10 @@ body div[data-lastpass-icon-root] {
   opacity: 1;
 }
 
+.hov-svg-arrow {
+  position: absolute;
+}
+
 .about-card-img {
   width: 100%;
   height: 100%;
