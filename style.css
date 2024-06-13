@@ -967,7 +967,7 @@ body div[data-lastpass-icon-root] {
 .wheel-btns,
 .det-btns,
 .ndt-btns {
-  display: none;
+  display: none !important;
 }
 
 .swiper-button-prev:disabled .arrow-path,
