@@ -1444,15 +1444,16 @@ body div[data-lastpass-icon-root] {
   visibility: hidden;
 }
 
-.form .our-aircraft-link::before {
-  background: #080f18;
-}
-
 .send-btn {
   margin-top: 0;
   margin-inline: unset;
   font-size: 18px;
   transition: .8s;
+}
+
+.cont-btn {
+  width: unset;
+  margin-inline-end: auto;
 }
 
 .cont-btn::before {
@@ -3268,9 +3269,6 @@ body div[data-lastpass-icon-root] {
   opacity: 1;
 }
 
-.form .our-aircraft-link:hover::before {
-  background: #020810;
-}
 
 .iti__country:hover {
   background: #0e233d !important;
