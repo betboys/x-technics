@@ -36,7 +36,7 @@
                     <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                     <p class="subtitle about-card-text-hidden"><?php echo $card_subtitle; ?></p>
                     <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
-                    <svg class="hov-svg" xmlns="http://www.w3.org/2000/svg" width="154" height="55" viewBox="0 0 154 55"
+                        <svg class="hov-svg" xmlns="http://www.w3.org/2000/svg" width="154" height="55" viewBox="0 0 154 55"
                             fill="none">
                             <path d="M14.5866 54L1 27V1H139.413L153 27.5V54H14.5866Z" stroke="#0071AA" stroke-width="1.5" />
                             <defs>
@@ -117,8 +117,17 @@ if (have_rows('services_boxes')):
                 endif; ?>
                 <?php if ($service_link): ?>
                     <a class="our-aircraft-link link-left-inner" href="<?= $service_link ?>">
-                        <img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-                        <img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+                        <svg class="services-btns" xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+                            <path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="#0071AA"
+                                stroke-width="1.5" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2038_96752" x1="1" y1="27.5" x2="236" y2="27.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0071AA" />
+                                    <stop offset="1" stop-color="#24B6FF" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
                         <span class="menu-link index ser-span">
                             Explore More
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
