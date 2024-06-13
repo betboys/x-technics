@@ -3166,6 +3166,10 @@ body div[data-lastpass-icon-root] {
     transition: 0s !important;
   }
 
+  .bat-btns {
+    display: flex !important;
+  }
+
   .all-cards-btns {
     display: none !important;
   }
@@ -3261,8 +3265,10 @@ body div[data-lastpass-icon-root] {
   background: #0e233d !important;
 }
 
-.header-menu-list:hover:last-child .menu-link::before {
-  content: url(images/Vector\ 15.svg);
+@media (min-width: 990px) {
+  .header-menu-list:hover:last-child .menu-link::before {
+    content: url(images/Vector\ 15.svg);
+  }
 }
 
 .header-menu-list:hover:last-child .menu-link::after {
@@ -4047,6 +4053,10 @@ body div[data-lastpass-icon-root] {
 
   .oal {
     width: 260px;
+  }
+
+  .aog-btns {
+    display: flex !important;
   }
 
   .home-cover-link-web,
@@ -4978,7 +4988,10 @@ body div[data-lastpass-icon-root] {
     gap: 0;
   }
 
-  .line-btns {
+  .line-btns,
+  .wheel-btns,
+  .det-btns,
+  .ndt-btns {
     display: flex !important;
   }
 
