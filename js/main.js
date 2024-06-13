@@ -1,6 +1,4 @@
 var $ = jQuery;
-
-
 $(".subBtn").click(function (e) {
   console.log("hi")
   $('#popup-sbc').css('display', 'flex');
@@ -20,11 +18,6 @@ $(document).ready(function ($) {
     $('body').css('overflow', 'scroll');
   });
 });
-
-
-
-
-
 // preloader
 $(document).ready(function () {
   window.setTimeout('fadeout();', 3000);

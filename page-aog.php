@@ -35,7 +35,7 @@
                 endif;
                 ?>
             </div>
-            <div class="swiper-pagination mobile-pagination"></div>
+            <div class="swiper-pagination mobile-pagination aog-pag"></div>
             <div class="next-prev-buuton mobile-buttons">
                 <button class="swiper-button-prev mobile-style-btn-prev">
                     <img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.webp" alt="">
