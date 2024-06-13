@@ -967,6 +967,12 @@ body div[data-lastpass-icon-root] {
 }
 
 @media (max-width: 1440px) {
+
+  .swiper-button-prev::before,
+  .swiper-button-next::before {
+    transition: .01ms;
+  }
+
   .swiper-button-prev:active::before {
     opacity: 1;
   }
