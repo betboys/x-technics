@@ -42,6 +42,16 @@
                     <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                     <p class="subtitle about-card-text-hidden"><?php echo $card_subtitle; ?></p>
                     <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
+                        <svg class="hov-svg" xmlns="http://www.w3.org/2000/svg" width="154" height="55" viewBox="0 0 154 55" fill="none">
+                            <path d="M14.5866 54L1 27V1H139.413L153 27.5V54H14.5866Z" stroke="#0071AA" stroke-width="1.5" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2053_96794" x1="1" y1="27.5" x2="153" y2="27.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0071AA" />
+                                    <stop offset="1" stop-color="#24B6FF" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_4019_3743)">
                                 <path
