@@ -102,8 +102,8 @@ $(document).ready(function () {
 $(document).ready(function ($) {
   // Attach a click event handler to the button
   $('.popup-btn').click(function () {
-
-      window.setTimeout('fadeout();', 2000);
+    $('.preloader').css('display', 'flex');
+    window.setTimeout('fadeout();', 2000);
     function fadeout() {
       $('.preloader').delay(2000).fadeOut('slow', function () {
         $('.notLoaded').removeClass('notLoaded');
