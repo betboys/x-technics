@@ -4003,6 +4003,10 @@ body div[data-lastpass-icon-root] {
     --paddingLeftAndRight: 5.376vw;
   }
 
+  .ndt-slid {
+    justify-content: start;
+  }
+
   .certificate-image {
     bottom: unset;
     top: 5rem;
@@ -4999,7 +5003,7 @@ body div[data-lastpass-icon-root] {
 
   .detailing-slide-img {
     width: 32px;
-    height: 32px;
+    height: unset;
   }
 
   .detailing-slides {

@@ -45,7 +45,7 @@
                         $img = get_sub_field('airplane_image');
                         $desc = get_sub_field('airplane_title');
                         ?>
-                        <div class="swiper-slide offer-list detailing-slides">
+                        <div class="swiper-slide offer-list detailing-slides ndt-slid">
                             <img class="offer-img detailing-slide-img" src="<?php echo $img; ?>" alt="">
                             <div class="offer-content detailing-slide-content"><?= $desc ?></div>
                         </div>
@@ -59,7 +59,7 @@
             <div class="next-prev-buuton mobile-buttons">
                 <button class="swiper-button-prev mobile-style-btn-prev">
                     <img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.webp" alt="">
-                    <img class="prev -mobile-ho" src="https://x-technics.com/ysteeshy/2024/06/mobile-ho-btn-prev.png" alt="">
+                    <img class="prev-mobile-ho" src="https://x-technics.com/ysteeshy/2024/06/mobile-ho-btn-prev.png" alt="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clip-path="url(#clip0_4019_3733)">
                             <path
