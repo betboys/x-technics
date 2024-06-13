@@ -768,6 +768,8 @@ body div[data-lastpass-icon-root] {
 }
 
 .our-aircraft-link {
+  width: 235px;
+  height: 54px;
   margin-top: 32px;
   display: flex;
   align-items: center;
@@ -786,6 +788,10 @@ body div[data-lastpass-icon-root] {
   background: linear-gradient(90deg, rgba(0, 113, 170, 0.14) 0%, rgba(36, 182, 255, 0.14) 100%);
   transition: .8s;
   opacity: 0;
+}
+
+.oal {
+  width: 235px;
 }
 
 .oal-link-mob {
@@ -4013,6 +4019,10 @@ body div[data-lastpass-icon-root] {
 @media (max-width: 744px) {
   :root {
     --paddingLeftAndRight: 5.376vw;
+  }
+
+  .oal {
+    width: 260px;
   }
 
   .home-cover-link-web,
