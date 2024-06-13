@@ -366,6 +366,7 @@ body div[data-lastpass-icon-root] {
   height: 54px;
   position: absolute;
   transition: .8s;
+  z-index: -1;
 }
 
 .header-menu-list:last-child .menu-link::after {
@@ -376,6 +377,7 @@ body div[data-lastpass-icon-root] {
   background: linear-gradient(90deg, rgba(0, 113, 170, 0.14) 0%, rgba(36, 182, 255, 0.14) 100%);
   transition: .8s;
   opacity: 0;
+  z-index: -1;
 }
 
 .dropdown-menu>.header-menu-list:last-child .menu-link::before,
@@ -3256,7 +3258,7 @@ body div[data-lastpass-icon-root] {
 }
 
 .header-menu-list:hover:last-child .menu-link::before {
-  content: url(images/Vector\ 10.svg);
+  content: url(images/Vector\ 15.svg);
 }
 
 .header-menu-list:hover:last-child .menu-link::after {
