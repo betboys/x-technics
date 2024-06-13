@@ -245,7 +245,8 @@
 							</linearGradient>
 						</defs>
 					</svg>
-					<svg class="oal-link-mob" xmlns="http://www.w3.org/2000/svg" width="261" height="55" viewBox="0 0 261 55" fill="none">
+					<svg class="oal-link-mob" xmlns="http://www.w3.org/2000/svg" width="261" height="55"
+						viewBox="0 0 261 55" fill="none">
 						<path d="M18.083 54L1 27V1H241.815L260 27.5V54H18.083Z" stroke="url(#paint0_linear_2038_96754)"
 							stroke-width="1.5" />
 						<defs>
@@ -301,11 +302,30 @@
 		<div class="swiper-pagination"></div>
 		<div class="next-prev-buuton">
 			<button class="swiper-button-prev">
-				<img class="prev-st" src="https://x-technics.com/ysteeshy/2024/05/prev-st.webp" alt="">
-				<img class="prev-ho" src="https://x-technics.com/ysteeshy/2024/05/prev-ho.webp" alt="">
-				<img class="prev-mobile" src="https://x-technics.com/ysteeshy/2024/05/prev-mobile.webp" alt="">
-				<img class="prev-mobile-ho" src="https://x-technics.com/ysteeshy/2024/06/mobile-ho-btn-prev.png" alt="">
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+				<svg class="prev-web" xmlns="http://www.w3.org/2000/svg" width="181" height="55" viewBox="0 0 181 55"
+					fill="none">
+					<path d="M17 1L1 28V54H164L180 27.5V1H17Z" stroke="url(#paint0_linear_2038_96210)"
+						stroke-width="1.5" />
+					<defs>
+						<linearGradient id="paint0_linear_2038_96210" x1="1" y1="27.5" x2="180" y2="27.5"
+							gradientUnits="userSpaceOnUse">
+							<stop stop-color="#0071AA" />
+							<stop offset="1" stop-color="#24B6FF" />
+						</linearGradient>
+					</defs>
+				</svg>
+				<svg class="prev-mob" xmlns="http://www.w3.org/2000/svg" width="124" height="56" viewBox="0 0 124 56" fill="none">
+					<path d="M31.5 1L1 37.5V55H92.5L123 18.5V0.999996L31.5 1Z" stroke="url(#paint0_linear_2038_96776)"
+						stroke-width="1.5" />
+					<defs>
+						<linearGradient id="paint0_linear_2038_96776" x1="1" y1="28" x2="103" y2="28"
+							gradientUnits="userSpaceOnUse">
+							<stop stop-color="#0071AA" />
+							<stop offset="1" stop-color="#24B6FF" />
+						</linearGradient>
+					</defs>
+				</svg>
+				<svg class="prev-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 					<g clip-path="url(#clip0_4019_3733)">
 						<path
 							d="M4.8787 18.3936L0.959702 14.4746C0.323326 13.8078 -0.0317307 12.9214 -0.0317307 11.9996C-0.0317307 11.0779 0.323326 10.1915 0.959702 9.52464L4.8787 5.60564C5.15996 5.32425 5.54149 5.16611 5.93935 5.16602C6.33721 5.16592 6.71881 5.32388 7.0002 5.60514C7.2816 5.88641 7.43974 6.26793 7.43983 6.66579C7.43992 7.06365 7.28196 7.44525 7.0007 7.72664L4.2207 10.5076L22.4707 10.5306C22.8685 10.5306 23.2501 10.6887 23.5314 10.97C23.8127 11.2513 23.9707 11.6328 23.9707 12.0306C23.9707 12.4285 23.8127 12.81 23.5314 13.0913C23.2501 13.3726 22.8685 13.5306 22.4707 13.5306L4.2397 13.5076L7.0007 16.2726C7.27394 16.5556 7.42513 16.9345 7.42171 17.3278C7.41829 17.721 7.26054 18.0973 6.98243 18.3754C6.70432 18.6535 6.3281 18.8112 5.9348 18.8147C5.54151 18.8181 5.16261 18.6669 4.8797 18.3936H4.8787Z"
