@@ -168,7 +168,7 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
       selectList.append(checkbox[i]);
       selectContainer.append(selectList);
       checkbox[i].addEventListener('click', function () {
-        label[i].classList.toggle('checked')
+        label[i].classList.toggle('checked');
       })
     }
 
