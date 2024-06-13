@@ -513,7 +513,7 @@ body div[data-lastpass-icon-root] {
   font-weight: normal;
   line-height: 120%;
   color: #010102;
-  position: relative;
+  position: absolute;
 }
 
 .cover-link-st {
