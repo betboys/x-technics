@@ -3255,6 +3255,10 @@ body div[data-lastpass-icon-root] {
   background: #0e233d !important;
 }
 
+.header-menu-list:hover:last-child .menu-link::before {
+  content: url(images/Vector\ 10.svg);
+}
+
 .header-menu-list:hover:last-child .menu-link::after {
   opacity: 1;
 }
