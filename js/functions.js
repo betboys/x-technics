@@ -114,7 +114,7 @@ $(document).ready(function ($) {
     // }
 
 
-      window.location.reload();
+    window.location.reload();
 
 
     // Your code to execute when the button is clicked
@@ -133,9 +133,11 @@ $(document).ready(function ($) {
   // Attach a click event handler to the button
   $('.popup-btn-error').click(function () {
     // Your code to execute when the button is clicked
-    $("html, body").animate({ scrollTop: "0" }, 0);
+    // $("html, body").animate({ scrollTop: "0" }, 0);
+    window.location.reload();
+
     $('.popup-form-error').css('display', 'none');
-    $('body').css('overflow', 'scroll');
+    // $('body').css('overflow', 'scroll');
     // You can perform other actions here
     // For example, make an AJAX request, show/hide elements, or manipulate the DOM
   });
