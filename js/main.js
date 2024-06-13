@@ -178,7 +178,7 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
     $('.select-dropdown__list-item').on('click', function () {
       var itemValue = $(this).data('value');
       $('.select-dropdown__button span').text($(this).text()).parent().attr('data-value', itemValue);
-      $('.select-dropdown__list').toggleClass('active');
+      $('.select-dropdown__list').removeClass('active');
     });
 
     let select = document.querySelector('.container-select');

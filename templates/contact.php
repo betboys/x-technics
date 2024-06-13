@@ -128,32 +128,32 @@
 				</div>
 				<ul class="form-category-intro">
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox">
-						<label class="label" for="">Line Maintenance</label>
+						<input class="checkbox" id="1" type="radio" name="radio-group" />
+						<label class="label" for="1">Line Maintenance</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">AOG Maintenance Support</label>
+						<input class="checkbox" id="2" type="radio" name="radio-group"/>
+						<label class="label" for="2">AOG Maintenance Support</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">Aircraft Battery Service</label>
+						<input class="checkbox" id="3" type="radio" name="radio-group"/>
+						<label class="label" for="3">Aircraft Battery Service</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">Aircraft Wheels Service</label>
+						<input class="checkbox" id="4" type="radio" name="radio-group"/>
+						<label class="label" for="4">Aircraft Wheels Service</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">Aircraft Detailing/Wash</label>
+						<input class="checkbox" id="5" type="radio"name="radio-group" />
+						<label class="label" for="5">Aircraft Detailing/Wash</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">Engine Borescope Inspection</label>
+						<input class="checkbox" id="6" type="radio" name="radio-group"/>
+						<label class="label" for="6">Engine Borescope Inspection</label>
 					</div>
 					<div class="checkbox-inner">
-						<input class="checkbox" id="" type="checkbox" />
-						<label class="label" for="">NDT (non-destructive-testing)</label>
+						<input class="checkbox" id="7" type="radio" name="radio-group"/>
+						<label class="label" for="7">NDT (non-destructive-testing)</label>
 					</div>
 				</ul>
 
@@ -172,7 +172,8 @@
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
 					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/menu-st.webp" alt="">
-					<img class="button-hover cont-btn-hov" src="https://x-technics.com/ysteeshy/2024/05/menu-ho.webp" alt="">
+					<img class="button-hover cont-btn-hov" src="https://x-technics.com/ysteeshy/2024/05/menu-ho.webp"
+						alt="">
 					<span class="menu-link index cont-btn-span">SEND A QUOTE</span>
 				</button>
 			</form>
