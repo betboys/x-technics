@@ -2175,8 +2175,6 @@ body div[data-lastpass-icon-root] {
 .link-left-inner {
   margin-top: 8px;
   margin-inline: unset;
-  width: unset;
-  height: unset;
 }
 
 .link-left-inner::before {
