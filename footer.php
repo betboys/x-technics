@@ -38,8 +38,17 @@
 			<p class="popup-result-text">Your quote has been sent to our customer service team. We'll handle it from
 				here and get back to you soon.</p>
 			<button class="popup-btn">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+				<svg class="popup-svg" xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+					<path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="#0071AA"
+						stroke-width="1.5" />
+					<defs>
+						<linearGradient id="paint0_linear_2038_96752" x1="1" y1="27.5" x2="236" y2="27.5"
+							gradientUnits="userSpaceOnUse">
+							<stop stop-color="#0071AA" />
+							<stop offset="1" stop-color="#24B6FF" />
+						</linearGradient>
+					</defs>
+				</svg>
 				<span class="popup-btn-text">
 					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 						<g clip-path="url(#clip0_5360_22452)">
@@ -69,10 +78,21 @@
 					fill="#F30E10" />
 			</svg>
 			<p class="popup-result">Error!</p>
-			<p class="popup-result-text">Oops! It seems there was an issue submitting your quote request to our customer service team. Please try again later, or if the problem persists, feel free to contact us directly for assistance.</p>
+			<p class="popup-result-text">Oops! It seems there was an issue submitting your quote request to our customer
+				service team. Please try again later, or if the problem persists, feel free to contact us directly for
+				assistance.</p>
 			<button class="popup-btn popup-btn-error">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+			<svg class="popup-svg" xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+					<path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="#0071AA"
+						stroke-width="1.5" />
+					<defs>
+						<linearGradient id="paint0_linear_2038_96752" x1="1" y1="27.5" x2="236" y2="27.5"
+							gradientUnits="userSpaceOnUse">
+							<stop stop-color="#0071AA" />
+							<stop offset="1" stop-color="#24B6FF" />
+						</linearGradient>
+					</defs>
+				</svg>
 				<span class="popup-btn-text">
 					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 						<g clip-path="url(#clip0_5360_22452)">
@@ -104,8 +124,17 @@
 			<p class="popup-result">Success!</p>
 			<p class="popup-result-text">You’ve successfully subscribed to our newsletter.</p>
 			<button class="popup-btn" id="popup-sbc-btn">
-				<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-				<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+			<svg class="popup-svg" xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
+					<path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="#0071AA"
+						stroke-width="1.5" />
+					<defs>
+						<linearGradient id="paint0_linear_2038_96752" x1="1" y1="27.5" x2="236" y2="27.5"
+							gradientUnits="userSpaceOnUse">
+							<stop stop-color="#0071AA" />
+							<stop offset="1" stop-color="#24B6FF" />
+						</linearGradient>
+					</defs>
+				</svg>
 				<span class="popup-btn-text">
 					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 						<g clip-path="url(#clip0_5360_22452)">
