@@ -27,7 +27,8 @@
 						</linearGradient>
 					</defs>
 				</svg>
-				<svg class="home-cover-link-mob" xmlns="http://www.w3.org/2000/svg" width="290" height="53" viewBox="0 0 290 53" fill="none">
+				<svg class="home-cover-link-mob" xmlns="http://www.w3.org/2000/svg" width="290" height="53"
+					viewBox="0 0 290 53" fill="none">
 					<path d="M19.1277 53L0 26V0H269.638L290 26.5V53H19.1277Z" fill="url(#paint0_linear_2038_96756)" />
 					<defs>
 						<linearGradient id="paint0_linear_2038_96756" x1="0" y1="26.5" x2="290" y2="26.5"
@@ -232,8 +233,29 @@
 			$link = get_field('button_license');
 			if ($link): ?>
 				<a class="our-aircraft-link oal" href="<?php echo esc_url($link); ?>">
-					<img class="button-standart" src="https://x-technics.com/ysteeshy/2024/05/Button-st.webp" alt="">
-					<img class="button-hover" src="https://x-technics.com/ysteeshy/2024/05/Button-ho.webp" alt="">
+					<svg class="oal-link-web" xmlns="http://www.w3.org/2000/svg" width="237" height="55"
+						viewBox="0 0 237 55" fill="none">
+						<path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="url(#paint0_linear_2038_96752)"
+							stroke-width="1.5" />
+						<defs>
+							<linearGradient id="paint0_linear_2038_96752" x1="1" y1="27.5" x2="236" y2="27.5"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0071AA" />
+								<stop offset="1" stop-color="#24B6FF" />
+							</linearGradient>
+						</defs>
+					</svg>
+					<svg class="oal-link-mob" xmlns="http://www.w3.org/2000/svg" width="261" height="55" viewBox="0 0 261 55" fill="none">
+						<path d="M18.083 54L1 27V1H241.815L260 27.5V54H18.083Z" stroke="url(#paint0_linear_2038_96754)"
+							stroke-width="1.5" />
+						<defs>
+							<linearGradient id="paint0_linear_2038_96754" x1="1" y1="27.5" x2="260" y2="27.5"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0071AA" />
+								<stop offset="1" stop-color="#24B6FF" />
+							</linearGradient>
+						</defs>
+					</svg>
 					<span class="menu-link index em">
 						Explore More
 						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">

@@ -768,7 +768,7 @@ body div[data-lastpass-icon-root] {
 }
 
 .our-aircraft-link {
-  width: 234px;
+  width: 235px;
   height: 54px;
   margin-top: 32px;
   display: flex;
@@ -780,8 +780,22 @@ body div[data-lastpass-icon-root] {
   z-index: 1;
 }
 
+.our-aircraft-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: 14px 4px 60px 0px rgba(36, 182, 255, 0.40), 0px 4px 4px 0px rgba(1, 3, 162, 0.12);
+  background: linear-gradient(90deg, rgba(0, 113, 170, 0.14) 0%, rgba(36, 182, 255, 0.14) 100%);
+  transition: .8s;
+  opacity: 0;
+}
+
 .oal {
-  width: 260px;
+  width: 235px;
+}
+
+.oal-link-mob {
+  display: none;
 }
 
 .oal>.button-standart {
@@ -811,13 +825,8 @@ body div[data-lastpass-icon-root] {
   opacity: 0;
   transition: .8s;
 }
-
-.index {
-  position: relative;
-  z-index: 1;
-}
-
 .em {
+  position: absolute;
   font-size: 20px;
   font-family: 'blender heavy';
 }
@@ -3243,11 +3252,7 @@ body div[data-lastpass-icon-root] {
   opacity: 1;
 }
 
-.our-aircraft-link:hover .button-standart {
-  opacity: 0;
-}
-
-.our-aircraft-link:hover .button-hover {
+.oal:hover::before {
   opacity: 1;
 }
 
@@ -4014,6 +4019,14 @@ body div[data-lastpass-icon-root] {
 @media (max-width: 744px) {
   :root {
     --paddingLeftAndRight: 5.376vw;
+  }
+
+  .home-cover-link-web {
+    display: none;
+  }
+
+  .home-cover-link-mob {
+    display: block;
   }
 
   .ndt-slid {
