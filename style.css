@@ -956,7 +956,7 @@ body div[data-lastpass-icon-root] {
   opacity: 0;
 }
 
-/* @media (min-width: 1440px) { */
+@media (min-width: 1440px) {
   .swiper-button-prev:hover::before {
     opacity: 1;
   }
@@ -964,7 +964,17 @@ body div[data-lastpass-icon-root] {
   .swiper-button-next:hover::before {
     opacity: 1;
   }
-/* } */
+}
+
+@media (max-width: 1440px) {
+  .swiper-button-prev:active::before {
+    opacity: 1;
+  }
+
+  .swiper-button-next:active::before {
+    opacity: 1;
+  }
+}
 
 .swiper-button-prev.swiper-button-disabled>.prev-st {
   display: none;
