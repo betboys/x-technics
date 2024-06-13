@@ -2652,10 +2652,6 @@ body div[data-lastpass-icon-root] {
   cursor: auto;
 }
 
-.aog-pag>.swiper-pagination-bullet:last-child {
-  display: none;
-}
-
 .card-list::before {
   content: '';
   position: absolute;
