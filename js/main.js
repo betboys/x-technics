@@ -1,7 +1,7 @@
 var $ = jQuery;
 
 
-$("#subBtn").click(function (e) {
+$(".subBtn").click(function (e) {
   console.log("hi")
   $('#popup-sbc').css('display', 'flex');
   $('body').css('overflow', 'hidden');
