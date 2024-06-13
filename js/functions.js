@@ -53,7 +53,7 @@ $(document).ready(function () {
 
     // Gather form data
     var checkedServices = [];
-    $('input[type="checkbox"]:checked').each(function () {
+    $('input[type="radio"]:checked').each(function () {
       checkedServices.push($(this).next(".label").text());
     });
     var formData = {
