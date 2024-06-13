@@ -3956,6 +3956,7 @@ body div[data-lastpass-icon-root] {
 
 .subBtn::before {
   content: url(images/Vector\ 5.svg);
+  display: contents;
 }
 
 .subBtn::after {
@@ -3970,6 +3971,10 @@ body div[data-lastpass-icon-root] {
 
 .subBtn:hover::after {
   opacity: 1;
+}
+
+.subsc-span {
+  position: absolute;
 }
 
 .wpcf7-not-valid-tip {
