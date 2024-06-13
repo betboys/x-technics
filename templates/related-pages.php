@@ -41,7 +41,7 @@
 		<button class="swiper-button-prev">
 			<svg class="prev-web" xmlns="http://www.w3.org/2000/svg" width="181" height="55" viewBox="0 0 181 55"
 				fill="none">
-				<path class="arrow-path" d="M17 1L1 28V54H164L180 27.5V1H17Z" stroke="url(#paint0_linear_2038_96210)"
+				<path class="arrow-path" d="M17 1L1 28V54H164L180 27.5V1H17Z" stroke="#0071AA"
 					stroke-width="1.5" />
 				<defs>
 					<linearGradient id="paint0_linear_2038_96210" x1="1" y1="27.5" x2="180" y2="27.5"
@@ -54,7 +54,7 @@
 			<svg class="prev-mob" xmlns="http://www.w3.org/2000/svg" width="124" height="56" viewBox="0 0 124 56"
 				fill="none">
 				<path class="arrow-path" d="M31.5 1L1 37.5V55H92.5L123 18.5V0.999996L31.5 1Z"
-					stroke="url(#paint0_linear_2038_96776)" stroke-width="1.5" />
+					stroke="#0071AA" stroke-width="1.5" />
 				<defs>
 					<linearGradient id="paint0_linear_2038_96776" x1="1" y1="28" x2="103" y2="28"
 						gradientUnits="userSpaceOnUse">
@@ -80,7 +80,7 @@
 		<button class="swiper-button-next">
 			<svg class="next-web" xmlns="http://www.w3.org/2000/svg" width="181" height="55" viewBox="0 0 181 55"
 				fill="none">
-				<path class="arrow-path" d="M17 54L1 27V1H164L180 27.5V54H17Z" stroke="url(#paint0_linear_2038_96206)"
+				<path class="arrow-path" d="M17 54L1 27V1H164L180 27.5V54H17Z" stroke="#0071AA"
 					stroke-width="1.5" />
 				<defs>
 					<linearGradient id="paint0_linear_2038_96206" x1="1" y1="27.5" x2="180" y2="27.5"
