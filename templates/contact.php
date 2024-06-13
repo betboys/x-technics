@@ -171,7 +171,8 @@
 					onblur="this.parentNode.dataset.replicatedValue = null"
 					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
 				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
-					<svg class="send-btn-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="53" viewBox="0 0 200 53" fill="none">
+					<svg class="send-btn-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="53"
+						viewBox="0 0 200 53" fill="none">
 						<path d="M13.1915 53L0 26V0H185.957L200 26.5V53H13.1915Z"
 							fill="url(#paint0_linear_2038_96773)" />
 						<defs>
@@ -186,6 +187,5 @@
 				</button>
 			</form>
 		</div>
-
 	</div>
 </section>
