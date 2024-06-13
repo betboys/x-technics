@@ -3239,7 +3239,7 @@ body div[data-lastpass-icon-root] {
   opacity: 1;
 }
 
-@media (max-width: 1920px) and (min-width: 1240px) {
+@media (max-width: 1920px) and (min-width: 1440px) {
   .swiper-button-prev:hover .prev-st {
     opacity: 0;
   }

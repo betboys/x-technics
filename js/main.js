@@ -41,7 +41,7 @@ if (window.innerWidth <= 744) {
     })
   }
 }
-if (window.innerWidth <= 1240) {
+if (window.innerWidth <= 1440) {
   let aaa = document.querySelectorAll(".swiper-button-next");
   let maaa = document.querySelectorAll(".next-ho");
   for (let i = 0; i < aaa.length; i++) {
