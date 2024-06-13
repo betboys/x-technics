@@ -41,28 +41,6 @@ if (window.innerWidth <= 744) {
     })
   }
 }
-if (window.innerWidth <= 1440) {
-  let aaa = document.querySelectorAll(".swiper-button-next");
-  let maaa = document.querySelectorAll(".next-ho");
-  for (let i = 0; i < aaa.length; i++) {
-    aaa[i].addEventListener("click", function () {
-      maaa[i].style.opacity = '1';
-      setTimeout(() => {
-        maaa[i].style.opacity = '0';
-      }, 800);
-    })
-  }
-  let bbb = document.querySelectorAll(".swiper-button-prev");
-  let mbbb = document.querySelectorAll(".prev-ho");
-  for (let i = 0; i < bbb.length; i++) {
-    bbb[i].addEventListener("click", function () {
-      mbbb[i].style.opacity = '1';
-      setTimeout(() => {
-        mbbb[i].style.opacity = '0';
-      }, 800);
-    })
-  }
-}
 // subscribe buuton
 let subBtn = document.querySelector(".subBtn");
 let subInp = document.querySelector(".subInp");
@@ -206,28 +184,6 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
 
 // Home page
 if (document.querySelector('.home-cover')) {
-  if (window.innerWidth <= 744) {
-    let aaa = document.querySelectorAll(".swiper-button-next");
-    let maaa = document.querySelectorAll(".next-mobile-ho");
-    let a0 = document.querySelector(".cover-link");
-    let a1 = document.querySelector('.cover-link-ho');
-    a0.addEventListener('click', function () {
-      a1.style.opacity = '1';
-      setTimeout(() => {
-        a1.style.opacity = '0';
-      }, 500);
-    })
-
-    for (let i = 0; i < aaa.length; i++) {
-      aaa[i].addEventListener("click", function () {
-        maaa[i].style.opacity = '1';
-        setTimeout(() => {
-          maaa[i].style.opacity = '0';
-        }, 800);
-      })
-    }
-  }
-
   // swipet slide
   const swiper = new Swiper('.swiper', {
     slidesPerView: 'auto',
