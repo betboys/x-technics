@@ -961,6 +961,15 @@ body div[data-lastpass-icon-root] {
   display: none;
 }
 
+.line-btns,
+.aog-btns,
+.bat-btns,
+.wheel-btns,
+.det-btns,
+.ndt-btns {
+  display: none;
+}
+
 .swiper-button-prev:disabled .arrow-path,
 .swiper-button-next:disabled .arrow-path {
   stroke: #495057;

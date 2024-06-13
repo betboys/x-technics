@@ -57,7 +57,7 @@
 
             </div>
             <div class="swiper-pagination mobile-pagination"></div>
-            <div class="next-prev-buuton">
+            <div class="next-prev-buuton det-btns">
 			<button class="swiper-button-prev">
 				<svg class="prev-web" xmlns="http://www.w3.org/2000/svg" width="181" height="55" viewBox="0 0 181 55"
 					fill="none">
