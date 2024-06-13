@@ -143,6 +143,7 @@ body {
   font-weight: normal;
   line-height: 100%;
   color: #fff;
+  min-height: 100vh;
 }
 
 body.hidden {
@@ -394,7 +395,7 @@ body div[data-lastpass-icon-root] {
 
 .dropdown-menu>.header-menu-list:last-child .menu-link::before,
 .dropdown-menu>.header-menu-list:last-child .menu-link::after {
-  content: none;
+  content: none !important;
 }
 
 /* home cover */
