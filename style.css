@@ -217,7 +217,11 @@ input {
   margin: 0px;
 }
 
-.form-inner>div {
+[data-lastpass-icon-root] {
+  display: none;
+}
+
+body div[data-lastpass-icon-root] {
   display: none;
 }
 
