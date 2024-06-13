@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title><?php echo wp_get_document_title(); ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<!-- Generate favicon here http://www.favicon-generator.org/ -->
