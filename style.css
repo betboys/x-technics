@@ -917,6 +917,8 @@ body div[data-lastpass-icon-root] {
   display: none;
 }
 
+
+
 .swiper-button-prev,
 .swiper-button-next {
   position: relative;
@@ -3238,10 +3240,6 @@ body div[data-lastpass-icon-root] {
 
 .service-card .about-card-list:hover .our-service-card-link .about-card-text {
   color: #0071AA;
-}
-
-.about-card-list:last-child .swiper-button-next:hover::before {
-  background: #162535;
 }
 
 .about-card-list:hover .about-card-link {
