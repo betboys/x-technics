@@ -961,26 +961,9 @@ body div[data-lastpass-icon-root] {
   display: none;
 }
 
-.swiper-button-prev:disabled {
-  width: 180px;
-  height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/prev-disabled.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.swiper-button-next.swiper-button-disabled>.next-st {
-  display: none;
-}
-
-.swiper-button-next:disabled {
-  width: 180px;
-  height: 54px;
-  background: url(https://x-technics.com/ysteeshy/2024/05/next-disabled.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.swiper-button-prev:disabled .arrow-path,
+.swiper-button-next:disabled .arrow-path {
+  stroke: #495057;
 }
 
 .swiper-button-prev.swiper-button-disabled svg g path,
@@ -3909,16 +3892,6 @@ body div[data-lastpass-icon-root] {
     width: 122px;
   }
 
-  .card-swiper>.mobile-buttons>.swiper-button-prev:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
-  }
-
-  .card-swiper>.mobile-buttons>.swiper-button-next:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
-  }
-
   .card-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
   .card-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
     display: block;
@@ -4047,12 +4020,16 @@ body div[data-lastpass-icon-root] {
   }
 
   .home-cover-link-web,
-  .oal-link-web {
+  .oal-link-web,
+  .prev-web,
+  .next-web {
     display: none;
   }
 
   .home-cover-link-mob,
-  .oal-link-mob {
+  .oal-link-mob,
+  .prev-mob,
+  .next-mob {
     display: block;
   }
 
@@ -4849,16 +4826,6 @@ body div[data-lastpass-icon-root] {
     display: flex;
   }
 
-  .aog-swiper>.mobile-buttons>.swiper-button-prev:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
-  }
-
-  .aog-swiper>.mobile-buttons>.swiper-button-next:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
-  }
-
   .aog-swiper>.mobile-buttons>.swiper-button-prev>.prev-mobile,
   .aog-swiper>.mobile-buttons>.swiper-button-next>.next-mobile {
     z-index: -1;
@@ -5008,16 +4975,6 @@ body div[data-lastpass-icon-root] {
   .mobile-pagination,
   .mobile-buttons {
     display: flex;
-  }
-
-  .swiper-button-prev:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/prev-dis-mobile.webp);
-  }
-
-  .swiper-button-next:disabled {
-    width: 122px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/next-dis-mobile.webp);
   }
 
   .prev-mobile,
