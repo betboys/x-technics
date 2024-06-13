@@ -102,6 +102,14 @@ $(document).ready(function () {
 $(document).ready(function ($) {
   // Attach a click event handler to the button
   $('.popup-btn').click(function () {
+    $(document).ready(function () {
+      window.setTimeout('fadeout();', 2000);
+    });
+    function fadeout() {
+      $('.preloader').delay(2000).fadeOut('slow', function () {
+        $('.notLoaded').removeClass('notLoaded');
+      });
+    }
     // Your code to execute when the button is clicked
     $("html, body").animate({ scrollTop: "0" }, 0);
     $('.popup-form').css('display', 'none');
