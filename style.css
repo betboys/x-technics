@@ -3166,6 +3166,10 @@ body div[data-lastpass-icon-root] {
     transition: 0s !important;
   }
 
+  .all-cards-btns {
+    display: none !important;
+  }
+
   .menu-link:hover {
     color: #0071AA !important;
   }
@@ -4972,6 +4976,10 @@ body div[data-lastpass-icon-root] {
     width: max-content;
     display: flex;
     gap: 0;
+  }
+
+  .line-btns {
+    display: flex !important;
   }
 
   .this-content-intro {
