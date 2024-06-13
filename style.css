@@ -217,6 +217,10 @@ input {
   margin: 0px;
 }
 
+.form-inner>div {
+  display: none;
+}
+
 /* header */
 .header {
   width: 100%;
