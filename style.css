@@ -2645,7 +2645,6 @@ body div[data-lastpass-icon-root] {
 
 .card-list {
   width: 332px;
-  height: 330px;
   background: #0071AA;
   padding: 32px;
   position: relative;
@@ -3354,7 +3353,7 @@ body div[data-lastpass-icon-root] {
 
 @media (max-width: 1240px) {
   .card-list {
-    height: 390px;
+    height: 550px;
   }
 
   .wheel-slide {
