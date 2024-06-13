@@ -100,25 +100,6 @@ $(document).ready(function () {
   });
 });
 
-
-$("#subBtn").click(function (e) {
-  $('#popup-sbc').css('display', 'flex');
-  $('body').css('overflow', 'hidden');
-});
-$(document).ready(function ($) {
-  $('#popup-sbc-btn').click(function () {
-    $('.preloader').css('display', 'flex');
-    window.setTimeout('fadeout();', 2000);
-    function fadeout() {
-      $('.preloader').delay(2000).fadeOut('slow', function () {
-        $('.notLoaded').removeClass('notLoaded');
-      });
-    }
-    $("html, body").animate({ scrollTop: "0" }, 0);
-    $('.popup-form').css('display', 'none');
-    $('body').css('overflow', 'scroll');
-  });
-});
 $(document).ready(function ($) {
   // Attach a click event handler to the button
   $('.popup-btn').click(function () {

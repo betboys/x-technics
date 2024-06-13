@@ -1,4 +1,30 @@
 var $ = jQuery;
+
+
+$("#subBtn").click(function (e) {
+  console.log("hi")
+  $('#popup-sbc').css('display', 'flex');
+  $('body').css('overflow', 'hidden');
+});
+$(document).ready(function ($) {
+  $('#popup-sbc-btn').click(function () {
+    $('.preloader').css('display', 'flex');
+    window.setTimeout('fadeout();', 2000);
+    function fadeout() {
+      $('.preloader').delay(2000).fadeOut('slow', function () {
+        $('.notLoaded').removeClass('notLoaded');
+      });
+    }
+    $("html, body").animate({ scrollTop: "0" }, 0);
+    $('.popup-form').css('display', 'none');
+    $('body').css('overflow', 'scroll');
+  });
+});
+
+
+
+
+
 // preloader
 $(document).ready(function () {
   window.setTimeout('fadeout();', 3000);
