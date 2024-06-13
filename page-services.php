@@ -36,7 +36,19 @@
                     <p class="about-card-text"> <?php echo esc_html($title); ?></p>
                     <p class="subtitle about-card-text-hidden"><?php echo $card_subtitle; ?></p>
                     <a class="about-card-link" href="<?php echo esc_url($permalink); ?>">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <svg class="hov-svg" xmlns="http://www.w3.org/2000/svg" width="154" height="55" viewBox="0 0 154 55"
+                            fill="none">
+                            <path d="M14.5866 54L1 27V1H139.413L153 27.5V54H14.5866Z" stroke="#0071AA" stroke-width="1.5" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2053_96794" x1="1" y1="27.5" x2="153" y2="27.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0071AA" />
+                                    <stop offset="1" stop-color="#24B6FF" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg class="hov-svg-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
                             <g clip-path="url(#clip0_4019_3743)">
                                 <path
                                     d="M19.1213 18.3936L23.0403 14.4746C23.6767 13.8078 24.0317 12.9214 24.0317 11.9996C24.0317 11.0779 23.6767 10.1915 23.0403 9.52464L19.1213 5.60564C18.84 5.32425 18.4585 5.16611 18.0607 5.16602C17.6628 5.16592 17.2812 5.32388 16.9998 5.60514C16.7184 5.88641 16.5603 6.26793 16.5602 6.66579C16.5601 7.06365 16.718 7.44525 16.9993 7.72664L19.7793 10.5076L1.5293 10.5306C1.13147 10.5306 0.749941 10.6887 0.468637 10.97C0.187332 11.2513 0.0292969 11.6328 0.0292969 12.0306C0.0292969 12.4285 0.187332 12.81 0.468637 13.0913C0.749941 13.3726 1.13147 13.5306 1.5293 13.5306L19.7603 13.5076L16.9993 16.2726C16.7261 16.5556 16.5749 16.9345 16.5783 17.3278C16.5817 17.721 16.7395 18.0973 17.0176 18.3754C17.2957 18.6535 17.6719 18.8112 18.0652 18.8147C18.4585 18.8181 18.8374 18.6669 19.1203 18.3936H19.1213Z"

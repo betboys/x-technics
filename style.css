@@ -917,7 +917,9 @@ body div[data-lastpass-icon-root] {
   display: none;
 }
 
-
+.ab-arrow {
+  position: absolute;
+}
 
 .swiper-button-prev,
 .swiper-button-next {
