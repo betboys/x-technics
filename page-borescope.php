@@ -91,7 +91,7 @@
 					</defs>
 				</svg>
 				<svg class="next-mob" xmlns="http://www.w3.org/2000/svg" width="124" height="56" viewBox="0 0 124 56" fill="none">
-					<path class="arrow-path" d="M92.5 1L123 37.5V55H31.5L1 18.5V0.999996L92.5 1Z" stroke="url(#paint0_linear_2038_96793)"
+					<path class="arrow-path" d="M92.5 1L123 37.5V55H31.5L1 18.5V0.999996L92.5 1Z" stroke="#0071AA"
 						stroke-width="1.5" />
 					<defs>
 						<linearGradient id="paint0_linear_2038_96793" x1="123" y1="28" x2="21" y2="28"
