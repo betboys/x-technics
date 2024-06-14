@@ -393,14 +393,14 @@ if (document.querySelector('.aircraft-ndt')) {
     swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
   }
 
-  if (window.innerWidth <= 400) {
-    let aodSlide = document.querySelectorAll(".detailing-slides");
-    let windowWidth = window.innerWidth;
-    let newSlideWidth = windowWidth - 30;
-    for (let i = 0; i < aodSlide.length; i++) {
-      aodSlide[i].setAttribute("style", `width: ${newSlideWidth}px`);
-    }
-  }
+  // if (window.innerWidth <= 400) {
+  //   let aodSlide = document.querySelectorAll(".detailing-slides");
+  //   let windowWidth = window.innerWidth;
+  //   let newSlideWidth = windowWidth - 30;
+  //   for (let i = 0; i < aodSlide.length; i++) {
+  //     aodSlide[i].setAttribute("style", `width: ${newSlideWidth}px`);
+  //   }
+  // }
 }
 
 // Service single page` aircraft wheel
