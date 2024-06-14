@@ -3195,6 +3195,10 @@ body div[data-lastpass-icon-root] {
   color: #0071AA;
 }
 
+.all-cards-btns {
+  padding-right: var(--paddingLeftAndRight);
+}
+
 @media (max-width: 990px) {
   .menu-link:hover {
     transition: 0s !important;
