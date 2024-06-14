@@ -5387,7 +5387,15 @@ body div[data-lastpass-icon-root] {
 }
 
 @media (max-width: 428px) {
-  .aod-offer-list {
+
+  .this-content-intro:last-child,
+  .card-list:last-child,
+  .detailing-slides:last-child {
+    margin-right: 0;
+  }
+
+  .aod-offer-list,
+  .detailing-slides {
     width: calc(395px + 58 * (100vw - 428px) / 60);
   }
 }
