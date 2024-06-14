@@ -4659,13 +4659,7 @@ body div[data-lastpass-icon-root] {
   }
 
   .explore-more::before {
-    content: '';
-    width: 260px;
-    height: 60px;
-    background: url(https://x-technics.com/ysteeshy/2024/05/Button.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    content: url(images/Vector\ 6.svg);
     position: absolute;
     top: -15px;
   }
