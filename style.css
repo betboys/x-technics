@@ -3281,7 +3281,7 @@ body div[data-lastpass-icon-root] {
   color: #0071AA;
 }
 
-.download-icon-inner:hover .download-icon {
+.download-icon-inner:hover svg>path {
   fill: #0071AA;
 }
 
