@@ -5386,6 +5386,12 @@ body div[data-lastpass-icon-root] {
   }
 }
 
+@media (max-width: 428px) {
+  .aod-offer-list {
+    width: calc(395px + 58 * (100vw - 428px) / 60);
+  }
+}
+
 /* data aos */
 [data-aos][data-aos][data-aos-duration="50"],
 body[data-aos-duration="50"] [data-aos] {
