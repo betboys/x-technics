@@ -1075,8 +1075,9 @@ body div[data-lastpass-icon-root] {
 .swiper-button-next {
   width: 180px;
   height: 54px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   transition: .8s;
 }
