@@ -4881,6 +4881,10 @@ body div[data-lastpass-icon-root] {
     margin-right: 20px;
   }
 
+  .aod-offer-list:last-child {
+    margin-right: 0;
+  }
+
   .aod-offer-flex {
     gap: 0;
   }
