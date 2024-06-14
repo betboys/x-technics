@@ -156,7 +156,7 @@
 
     </ul>
 </section>
-<section class="ndt-oae" data-aos="fade-up">
+<!-- <section class="ndt-oae" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?>
     </h3>
     <div class="our-aircraft-flex-container">
@@ -177,7 +177,7 @@
 
         </ul>
     </div>
-</section>
+</section> -->
 <section class="swiper-slide-inner ndt-slide width-center swiper-slide-inner-effect" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle">Explore Other Services</h3>
     <div class="swiper-container swiper-after single-ndt">

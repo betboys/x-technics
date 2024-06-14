@@ -126,7 +126,7 @@
         </li>
     </ul>
 </section>
-<section class="borescope-oae" data-aos="fade-up">
+<!-- <section class="borescope-oae" data-aos="fade-up">
     <h3 class="title title-before-after-effect color-style title-center"><?= the_field('ex_heading_copy'); ?>
     </h3>
     <div class="our-aircraft-flex-container width-max">
@@ -146,7 +146,7 @@
             endif; ?>
         </ul>
     </div>
-</section>
+</section> -->
 <section class="download-pdf borescope-pdf" data-aos="fade-up">
     <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
     <ul class="download-pdf-container">
