@@ -2565,6 +2565,11 @@ body div[data-lastpass-icon-root] {
   margin-top: 0;
 }
 
+.aod-offer-flex {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 .offer-flex {
   margin-inline: auto;
   margin-top: 24px;
@@ -2667,7 +2672,7 @@ body div[data-lastpass-icon-root] {
   position: absolute;
   right: calc(-30% + 44 * (100vw - 1920px) / 60);
   top: 34%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .battery-title-subtitle-inner {
@@ -2805,7 +2810,7 @@ body div[data-lastpass-icon-root] {
   position: absolute;
   right: calc(-24% + 40 * (100vw - 1920px) / 60);
   top: 9%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .whell-linear-2 {
@@ -3202,6 +3207,11 @@ body div[data-lastpass-icon-root] {
 @media (max-width: 990px) {
   .menu-link:hover {
     transition: 0s !important;
+  }
+
+  .wheel-pagination,
+  .wheel-btns {
+    display: flex !important;
   }
 
   .bat-btns {
@@ -4065,7 +4075,8 @@ body div[data-lastpass-icon-root] {
 @media (max-width: 860px) {
   .our-aircraft-flex-inner {
     width: 100%;
-    max-width: 358px;
+    max-width: 100%;
+    flex-wrap: wrap;
     gap: 20px;
     margin-inline: auto;
   }
@@ -4889,6 +4900,7 @@ body div[data-lastpass-icon-root] {
   }
 
   .aod-offer-flex {
+    width: max-content;
     gap: 0;
   }
 
