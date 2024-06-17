@@ -91,7 +91,6 @@ if (window.innerWidth <= 990) {
     openMenu.style.display = 'block';
   })
 }
-
 if (document.querySelector('.home-cover') || document.querySelector('.about-cover') || document.querySelector('.service-cover') || document.querySelector('.certificate-cover') || document.querySelector('.aircraft-line') || document.querySelector('.aircraft-battery') || document.querySelector('.detailing-cover') || document.querySelector('.aircraft-ndt') || document.querySelector('.wheel-cover') || document.querySelector('.aircraft-maintenance') || document.querySelector('.aircraft-borescope') || document.querySelector(".contact-us-mobile")) {
   /* data aos */
   AOS.init({
@@ -161,7 +160,6 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
     footerInner.append(subscribe, footerForm)
   }
 }
-
 // Home page
 if (document.querySelector('.home-cover')) {
   // swipet slide
@@ -426,7 +424,7 @@ if (document.querySelector('.aircraft-maintenance')) {
 if (document.querySelector('.aircraft-borescope')) {
   // swipet slide
   if (window.innerWidth > 990) {
-    const swiper2 = new Swiper('.Swiper', {
+    const swiper = new Swiper('.Swiper', {
       slidesPerView: 'auto',
       speed: 1000,
       navigation: {
