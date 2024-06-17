@@ -4072,6 +4072,12 @@ body div[data-lastpass-icon-root] {
   }
 }
 
+.borescope-slide,
+.slide-weel,
+.aog-inner {
+  display: none;
+}
+
 @media (max-width: 860px) {
   .our-aircraft-flex-inner {
     width: 100%;

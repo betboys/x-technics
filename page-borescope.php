@@ -13,7 +13,7 @@
         <img class="hero-photo-style" src="<?= the_field('image'); ?>" alt="">
     </div>
 </section>
-<section class="swiper-slide-inner" data-aos="fade-up">
+<section class="swiper-slide-inner borescope-slide" data-aos="fade-up">
     <h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('c_heading'); ?></h3>
     <p class="subtitle our-aircraft-subtitle borescope-at"><?= the_field('c_desc'); ?></p>
     <div class="swiper-container">
