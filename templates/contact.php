@@ -1,5 +1,5 @@
 <div id="contact-us"></div>
-<section class="contact-us">
+<section class="contact-us" data-aos="fade-up">
 	<h3 class="title title-before-after-effect contact-title"><?= the_field('contact_section_title', 'option'); ?></h3>
 	<div class="contact-us-container">
 		<div class="contact-us-socal-mekia-links">
