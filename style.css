@@ -4352,6 +4352,7 @@ body div[data-lastpass-icon-root] {
     top: 35%;
     width: 746.5px;
     height: 717.828px;
+    z-index: -1;
   }
 
   .ndt-linear-3 {
