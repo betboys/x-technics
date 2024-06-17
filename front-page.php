@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<img class="home-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
-<img class="home-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt="">
+<!-- <img class="home-linear-1" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt=""> -->
+<!-- <img class="home-linear-2" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt=""> -->
 <!-- <img class="home-linear-3" src="https://x-technics.com/ysteeshy/2024/05/linear.webp" alt=""> -->
 <section class="home-cover">
 	<div class="home-hero-img hero-photo">
@@ -43,7 +43,7 @@
 		<?php endif; ?>
 	</div>
 </section>
-<section class="home-our-services-container" data-aos="fade-up">
+<section class="home-our-services-container">
 	<h3 class="title title-before-after-effect home-our-serive-title"><?= the_field('heading'); ?></h3>
 	<ul class="services-content-flex">
 		<?php
@@ -209,7 +209,7 @@
 		endif; ?>
 	</ul>
 </section>
-<section class="home-our-aircraft-engineers" data-aos="fade-up">
+<section class="home-our-aircraft-engineers">
 	<div class="home-our-aircraft-engineers-inner">
 		<h3 class="title title-before-after-effect color-style title-center"><?= the_field('license_heading'); ?></h3>
 		<p class="subtitle our-aircraft-subtitle home-oael"><?= the_field('license_description'); ?></p>
@@ -277,7 +277,7 @@
 		</div>
 	</div>
 </section>
-<section class="swiper-slide-inner swiper-slide-inner-home" data-aos="fade-up">
+<section class="swiper-slide-inner swiper-slide-inner-home">
 	<h3 class="title title-before-after-effect slide-title-sytle"><?= the_field('slider_title'); ?></h3>
 	<div class="swiper-container">
 		<div class="swiper">
@@ -380,7 +380,7 @@
 		</div>
 	</div>
 </section>
-<section class="value-trust" data-aos="fade-up">
+<section class="value-trust">
 	<div class="value-trust-text-cont">
 		<p class="title title-before-after-effect none-effect"><?= the_field('text_heading'); ?></p>
 		<p class="subtitle value-trust-subtitle-top home-wvtap"><?= the_field('text_content'); ?></p>
