@@ -381,7 +381,7 @@
 	</div>
 </section>
 <section class="download-pdf borescope-pdf" data-aos="fade-up">
-    <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading'); ?></p>
+    <p class="title title-before-after-effect none-effect text-left"><?= the_field('text_heading_cert'); ?></p>
     <ul class="download-pdf-container">
         <?php
         if (have_rows('certs')):
