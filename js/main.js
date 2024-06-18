@@ -455,24 +455,24 @@ if (document.querySelector('.aircraft-maintenance')) {
 // Service single page` aircraft borescope
 if (document.querySelector('.aircraft-borescope')) {
   // swipet slide
-  let swipers = document.querySelectorAll('.swiper')
-  const swiper = new Swiper(swipers[0], {
-    slidesPerView: 'auto',
-    speed: 1000,
-    centeredSlides: true,
-    loop: true,
-    spaceBetween: 50,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  });
+  // let swipers = document.querySelectorAll('.swiper')
+  // const swiper = new Swiper(swipers[0], {
+  //   slidesPerView: 'auto',
+  //   speed: 1000,
+  //   centeredSlides: true,
+  //   loop: true,
+  //   spaceBetween: 50,
+  //   navigation: {
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     clickable: true,
+  //   },
+  // });
   if (window.innerWidth > 990) {
-    const swiper2 = new Swiper(swipers[1], {
+    const swiper = new Swiper(".swiper", {
       slidesPerView: 'auto',
       speed: 1000,
       navigation: {
@@ -483,9 +483,9 @@ if (document.querySelector('.aircraft-borescope')) {
   }
   if (window.innerWidth > 990) {
     let headerContainer = document.querySelector('.header-container');
-    let swiperContainer = document.querySelectorAll('.swiper-container');
+    let swiperContainer = document.querySelector('.swiper-container');
     let marginLeft = window.getComputedStyle(headerContainer).getPropertyValue('padding-left');
-    swiperContainer[1].setAttribute('style', `margin-left: ${marginLeft}`);
+    swiperContainer.setAttribute('style', `margin-left: ${marginLeft}`);
   }
 }
 $(document).on('click', 'a[href^="#"]', function (event) {
