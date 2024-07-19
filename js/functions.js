@@ -42,10 +42,10 @@ $(document).ready(function () {
     var email = $('input[type="email"]').val();
     var phoneNumber = $('input[type="number"]').val();
     var message = $("textarea").val();
-    if (!fullName || !email || !phoneNumber || !message) {
-      alert("Please fill out all required fields.");
-      return;
-    }
+    // if (!fullName || !email || !phoneNumber || !message) {
+    //   alert("Please fill out all required fields.");
+    //   return;
+    // }
 
     // Extract dial code from phone input field
     var dialCode = $(".iti__selected-dial-code").text().trim();
