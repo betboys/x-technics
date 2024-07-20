@@ -1221,7 +1221,9 @@ select {
 .error-message {
   color: red;
   font-style: italic;
-  margin-bottom: 1em;
+  position: absolute;
+  left: 0;
+  top: 100%;
 }
 
 
@@ -1381,6 +1383,7 @@ select {
   flex-wrap: wrap;
   column-gap: 8px;
   row-gap: 6px;
+  position: relative; 
 }
 
 .checkbox {
@@ -1458,8 +1461,9 @@ select {
   align-items: end;
 }
 
-.email-phone-inner>div {
+.input-div {
   width: 100%;
+  position: relative;
 }
 
 .iti {
@@ -1539,6 +1543,7 @@ select {
   font-weight: normal;
   color: #E9ECEF;
   background: none;
+  position: relative;
 }
 
 .textarea::placeholder {

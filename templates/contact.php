@@ -156,11 +156,11 @@
 						<span class="label-span">NDT (non-destructive-testing)</span>
 					</label>
 				</ul>
-				<div>
+				<div class="input-div">
 					<input class="input" type="text" name="fullName" id="text" placeholder="Full Name" required>
 				</div>
 				<div class="email-phone-inner">
-					<div>
+					<div class="input-div">
 						<input class="input" type="email" id="email" placeholder="Email Address"
 							placeholder="Email Address"
 							title="The domain portion of the email address is invalid (the portion after the @)."
