@@ -1403,42 +1403,30 @@ select {
   font-weight: normal;
   line-height: 150%;
   color: #FFF;
-  /* padding: 10px 12px; */
+  padding: 10px 12px;
   cursor: pointer;
   user-select: none;
   display: inline-block;
   backface-visibility: hidden;
   transition: .8s;
-  /* position: relative; */
+  position: relative;
 }
 
-/* .label::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid #24B6FF;
-} */
-
-
-.label-span {
-  padding: 14px 21.3px;
-}
-
-.label-span::before {
+.label::before {
   content: '';
   position: absolute;
   inset: 0;
   border: 1px solid #24B6FF;
 }
 
-.checkbox:checked+.label-span {
-  /* backface-visibility: hidden; */
+.checkbox:checked+.label {
+  backface-visibility: hidden;
   background: #080f18;
   color: #24B6FF;
   background: linear-gradient(90deg, rgba(0, 113, 170, 0.24) 0%, rgba(0, 113, 170, 0.30) 100%);
 }
 
-.checkbox:checked+.label-span::before {
+.checkbox:checked+.label::before {
   border: 2px solid #0071AA;
 }
 
