@@ -111,7 +111,7 @@
 		</div>
 		<div class="form-inner">
 			<p class="form-title">I’m interested in . . .</p>
-			<form class="form" method="POST" action="">
+			<form class="form validate" method="POST" action="">
 				<div class="container-select">
 					<div class="select-dropdown">
 						<div class="select-dropdown__button">
