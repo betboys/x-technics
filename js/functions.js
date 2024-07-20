@@ -67,37 +67,37 @@ $(document).ready(function () {
     };
 
     // Send form data via AJAX
-    $.ajax({
-      url: wp_var.ajax_url,
-      type: "post",
-      data: formData,
-      success: function (response) {
-        if (response === "success") {
-          // Handle success response
-          // $(".contact-us-container .form-inner").html(
-          //   "<p class='form-title'>Email sent successfully</p>"
-          // );
-          $('#popup-form').css('display', 'flex');
-          $('body').css('overflow', 'hidden');
-        }
-        //  else {
-        //   // Handle error response
-        //   // $(".contact-us-container .form-inner").html(
-        //   //   '<p class="form-title">Error: Failed to send email</p>'
-        //   // );
-        //   $('#popup-form').css('display', 'flex');
-        //   $('body').css('overflow', 'hidden');
-        // }
-      },
-    //   error: function (xhr, status, error) {
-    //     // Handle AJAX error
-    //     // $(".contact-us-container .form-inner").html(
-    //     //   '<p class="form-title">Error: ' + error + "</p>"
-    //     // );
-    //     $('body').css('overflow', 'hidden');
-    //     $('#popup-form-error').css('display', 'flex');
+    // $.ajax({
+    //   url: wp_var.ajax_url,
+    //   type: "post",
+    //   data: formData,
+    //   success: function (response) {
+    //     if (response === "success") {
+    //       // Handle success response
+    //       // $(".contact-us-container .form-inner").html(
+    //       //   "<p class='form-title'>Email sent successfully</p>"
+    //       // );
+    //       $('#popup-form').css('display', 'flex');
+    //       $('body').css('overflow', 'hidden');
+    //     }
+    //     //  else {
+    //     //   // Handle error response
+    //     //   // $(".contact-us-container .form-inner").html(
+    //     //   //   '<p class="form-title">Error: Failed to send email</p>'
+    //     //   // );
+    //     //   $('#popup-form').css('display', 'flex');
+    //     //   $('body').css('overflow', 'hidden');
+    //     // }
     //   },
-    });
+    // //   error: function (xhr, status, error) {
+    // //     // Handle AJAX error
+    // //     // $(".contact-us-container .form-inner").html(
+    // //     //   '<p class="form-title">Error: ' + error + "</p>"
+    // //     // );
+    // //     $('body').css('overflow', 'hidden');
+    // //     $('#popup-form-error').css('display', 'flex');
+    // //   },
+    // });
   });
 });
 
