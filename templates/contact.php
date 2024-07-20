@@ -149,7 +149,7 @@
 						<input class="input form-control" type="number" id="number" placeholder="Phone Number" required>
 					</div>
 				</div>
-				<div class="input-div">
+				<div class="input-div-textarea">
 					<textarea class="textarea" id="textarea" placeholder="Message" rows="5.5" oninput="this.parentNode.dataset.replicatedValue = this.value" onblur="this.parentNode.dataset.replicatedValue = null" onclick="this.parentNode.dataset.replicatedValue = this.value" required></textarea>
 				</div>
 				<button>

@@ -1445,7 +1445,6 @@ select {
   line-height: 125%;
   color: #fff;
   padding: 10px 0;
-  border-bottom: 1px solid #495057;
 }
 
 .input::placeholder {
@@ -1464,6 +1463,7 @@ select {
 .input-div {
   width: 100%;
   position: relative;
+  border-bottom: 1px solid #495057;
 }
 
 .iti {
@@ -1533,6 +1533,7 @@ select {
 }
 
 .textarea {
+  width: 100%;
   resize: none;
   overflow: hidden;
   outline: none;
@@ -1543,6 +1544,11 @@ select {
   font-weight: normal;
   color: #E9ECEF;
   background: none;
+  position: relative;
+}
+
+.input-div-textarea {
+  width: 100%;
   position: relative;
 }
 
