@@ -96,66 +96,66 @@
 		</div>
 		<div class="form-inner">
 			<p class="form-title">I’m interested in . . .</p>
-			<form class="form validate" method="POST" action="">
+			<form class="form" method="POST" action="">
 				<div class="container-select">
 					<div class="select-dropdown">
 						<div class="select-dropdown__button">
 							<span class="select-text">Select the Service</span>
-							<svg class="select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-								<path d="M18.7098 8.20986C18.6169 8.11613 18.5063 8.04174 18.3844 7.99097C18.2625 7.9402 18.1318 7.91406 17.9998 7.91406C17.8678 7.91406 17.7371 7.9402 17.6152 7.99097C17.4934 8.04174 17.3828 8.11613 17.2898 8.20986L12.7098 12.7899C12.6169 12.8836 12.5063 12.958 12.3844 13.0087C12.2625 13.0595 12.1318 13.0856 11.9998 13.0856C11.8678 13.0856 11.7371 13.0595 11.6152 13.0087C11.4934 12.958 11.3828 12.8836 11.2898 12.7899L6.70982 8.20986C6.61685 8.11613 6.50625 8.04174 6.38439 7.99097C6.26253 7.9402 6.13183 7.91406 5.99982 7.91406C5.8678 7.91406 5.7371 7.9402 5.61524 7.99097C5.49338 8.04174 5.38278 8.11613 5.28982 8.20986C5.10356 8.39722 4.99902 8.65067 4.99902 8.91486C4.99902 9.17904 5.10356 9.4325 5.28982 9.61986L9.87982 14.2098C10.4423 14.7716 11.2048 15.0872 11.9998 15.0872C12.7948 15.0872 13.5573 14.7716 14.1198 14.2098L18.7098 9.61986C18.8961 9.4325 19.0006 9.17904 19.0006 8.91486C19.0006 8.65067 18.8961 8.39722 18.7098 8.20986Z" fill="#ADB5BD" />
+							<svg class="select-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+								viewBox="0 0 24 24" fill="none">
+								<path
+									d="M18.7098 8.20986C18.6169 8.11613 18.5063 8.04174 18.3844 7.99097C18.2625 7.9402 18.1318 7.91406 17.9998 7.91406C17.8678 7.91406 17.7371 7.9402 17.6152 7.99097C17.4934 8.04174 17.3828 8.11613 17.2898 8.20986L12.7098 12.7899C12.6169 12.8836 12.5063 12.958 12.3844 13.0087C12.2625 13.0595 12.1318 13.0856 11.9998 13.0856C11.8678 13.0856 11.7371 13.0595 11.6152 13.0087C11.4934 12.958 11.3828 12.8836 11.2898 12.7899L6.70982 8.20986C6.61685 8.11613 6.50625 8.04174 6.38439 7.99097C6.26253 7.9402 6.13183 7.91406 5.99982 7.91406C5.8678 7.91406 5.7371 7.9402 5.61524 7.99097C5.49338 8.04174 5.38278 8.11613 5.28982 8.20986C5.10356 8.39722 4.99902 8.65067 4.99902 8.91486C4.99902 9.17904 5.10356 9.4325 5.28982 9.61986L9.87982 14.2098C10.4423 14.7716 11.2048 15.0872 11.9998 15.0872C12.7948 15.0872 13.5573 14.7716 14.1198 14.2098L18.7098 9.61986C18.8961 9.4325 19.0006 9.17904 19.0006 8.91486C19.0006 8.65067 18.8961 8.39722 18.7098 8.20986Z"
+									fill="#ADB5BD" />
 							</svg>
 						</div>
 						<ul class="select-dropdown__list"></ul>
 					</div>
 				</div>
 				<ul class="form-category-intro">
-					<label class="label">
-						<input class="checkbox" id="radio-1" type="radio" name="radio" required />
-						<span class="label-span">Line Maintenance</span>
-					</label>
-					<label class="label">
-						<input class="checkbox" id="radio-2" type="radio" name="radio" required />
-						<span class="label-span">AOG Maintenance Support</span>
-					</label>
-					<label class="label">A
-						<input class="checkbox" id="radio-3" type="radio" name="radio" required />
-						<span class="label-span">ircraft Battery Service</span>
-					</label>
-					<label class="label">
-						<input class="checkbox" id="radio-4" type="radio" name="radio" required />
-						<span class="label-span">Aircraft Wheels Service</span>
-					</label>
-					<label class="label">
-						<input class="checkbox" id="radio-5" type="radio" name="radio" required />
-						<span class="label-span">Aircraft Detailing/Wash</span>
-					</label>
-					<label class="label">
-						<input class="checkbox" id="radio-6" type="radio" name="radio" required />
-						<span class="label-span">Engine Borescope Inspection</span>
-					</label>
-					<label class="label">
-						<input class="checkbox" id="radio-7" type="radio" name="radio" required />
-						<span class="label-span">NDT (non-destructive-testing)</span>
-					</label>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="1" type="radio" name="radio-group" />
+						<label class="label" for="1">Line Maintenance</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="2" type="radio" name="radio-group" />
+						<label class="label" for="2">AOG Maintenance Support</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="3" type="radio" name="radio-group" />
+						<label class="label" for="3">Aircraft Battery Service</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="4" type="radio" name="radio-group" />
+						<label class="label" for="4">Aircraft Wheels Service</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="5" type="radio" name="radio-group" />
+						<label class="label" for="5">Aircraft Detailing/Wash</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="6" type="radio" name="radio-group" />
+						<label class="label" for="6">Engine Borescope Inspection</label>
+					</div>
+					<div class="checkbox-inner">
+						<input class="checkbox" id="7" type="radio" name="radio-group" />
+						<label class="label" for="7">NDT (non-destructive-testing)</label>
+					</div>
 				</ul>
-				<div class="input-div">
-					<input class="input" type="text" name="fullName" id="text" placeholder="Full Name" required>
-				</div>
+
+				<input class="input" type="text" name="fullName" id="" placeholder="Full Name" required>
 				<div class="email-phone-inner">
-					<div class="input-div">
-						<input class="input" type="email" id="email" placeholder="Email Address" placeholder="Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
-					</div>
+					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
 					<div class="phone-input">
-						<input class="input form-control" type="number" id="number" placeholder="Phone Number" required>
+						<input class="input" type="number" id="mobile_code" class="form-control"
+							placeholder="Phone Number" name="" required>
+						<!-- <span class="phone-text">Phone Number</span> -->
 					</div>
 				</div>
-				<div class="input-div-textarea">
-					<textarea class="textarea" id="textarea" placeholder="Message" rows="5.5" oninput="this.parentNode.dataset.replicatedValue = this.value" onblur="this.parentNode.dataset.replicatedValue = null" onclick="this.parentNode.dataset.replicatedValue = this.value" required></textarea>
-				</div>
-				<button>
-					<input type="submit" class="button mail-send our-aircraft-link send-btn send-btn-form-cust cont-btn" value="Submit">
-				</button>
-				<!-- <button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
+				<textarea class="textarea" placeholder="Message" rows="5.5"
+					oninput="this.parentNode.dataset.replicatedValue = this.value"
+					onblur="this.parentNode.dataset.replicatedValue = null"
+					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
+				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
 					<svg class="send-btn-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="53"
 						viewBox="0 0 200 53" fill="none">
 						<path d="M13.1915 53L0 26V0H185.957L200 26.5V53H13.1915Z"
@@ -169,7 +169,7 @@
 						</defs>
 					</svg>
 					<span class="menu-link index cont-btn-span">SEND A QUOTE</span>
-				</button> -->
+				</button>
 			</form>
 		</div>
 	</div>
