@@ -1458,6 +1458,10 @@ select {
   align-items: end;
 }
 
+.email-phone-inner>div {
+  width: 100%;
+}
+
 .iti {
   width: 100%;
   display: flex !important;
