@@ -247,10 +247,9 @@ body div[data-lastpass-icon-root] {
   top: 0;
   z-index: 100;
   padding: 23px 0;
-  background: red;
-  /* background: rgba(1, 1, 2, 0.60);
+  background: rgba(1, 1, 2, 0.60);
   -webkit-backdrop-filter: blur(21.75px);
-  backdrop-filter: blur(21.75px); */
+  backdrop-filter: blur(21.75px);
 }
 
 .header-container {
@@ -1155,6 +1154,82 @@ body div[data-lastpass-icon-root] {
 }
 
 /* contact us */
+.label-normal {
+  font-weight: normal;
+}
+
+.description-date {
+  color: #808080;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.supports-date .description-date {
+  display: none;
+}
+
+input,
+select {
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: 0.25em 0.5em;
+  width: 100%;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  margin-bottom: 0.5em;
+  width: auto;
+}
+
+.button {
+  background-color: #0088cc;
+  border: 1px solid #0088cc;
+  border-radius: 1px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 0.9375em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-right: 0.3125em;
+  margin-bottom: 0.3125em;
+  padding: 0.5em 0.6875em;
+  width: auto;
+}
+
+.button:active,
+.button:focus,
+.button:hover {
+  background-color: #005580;
+  border-color: #005580;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
+}
+
+/**
+ * Errors
+ */
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+
+
+
+
+
+
 .contact-us {
   width: 100%;
   max-width: var(--width);

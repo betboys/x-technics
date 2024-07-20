@@ -127,50 +127,58 @@
 					</div>
 				</div>
 				<ul class="form-category-intro">
-					<div class="checkbox-inner">
-						<input class="checkbox" id="1" type="radio" name="radio-group" />
-						<label class="label" for="1">Line Maintenance</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="2" type="radio" name="radio-group" />
-						<label class="label" for="2">AOG Maintenance Support</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="3" type="radio" name="radio-group" />
-						<label class="label" for="3">Aircraft Battery Service</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="4" type="radio" name="radio-group" />
-						<label class="label" for="4">Aircraft Wheels Service</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="5" type="radio" name="radio-group" />
-						<label class="label" for="5">Aircraft Detailing/Wash</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="6" type="radio" name="radio-group" />
-						<label class="label" for="6">Engine Borescope Inspection</label>
-					</div>
-					<div class="checkbox-inner">
-						<input class="checkbox" id="7" type="radio" name="radio-group" />
-						<label class="label" for="7">NDT (non-destructive-testing)</label>
-					</div>
+					<label class="label">
+						<input class="checkbox" id="radio-1" type="radio" name="radio" required />
+						<span class="label-span">Line Maintenance</span>
+					</label>
+					<label class="label">
+						<input class="checkbox" id="radio-2" type="radio" name="radio" required />
+						<span class="label-span">AOG Maintenance Support</span>
+					</label>
+					<label class="label">A
+						<input class="checkbox" id="radio-3" type="radio" name="radio" required />
+						<span class="label-span">ircraft Battery Service</span>
+					</label>
+					<label class="label">
+						<input class="checkbox" id="radio-4" type="radio" name="radio" required />
+						<span class="label-span">Aircraft Wheels Service</span>
+					</label>
+					<label class="label">
+						<input class="checkbox" id="radio-5" type="radio" name="radio" required />
+						<span class="label-span">Aircraft Detailing/Wash</span>
+					</label>
+					<label class="label">
+						<input class="checkbox" id="radio-6" type="radio" name="radio" required />
+						<span class="label-span">Engine Borescope Inspection</span>
+					</label>
+					<label class="label">
+						<input class="checkbox" id="radio-7" type="radio" name="radio" required />
+						<span class="label-span">NDT (non-destructive-testing)</span>
+					</label>
 				</ul>
-
-				<input class="input" type="text" name="fullName" id="" placeholder="Full Name" required>
+				<div>
+					<input class="input" type="text" name="fullName" id="text" placeholder="Full Name" required>
+				</div>
 				<div class="email-phone-inner">
-					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
+					<div>
+						<input class="input" type="email" id="email" placeholder="Email Address"
+							placeholder="Email Address"
+							title="The domain portion of the email address is invalid (the portion after the @)."
+							pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
+							required>
+					</div>
 					<div class="phone-input">
-						<input class="input" type="number" id="mobile_code" class="form-control"
-							placeholder="Phone Number" name="" required>
-						<!-- <span class="phone-text">Phone Number</span> -->
+						<input class="input form-control" type="number" id="number" placeholder="Phone Number" required>
 					</div>
 				</div>
-				<textarea class="textarea" placeholder="Message" rows="5.5"
+				<textarea class="textarea" id="textarea" placeholder="Message" rows="5.5"
 					oninput="this.parentNode.dataset.replicatedValue = this.value"
 					onblur="this.parentNode.dataset.replicatedValue = null"
-					onclick="this.parentNode.dataset.replicatedValue = this.value"></textarea>
-				<button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
+					onclick="this.parentNode.dataset.replicatedValue = this.value" required></textarea>
+				<button>
+					<input type="submit" class="button mail-send our-aircraft-link send-btn send-btn-form-cust cont-btn" value="Submit">
+				</button>
+				<!-- <button class="our-aircraft-link send-btn send-btn-form-cust cont-btn">
 					<svg class="send-btn-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="53"
 						viewBox="0 0 200 53" fill="none">
 						<path d="M13.1915 53L0 26V0H185.957L200 26.5V53H13.1915Z"
@@ -184,7 +192,7 @@
 						</defs>
 					</svg>
 					<span class="menu-link index cont-btn-span">SEND A QUOTE</span>
-				</button>
+				</button> -->
 			</form>
 		</div>
 	</div>
