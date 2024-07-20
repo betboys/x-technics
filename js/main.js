@@ -101,7 +101,7 @@ if (document.querySelector('.home-cover') || document.querySelector('.about-cove
   });
 
   // -----Country Code Selection
-  $(".form-control").intlTelInput({
+  $("#mobile_code").intlTelInput({
     initialCountry: "am",
     separateDialCode: true,
   });
