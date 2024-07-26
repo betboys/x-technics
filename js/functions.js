@@ -11,32 +11,32 @@ $(document).ready(function () {
     var message = $("textarea").val();
     if(!fullName) {
       $('input[name="fullName"]').addClass("error");
-       return;
+    
     } else {
         $('input[name="fullName"]').removeClass("error");
     }
       if(!email) {
       $('input[type="email"]').addClass("error");
-       return;
+    
     } else {
         $('input[type="email"]').removeClass("error");
     }
        if(!phoneNumber) {
       $('input[type="number"]').addClass("error");
-       return;
+     
     } else {
         $('input[type="number"]').removeClass("error");
     }
      if(!message) {
       $("textarea").addClass("error");
-       return;
+
     } else {
        $("textarea").removeClass("error");
     }
-    // if (!fullName || !email || !phoneNumber || !message) {
-    //   alert("Please fill out all required fields.");
-    //   return;
-    // }
+    if (!fullName || !email || !phoneNumber || !message) {
+ 
+       return;
+     }
 
     // Extract dial code from phone input field
     var dialCode = $(".iti__selected-dial-code").text().trim();
