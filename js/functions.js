@@ -125,9 +125,6 @@ $(document).ready(function ($) {
 $(document).ready(function ($) {
   // Attach a click event handler to the button
   $('.popup-btn-error').click(function () {
-    // Your code to execute when the button is clicked
-    // $("html, body").animate({ scrollTop: "0" }, 0);
-    window.location.reload();
 
     $('.popup-form-error').css('display', 'none');
     // $('body').css('overflow', 'scroll');
