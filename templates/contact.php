@@ -142,9 +142,9 @@
 					</div>
 				</ul>
 
-				<input class="input" type="text" name="fullName" id="" placeholder="Full Name" required>
+				<input class="input" type="text" name="fullName" id="" placeholder="Full Name" required  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Full Name is invalid" aria-invalid="false">
 				<div class="email-phone-inner">
-					<input class="input" type="email" name="" id="" placeholder="Email Address" required>
+					<input class="input" type="email" name="" id="" placeholder="Email Address" required  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Email is invalid" aria-invalid="false">
 					<div class="phone-input">
 						<input class="input" type="number" id="mobile_code" class="form-control"
 							placeholder="Phone Number" name="" required>
