@@ -23,9 +23,11 @@ $(document).ready(function () {
     }
        if(!phoneNumber) {
       $('input[type="number"]').addClass("error");
+          $('.phone-input').addClass("error");
      
     } else {
         $('input[type="number"]').removeClass("error");
+         $('.phone-input').removeClass("error");
     }
      if(!message) {
       $("textarea").addClass("error");
