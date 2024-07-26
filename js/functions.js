@@ -21,6 +21,18 @@ $(document).ready(function () {
     } else {
         $('input[type="email"]').removeClass("error");
     }
+       if(!phoneNumber) {
+      $('input[type="number"]').addClass("error");
+       return;
+    } else {
+        $('input[type="number"]').removeClass("error");
+    }
+     if(!message) {
+      $("textarea").addClass("error");
+       return;
+    } else {
+       $("textarea").removeClass("error");
+    }
     // if (!fullName || !email || !phoneNumber || !message) {
     //   alert("Please fill out all required fields.");
     //   return;
