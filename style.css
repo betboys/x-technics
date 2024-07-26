@@ -21,7 +21,8 @@
   backdrop-filter: blur(10px);
 }
 .contact-us form input.error {
- border-color:red;
+ border-color:#c80000;
+ color:#c80000;
 }
 .popup-cont {
   width: 478.957px;
