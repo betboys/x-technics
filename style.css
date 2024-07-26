@@ -22,7 +22,10 @@
 }
 .contact-us form input.error,.contact-us form textarea.error {
  border-color:#c80000;
- color:#c80000;
+
+}
+.contact-us form input.error::placeholder,.contact-us form textarea.error::placeholder {
+  color:#c80000;
 }
 .popup-cont {
   width: 478.957px;
