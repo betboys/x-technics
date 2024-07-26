@@ -107,9 +107,6 @@ $(document).ready(function ($) {
     // }
 
 
-    window.location.reload();
-
-
     // Your code to execute when the button is clicked
     $("html, body").animate({ scrollTop: "0" }, 0);
     // $('.popup-form').css('display', 'none');
