@@ -35,11 +35,7 @@ $(document).ready(function () {
     } else {
        $("textarea").removeClass("error");
     }
-    if ( $('input[type="radio"]:checked').length() === 0){
-      $('input[type="radio"].addClass("error");
-        } else {
-       $('input[type="radio"].removeClass("error");
-    }
+ 
     if (!fullName || !email || !phoneNumber || !message) {
  
        return;
