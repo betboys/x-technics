@@ -108,7 +108,7 @@ $(document).ready(function ($) {
 
 
     // Your code to execute when the button is clicked
-    $("html, body").animate({ scrollTop: "0" }, 0);
+    // $("html, body").animate({ scrollTop: "0" }, 0);
     // $('.popup-form').css('display', 'none');
     // $('body').css('overflow', 'scroll');
     // You can perform other actions here
