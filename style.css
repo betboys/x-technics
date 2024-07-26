@@ -20,7 +20,9 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-
+.contact-us form input.error {
+ border-color:red;
+}
 .popup-cont {
   width: 478.957px;
   height: 394px;
