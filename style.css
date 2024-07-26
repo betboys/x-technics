@@ -20,7 +20,7 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-.contact-us form input.error,.contact-us form textarea.error {
+.contact-us form input.error,.contact-us form textarea.error,.phone-input.error {
  border-color:#c80000;
 
 }
