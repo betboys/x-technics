@@ -81,7 +81,7 @@
 			<p class="popup-result-text">Oops! It seems there was an issue submitting your quote request to our customer
 				service team. Please try again later, or if the problem persists, feel free to contact us directly for
 				assistance.</p>
-			<button class="popup-btn popup-btn-error">
+			<button class="popup-btn-error">
 			<svg class="popup-svg" xmlns="http://www.w3.org/2000/svg" width="237" height="55" viewBox="0 0 237 55" fill="none">
 					<path d="M16.5 54L1 27V1H219.5L236 27.5V54H16.5Z" stroke="#0071AA"
 						stroke-width="1.5" />
