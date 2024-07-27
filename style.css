@@ -20,13 +20,18 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-.contact-us form input.error,.contact-us form textarea.error,.phone-input.error {
- border-color:#c80000;
 
+.contact-us form input.error,
+.contact-us form textarea.error,
+.phone-input.error {
+  border-color: #c80000;
 }
-.contact-us form input.error::placeholder,.contact-us form textarea.error::placeholder {
-  color:#c80000;
+
+.contact-us form input.error::placeholder,
+.contact-us form textarea.error::placeholder {
+  color: #c80000;
 }
+
 .popup-cont {
   width: 478.957px;
   height: 394px;
