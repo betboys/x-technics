@@ -23,8 +23,7 @@
 
 .contact-us form input.error,
 .contact-us form textarea.error,
-.phone-input.error,
-.label.error {
+.phone-input.error {
   border-color: #c80000;
 }
 
@@ -33,8 +32,17 @@
   color: #c80000;
 }
 
-.label.error::before {
-  border-color: #c80000;
+.radio-required {
+  width: 100%;
+  font-family: "blender book";
+  font-size: 14px;
+  font-weight: normal;
+  color: #c80000;
+  display: none;
+}
+
+.radio-required.error {
+  display: block;
 }
 
 .popup-cont {

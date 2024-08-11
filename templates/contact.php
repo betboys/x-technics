@@ -140,6 +140,7 @@
 						<input class="checkbox" id="7" type="radio" name="radio-group" />
 						<label class="label" for="7">NDT (non-destructive-testing)</label>
 					</div>
+					<span class="radio-required">Service selection required</span>
 				</ul>
 
 				<input class="input" type="text" name="fullName" id="" placeholder="Full Name" required  data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Full Name is invalid" aria-invalid="false">
