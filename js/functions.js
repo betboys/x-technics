@@ -5,9 +5,13 @@ $(document).ready(function () {
     e.preventDefault();
     // Basic client-side validation
     var fullName = $('input[name="fullName"]').val();
+    var radioInputs = $('input[type="radio"]').val();
     var email = $('input[type="email"]').val();
     var phoneNumber = $('input[type="number"]').val();
     var message = $("textarea").val();
+    if (!radioInputs) {
+      $('input[type="radio"]').addClass("error");
+    }
     if (!fullName) {
       $('input[name="fullName"]').addClass("error");
 

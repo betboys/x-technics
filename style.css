@@ -23,13 +23,18 @@
 
 .contact-us form input.error,
 .contact-us form textarea.error,
-.phone-input.error {
+.phone-input.error,
+.label.error {
   border-color: #c80000;
 }
 
 .contact-us form input.error::placeholder,
 .contact-us form textarea.error::placeholder {
   color: #c80000;
+}
+
+.label.error::before {
+  border-color: #c80000;
 }
 
 .popup-cont {
