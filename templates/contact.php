@@ -123,10 +123,9 @@
 									fill="#ADB5BD" />
 							</svg>
 						</div>
-						<ul class="select-dropdown__list">
-							<span class="radio-required">Service selection required</span>
-						</ul>
+						<ul class="select-dropdown__list"></ul>
 					</div>
+					<span class="radio-required">Service selection required</span>
 				</div>
 				<ul class="form-category-intro">
 					<div class="checkbox-inner">
