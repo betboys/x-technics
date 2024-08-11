@@ -10,7 +10,7 @@ $(document).ready(function () {
     var phoneNumber = $('input[type="number"]').val();
     var message = $("textarea").val();
     if (!radioInputs) {
-      $('input[type="radio"]').addClass("error");
+      $('.label').addClass("error");
     }
     if (!fullName) {
       $('input[name="fullName"]').addClass("error");
