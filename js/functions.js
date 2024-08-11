@@ -12,6 +12,9 @@ $(document).ready(function () {
     if (!radioInputs) {
       $('.radio-required').addClass("error");
     }
+    else {
+      $('.radio-required').removeClass("error");
+    }
     if (!fullName) {
       $('input[name="fullName"]').addClass("error");
 

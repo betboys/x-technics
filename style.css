@@ -34,9 +34,11 @@
 
 .radio-required {
   width: 100%;
-  font-family: "blender book";
-  font-size: 14px;
+  margin-top: 10px;
+  font-family: "blender medium";
+  font-size: 16px;
   font-weight: normal;
+  line-height: 100%;
   color: #c80000;
   display: none;
 }
