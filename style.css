@@ -267,7 +267,7 @@ input {
 .preloader {
   position: fixed;
   inset: 0;
-  background: #010508;
+  background: #01060b;
   z-index: 1000;
   display: flex;
   align-items: center;
