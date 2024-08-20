@@ -85,6 +85,7 @@ $(document).ready(function () {
 $(document).ready(function ($) {
   $('.popup-btn').click(function () {
     $('#popup-form').css('display', 'none');
+    $('body').css('overflow', 'auto');
     // window.location.reload();
     // $("html, body").animate({ scrollTop: "0" }, 0);
   });
