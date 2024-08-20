@@ -76,8 +76,6 @@ $(document).ready(function () {
         }
       },
       // error: function (xhr, status, error) {
-      //   $('body').css('overflow', 'hidden');
-      //   $('#popup-form-error').css('display', 'flex');
       // },
     });
   });
@@ -86,13 +84,8 @@ $(document).ready(function ($) {
   $('.popup-btn').click(function () {
     $('#popup-form').css('display', 'none');
     $('body').css('overflow', 'auto');
-    // window.location.reload();
-    // $("html, body").animate({ scrollTop: "0" }, 0);
+    $(".textarea").val('');
+    $(".input").val('');
+    $(".form").find('input[type=radio]').prop('checked', false);
   });
 });
-// $(document).ready(function ($) {
-//   $('.popup-btn-error').click(function () {
-//     $('.popup-form-error').css('display', 'none');
-//     $('body').css('overflow', 'scroll');
-//   });
-// });
