@@ -84,8 +84,9 @@ $(document).ready(function () {
 });
 $(document).ready(function ($) {
   $('.popup-btn').click(function () {
-    window.location.reload();
-    $("html, body").animate({ scrollTop: "0" }, 0);
+    $('#popup-form').css('display', 'none');
+    // window.location.reload();
+    // $("html, body").animate({ scrollTop: "0" }, 0);
   });
 });
 // $(document).ready(function ($) {
